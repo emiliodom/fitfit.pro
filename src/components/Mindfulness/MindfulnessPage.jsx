@@ -117,9 +117,9 @@ export default function MindfulnessPage() {
           </div>
           <div className="timer-controls-mind">
             <button className="btn btn-primary" onClick={toggleTimer}>
-              {timerRunning ? '⏸ Pause' : '▶ Start'}
+              {timerRunning ? `⏸ ${t('common.pause')}` : `▶ ${t('common.start')}`}
             </button>
-            <button className="btn btn-outline" onClick={resetTimer}>↻ Reset</button>
+            <button className="btn btn-outline" onClick={resetTimer}>↻ {t('common.reset')}</button>
             <button className="btn btn-accent" onClick={completePractice}>✓ {t('common.done')}</button>
           </div>
         </div>

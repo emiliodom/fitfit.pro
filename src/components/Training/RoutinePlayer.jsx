@@ -155,13 +155,13 @@ export default function RoutinePlayer({ exercises: initialExercises, timer, onFi
       <div className="current-exercise">
         <div className="exercise-number">
           {t('player.exercise')} {currentIndex + 1} / {exerciseList.length}
-          {isResting && <span className="rest-badge">REST</span>}
+          {isResting && <span className="rest-badge">{t('player.rest')}</span>}
         </div>
         <div className="exercise-title">{currentExercise.name}</div>
         <div className="exercise-sets">
-          {currentExercise.sets} sets × {currentExercise.reps}
+          {currentExercise.sets} {t('training.sets')} × {currentExercise.reps}
           <span className="set-counter">
-            Set {Math.min(currentSetCount + 1, totalSets)} / {totalSets}
+            {t('player.set')} {Math.min(currentSetCount + 1, totalSets)} / {totalSets}
           </span>
         </div>
         <div className="exercise-cue">"{currentExercise.cue}"</div>
@@ -249,7 +249,7 @@ export default function RoutinePlayer({ exercises: initialExercises, timer, onFi
             onDragEnd={handleDragEnd}
             onTouchStart={() => { dragItem.current = i; setDragIdx(i); }}
           >
-            <span className="queue-drag-handle" title="Drag to reorder">⠿</span>
+            <span className="queue-drag-handle" title={t('player.dragReorder')}>⠿</span>
             <span className={`queue-dot ${i < currentIndex ? 'done' : ''} ${i === currentIndex ? 'active' : ''}`}>
               {i < currentIndex ? '✓' : i + 1}
             </span>

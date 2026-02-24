@@ -201,10 +201,10 @@ export default function NutritionPage() {
             <h2 style={{ marginBottom: 16 }}>{t('nutrition.macroTargets')}</h2>
             <table className="data-table">
               <tbody>
-                <tr><th>Protein</th><td>{recipesData.macroTargets.protein}</td></tr>
-                <tr><th>Carbs</th><td>{recipesData.macroTargets.carbs}</td></tr>
-                <tr><th>Fats</th><td>{recipesData.macroTargets.fats}</td></tr>
-                <tr><th>Calories</th><td>{recipesData.macroTargets.calories}</td></tr>
+                <tr><th>{t('nutrition.protein')}</th><td>{recipesData.macroTargets.protein}</td></tr>
+                <tr><th>{t('nutrition.carbs')}</th><td>{recipesData.macroTargets.carbs}</td></tr>
+                <tr><th>{t('nutrition.fats')}</th><td>{recipesData.macroTargets.fats}</td></tr>
+                <tr><th>{t('nutrition.calories')}</th><td>{recipesData.macroTargets.calories}</td></tr>
               </tbody>
             </table>
           </div>
@@ -216,9 +216,9 @@ export default function NutritionPage() {
           {Object.entries(recipesData.groceryList).map(([category, items]) => (
             <div key={category} className="card">
               <h3 className="grocery-cat">
-                {category === 'protein' ? '🥩 Protein' :
-                 category === 'carbs' ? '🌾 Carbs' :
-                 category === 'fats' ? '🥑 Fats' : '🥬 Vegetables'}
+                {category === 'protein' ? `🥩 ${t('nutrition.protein')}` :
+                 category === 'carbs' ? `🌾 ${t('nutrition.carbs')}` :
+                 category === 'fats' ? `🥑 ${t('nutrition.fats')}` : `🥬 ${t('nutrition.vegetables')}`}
               </h3>
               <div className="grocery-items">
                 {items.map(item => (

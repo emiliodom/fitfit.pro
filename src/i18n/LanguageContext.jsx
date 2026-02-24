@@ -8,8 +8,8 @@ const LanguageContext = createContext();
 export function LanguageProvider({ children }) {
   const [lang, setLang] = useState(() => {
     try {
-      return localStorage.getItem('fitfit_lang') || 'en';
-    } catch { return 'en'; }
+      return localStorage.getItem('fitfit_lang') || 'es';
+    } catch { return 'es'; }
   });
 
   const switchLang = useCallback((newLang) => {

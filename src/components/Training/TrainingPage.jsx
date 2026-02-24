@@ -27,7 +27,7 @@ export default function TrainingPage({ tracker }) {
   const [selectedExercises, setSelectedExercises] = useState([]);
   const [isPlaying, setIsPlaying] = useState(false);
   const [view, setView] = useState('predefined'); // 'predefined' | 'custom' | 'library'
-  const [predefinedTab, setPredefinedTab] = useState('goal'); // 'goal' | 'library'
+  const [predefinedTab, setPredefinedTab] = useState('library'); // 'goal' | 'library'
   const [workoutDuration, setWorkoutDuration] = useState('medium'); // short | medium | long
   const [workoutLevel, setWorkoutLevel] = useState('all'); // all | beginner | intermediate | advanced
   const [libraryCategory, setLibraryCategory] = useState(null);
@@ -286,7 +286,7 @@ export default function TrainingPage({ tracker }) {
           className={`toggle-btn ${view === 'library' ? 'active' : ''}`}
           onClick={() => setView('library')}
         >
-          📖 {t('training.library')}
+          📖 {t('training.exerciseLibrary')}
         </button>
       </div>
 
@@ -295,16 +295,16 @@ export default function TrainingPage({ tracker }) {
         <div className="predefined-view">
           <div className="sub-tabs predefined-subtabs">
             <button
-              className={`sub-tab ${predefinedTab === 'goal' ? 'active' : ''}`}
-              onClick={() => setPredefinedTab('goal')}
-            >
-              🎯 {t('training.goalBased')}
-            </button>
-            <button
               className={`sub-tab ${predefinedTab === 'library' ? 'active' : ''}`}
               onClick={() => setPredefinedTab('library')}
             >
               🗂️ {t('training.workoutLibrary')}
+            </button>
+            <button
+              className={`sub-tab ${predefinedTab === 'goal' ? 'active' : ''}`}
+              onClick={() => setPredefinedTab('goal')}
+            >
+              🎯 {t('training.goalBased')}
             </button>
           </div>
 
@@ -328,7 +328,7 @@ export default function TrainingPage({ tracker }) {
                   <div className="today-meta">
                     <span className="tag">{todayRoutine.duration}</span>
                     <span className="tag">{phaseKey}</span>
-                    <span className="tag">{todayRoutine.phases[phaseKey]?.exerciseIds?.length || 0} exercises</span>
+                    <span className="tag">{todayRoutine.phases[phaseKey]?.exerciseIds?.length || 0} {t('training.exercises')}</span>
                   </div>
                   {todayRoutine.scienceNote && (
                     <p className="science-note">📚 {todayRoutine.scienceNote}</p>
@@ -360,7 +360,7 @@ export default function TrainingPage({ tracker }) {
                 <div className="card today-routine rest-day">
                   <h2>{lang === 'es' ? todayRoutine.nameEs : todayRoutine.name}</h2>
                   <p style={{ color: 'var(--text-muted)' }}>
-                    {lang === 'es' ? todayRoutine.descriptionEs : todayRoutine.description || 'Rest and recover.'}
+                    {lang === 'es' ? todayRoutine.descriptionEs : todayRoutine.description || t('training.restRecover')}
                   </p>
                 </div>
               )}
@@ -381,7 +381,7 @@ export default function TrainingPage({ tracker }) {
                           {lang === 'es' ? qr.descriptionEs : qr.description}
                         </p>
                         <div className="qr-meta">
-                          <span>{exercises.length} exercises</span>
+                          <span>{exercises.length} {t('training.exercises')}</span>
                           <span>{qr.difficulty}</span>
                         </div>
                         <button className="btn btn-primary btn-sm" onClick={(e) => {
@@ -457,15 +457,19 @@ export default function TrainingPage({ tracker }) {
 
               <div className="grid-3">
                 {predefinedWorkoutPacks.map(pack => (
-                  <div key={pack.id} className="quick-routine-card card">
+                  <div
+                    key={pack.id}
+                    className="quick-routine-card card"
+                    onClick={() => startRoutine(pack.exercises)}
+                  >
                     <div className="qr-header">
                       <h3>{pack.title}</h3>
                       <span className="tag">{pack.duration}</span>
                     </div>
                     <p className="qr-desc">{pack.description}</p>
                     <div className="qr-meta">
-                      <span>{pack.exercises.length} exercises</span>
-                      <span>{pack.difficulty}</span>
+                      <span>{pack.exercises.length} {t('training.exercises')}</span>
+                      <span>{t(`training.${pack.difficulty}`)}</span>
                     </div>
                     <div className="pack-preview-list">
                       {pack.exercises.slice(0, 4).map(ex => (
@@ -474,7 +478,10 @@ export default function TrainingPage({ tracker }) {
                     </div>
                     <button
                       className="btn btn-primary btn-sm"
-                      onClick={() => startRoutine(pack.exercises)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        startRoutine(pack.exercises);
+                      }}
                       style={{ marginTop: 10 }}
                     >
                       ▶ {t('training.play')}
