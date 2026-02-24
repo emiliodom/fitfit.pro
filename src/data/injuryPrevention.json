@@ -1,0 +1,218 @@
+{
+  "stretches": [
+    {
+      "id": "s001",
+      "name": "Hip Flexor Stretch (Couch Stretch)",
+      "category": "lower_body",
+      "targetArea": "Hip Flexors, Quads",
+      "duration": "2 min per side",
+      "icon": "🦵",
+      "description": "Essential for cyclists and desk workers. Tight hip flexors cause anterior pelvic tilt and belly protrusion.",
+      "howTo": "Kneel near wall, back foot up the wall. Front foot forward. Squeeze rear glute to deepen stretch.",
+      "commonMistake": "Arching lower back instead of tucking pelvis forward.",
+      "scienceNote": "Hip flexor tightness from prolonged sitting correlates with lower back pain in 85% of cases (Janda, 1987)."
+    },
+    {
+      "id": "s002",
+      "name": "Thoracic Spine Extension",
+      "category": "upper_body",
+      "targetArea": "T-Spine, Shoulders",
+      "duration": "60 sec",
+      "icon": "🔄",
+      "description": "Opens upper back rounded from coding. Restores overhead mobility for pressing.",
+      "howTo": "Foam roller under mid-back. Arms crossed or overhead. Extend over roller. Move roller up/down spine.",
+      "commonMistake": "Extending at lower back instead of mid-back.",
+      "scienceNote": "Thoracic mobility directly impacts shoulder health. Limited t-spine rotation increases rotator cuff injury risk by 3x (Hosseinimehr, 2015)."
+    },
+    {
+      "id": "s003",
+      "name": "Pigeon Pose",
+      "category": "lower_body",
+      "targetArea": "Glutes, Piriformis, Hip External Rotators",
+      "duration": "90 sec per side",
+      "icon": "🐦",
+      "description": "Deep hip opener. Releases piriformis tension that causes sciatica-like symptoms.",
+      "howTo": "From plank, bring right knee to right hand. Extend left leg back. Sink hips down. Fold forward for deeper stretch.",
+      "commonMistake": "Collapsing to one side instead of keeping hips square.",
+      "scienceNote": "Piriformis syndrome occurs in 6-36% of lower back pain cases. Regular stretching significantly reduces occurrence (Hopayian, 2010)."
+    },
+    {
+      "id": "s004",
+      "name": "Pec Doorway Stretch",
+      "category": "upper_body",
+      "targetArea": "Pectorals, Front Delts",
+      "duration": "60 sec per side",
+      "icon": "🚪",
+      "description": "Counteracts forward-rounded shoulders from desk work and push-dominant training.",
+      "howTo": "Place forearm on door frame at 90°. Step through doorway. Feel stretch across chest and front shoulder.",
+      "commonMistake": "Shrugging shoulder up. Keep shoulder blade pulled down and back.",
+      "scienceNote": "Pec minor tightness contributes to 70% of shoulder impingement cases (Ludewig & Cook, 2000)."
+    },
+    {
+      "id": "s005",
+      "name": "Hamstring Nerve Floss",
+      "category": "lower_body",
+      "targetArea": "Hamstrings, Sciatic Nerve",
+      "duration": "10 reps per leg",
+      "icon": "🧵",
+      "description": "Mobility for the sciatic nerve path. Reduces 'tight hamstring' sensation that's often neural tension.",
+      "howTo": "Sit on chair edge. Extend one leg. Point and flex foot while leaning forward and back. Gentle oscillation.",
+      "commonMistake": "Forcing the stretch. This should be gentle and oscillating, never painful.",
+      "scienceNote": "Neural mobilization reduces perceived hamstring tightness more effectively than static stretching (Boyd, 2009)."
+    },
+    {
+      "id": "s006",
+      "name": "Dead Hang Spinal Decompress",
+      "category": "spine",
+      "targetArea": "Spine, Lats, Grip",
+      "duration": "30-60 sec x 3 sets",
+      "icon": "🪜",
+      "description": "Passive hang decompresses intervertebral discs after training. Opens up shoulder girdle.",
+      "howTo": "Hang from pull-up bar with relaxed grip. Let entire body go limp. Breathe deeply. Feel spine elongate.",
+      "commonMistake": "Tensing shoulders up. Let them stretch fully and relax.",
+      "scienceNote": "Axial traction through hanging can increase intervertebral disc height by 1-2mm per session (Gianakopoulos, 1995)."
+    },
+    {
+      "id": "s007",
+      "name": "90/90 Hip Switch",
+      "category": "lower_body",
+      "targetArea": "Hip Internal & External Rotation",
+      "duration": "10 per side",
+      "icon": "🔁",
+      "description": "Assesses and improves hip rotation range. Essential for squat depth and lower back health.",
+      "howTo": "Both legs at 90° angles. Front shin perpendicular, back shin behind. Switch sides in fluid motion.",
+      "commonMistake": "Lifting hips or leaning back. Keep torso tall. If it's hard, that's information about your mobility.",
+      "scienceNote": "Internal rotation deficit correlates with hip impingement and labral tears (Audenaert, 2012)."
+    },
+    {
+      "id": "s008",
+      "name": "Cat-Cow Spinal Flow",
+      "category": "spine",
+      "targetArea": "Full Spine, Core",
+      "duration": "20 reps",
+      "icon": "🐱",
+      "description": "Segmental spinal mobility. Warms up core and spine before any training.",
+      "howTo": "Hands and knees. Inhale: arch back, lift head (cow). Exhale: round spine, tuck chin (cat). Flow with breath.",
+      "commonMistake": "Moving too fast. Each vertebra should articulate. Slow down.",
+      "scienceNote": "Spinal segmental motion is essential for intervertebral disc nutrition via osmotic loading/unloading (Adams & Hutton, 1985)."
+    }
+  ],
+  "injuryPreventionProtocols": [
+    {
+      "id": "ip001",
+      "name": "Shoulder Prehab Circuit",
+      "frequency": "Before every push workout",
+      "exercises": [
+        "Band pull-aparts x 20",
+        "Band face pulls x 15",
+        "Band external rotations x 12 per arm",
+        "Band shoulder dislocates x 10"
+      ],
+      "whyItMatters": "The shoulder is the most mobile and least stable joint. Training push movements without prehab leads to impingement."
+    },
+    {
+      "id": "ip002",
+      "name": "Knee Health Protocol",
+      "frequency": "Before every leg workout",
+      "exercises": [
+        "Bodyweight squats x 15 (slow tempo)",
+        "Band TKE (terminal knee extensions) x 15 per leg",
+        "Wall sit 30 sec",
+        "Band walks x 10 per direction"
+      ],
+      "whyItMatters": "Cyclists put enormous stress on knees. Pre-activating VMO and glutes protects the joint."
+    },
+    {
+      "id": "ip003",
+      "name": "Lower Back Protection",
+      "frequency": "Daily, especially after deadlifts",
+      "exercises": [
+        "Cat-Cow x 10",
+        "Dead Bug x 8 per side",
+        "Child's Pose 30 sec",
+        "Bird Dog x 8 per side",
+        "Pelvic Tilts x 15"
+      ],
+      "whyItMatters": "Lower back injuries are career-ending. Core stability and spinal hygiene are non-negotiable."
+    },
+    {
+      "id": "ip004",
+      "name": "Wrist & Grip Care",
+      "frequency": "After heavy barbell/KB work",
+      "exercises": [
+        "Wrist circles x 10 each direction",
+        "Prayer stretch 30 sec",
+        "Reverse prayer stretch 30 sec",
+        "Finger extensions with rubber band x 20",
+        "Rice bucket grabs (if available) x 60 sec"
+      ],
+      "whyItMatters": "Grip strength correlates with overall health markers. Wrist mobility enables safe clean and press technique."
+    }
+  ],
+  "articles": [
+    {
+      "id": "a001",
+      "title": "The Science of V-Taper Development",
+      "category": "hypertrophy",
+      "tags": ["V-taper", "shoulders", "lats"],
+      "content": "The V-taper is primarily achieved through: 1) Maximizing shoulder width via lateral deltoid hypertrophy, 2) Developing lat width through vertical pulling exercises, and 3) Reducing waist circumference through body recomposition. Research shows that the illusion of a narrow waist is more effectively achieved by widening the shoulders than by losing waist circumference alone (Katch & McArdle, 2006). Priority exercises: wide-grip pull-ups (4x/week), lateral raises (daily if using light weight), and overhead pressing movements.",
+      "keyTakeaway": "Train lateral delts 4-6x per week with light weight/high reps. They recover fast and respond to frequency."
+    },
+    {
+      "id": "a002",
+      "title": "Body Recomposition: Losing Fat While Gaining Muscle",
+      "category": "nutrition",
+      "tags": ["recomp", "fat-loss", "muscle-gain"],
+      "content": "Body recomposition is achievable, especially in: beginners, detrained individuals, those with high body fat, and those optimizing protein intake. The key factors are: 1) Slight caloric deficit (200-300 below maintenance), 2) High protein intake (1.6-2.2g/kg), 3) Resistance training 3-5x/week, 4) Adequate sleep (7-9 hours). A meta-analysis by Barakat et al. (2020) showed that participants consuming >1.6g/kg protein while resistance training achieved simultaneous fat loss and lean mass gain.",
+      "keyTakeaway": "Recomp is REAL. Keep protein high, deficit small, and train hard. Patience is the variable."
+    },
+    {
+      "id": "a003",
+      "title": "Progressive Overload: The Only Rule That Matters",
+      "category": "training",
+      "tags": ["progressive-overload", "programming"],
+      "content": "Muscles grow in response to progressive tension overload. This can be achieved through: 1) More weight (load), 2) More reps (volume), 3) More sets (volume), 4) Less rest (density), 5) Better form (effective reps), 6) Greater range of motion (mechanical tension). Research by Schoenfeld et al. (2017) demonstrates that equated volume produces similar hypertrophy across rep ranges (6-30 reps), suggesting that the key driver is training to or near failure, not load per se.",
+      "keyTakeaway": "Track every workout. If you're not progressing in at least one variable each week, you're not growing."
+    },
+    {
+      "id": "a004",
+      "title": "Concurrent Training: Running + Lifting Without Interference",
+      "category": "training",
+      "tags": ["running", "cycling", "interference-effect"],
+      "content": "The 'interference effect' suggests cardio can blunt muscle growth. However, research shows this is only significant with: 1) Excessive cardio volume (>30 min moderate-intensity pre-lifting), 2) Running specifically (more than cycling), 3) Training legs same session as running. Solutions: separate cardio and lifting by 6+ hours, keep easy runs truly easy (Zone 2), fuel adequately around sessions. Wilson et al. (2012) meta-analysis showed cycling causes less interference than running for lower body hypertrophy.",
+      "keyTakeaway": "Keep easy runs easy. Separate cardio and lifting when possible. Eat enough protein to support both."
+    },
+    {
+      "id": "a005",
+      "title": "Intermittent Fasting and Muscle Preservation",
+      "category": "nutrition",
+      "tags": ["fasting", "IF", "muscle"],
+      "content": "16:8 intermittent fasting, when combined with adequate protein (>1.6g/kg) and resistance training, does not impair muscle growth (Moro et al., 2016). Benefits include improved insulin sensitivity, autophagy support, and simplified meal planning. Key: the total daily protein and caloric intake matter more than meal timing. Breaking the fast with a high-protein meal (40-50g protein) stimulates maximal MPS (Muscle Protein Synthesis).",
+      "keyTakeaway": "IF works for recomp if you hit protein targets. Break your fast with your biggest protein meal."
+    },
+    {
+      "id": "a006",
+      "title": "Stretching: When, How, and Why It Matters",
+      "category": "recovery",
+      "tags": ["stretching", "mobility", "flexibility"],
+      "content": "Static stretching before training reduces power output by 5-7% (Simic et al., 2013). Dynamic stretching before training improves performance. Static stretching after training improves flexibility and aids recovery. Key protocol: dynamic warmup (5 min) → training → static stretching (10 min). For hypertrophy, training through full range of motion provides superior muscle growth compared to partial ROM + stretching (McMahon et al., 2014).",
+      "keyTakeaway": "Dynamic before, static after. Full ROM training > partial ROM + stretching for muscle growth."
+    },
+    {
+      "id": "a007",
+      "title": "Sleep: The Most Anabolic Activity",
+      "category": "recovery",
+      "tags": ["sleep", "recovery", "hormones"],
+      "content": "Sleep deprivation (<6 hours) reduces testosterone by 10-15% and increases cortisol by 37% (Leproult & Van Cauter, 2011). Growth hormone is released in pulses during deep sleep, which are absent when sleep is disrupted. Athletes sleeping <7 hours have 1.7x greater risk of injury (Milewski et al., 2014). Non-negotiable: 7-9 hours, dark room, consistent schedule, cool temperature.",
+      "keyTakeaway": "You don't grow in the gym. You grow in your sleep. Treat sleep as your #1 supplement."
+    },
+    {
+      "id": "a008",
+      "title": "The Mind-Muscle Connection Is Real",
+      "category": "training",
+      "tags": ["mind-muscle", "technique", "EMG"],
+      "content": "Research by Schoenfeld & Contreras (2016) using EMG showed that focusing on the target muscle during exercise increases muscle activation by 20-30%. This internal cueing is most effective for isolation and upper body exercises. For compound movements, external cues ('push the floor away') work better. Practical application: on lateral raises, think 'lead with your elbows'; on pull-ups, think 'drive elbows down to the floor'.",
+      "keyTakeaway": "Think about the muscle working during every rep. It's not bro science — it's neuroscience."
+    }
+  ]
+}

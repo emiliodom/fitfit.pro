@@ -1,0 +1,100 @@
+{
+  "program": {
+    "name": "90-Day V-Taper Transformation",
+    "version": "0.1",
+    "goal": "Build wide shoulders, thick back, trim waist. Recomp body composition.",
+    "phases": [
+      {
+        "id": "phase1",
+        "name": "Foundation",
+        "weeks": [1, 2, 3, 4],
+        "focus": "Build movement patterns, establish baseline strength, begin fat adaptation",
+        "intensity": "Moderate",
+        "notes": "Perfect form over heavy weight. Learn to brace core. Establish daily movement habit."
+      },
+      {
+        "id": "phase2",
+        "name": "Accumulation",
+        "weeks": [5, 6, 7, 8],
+        "focus": "Increase volume and time under tension. Push hypertrophy.",
+        "intensity": "High",
+        "notes": "Add reps before weight. Track progressive overload. Introduce supersets."
+      },
+      {
+        "id": "phase3",
+        "name": "Intensification",
+        "weeks": [9, 10, 11, 12],
+        "focus": "Peak intensity. Advanced techniques. Maximum V-taper development.",
+        "intensity": "Very High",
+        "notes": "Drop sets, pause reps, tempo training. Push limits safely. Final physique sculpting."
+      }
+    ]
+  },
+  "weeklyTemplate": [
+    {
+      "day": "Monday",
+      "focus": "Push (Shoulders & Chest)",
+      "type": "strength",
+      "suggestedCategories": ["push"],
+      "cardio": "Daily run (easy pace) or cycling",
+      "duration": "45-60 min"
+    },
+    {
+      "day": "Tuesday",
+      "focus": "Pull (Back & Biceps)",
+      "type": "strength",
+      "suggestedCategories": ["pull"],
+      "cardio": "Daily run (easy pace)",
+      "duration": "45-60 min"
+    },
+    {
+      "day": "Wednesday",
+      "focus": "Legs & Core",
+      "type": "strength",
+      "suggestedCategories": ["legs", "core"],
+      "cardio": "Cycling intervals + daily run",
+      "duration": "50-60 min"
+    },
+    {
+      "day": "Thursday",
+      "focus": "Boxing & HIIT",
+      "type": "conditioning",
+      "suggestedCategories": ["boxing_cardio", "hiit"],
+      "cardio": "Boxing IS the cardio",
+      "duration": "45 min"
+    },
+    {
+      "day": "Friday",
+      "focus": "Push + Pull Superset",
+      "type": "strength",
+      "suggestedCategories": ["push", "pull"],
+      "cardio": "Daily run (tempo or sprints)",
+      "duration": "50-60 min"
+    },
+    {
+      "day": "Saturday",
+      "focus": "Active Recovery / Flexibility",
+      "type": "recovery",
+      "suggestedCategories": ["flexibility", "core"],
+      "cardio": "Long cycling session + daily run",
+      "duration": "30 min"
+    },
+    {
+      "day": "Sunday",
+      "focus": "Rest & Mindfulness",
+      "type": "rest",
+      "suggestedCategories": [],
+      "cardio": "Daily run (minimum 1 mile, easy)",
+      "duration": "Rest"
+    }
+  ],
+  "progressionRules": {
+    "weeklyOverload": [
+      { "week": 1, "label": "Baseline", "strategy": "Establish working weights. Perfect form. RPE 6-7." },
+      { "week": 2, "label": "Volume +", "strategy": "Same weight. Add 1-2 reps per set. RPE 7-8." },
+      { "week": 3, "label": "Intensity +", "strategy": "Add weight (2.5-5lbs). Drop back to base reps. RPE 8-9." },
+      { "week": 4, "label": "Deload", "strategy": "Drop weight 20%. Active recovery. RPE 5-6. Let the body adapt." }
+    ],
+    "cycleNote": "This 4-week cycle repeats 3 times across the 12-week (90-day) program. Each cycle starts heavier than the last."
+  }
+}

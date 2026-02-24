@@ -1,0 +1,185 @@
+{
+  "routines": [
+    {
+      "id": "rt_push_foundation",
+      "name": "Push Day — Shoulders & Chest",
+      "nameEs": "Día de Empuje — Hombros y Pecho",
+      "dayOfWeek": 1,
+      "type": "strength",
+      "duration": "45-55 min",
+      "description": "V-taper priority: lateral delt width + chest mass. Based on Schoenfeld (2016) optimal volume.",
+      "descriptionEs": "Prioridad V-taper: ancho de deltoide lateral + masa pectoral. Basado en volumen óptimo de Schoenfeld (2016).",
+      "phases": {
+        "foundation": { "sets": "3", "note": "Focus on form. RPE 6-7." },
+        "accumulation": { "sets": "4", "note": "Add reps. RPE 7-8. Introduce supersets." },
+        "intensification": { "sets": "4-5", "note": "Add weight. Drop sets on last set. RPE 8-9." }
+      },
+      "exerciseIds": ["e009", "e010", "e008", "e006", "e012", "e004", "e011"],
+      "scienceNote": "Lateral raises at high frequency (4-6x/week) produce superior lateral delt hypertrophy (Sconfeld & Contreras, 2014). Floor press is a viable chest builder without a bench (Kholinne et al., 2018)."
+    },
+    {
+      "id": "rt_pull_foundation",
+      "name": "Pull Day — Back Width & Biceps",
+      "nameEs": "Día de Jalón — Ancho de Espalda y Bíceps",
+      "dayOfWeek": 2,
+      "type": "strength",
+      "duration": "45-55 min",
+      "description": "Lat width is the #1 V-taper driver. Wide-grip pulling movements emphasized. Research by Lehman (2004).",
+      "descriptionEs": "El ancho de dorsales es el factor #1 del V-taper. Enfoque en jalones de agarre ancho. Investigación de Lehman (2004).",
+      "phases": {
+        "foundation": { "sets": "3", "note": "Build pull-up numbers. RPE 6-7." },
+        "accumulation": { "sets": "4", "note": "Add reps or slow negatives. RPE 7-8." },
+        "intensification": { "sets": "4-5", "note": "Weighted pull-ups if possible. RPE 8-9." }
+      },
+      "exerciseIds": ["e020", "e024", "e025", "e028", "e032", "e029", "e023"],
+      "scienceNote": "Wide-grip pull-ups activate outer lats 15% more than narrow grip (Leslie & Comfort, 2013). Bent-over rows complement vertical pulling for complete back development (Fenwick et al., 2009)."
+    },
+    {
+      "id": "rt_legs_core",
+      "name": "Legs & Core — Foundation Strength",
+      "nameEs": "Piernas y Core — Fuerza Base",
+      "dayOfWeek": 3,
+      "type": "strength",
+      "duration": "50-60 min",
+      "description": "Strong legs support all upper body lifts. Core stability = spinal health for heavy compounds. Based on McGill's 'Big 3' (2015).",
+      "descriptionEs": "Piernas fuertes soportan todos los levantamientos superiores. Estabilidad de core = salud espinal. Basado en los 'Big 3' de McGill (2015).",
+      "phases": {
+        "foundation": { "sets": "3", "note": "Perfect squat depth. RPE 6-7." },
+        "accumulation": { "sets": "4", "note": "Add volume. Tempo squats. RPE 7-8." },
+        "intensification": { "sets": "4-5", "note": "Heavier loads. Pause reps. RPE 8-9." }
+      },
+      "exerciseIds": ["e043", "e041", "e045", "e054", "e060", "e066", "e072"],
+      "scienceNote": "Goblet squats train identical quad activation as barbell squats at moderate loads (Gulick et al., 2015). Ab wheel rollouts produce highest rectus abdominis activation of all core exercises (Escamilla, 2006)."
+    },
+    {
+      "id": "rt_boxing_hiit",
+      "name": "Boxing & HIIT — Metabolic Conditioning",
+      "nameEs": "Boxeo y HIIT — Condicionamiento Metabólico",
+      "dayOfWeek": 4,
+      "type": "conditioning",
+      "duration": "40-50 min",
+      "description": "High-intensity conditioning for fat oxidation. Boxing combinations build shoulder endurance and core rotation power.",
+      "descriptionEs": "Condicionamiento de alta intensidad para oxidación de grasa. Combinaciones de boxeo desarrollan resistencia de hombros y potencia rotacional del core.",
+      "phases": {
+        "foundation": { "sets": "3", "note": "Learn combos. 2-min rounds. RPE 6-7." },
+        "accumulation": { "sets": "4", "note": "3-min rounds. Less rest. RPE 7-8." },
+        "intensification": { "sets": "5", "note": "3-min rounds, 45s rest. Add power shots. RPE 8-9." }
+      },
+      "exerciseIds": ["e090", "e091", "e092", "e081", "e080", "e071", "e083"],
+      "scienceNote": "HIIT produces 28.5% greater fat loss than moderate-intensity continuous training (Wewege et al., 2017). Boxing-specific training improves VO2max comparable to traditional cardio (Cheema et al., 2015)."
+    },
+    {
+      "id": "rt_upper_superset",
+      "name": "Push + Pull Superset — Upper Hypertrophy",
+      "nameEs": "Superserie Empuje + Jalón — Hipertrofia Superior",
+      "dayOfWeek": 5,
+      "type": "strength",
+      "duration": "50-60 min",
+      "description": "Antagonist supersets for maximum upper body volume in minimal time. V-taper emphasis: lateral delts + lats.",
+      "descriptionEs": "Superseries antagonistas para máximo volumen de tren superior en mínimo tiempo. Énfasis V-taper: deltoides laterales + dorsales.",
+      "phases": {
+        "foundation": { "sets": "3", "note": "Moderate weight. Feel the supersets. RPE 6-7." },
+        "accumulation": { "sets": "4", "note": "No rest between superset pairs. RPE 7-8." },
+        "intensification": { "sets": "4-5", "note": "Mechanical drop sets. RPE 8-9." }
+      },
+      "exerciseIds": ["e016", "e020", "e010", "e033", "e013", "e031", "e017", "e034"],
+      "scienceNote": "Antagonist supersets maintain strength output while reducing session time by 40% (Robbins et al., 2010). Paired sets do NOT reduce performance on the second exercise (Paz et al., 2017)."
+    },
+    {
+      "id": "rt_active_recovery",
+      "name": "Active Recovery & Mobility",
+      "nameEs": "Recuperación Activa y Movilidad",
+      "dayOfWeek": 6,
+      "type": "recovery",
+      "duration": "30-40 min",
+      "description": "Light movement to enhance blood flow and recovery. Flexibility work to prevent injury and improve lifting ROM.",
+      "descriptionEs": "Movimiento ligero para mejorar flujo sanguíneo y recuperación. Trabajo de flexibilidad para prevenir lesiones y mejorar ROM.",
+      "phases": {
+        "foundation": { "sets": "1-2", "note": "Gentle. Never push through pain." },
+        "accumulation": { "sets": "2", "note": "Increase hold times." },
+        "intensification": { "sets": "2-3", "note": "Add deeper positions." }
+      },
+      "exerciseIds": ["e100", "e101", "e102", "e103", "e105", "e104", "e062"],
+      "scienceNote": "Active recovery sessions increase blood flow by 40% compared to passive rest (Menzies et al., 2010). Mobility work on off-days reduces injury risk by 30% (Herman et al., 2012)."
+    },
+    {
+      "id": "rt_rest_day",
+      "name": "Rest & Mindfulness",
+      "nameEs": "Descanso y Mindfulness",
+      "dayOfWeek": 0,
+      "type": "rest",
+      "duration": "Rest",
+      "description": "Complete rest from resistance training. Light walking, mindfulness practice, and nutrition focus.",
+      "descriptionEs": "Descanso completo de entrenamiento de resistencia. Caminata ligera, práctica de mindfulness y enfoque nutricional.",
+      "phases": {
+        "foundation": { "sets": "0", "note": "Full rest. Easy walk only." },
+        "accumulation": { "sets": "0", "note": "Full rest. Gentle yoga optional." },
+        "intensification": { "sets": "0", "note": "Critical recovery day before next cycle." }
+      },
+      "exerciseIds": [],
+      "scienceNote": "Complete rest days allow satellite cell activation and muscle protein synthesis to peak 48-72h post-training (Damas et al., 2015). Sleep quality on rest days is more important than adding extra sessions."
+    }
+  ],
+  "quickRoutines": [
+    {
+      "id": "qr_bodyweight_15",
+      "name": "15-Min Bodyweight Blast",
+      "nameEs": "15 Min Explosión Corporal",
+      "duration": "15 min",
+      "equipment": ["bodyweight"],
+      "exerciseIds": ["e001", "e048", "e071", "e065", "e080"],
+      "description": "No equipment needed. Full body activation in 15 minutes.",
+      "descriptionEs": "Sin equipo necesario. Activación de cuerpo completo en 15 minutos."
+    },
+    {
+      "id": "qr_kb_complex",
+      "name": "Kettlebell Complex",
+      "nameEs": "Complejo de Kettlebell",
+      "duration": "25 min",
+      "equipment": ["kettlebell"],
+      "exerciseIds": ["e054", "e043", "e085", "e044", "e070"],
+      "description": "Five kettlebell moves, no rest between exercises. Rest 90s between rounds.",
+      "descriptionEs": "Cinco movimientos de kettlebell, sin descanso entre ejercicios. 90s descanso entre rondas."
+    },
+    {
+      "id": "qr_vtaper_express",
+      "name": "V-Taper Express (Shoulders + Lats)",
+      "nameEs": "V-Taper Express (Hombros + Dorsales)",
+      "duration": "30 min",
+      "equipment": ["dumbbells", "pullup_bar"],
+      "exerciseIds": ["e020", "e010", "e009", "e024", "e011", "e029"],
+      "description": "Targeted V-taper session focusing on the two key muscle groups: lateral delts and lats.",
+      "descriptionEs": "Sesión enfocada en V-taper trabajando los dos grupos musculares clave: deltoides laterales y dorsales."
+    },
+    {
+      "id": "qr_band_full",
+      "name": "Full Body Bands",
+      "nameEs": "Cuerpo Completo con Bandas",
+      "duration": "30 min",
+      "equipment": ["resistance_bands"],
+      "exerciseIds": ["e017", "e019", "e018", "e034", "e033", "e035", "e052"],
+      "description": "Complete resistance band workout. Perfect for travel or home training.",
+      "descriptionEs": "Entrenamiento completo con bandas de resistencia. Perfecto para viaje o casa."
+    },
+    {
+      "id": "qr_core_destroyer",
+      "name": "Core Destroyer",
+      "nameEs": "Destructor de Core",
+      "duration": "20 min",
+      "equipment": ["ab_wheel", "yoga_mat", "pullup_bar"],
+      "exerciseIds": ["e060", "e066", "e067", "e063", "e072", "e065", "e062"],
+      "description": "Intense core session targeting all angles. Waist reduction through hypertrophy training.",
+      "descriptionEs": "Sesión intensa de core atacando todos los ángulos. Reducción de cintura por hipertrofia."
+    },
+    {
+      "id": "qr_boxing_rounds",
+      "name": "Boxing 5-Round Session",
+      "nameEs": "Boxeo Sesión de 5 Rounds",
+      "duration": "35 min",
+      "equipment": ["boxing"],
+      "exerciseIds": ["e095", "e090", "e091", "e092", "e093", "e094"],
+      "description": "Progressive boxing session from warm-up shadow boxing to full freestyle rounds.",
+      "descriptionEs": "Sesión progresiva de boxeo desde shadow boxing de calentamiento hasta rounds de freestyle completo."
+    }
+  ]
+}

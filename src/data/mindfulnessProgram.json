@@ -1,0 +1,308 @@
+{
+  "weeklyJourney": [
+    {
+      "day": "Monday",
+      "dayEs": "Lunes",
+      "theme": "Focus & Intention",
+      "themeEs": "Enfoque e Intención",
+      "icon": "🎯",
+      "color": "#10b981",
+      "practices": [
+        {
+          "id": "wp_mon_1",
+          "name": "Box Breathing",
+          "nameEs": "Respiración Cuadrada",
+          "duration": 300,
+          "type": "breathing",
+          "icon": "🌬️",
+          "description": "4-count inhale, hold, exhale, hold. Activates parasympathetic nervous system.",
+          "descriptionEs": "4 tiempos inhalar, sostener, exhalar, sostener. Activa el sistema nervioso parasimpático.",
+          "steps": ["Inhale 4 seconds", "Hold 4 seconds", "Exhale 4 seconds", "Hold 4 seconds", "Repeat 5-8 cycles"],
+          "stepsEs": ["Inhalar 4 segundos", "Sostener 4 segundos", "Exhalar 4 segundos", "Sostener 4 segundos", "Repetir 5-8 ciclos"],
+          "scienceNote": "Box breathing reduces cortisol by ~25% and improves HRV (Ma et al., 2017, Frontiers in Psychology)."
+        },
+        {
+          "id": "wp_mon_2",
+          "name": "Weekly Intention Setting",
+          "nameEs": "Establecer Intención Semanal",
+          "duration": 300,
+          "type": "journaling",
+          "icon": "📝",
+          "description": "Write 3 specific goals for this training week. Visualize completing each one.",
+          "descriptionEs": "Escribe 3 metas específicas para esta semana de entrenamiento. Visualiza completar cada una.",
+          "steps": ["Find quiet space", "Write 3 weekly goals", "Visualize completing each", "Read aloud with conviction", "Place where visible"],
+          "stepsEs": ["Buscar espacio tranquilo", "Escribir 3 metas semanales", "Visualizar completar cada una", "Leer en voz alta", "Colocar donde sea visible"],
+          "scienceNote": "Goal-setting increases performance by 20-25% (Locke & Latham, 2002, American Psychologist)."
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "dayEs": "Martes",
+      "theme": "Stress Release",
+      "themeEs": "Liberación de Estrés",
+      "icon": "🧘",
+      "color": "#6366f1",
+      "practices": [
+        {
+          "id": "wp_tue_1",
+          "name": "Body Scan Meditation",
+          "nameEs": "Meditación Escaneo Corporal",
+          "duration": 600,
+          "type": "meditation",
+          "icon": "🧘",
+          "description": "Progressive scan from feet to head, releasing tension in each muscle group.",
+          "descriptionEs": "Escaneo progresivo de pies a cabeza, liberando tensión en cada grupo muscular.",
+          "steps": ["Lie down comfortably", "Close eyes, 3 deep breaths", "Focus on feet — notice sensations", "Slowly move up: calves, thighs, hips", "Continue through torso, arms, neck, head", "Rest in full-body awareness 2 min"],
+          "stepsEs": ["Acostarse cómodamente", "Cerrar ojos, 3 respiraciones profundas", "Enfocar en pies — notar sensaciones", "Subir lentamente: pantorrillas, muslos, caderas", "Continuar por torso, brazos, cuello, cabeza", "Descansar en consciencia corporal 2 min"],
+          "scienceNote": "Body scan meditation reduces anxiety by 30% and improves sleep quality (Huberman Lab, 2021; Dreeben et al., 2013)."
+        },
+        {
+          "id": "wp_tue_2",
+          "name": "4-7-8 Breathing",
+          "nameEs": "Respiración 4-7-8",
+          "duration": 240,
+          "type": "breathing",
+          "icon": "💨",
+          "description": "Dr. Andrew Weil's technique: inhale 4, hold 7, exhale 8 counts.",
+          "descriptionEs": "Técnica del Dr. Andrew Weil: inhalar 4, sostener 7, exhalar 8 tiempos.",
+          "steps": ["Inhale through nose 4 counts", "Hold breath 7 counts", "Exhale through mouth 8 counts", "Repeat 4 cycles"],
+          "stepsEs": ["Inhalar por nariz 4 tiempos", "Sostener respiración 7 tiempos", "Exhalar por boca 8 tiempos", "Repetir 4 ciclos"],
+          "scienceNote": "Extended exhale activates vagus nerve, lowers heart rate ~15% (Zaccaro et al., 2018)."
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "dayEs": "Miércoles",
+      "theme": "Mind-Muscle Connection",
+      "themeEs": "Conexión Mente-Músculo",
+      "icon": "💪",
+      "color": "#f59e0b",
+      "practices": [
+        {
+          "id": "wp_wed_1",
+          "name": "Visualization: Perfect Form",
+          "nameEs": "Visualización: Forma Perfecta",
+          "duration": 300,
+          "type": "mental",
+          "icon": "🧠",
+          "description": "Mentally rehearse today's key exercises with perfect form. Feel each muscle.",
+          "descriptionEs": "Ensayar mentalmente los ejercicios clave de hoy con forma perfecta. Sentir cada músculo.",
+          "steps": ["Close eyes, regular breathing", "Visualize first exercise setup", "Mentally perform 3 perfect reps", "Feel muscle contraction vividly", "Move to next exercise", "Open eyes, feel ready"],
+          "stepsEs": ["Cerrar ojos, respiración regular", "Visualizar preparación del primer ejercicio", "Realizar mentalmente 3 repeticiones perfectas", "Sentir contracción muscular vívidamente", "Pasar al siguiente ejercicio", "Abrir ojos, sentirse listo"],
+          "scienceNote": "Mental rehearsal increases strength gains by 13.5% through neural pathway activation (Ranganathan et al., 2004, Neuropsychologia)."
+        },
+        {
+          "id": "wp_wed_2",
+          "name": "Gratitude Journal",
+          "nameEs": "Diario de Gratitud",
+          "duration": 300,
+          "type": "journaling",
+          "icon": "🙏",
+          "description": "Write 3 things about your body/training you're grateful for.",
+          "descriptionEs": "Escribe 3 cosas de tu cuerpo/entrenamiento por las que estás agradecido.",
+          "steps": ["Write 3 body/fitness gratitudes", "Write 1 training win from this week", "Write 1 thing you're improving", "Read back and feel each"],
+          "stepsEs": ["Escribir 3 gratitudes corporales/fitness", "Escribir 1 victoria de esta semana", "Escribir 1 cosa que estás mejorando", "Releer y sentir cada una"],
+          "scienceNote": "Gratitude practice increases dopamine and serotonin, improving motivation (Emmons & McCullough, 2003)."
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "dayEs": "Jueves",
+      "theme": "Pre-Combat Focus",
+      "themeEs": "Enfoque Pre-Combate",
+      "icon": "🥊",
+      "color": "#ef4444",
+      "practices": [
+        {
+          "id": "wp_thu_1",
+          "name": "Warrior Breathing",
+          "nameEs": "Respiración Guerrera",
+          "duration": 300,
+          "type": "breathing",
+          "icon": "🔥",
+          "description": "Wim Hof-inspired power breathing. 30 deep breaths, hold, repeat.",
+          "descriptionEs": "Respiración de poder inspirada en Wim Hof. 30 respiraciones profundas, sostener, repetir.",
+          "steps": ["Sit upright, eyes closed", "30 deep powerful breaths", "After last exhale, hold empty", "Hold until urge to breathe", "Deep inhale, hold 15 sec", "Repeat 3 rounds"],
+          "stepsEs": ["Sentarse erguido, ojos cerrados", "30 respiraciones profundas y poderosas", "Después de última exhalación, sostener vacío", "Sostener hasta urgencia de respirar", "Inhalación profunda, sostener 15 seg", "Repetir 3 rondas"],
+          "scienceNote": "Power breathing increases adrenaline and focus, priming fight-or-flight for training (Kox et al., 2014, PNAS)."
+        },
+        {
+          "id": "wp_thu_2",
+          "name": "Combat Visualization",
+          "nameEs": "Visualización de Combate",
+          "duration": 300,
+          "type": "mental",
+          "icon": "👁️",
+          "description": "Visualize boxing combinations, footwork, defensive movements.",
+          "descriptionEs": "Visualizar combinaciones de boxeo, juego de pies, movimientos defensivos.",
+          "steps": ["Stand in fighting stance", "Visualize shadow boxing", "See combinations land perfectly", "Feel footwork rhythm", "Visualize slipping and countering", "Open eyes, shadow box 30 sec"],
+          "stepsEs": ["Pararse en posición de pelea", "Visualizar shadowboxing", "Ver combinaciones aterrizar perfectamente", "Sentir el ritmo del juego de pies", "Visualizar esquivar y contraatacar", "Abrir ojos, shadowbox 30 seg"],
+          "scienceNote": "Motor imagery activates same neural circuits as physical practice (Jeannerod, 1995, Behavioral and Brain Sciences)."
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "dayEs": "Viernes",
+      "theme": "Peak Performance",
+      "themeEs": "Rendimiento Máximo",
+      "icon": "⚡",
+      "color": "#8b5cf6",
+      "practices": [
+        {
+          "id": "wp_fri_1",
+          "name": "Physiological Sigh",
+          "nameEs": "Suspiro Fisiológico",
+          "duration": 180,
+          "type": "breathing",
+          "icon": "😤",
+          "description": "Stanford's fastest stress relief: double inhale through nose, long exhale through mouth.",
+          "descriptionEs": "El alivio de estrés más rápido de Stanford: doble inhalación por nariz, exhalación larga por boca.",
+          "steps": ["Double inhale through nose (short + long)", "Long slow exhale through mouth", "Repeat 3-5 times", "Feel immediate calm"],
+          "stepsEs": ["Doble inhalación por nariz (corta + larga)", "Exhalación lenta y larga por boca", "Repetir 3-5 veces", "Sentir calma inmediata"],
+          "scienceNote": "Physiological sighs are the fastest way to reduce real-time stress (Balban et al., 2023, Cell Reports Medicine; Huberman Lab)."
+        },
+        {
+          "id": "wp_fri_2",
+          "name": "Flow State Priming",
+          "nameEs": "Preparación Estado Flow",
+          "duration": 300,
+          "type": "mental",
+          "icon": "🌊",
+          "description": "Prepare your brain for flow state during today's upper body session.",
+          "descriptionEs": "Preparar tu cerebro para estado flow durante la sesión de tren superior de hoy.",
+          "steps": ["Clear phone notifications", "Play focus music", "5 deep breaths", "Set ONE focus goal for workout", "Visualize completing it", "Begin training within 2 min"],
+          "stepsEs": ["Silenciar notificaciones", "Poner música de enfoque", "5 respiraciones profundas", "Establecer UNA meta de enfoque", "Visualizar completarla", "Comenzar entrenamiento en 2 min"],
+          "scienceNote": "Flow state increases performance 500% and learning speed 490% (McKinsey/Kotler, 2014, Rise of Superman)."
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "dayEs": "Sábado",
+      "theme": "Recovery & Restoration",
+      "themeEs": "Recuperación y Restauración",
+      "icon": "🌿",
+      "color": "#14b8a6",
+      "practices": [
+        {
+          "id": "wp_sat_1",
+          "name": "Yoga Nidra (Guided)",
+          "nameEs": "Yoga Nidra (Guiado)",
+          "duration": 900,
+          "type": "meditation",
+          "icon": "🛌",
+          "description": "Non-sleep deep rest (NSDR). Lie down for guided deep relaxation.",
+          "descriptionEs": "Descanso profundo sin dormir (NSDR). Acostarse para relajación profunda guiada.",
+          "steps": ["Lie down, eyes closed", "Set timer for 15 min", "Focus on breath naturally", "Scan body from toes to head very slowly", "Let thoughts pass without engaging", "Count breaths backward from 30", "When timer rings, slowly open eyes"],
+          "stepsEs": ["Acostarse, ojos cerrados", "Poner timer 15 min", "Enfocar en respiración natural", "Escanear cuerpo de pies a cabeza muy lento", "Dejar pasar pensamientos sin enganchar", "Contar respiraciones de 30 hacia atrás", "Cuando suene el timer, abrir ojos lentamente"],
+          "scienceNote": "NSDR restores dopamine levels by 65% and enhances motor learning (Huberman Lab, 2021; Kamei et al., 2000)."
+        },
+        {
+          "id": "wp_sat_2",
+          "name": "Week Review Journal",
+          "nameEs": "Diario Revisión Semanal",
+          "duration": 600,
+          "type": "journaling",
+          "icon": "📊",
+          "description": "Review training week. What went well? What to improve?",
+          "descriptionEs": "Revisar semana de entrenamiento. ¿Qué salió bien? ¿Qué mejorar?",
+          "steps": ["Write 3 training wins", "Write 1 area to improve", "Review nutrition compliance", "Check recovery quality", "Set 1 goal for next week"],
+          "stepsEs": ["Escribir 3 logros de entrenamiento", "Escribir 1 área a mejorar", "Revisar cumplimiento nutricional", "Verificar calidad de recuperación", "Establecer 1 meta para siguiente semana"],
+          "scienceNote": "Self-reflection improves skill acquisition by 23% (Di Stefano et al., 2014, Harvard Business School)."
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "dayEs": "Domingo",
+      "theme": "Deep Rest & Reset",
+      "themeEs": "Descanso Profundo y Reinicio",
+      "icon": "🌙",
+      "color": "#64748b",
+      "practices": [
+        {
+          "id": "wp_sun_1",
+          "name": "Loving-Kindness Meditation",
+          "nameEs": "Meditación de Bondad Amorosa",
+          "duration": 600,
+          "type": "meditation",
+          "icon": "💚",
+          "description": "Direct compassion toward yourself, then outward. Reduces inflammation markers.",
+          "descriptionEs": "Dirigir compasión hacia ti mismo, luego hacia afuera. Reduce marcadores de inflamación.",
+          "steps": ["Sit comfortably, close eyes", "Think: 'May I be healthy and strong'", "Think: 'May I be free from suffering'", "Extend to loved ones", "Extend to all beings", "Rest in feeling of warmth"],
+          "stepsEs": ["Sentarse cómodamente, cerrar ojos", "Pensar: 'Que sea saludable y fuerte'", "Pensar: 'Que esté libre de sufrimiento'", "Extender a seres queridos", "Extender a todos los seres", "Descansar en sensación de calidez"],
+          "scienceNote": "Loving-kindness meditation reduces CRP inflammation markers by 15% (Pace et al., 2009, Psychoneuroendocrinology)."
+        },
+        {
+          "id": "wp_sun_2",
+          "name": "Sleep Protocol Prep",
+          "nameEs": "Protocolo Pre-Sueño",
+          "duration": 300,
+          "type": "breathing",
+          "icon": "😴",
+          "description": "Prepare for optimal sleep before training week starts. Lower core temp, dim lights.",
+          "descriptionEs": "Preparar sueño óptimo antes de que comience la semana de entrenamiento. Bajar temperatura, atenuar luces.",
+          "steps": ["Dim all lights 1hr before bed", "No screens 30 min before", "10 slow 4-7-8 breaths", "Keep room at 65-68°F", "Write tomorrow's plan to offload worry"],
+          "stepsEs": ["Atenuar luces 1hr antes de dormir", "Sin pantallas 30 min antes", "10 respiraciones lentas 4-7-8", "Mantener habitación a 18-20°C", "Escribir plan de mañana para soltar preocupación"],
+          "scienceNote": "Sleep optimization increases testosterone 15% and GH secretion 70% (Leproult & Van Cauter, 2011, JAMA)."
+        }
+      ]
+    }
+  ],
+  "quickRoutines": [
+    {
+      "id": "mq_morning",
+      "name": "Morning Activation",
+      "nameEs": "Activación Matutina",
+      "duration": 300,
+      "icon": "☀️",
+      "practiceIds": ["wp_mon_1"],
+      "description": "5-min box breathing to start the day focused.",
+      "descriptionEs": "5 min de respiración cuadrada para empezar el día enfocado."
+    },
+    {
+      "id": "mq_preworkout",
+      "name": "Pre-Workout Focus",
+      "nameEs": "Enfoque Pre-Entreno",
+      "duration": 300,
+      "icon": "🔥",
+      "practiceIds": ["wp_thu_1"],
+      "description": "Power breathing to prime CNS for training.",
+      "descriptionEs": "Respiración de poder para preparar el SNC para entrenar."
+    },
+    {
+      "id": "mq_stress",
+      "name": "Quick Stress Relief",
+      "nameEs": "Alivio Rápido de Estrés",
+      "duration": 180,
+      "icon": "😤",
+      "practiceIds": ["wp_fri_1"],
+      "description": "Physiological sigh — fastest evidence-based stress relief.",
+      "descriptionEs": "Suspiro fisiológico — el alivio de estrés más rápido basado en evidencia."
+    },
+    {
+      "id": "mq_sleep",
+      "name": "Sleep Wind-Down",
+      "nameEs": "Preparación para Dormir",
+      "duration": 600,
+      "icon": "🌙",
+      "practiceIds": ["wp_tue_1"],
+      "description": "Body scan to release tension before sleep.",
+      "descriptionEs": "Escaneo corporal para liberar tensión antes de dormir."
+    },
+    {
+      "id": "mq_recovery",
+      "name": "Deep Recovery (NSDR)",
+      "nameEs": "Recuperación Profunda (NSDR)",
+      "duration": 900,
+      "icon": "🛌",
+      "practiceIds": ["wp_sat_1"],
+      "description": "Non-sleep deep rest. Restores dopamine +65%.",
+      "descriptionEs": "Descanso profundo sin dormir. Restaura dopamina +65%."
+    }
+  ]
+}

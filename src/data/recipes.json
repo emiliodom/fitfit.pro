@@ -1,0 +1,242 @@
+{
+  "fastingProtocol": {
+    "name": "16:8 Intermittent Fasting",
+    "fastWindow": "8:00 PM — 12:00 PM",
+    "feedWindow": "12:00 PM — 8:00 PM",
+    "rules": [
+      "Morning run fasted — black coffee or water only",
+      "Break fast at noon with high protein meal",
+      "Prioritize protein around training sessions",
+      "Last meal by 8 PM — no exceptions"
+    ]
+  },
+  "macroTargets": {
+    "protein": "1.6-2.2g per kg bodyweight",
+    "carbs": "Moderate — time around workouts",
+    "fats": "0.8-1g per kg bodyweight",
+    "calories": "Slight deficit for recomp (-200 to -300 kcal)"
+  },
+  "groceryList": {
+    "protein": ["Huevos (eggs)", "Pechuga de pollo (chicken breast)", "Carne molida magra (lean ground beef)", "Queso fresco/panela", "Frijoles negros (black beans)", "Atún (tuna)", "Yogurt griego/skyr"],
+    "carbs": ["Mosh/avena (oats)", "Plátanos (bananas)", "Frijoles (beans)", "Tortillas de maíz (corn tortillas)", "Camote (sweet potato)", "Arroz integral (brown rice)"],
+    "fats": ["Aguacate (avocado)", "Pepitoria (pumpkin seeds)", "Maní (peanuts)", "Aceite de oliva (olive oil)", "Semillas de chía (chia seeds)"],
+    "vegetables": ["Brócoli", "Espinaca", "Tomate", "Cebolla", "Chile pimiento", "Ejotes", "Güicoy (zucchini)"]
+  },
+  "recipes": [
+    {
+      "id": "r001",
+      "name": "Desayuno Chapín Recomp",
+      "subtitle": "The Fast Breaker",
+      "timing": "12:00 PM — Break Fast",
+      "calories": 520,
+      "protein": 42,
+      "carbs": 28,
+      "fat": 26,
+      "image": "🍳",
+      "ingredients": [
+        "3 huevos revueltos",
+        "½ taza frijoles negros parados (not fried)",
+        "¼ aguacate, sliced",
+        "30g queso panela",
+        "Salsa casera (tomato, onion, cilantro)"
+      ],
+      "steps": [
+        "Heat pan with minimal oil spray",
+        "Scramble 3 eggs with salt and pepper",
+        "Warm black beans separately (do not fry)",
+        "Plate eggs, beans side by side",
+        "Top with sliced avocado and crumbled panela",
+        "Add fresh salsa on top"
+      ],
+      "tags": ["high-protein", "post-fast", "guatemalan"]
+    },
+    {
+      "id": "r002",
+      "name": "Pre-Ride Mosh Power",
+      "subtitle": "Sustained Energy Bowl",
+      "timing": "Pre-workout — 60-90 min before",
+      "calories": 380,
+      "protein": 28,
+      "carbs": 45,
+      "fat": 10,
+      "image": "🥣",
+      "ingredients": [
+        "½ taza mosh/avena cocida en agua",
+        "1 scoop proteína (or Greek yogurt)",
+        "1 cucharada pepitoria",
+        "½ banana sliced",
+        "Pizca de canela"
+      ],
+      "steps": [
+        "Cook oats in water until thick",
+        "Stir in protein powder or yogurt off heat",
+        "Top with sliced banana and pumpkin seeds",
+        "Sprinkle cinnamon",
+        "Eat 60-90 minutes before training"
+      ],
+      "tags": ["pre-workout", "energy", "quick"]
+    },
+    {
+      "id": "r003",
+      "name": "Pollo a la Plancha Elevado",
+      "subtitle": "The Builder",
+      "timing": "Post-workout meal",
+      "calories": 480,
+      "protein": 52,
+      "carbs": 35,
+      "fat": 14,
+      "image": "🍗",
+      "ingredients": [
+        "200g pechuga de pollo",
+        "Jugo de limón + especias",
+        "1 camote mediano",
+        "Ensalada verde grande",
+        "1 cda aceite de oliva"
+      ],
+      "steps": [
+        "Marinate chicken breast in lime juice, garlic, cumin, pepper",
+        "Grill on plancha until cooked through (165°F internal)",
+        "Roast sweet potato in oven 400°F for 35 min",
+        "Build large salad with mixed greens",
+        "Drizzle olive oil and lime dressing",
+        "Plate chicken over sweet potato and salad"
+      ],
+      "tags": ["post-workout", "high-protein", "muscle-building"]
+    },
+    {
+      "id": "r004",
+      "name": "Pepián Power Bowl",
+      "subtitle": "Ancestral Fuel",
+      "timing": "Main meal",
+      "calories": 550,
+      "protein": 38,
+      "carbs": 48,
+      "fat": 22,
+      "image": "🥘",
+      "ingredients": [
+        "200g pollo or res",
+        "½ taza arroz integral",
+        "Salsa pepián (pepitoria, tomate, chile)",
+        "Güicoy, ejotes",
+        "1 tortilla de maíz"
+      ],
+      "steps": [
+        "Toast pepitoria, tomatoes, and chile in dry pan",
+        "Blend toasted ingredients into thick sauce",
+        "Cook protein in pepián sauce until tender",
+        "Serve over brown rice",
+        "Add steamed vegetables on the side",
+        "One tortilla for scooping"
+      ],
+      "tags": ["traditional", "balanced", "guatemalan"]
+    },
+    {
+      "id": "r005",
+      "name": "Atún Ceviche Express",
+      "subtitle": "Quick Protein Hit",
+      "timing": "Snack or light meal",
+      "calories": 280,
+      "protein": 35,
+      "carbs": 12,
+      "fat": 10,
+      "image": "🐟",
+      "ingredients": [
+        "2 latas atún en agua",
+        "½ cebolla morada picada",
+        "1 tomate picado",
+        "Jugo de 2 limones",
+        "Cilantro, sal, chile",
+        "¼ aguacate"
+      ],
+      "steps": [
+        "Drain tuna well",
+        "Mix with diced onion, tomato, cilantro",
+        "Squeeze lime juice over everything",
+        "Add chile and salt to taste",
+        "Top with avocado slices",
+        "Eat with tostadas or alone"
+      ],
+      "tags": ["quick", "high-protein", "no-cook"]
+    },
+    {
+      "id": "r006",
+      "name": "Licuado Anabólico",
+      "subtitle": "Muscle Shake",
+      "timing": "Post-workout window",
+      "calories": 420,
+      "protein": 40,
+      "carbs": 48,
+      "fat": 8,
+      "image": "🥤",
+      "ingredients": [
+        "1 banana",
+        "1 scoop proteína",
+        "1 taza leche o agua",
+        "2 cdas mosh/avena cruda",
+        "1 cda maní",
+        "Hielo"
+      ],
+      "steps": [
+        "Add all ingredients to blender",
+        "Blend until smooth",
+        "Add ice for thickness",
+        "Drink within 30 min post-workout"
+      ],
+      "tags": ["post-workout", "shake", "quick"]
+    },
+    {
+      "id": "r007",
+      "name": "Egg & Bean Burrito Bowl",
+      "subtitle": "Macro Balanced",
+      "timing": "Any feeding window meal",
+      "calories": 460,
+      "protein": 36,
+      "carbs": 42,
+      "fat": 16,
+      "image": "🌯",
+      "ingredients": [
+        "3 huevos",
+        "½ taza frijoles negros",
+        "¼ taza arroz integral",
+        "Salsa verde",
+        "Queso fresco rallado",
+        "Lechuga picada"
+      ],
+      "steps": [
+        "Scramble eggs with salt and pepper",
+        "Build bowl: rice base",
+        "Add beans, then scrambled eggs",
+        "Top with salsa verde, cheese, lettuce",
+        "Mix and eat"
+      ],
+      "tags": ["balanced", "easy", "filling"]
+    },
+    {
+      "id": "r008",
+      "name": "Camote & Pollo Meal Prep",
+      "subtitle": "Sunday Prep Champion",
+      "timing": "Batch cook for 3-4 days",
+      "calories": 450,
+      "protein": 45,
+      "carbs": 40,
+      "fat": 12,
+      "image": "📦",
+      "ingredients": [
+        "800g pechuga de pollo",
+        "4 camotes medianos",
+        "Brócoli, ejotes",
+        "Especias: comino, ajo, pimentón",
+        "Aceite de oliva spray"
+      ],
+      "steps": [
+        "Cut chicken into portions, season heavily",
+        "Cube sweet potatoes",
+        "Roast everything on sheet pan at 400°F for 30-35 min",
+        "Steam broccoli and green beans",
+        "Divide into 4 containers",
+        "Refrigerate — good for 4 days"
+      ],
+      "tags": ["meal-prep", "batch-cook", "high-protein"]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "practices": [
+    {
+      "id": "m001",
+      "name": "Box Breathing (4-4-4-4)",
+      "category": "breathing",
+      "duration": "5 min",
+      "icon": "🫁",
+      "description": "Navy SEAL technique. Inhale 4s, hold 4s, exhale 4s, hold 4s. Repeat. Activates parasympathetic nervous system.",
+      "steps": ["Find quiet space, sit upright", "Inhale through nose for 4 seconds", "Hold breath for 4 seconds", "Exhale through mouth for 4 seconds", "Hold empty lungs for 4 seconds", "Repeat 5-8 cycles"],
+      "benefits": ["Reduces cortisol", "Improves focus", "Lowers heart rate", "Enhances recovery"],
+      "bestTime": "Pre-workout, before sleep, or during stress"
+    },
+    {
+      "id": "m002",
+      "name": "Wim Hof Breathing",
+      "category": "breathing",
+      "duration": "10 min",
+      "icon": "❄️",
+      "description": "30 deep breaths, hold on empty, recovery breath. 3 rounds. Boosts adrenaline, reduces inflammation.",
+      "steps": ["Lie down or sit comfortably", "Take 30 deep breaths (power breaths)", "On last exhale, hold breath as long as possible", "Inhale deeply, hold 15 seconds", "This is 1 round — do 3 rounds total"],
+      "benefits": ["Increases energy", "Reduces inflammation", "Boosts immune system", "Mental clarity"],
+      "bestTime": "Morning on empty stomach"
+    },
+    {
+      "id": "m003",
+      "name": "Body Scan Meditation",
+      "category": "meditation",
+      "duration": "10-15 min",
+      "icon": "🧘",
+      "description": "Progressive awareness from toes to head. Notice tension without judgment. Release on exhale.",
+      "steps": ["Lie on mat, close eyes", "Start awareness at your toes", "Slowly move attention up through each body part", "Notice any tension or sensation", "Breathe into tight areas", "End at crown of head"],
+      "benefits": ["Reduces muscle tension", "Improves body awareness", "Better sleep", "Injury prevention"],
+      "bestTime": "Post-workout or before bed"
+    },
+    {
+      "id": "m004",
+      "name": "Visualization Training",
+      "category": "mental",
+      "duration": "5-10 min",
+      "icon": "🎯",
+      "description": "Mentally rehearse your workout before starting. See yourself completing each exercise with perfect form.",
+      "steps": ["Close eyes, take 3 deep breaths", "Visualize walking to your training space", "See yourself performing each exercise perfectly", "Feel the muscles working", "Imagine completing the last rep strong", "Open eyes, begin training"],
+      "benefits": ["Improves performance", "Builds neural pathways", "Increases confidence", "Better mind-muscle connection"],
+      "bestTime": "5 minutes before any workout"
+    },
+    {
+      "id": "m005",
+      "name": "Gratitude Journal",
+      "category": "journaling",
+      "duration": "5 min",
+      "icon": "📝",
+      "description": "Write 3 things you're grateful for. Include 1 body/health related item. Shifts focus from lack to abundance.",
+      "steps": ["Open notes or journal", "Write today's date", "List 3 things you're grateful for", "Include 1 thing about your body or health", "Write 1 thing you're looking forward to", "Close with a deep breath"],
+      "benefits": ["Reduces anxiety", "Improves motivation", "Better perspective", "Emotional resilience"],
+      "bestTime": "Morning or evening"
+    },
+    {
+      "id": "m006",
+      "name": "Cold Exposure Protocol",
+      "category": "recovery",
+      "duration": "2-5 min",
+      "icon": "🚿",
+      "description": "End shower with cold water for 2-5 minutes. Start with 30 seconds and build up. Massive dopamine and norepinephrine boost.",
+      "steps": ["Finish normal shower routine", "Turn water to coldest setting", "Start at 30 seconds, build to 2-5 minutes", "Focus on controlled breathing", "Don't tense up — relax into it", "Pat dry, feel alive"],
+      "benefits": ["250% dopamine increase", "Reduces inflammation", "Builds mental toughness", "Improves recovery"],
+      "bestTime": "Morning shower or post-workout"
+    },
+    {
+      "id": "m007",
+      "name": "Focused Breathing Walk",
+      "category": "active",
+      "duration": "15-20 min",
+      "icon": "🚶",
+      "description": "Walk at easy pace. Focus only on breath pattern: 4 steps inhale, 4 steps exhale. Moving meditation.",
+      "steps": ["Begin walking at comfortable pace", "Sync breath with steps: 4 steps in", "4 steps out through mouth", "Notice surroundings without analyzing", "If mind wanders, return to counting", "Complete 15-20 minutes"],
+      "benefits": ["Active recovery", "Reduces cortisol", "Clears mental fog", "Light movement for rest days"],
+      "bestTime": "Rest days, between work blocks"
+    },
+    {
+      "id": "m008",
+      "name": "Sleep Optimization Protocol",
+      "category": "recovery",
+      "duration": "Ongoing",
+      "icon": "🌙",
+      "description": "Sleep is when muscle grows and fat burns. 7-9 hours non-negotiable. Dark room, cool temperature, consistent schedule.",
+      "steps": ["Set consistent bedtime (within 30 min window)", "No screens 30 min before bed", "Room temperature: 65-68°F (18-20°C)", "Complete darkness (blackout curtains)", "No caffeine after 2 PM", "Magnesium supplement before bed (optional)"],
+      "benefits": ["Maximizes muscle recovery", "Optimizes hormones (GH, testosterone)", "Reduces cravings", "Better training performance"],
+      "bestTime": "Every night"
+    }
+  ],
+  "dailyChecklist": [
+    "Morning breathing exercise (3-5 min)",
+    "Visualize today's workout",
+    "Mindful eating during feeding window",
+    "Gratitude note (evening)",
+    "Sleep prep protocol"
+  ]
+}

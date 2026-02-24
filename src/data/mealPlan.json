@@ -1,0 +1,347 @@
+{
+  "weeklyPlan": [
+    {
+      "day": "Monday",
+      "dayEs": "Lunes",
+      "theme": "Post-Push Recovery Fuel",
+      "themeEs": "Combustible Post-Empuje",
+      "meals": {
+        "breakFast": {
+          "name": "Desayuno Chapín Recomp",
+          "nameEs": "Desayuno Chapín Recomp",
+          "time": "12:00 PM",
+          "calories": 520, "protein": 42, "carbs": 28, "fat": 26,
+          "icon": "🍳",
+          "ingredients": ["3 huevos revueltos", "½ taza frijoles negros parados", "¼ aguacate", "30g queso panela", "Salsa casera"],
+          "ingredientsEs": ["3 huevos revueltos", "½ taza frijoles negros parados", "¼ aguacate", "30g queso panela", "Salsa casera"],
+          "quickSteps": "Scramble eggs, warm beans (don't fry), plate with avocado and fresh salsa."
+        },
+        "lunch": {
+          "name": "Grilled Chicken & Sweet Potato",
+          "nameEs": "Pollo a la Plancha con Camote",
+          "time": "3:00 PM",
+          "calories": 480, "protein": 52, "carbs": 35, "fat": 14,
+          "icon": "🍗",
+          "ingredients": ["200g chicken breast", "1 medium sweet potato", "Large green salad", "1 tbsp olive oil", "Lime + spices"],
+          "ingredientsEs": ["200g pechuga de pollo", "1 camote mediano", "Ensalada verde grande", "1 cda aceite de oliva", "Limón + especias"],
+          "quickSteps": "Grill marinated chicken, roast sweet potato, build salad with olive oil dressing."
+        },
+        "dinner": {
+          "name": "Tuna Ceviche Express",
+          "nameEs": "Ceviche de Atún Express",
+          "time": "7:00 PM",
+          "calories": 280, "protein": 35, "carbs": 12, "fat": 10,
+          "icon": "🐟",
+          "ingredients": ["2 cans tuna in water", "½ red onion diced", "1 tomato diced", "Lime juice", "Cilantro, avocado"],
+          "ingredientsEs": ["2 latas atún en agua", "½ cebolla morada", "1 tomate picado", "Jugo de limón", "Cilantro, aguacate"],
+          "quickSteps": "Drain tuna, mix with diced veggies, lime juice, top with avocado. No cooking needed."
+        },
+        "snack": {
+          "name": "Protein Shake",
+          "nameEs": "Licuado de Proteína",
+          "time": "Post-workout",
+          "calories": 320, "protein": 35, "carbs": 38, "fat": 6,
+          "icon": "🥤",
+          "ingredients": ["1 banana", "1 scoop protein", "1 cup milk/water", "2 tbsp oats", "Ice"],
+          "ingredientsEs": ["1 banana", "1 scoop proteína", "1 taza leche/agua", "2 cdas avena", "Hielo"],
+          "quickSteps": "Blend all ingredients until smooth. Drink within 30 min post-workout."
+        }
+      },
+      "dailyTotals": { "calories": 1600, "protein": 164, "carbs": 113, "fat": 56 }
+    },
+    {
+      "day": "Tuesday",
+      "dayEs": "Martes",
+      "theme": "Pull Day Power",
+      "themeEs": "Poder de Jalón",
+      "meals": {
+        "breakFast": {
+          "name": "Pre-Ride Mosh Power",
+          "nameEs": "Mosh Power Pre-Rodada",
+          "time": "12:00 PM",
+          "calories": 380, "protein": 28, "carbs": 45, "fat": 10,
+          "icon": "🥣",
+          "ingredients": ["½ cup oats", "Greek yogurt", "½ banana", "Pumpkin seeds", "Cinnamon"],
+          "ingredientsEs": ["½ taza mosh/avena", "Yogurt griego", "½ banana", "Pepitoria", "Canela"],
+          "quickSteps": "Cook oats, stir in yogurt off heat, top with banana and pumpkin seeds."
+        },
+        "lunch": {
+          "name": "Pepián Power Bowl",
+          "nameEs": "Bowl Pepián Power",
+          "time": "3:00 PM",
+          "calories": 550, "protein": 38, "carbs": 48, "fat": 22,
+          "icon": "🥘",
+          "ingredients": ["200g chicken or beef", "½ cup brown rice", "Pepián sauce", "Vegetables", "1 corn tortilla"],
+          "ingredientsEs": ["200g pollo o res", "½ taza arroz integral", "Salsa pepián", "Vegetales", "1 tortilla de maíz"],
+          "quickSteps": "Toast and blend pepián sauce, cook protein in sauce, serve over rice with veggies."
+        },
+        "dinner": {
+          "name": "Egg & Bean Burrito Bowl",
+          "nameEs": "Bowl Burrito de Huevo y Frijol",
+          "time": "7:00 PM",
+          "calories": 460, "protein": 36, "carbs": 42, "fat": 16,
+          "icon": "🌯",
+          "ingredients": ["3 eggs", "½ cup black beans", "¼ cup brown rice", "Salsa verde", "Queso fresco"],
+          "ingredientsEs": ["3 huevos", "½ taza frijoles negros", "¼ taza arroz integral", "Salsa verde", "Queso fresco"],
+          "quickSteps": "Scramble eggs, build bowl with rice base, beans, eggs, salsa, cheese."
+        },
+        "snack": {
+          "name": "Greek Yogurt + Seeds",
+          "nameEs": "Yogurt Griego + Semillas",
+          "time": "5:00 PM",
+          "calories": 220, "protein": 20, "carbs": 15, "fat": 8,
+          "icon": "🥛",
+          "ingredients": ["1 cup Greek yogurt", "1 tbsp chia seeds", "1 tbsp pumpkin seeds"],
+          "ingredientsEs": ["1 taza yogurt griego", "1 cda semillas de chía", "1 cda pepitoria"],
+          "quickSteps": "Mix yogurt with seeds. Simple, high-protein."
+        }
+      },
+      "dailyTotals": { "calories": 1610, "protein": 122, "carbs": 150, "fat": 56 }
+    },
+    {
+      "day": "Wednesday",
+      "dayEs": "Miércoles",
+      "theme": "Legs & Core Fuel",
+      "themeEs": "Combustible de Piernas y Core",
+      "meals": {
+        "breakFast": {
+          "name": "High-Protein Pancakes",
+          "nameEs": "Panqueques Proteicos",
+          "time": "12:00 PM",
+          "calories": 420, "protein": 38, "carbs": 42, "fat": 12,
+          "icon": "🥞",
+          "ingredients": ["2 eggs", "1 banana", "½ cup oats", "1 scoop protein", "Cinnamon"],
+          "ingredientsEs": ["2 huevos", "1 banana", "½ taza avena", "1 scoop proteína", "Canela"],
+          "quickSteps": "Blend all ingredients, cook on non-stick pan, serve with drizzle of honey."
+        },
+        "lunch": {
+          "name": "Chicken Meal Prep Bowl",
+          "nameEs": "Bowl de Pollo Meal Prep",
+          "time": "3:00 PM",
+          "calories": 500, "protein": 48, "carbs": 45, "fat": 14,
+          "icon": "📦",
+          "ingredients": ["200g chicken breast", "1 sweet potato cubed", "Broccoli", "Green beans", "Spices"],
+          "ingredientsEs": ["200g pechuga de pollo", "1 camote en cubos", "Brócoli", "Ejotes", "Especias"],
+          "quickSteps": "Season chicken, cube sweet potato, sheet pan roast at 400°F for 30 min, steam veggies."
+        },
+        "dinner": {
+          "name": "Beef & Bean Chili",
+          "nameEs": "Chili de Carne y Frijoles",
+          "time": "7:00 PM",
+          "calories": 450, "protein": 40, "carbs": 30, "fat": 18,
+          "icon": "🌶️",
+          "ingredients": ["200g lean ground beef", "½ cup black beans", "Diced tomatoes", "Onion, garlic", "Cumin, chili powder"],
+          "ingredientsEs": ["200g carne molida magra", "½ taza frijoles negros", "Tomate picado", "Cebolla, ajo", "Comino, chile en polvo"],
+          "quickSteps": "Brown beef with onion and garlic, add beans, tomatoes, spices. Simmer 20 min."
+        },
+        "snack": {
+          "name": "Peanut Banana Boats",
+          "nameEs": "Bananas con Maní",
+          "time": "Pre-workout",
+          "calories": 260, "protein": 10, "carbs": 35, "fat": 12,
+          "icon": "🍌",
+          "ingredients": ["1 banana", "1 tbsp peanut butter", "Drizzle honey"],
+          "ingredientsEs": ["1 banana", "1 cda mantequilla de maní", "Chorrito de miel"],
+          "quickSteps": "Split banana, spread peanut butter, drizzle honey. Quick energy."
+        }
+      },
+      "dailyTotals": { "calories": 1630, "protein": 136, "carbs": 152, "fat": 56 }
+    },
+    {
+      "day": "Thursday",
+      "dayEs": "Jueves",
+      "theme": "Boxing Day Energy",
+      "themeEs": "Energía Día de Boxeo",
+      "meals": {
+        "breakFast": {
+          "name": "Eggs & Avocado Toast",
+          "nameEs": "Huevos y Tostada de Aguacate",
+          "time": "12:00 PM",
+          "calories": 450, "protein": 30, "carbs": 32, "fat": 24,
+          "icon": "🥑",
+          "ingredients": ["3 eggs", "2 corn tortillas", "½ avocado", "Hot sauce", "Salt & pepper"],
+          "ingredientsEs": ["3 huevos", "2 tortillas de maíz", "½ aguacate", "Salsa picante", "Sal y pimienta"],
+          "quickSteps": "Fry or scramble eggs, warm tortillas, top with avocado and hot sauce."
+        },
+        "lunch": {
+          "name": "Tuna Stuffed Peppers",
+          "nameEs": "Pimientos Rellenos de Atún",
+          "time": "3:00 PM",
+          "calories": 380, "protein": 42, "carbs": 20, "fat": 14,
+          "icon": "🫑",
+          "ingredients": ["2 cans tuna", "2 bell peppers", "Corn, onion", "Lime, cilantro", "Queso fresco"],
+          "ingredientsEs": ["2 latas atún", "2 chiles pimiento", "Elote, cebolla", "Limón, cilantro", "Queso fresco"],
+          "quickSteps": "Halve peppers, mix tuna with corn and onion, stuff peppers, top with cheese."
+        },
+        "dinner": {
+          "name": "Stir-Fry Chicken & Veggies",
+          "nameEs": "Salteado de Pollo y Vegetales",
+          "time": "7:00 PM",
+          "calories": 420, "protein": 45, "carbs": 25, "fat": 16,
+          "icon": "🥘",
+          "ingredients": ["200g chicken strips", "Zucchini, peppers, onion", "Soy sauce", "Garlic, ginger", "Sesame seeds"],
+          "ingredientsEs": ["200g pollo en tiras", "Güicoy, pimiento, cebolla", "Salsa de soya", "Ajo, jengibre", "Ajonjolí"],
+          "quickSteps": "Stir-fry chicken strips, add veggies, sauce, serve over cauliflower rice or plain."
+        },
+        "snack": {
+          "name": "Hard-Boiled Eggs",
+          "nameEs": "Huevos Duros",
+          "time": "5:00 PM",
+          "calories": 210, "protein": 18, "carbs": 2, "fat": 14,
+          "icon": "🥚",
+          "ingredients": ["3 hard-boiled eggs", "Salt, pepper", "Hot sauce optional"],
+          "ingredientsEs": ["3 huevos duros", "Sal, pimienta", "Salsa picante opcional"],
+          "quickSteps": "Prep hard-boiled eggs in advance. Easy portable protein."
+        }
+      },
+      "dailyTotals": { "calories": 1460, "protein": 135, "carbs": 79, "fat": 68 }
+    },
+    {
+      "day": "Friday",
+      "dayEs": "Viernes",
+      "theme": "Upper Hypertrophy Fuel",
+      "themeEs": "Combustible Hipertrofia Superior",
+      "meals": {
+        "breakFast": {
+          "name": "Desayuno Chapín Recomp",
+          "nameEs": "Desayuno Chapín Recomp",
+          "time": "12:00 PM",
+          "calories": 520, "protein": 42, "carbs": 28, "fat": 26,
+          "icon": "🍳",
+          "ingredients": ["3 scrambled eggs", "½ cup black beans", "¼ avocado", "Panela cheese", "Fresh salsa"],
+          "ingredientsEs": ["3 huevos revueltos", "½ taza frijoles negros", "¼ aguacate", "Queso panela", "Salsa fresca"],
+          "quickSteps": "Scramble eggs, warm beans, plate with avocado, cheese, and salsa."
+        },
+        "lunch": {
+          "name": "Grilled Chicken Wrap",
+          "nameEs": "Wrap de Pollo a la Plancha",
+          "time": "3:00 PM",
+          "calories": 480, "protein": 45, "carbs": 38, "fat": 16,
+          "icon": "🌮",
+          "ingredients": ["200g chicken breast", "2 corn tortillas", "Lettuce, tomato", "Greek yogurt sauce", "Lime"],
+          "ingredientsEs": ["200g pechuga de pollo", "2 tortillas de maíz", "Lechuga, tomate", "Salsa de yogurt griego", "Limón"],
+          "quickSteps": "Grill chicken, warm tortillas, build wraps with veggies and yogurt sauce."
+        },
+        "dinner": {
+          "name": "Protein Omelette",
+          "nameEs": "Omelette Proteico",
+          "time": "7:00 PM",
+          "calories": 380, "protein": 36, "carbs": 8, "fat": 24,
+          "icon": "🍳",
+          "ingredients": ["4 eggs", "Mushrooms, spinach", "Queso fresco", "Olive oil spray"],
+          "ingredientsEs": ["4 huevos", "Champiñones, espinaca", "Queso fresco", "Aceite de oliva spray"],
+          "quickSteps": "Whisk eggs, pour in pan, add fillings, fold when set."
+        },
+        "snack": {
+          "name": "Protein Shake",
+          "nameEs": "Licuado Anabólico",
+          "time": "Post-workout",
+          "calories": 420, "protein": 40, "carbs": 48, "fat": 8,
+          "icon": "🥤",
+          "ingredients": ["1 banana", "1 scoop protein", "Milk", "Oats", "Peanut butter"],
+          "ingredientsEs": ["1 banana", "1 scoop proteína", "Leche", "Avena", "Maní"],
+          "quickSteps": "Blend everything with ice. Drink within 30 min post-workout."
+        }
+      },
+      "dailyTotals": { "calories": 1800, "protein": 163, "carbs": 122, "fat": 74 }
+    },
+    {
+      "day": "Saturday",
+      "dayEs": "Sábado",
+      "theme": "Recovery & Refuel",
+      "themeEs": "Recuperación y Recarga",
+      "meals": {
+        "breakFast": {
+          "name": "Overnight Oats",
+          "nameEs": "Avena Overnight",
+          "time": "12:00 PM",
+          "calories": 400, "protein": 30, "carbs": 50, "fat": 10,
+          "icon": "🫙",
+          "ingredients": ["½ cup oats", "Greek yogurt", "Chia seeds", "Banana", "Honey"],
+          "ingredientsEs": ["½ taza avena", "Yogurt griego", "Semillas de chía", "Banana", "Miel"],
+          "quickSteps": "Mix oats, yogurt, chia, milk night before. Top with banana and honey."
+        },
+        "lunch": {
+          "name": "Bean & Cheese Pupusas",
+          "nameEs": "Pupusas de Frijol y Queso",
+          "time": "3:00 PM",
+          "calories": 500, "protein": 28, "carbs": 55, "fat": 20,
+          "icon": "🫓",
+          "ingredients": ["Masa harina", "Black beans", "Queso", "Curtido", "Tomato sauce"],
+          "ingredientsEs": ["Masa harina", "Frijoles negros", "Queso", "Curtido", "Salsa de tomate"],
+          "quickSteps": "Form masa balls, stuff with beans and cheese, flatten, cook on dry plancha."
+        },
+        "dinner": {
+          "name": "Grilled Fish & Salad",
+          "nameEs": "Pescado a la Plancha y Ensalada",
+          "time": "7:00 PM",
+          "calories": 380, "protein": 42, "carbs": 12, "fat": 18,
+          "icon": "🐟",
+          "ingredients": ["200g white fish", "Large mixed salad", "Olive oil", "Lime", "Herbs"],
+          "ingredientsEs": ["200g pescado blanco", "Ensalada mixta grande", "Aceite de oliva", "Limón", "Hierbas"],
+          "quickSteps": "Season fish, grill 4 min per side, serve with large salad."
+        },
+        "snack": {
+          "name": "Trail Mix",
+          "nameEs": "Mix de Frutos Secos",
+          "time": "5:00 PM",
+          "calories": 250, "protein": 10, "carbs": 20, "fat": 16,
+          "icon": "🥜",
+          "ingredients": ["Almonds", "Peanuts", "Pumpkin seeds", "Dark chocolate chips", "Raisins"],
+          "ingredientsEs": ["Almendras", "Maní", "Pepitoria", "Chispas de chocolate oscuro", "Pasas"],
+          "quickSteps": "Mix portions in small bag. Grab and go."
+        }
+      },
+      "dailyTotals": { "calories": 1530, "protein": 110, "carbs": 137, "fat": 64 }
+    },
+    {
+      "day": "Sunday",
+      "dayEs": "Domingo",
+      "theme": "Rest Day Clean Eating",
+      "themeEs": "Día de Descanso — Comida Limpia",
+      "meals": {
+        "breakFast": {
+          "name": "Veggie Scramble",
+          "nameEs": "Revuelto de Vegetales",
+          "time": "12:00 PM",
+          "calories": 400, "protein": 32, "carbs": 20, "fat": 22,
+          "icon": "🥬",
+          "ingredients": ["3 eggs", "Spinach, tomato, onion", "Queso fresco", "1 tortilla", "Hot sauce"],
+          "ingredientsEs": ["3 huevos", "Espinaca, tomate, cebolla", "Queso fresco", "1 tortilla", "Salsa picante"],
+          "quickSteps": "Sauté veggies, add beaten eggs, scramble, top with cheese."
+        },
+        "lunch": {
+          "name": "Sunday Meal Prep Chicken",
+          "nameEs": "Pollo Meal Prep Dominical",
+          "time": "3:00 PM",
+          "calories": 480, "protein": 50, "carbs": 40, "fat": 14,
+          "icon": "📦",
+          "ingredients": ["800g chicken breast (batch)", "4 sweet potatoes", "Broccoli, green beans", "Olive oil, spices"],
+          "ingredientsEs": ["800g pechuga de pollo (batch)", "4 camotes", "Brócoli, ejotes", "Aceite de oliva, especias"],
+          "quickSteps": "Season and roast chicken + sweet potato at 400°F for 30 min. Steam veggies. Divide into 4 containers."
+        },
+        "dinner": {
+          "name": "Light Soup & Bread",
+          "nameEs": "Sopa Ligera con Pan",
+          "time": "7:00 PM",
+          "calories": 350, "protein": 28, "carbs": 38, "fat": 10,
+          "icon": "🍲",
+          "ingredients": ["Chicken broth", "Shredded chicken", "Vegetables", "Corn tortilla", "Lime"],
+          "ingredientsEs": ["Caldo de pollo", "Pollo deshilachado", "Vegetales", "Tortilla de maíz", "Limón"],
+          "quickSteps": "Simmer broth with shredded chicken and chopped veggies. Serve with tortilla strips."
+        },
+        "snack": {
+          "name": "Cottage Cheese & Fruit",
+          "nameEs": "Requesón con Fruta",
+          "time": "5:00 PM",
+          "calories": 200, "protein": 20, "carbs": 22, "fat": 4,
+          "icon": "🍓",
+          "ingredients": ["1 cup cottage cheese", "Mixed berries", "Honey drizzle"],
+          "ingredientsEs": ["1 taza requesón", "Berries mixtas", "Chorrito de miel"],
+          "quickSteps": "Top cottage cheese with fruit and honey. High casein for recovery."
+        }
+      },
+      "dailyTotals": { "calories": 1430, "protein": 130, "carbs": 120, "fat": 50 }
+    }
+  ]
+}
