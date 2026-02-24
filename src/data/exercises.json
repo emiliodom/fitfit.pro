@@ -700,6 +700,94 @@
       "cue": "Lunge, plant hand, rotate and reach up. Covers entire body.",
       "muscles": ["Hip Flexors", "T-Spine", "Hamstrings"],
       "difficulty": "beginner"
+    },
+    {
+      "id": "e106", "name": "Jumping Jacks", "nameEs": "Saltos de Tijera", "category": "hiit",
+      "equipment": ["bodyweight"],
+      "sets": "4", "reps": "45 sec", "rest": 30,
+      "cue": "Keep core braced and land softly. Maintain steady rhythm.",
+      "muscles": ["Full Body", "Cardio"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "e107", "name": "Skater Jumps", "nameEs": "Saltos de Patinador", "category": "hiit",
+      "equipment": ["bodyweight"],
+      "sets": "4", "reps": "30 sec", "rest": 30,
+      "cue": "Lateral explosive jumps, control each landing.",
+      "muscles": ["Glutes", "Quads", "Cardio"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "e108", "name": "Plank Jacks", "nameEs": "Plancha con Apertura", "category": "hiit",
+      "equipment": ["bodyweight", "yoga_mat"],
+      "sets": "4", "reps": "30 sec", "rest": 30,
+      "cue": "From plank, jump feet apart/together without moving hips.",
+      "muscles": ["Core", "Shoulders", "Cardio"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "e109", "name": "Heavy Bag Hooks", "nameEs": "Ganchos al Costal", "category": "boxing_cardio",
+      "equipment": ["boxing"],
+      "sets": "3", "reps": "2 min rounds", "rest": 60,
+      "cue": "Rotate hips and pivot lead foot. Keep guard up.",
+      "muscles": ["Shoulders", "Obliques", "Cardio"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "e110", "name": "Heavy Bag Slip & Counter", "nameEs": "Esquive y Contraataque al Costal", "category": "boxing_cardio",
+      "equipment": ["boxing"],
+      "sets": "3", "reps": "2 min rounds", "rest": 60,
+      "cue": "Slip left/right then answer with fast one-two.",
+      "muscles": ["Core", "Shoulders", "Cardio"],
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "e111", "name": "Heavy Bag Footwork Rounds", "nameEs": "Rondas de Juego de Pies en Costal", "category": "boxing_cardio",
+      "equipment": ["boxing"],
+      "sets": "4", "reps": "90 sec", "rest": 45,
+      "cue": "Move around the bag, keep stance and distance controlled.",
+      "muscles": ["Calves", "Core", "Cardio"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "e112", "name": "Shadow Boxing Intervals", "nameEs": "Intervalos de Boxeo de Sombra", "category": "boxing_cardio",
+      "equipment": ["bodyweight"],
+      "sets": "5", "reps": "45 sec on / 15 sec off", "rest": 0,
+      "cue": "Mix combinations with head movement and breathing control.",
+      "muscles": ["Shoulders", "Core", "Cardio"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "e113", "name": "Child's Pose", "nameEs": "Postura del Niño", "category": "flexibility",
+      "equipment": ["yoga_mat"],
+      "sets": "1", "reps": "90 sec hold", "rest": 0,
+      "cue": "Sit hips back to heels, relax shoulders and breathe deep.",
+      "muscles": ["Lower Back", "Lats", "Hips"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "e114", "name": "Hamstring Stretch (Seated)", "nameEs": "Estiramiento de Isquios Sentado", "category": "flexibility",
+      "equipment": ["yoga_mat"],
+      "sets": "1", "reps": "75 sec per side", "rest": 0,
+      "cue": "Keep spine long and hinge from hips, not low back.",
+      "muscles": ["Hamstrings", "Calves"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "e115", "name": "Thoracic Rotation Stretch", "nameEs": "Estiramiento de Rotación Torácica", "category": "flexibility",
+      "equipment": ["yoga_mat"],
+      "sets": "1", "reps": "8 per side", "rest": 0,
+      "cue": "Open chest and rotate upper back while keeping hips stable.",
+      "muscles": ["T-Spine", "Shoulders", "Obliques"],
+      "difficulty": "beginner"
+    },
+    {
+      "id": "e116", "name": "Standing Quad Stretch", "nameEs": "Estiramiento de Cuádriceps de Pie", "category": "flexibility",
+      "equipment": ["bodyweight"],
+      "sets": "1", "reps": "60 sec per side", "rest": 0,
+      "cue": "Pull heel to glute, knees together, pelvis neutral.",
+      "muscles": ["Quads", "Hip Flexors"],
+      "difficulty": "beginner"
     }
   ]
 }

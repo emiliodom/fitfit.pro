@@ -3,6 +3,7 @@ import { useLanguage } from '../../i18n/LanguageContext';
 import MuscleMap from './MuscleMap';
 import YouTubeCarousel from './YouTubeCarousel';
 import SoundSettings from '../SoundSettings';
+import { getExerciseDisplayName } from '../../utils/exerciseDisplay';
 
 export default function RoutinePlayer({ exercises: initialExercises, timer, onFinish, onBack }) {
   const { t, lang } = useLanguage();
@@ -157,7 +158,7 @@ export default function RoutinePlayer({ exercises: initialExercises, timer, onFi
           {t('player.exercise')} {currentIndex + 1} / {exerciseList.length}
           {isResting && <span className="rest-badge">{t('player.rest')}</span>}
         </div>
-        <div className="exercise-title">{currentExercise.name}</div>
+        <div className="exercise-title">{getExerciseDisplayName(currentExercise, lang)}</div>
         <div className="exercise-sets">
           {currentExercise.sets} {t('training.sets')} × {currentExercise.reps}
           <span className="set-counter">
@@ -254,7 +255,7 @@ export default function RoutinePlayer({ exercises: initialExercises, timer, onFi
               {i < currentIndex ? '✓' : i + 1}
             </span>
             <div className="queue-info queue-clickable" onClick={() => setVideoExercise(ex.name)}>
-              <strong>{ex.name}</strong>
+              <strong>{getExerciseDisplayName(ex, lang)}</strong>
               <span className="queue-detail">{ex.sets} × {ex.reps}</span>
             </div>
             {i < currentIndex && <span className="queue-status done">{t('player.done')}</span>}

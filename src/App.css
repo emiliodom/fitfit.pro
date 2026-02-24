@@ -3121,3 +3121,108 @@
   padding: 4px 10px;
   font-size: 0.78rem;
 }
+
+/* ── Training Quick Start ── */
+.quick-start-layout {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.quick-start-header h2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+.quick-start-header p {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+.quick-body-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.quick-body-btn {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  color: var(--text-main);
+  min-height: 72px;
+  padding: 10px 12px;
+  font-size: 0.86rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.quick-body-btn:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.quick-body-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.quick-start-modal {
+  max-width: 640px;
+}
+.quick-start-target {
+  margin-bottom: 12px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+.quick-start-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.quick-start-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.quick-start-field select {
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-main);
+  border-radius: var(--radius-sm);
+  min-height: 40px;
+  padding: 0 10px;
+  font-size: 0.86rem;
+}
+.quick-start-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+@media (max-width: 900px) {
+  .quick-body-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .quick-start-form-grid,
+  .quick-body-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-start-actions {
+    flex-direction: column;
+  }
+
+  .quick-start-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
