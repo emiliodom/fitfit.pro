@@ -9,6 +9,7 @@ import RoutinePlayer from './RoutinePlayer';
 import MuscleMap from './MuscleMap';
 import { useTimer } from '../../hooks/useTimer';
 import { playBeep } from '../../utils/audio';
+import { getExerciseDisplayName } from '../../utils/exerciseDisplay';
 
 function getPhaseKey(week) {
   if (week <= 4) return 'foundation';
@@ -22,6 +23,7 @@ function resolveExercises(ids) {
 
 export default function TrainingPage({ tracker }) {
   const { t, lang } = useLanguage();
+  const difficultyRank = { beginner: 1, intermediate: 2, advanced: 3 };
   const [selectedEquipment, setSelectedEquipment] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedExercises, setSelectedExercises] = useState([]);
@@ -32,6 +34,12 @@ export default function TrainingPage({ tracker }) {
   const [workoutLevel, setWorkoutLevel] = useState('all'); // all | beginner | intermediate | advanced
   const [libraryCategory, setLibraryCategory] = useState(null);
   const [previewRoutine, setPreviewRoutine] = useState(null);
+  const [quickTarget, setQuickTarget] = useState(null);
+  const [showQuickStartModal, setShowQuickStartModal] = useState(false);
+  const [quickLevel, setQuickLevel] = useState('beginner');
+  const [quickEnvironment, setQuickEnvironment] = useState('home');
+  const [quickStyle, setQuickStyle] = useState('normal');
+  const [quickDurationMinutes, setQuickDurationMinutes] = useState('30');
   const timer = useTimer(60);
 
   const progression = getCurrentProgression();
@@ -202,6 +210,99 @@ export default function TrainingPage({ tracker }) {
       .filter(pack => (rank[pack.difficulty] || 3) <= selectedRank);
   }, [lang, workoutDuration, workoutLevel]);
 
+  const quickStartTargets = useMemo(() => ([
+    { id: 'push', icon: '💪', label: lang === 'es' ? 'Pecho / Hombros / Tríceps' : 'Push (Chest / Shoulders / Triceps)' },
+    { id: 'pull', icon: '🏋️', label: lang === 'es' ? 'Espalda / Bíceps' : 'Pull (Back / Biceps)' },
+    { id: 'legs', icon: '🦵', label: lang === 'es' ? 'Piernas' : 'Legs' },
+    { id: 'glutes', icon: '🍑', label: lang === 'es' ? 'Glúteos' : 'Glutes' },
+    { id: 'core', icon: '🔥', label: lang === 'es' ? 'Core / Abdomen' : 'Core / Abs' },
+    { id: 'full_body', icon: '⚡', label: lang === 'es' ? 'Cuerpo Completo' : 'Full Body' },
+  ]), [lang]);
+
+  const quickTargetLabel = useMemo(() => {
+    return quickStartTargets.find(target => target.id === quickTarget)?.label || '';
+  }, [quickStartTargets, quickTarget]);
+
+  const getTargetPool = (targetId, source) => {
+    if (targetId === 'glutes') {
+      return source.filter(ex => ex.muscles.some(m => m.toLowerCase().includes('glute')));
+    }
+    if (targetId === 'full_body') {
+      return source.filter(ex => ['push', 'pull', 'legs', 'core', 'hiit', 'boxing_cardio'].includes(ex.category));
+    }
+    return source.filter(ex => ex.category === targetId);
+  };
+
+  const pickRandom = (items, count) => {
+    const shuffled = [...items].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, count);
+  };
+
+  const buildQuickStartRoutine = () => {
+    if (!quickTarget) return [];
+
+    const homeEquipment = new Set(['bodyweight', 'yoga_mat', 'resistance_bands', 'pushup_handles', 'pullup_bar', 'ab_wheel', 'boxing']);
+    const gymEquipment = new Set(['dumbbells', 'kettlebell', 'barbell', 'pullup_bar', 'resistance_bands', 'yoga_mat']);
+    const allowedEquipment = quickEnvironment === 'home' ? homeEquipment : gymEquipment;
+
+    let availableExercises = exerciseData.exercises.filter(ex =>
+      ex.equipment.some(eq => allowedEquipment.has(eq))
+    );
+
+    const levelCap = difficultyRank[quickLevel] || 1;
+    const levelFiltered = availableExercises.filter(ex => (difficultyRank[ex.difficulty] || 1) <= levelCap);
+    if (levelFiltered.length > 0) {
+      availableExercises = levelFiltered;
+    }
+
+    const targetPool = getTargetPool(quickTarget, availableExercises);
+    const totalByDuration = { '20': 6, '30': 8, '45': 10, '60': 12 };
+    const totalExercises = totalByDuration[quickDurationMinutes] || 8;
+
+    if (quickStyle === 'hiit') {
+      const hiitPool = availableExercises.filter(ex => ['hiit', 'boxing_cardio'].includes(ex.category));
+      const strengthPool = targetPool.filter(ex => !['hiit', 'boxing_cardio'].includes(ex.category));
+      const hiitCount = Math.max(2, Math.floor(totalExercises * 0.5));
+      const strengthCount = Math.max(0, totalExercises - hiitCount);
+
+      const mixed = [
+        ...pickRandom(hiitPool, hiitCount),
+        ...pickRandom(strengthPool, strengthCount),
+      ];
+      const unique = Array.from(new Map(mixed.map(ex => [ex.id, ex])).values());
+      if (unique.length > 0) {
+        return unique.slice(0, totalExercises);
+      }
+    }
+
+    const normalPool = quickTarget === 'full_body'
+      ? targetPool.filter(ex => !['hiit', 'boxing_cardio'].includes(ex.category))
+      : targetPool;
+
+    const basePool = normalPool.length > 0 ? normalPool : targetPool;
+    if (basePool.length > 0) {
+      return pickRandom(basePool, totalExercises);
+    }
+
+    return pickRandom(availableExercises, totalExercises);
+  };
+
+  const openQuickStartModal = (targetId) => {
+    setQuickTarget(targetId);
+    setShowQuickStartModal(true);
+  };
+
+  const closeQuickStartModal = () => {
+    setShowQuickStartModal(false);
+  };
+
+  const handleQuickStart = () => {
+    const routine = buildQuickStartRoutine();
+    if (routine.length === 0) return;
+    setShowQuickStartModal(false);
+    startRoutine(routine);
+  };
+
   const toggleEquipment = (eqId) => {
     setSelectedEquipment(prev =>
       prev.includes(eqId) ? prev.filter(id => id !== eqId) : [...prev, eqId]
@@ -266,6 +367,25 @@ export default function TrainingPage({ tracker }) {
       <div className="page-header">
         <h1>{t('training.title')}</h1>
         <p>{t('training.subtitle')}</p>
+      </div>
+
+      <div className="card quick-start-layout">
+        <div className="quick-start-header">
+          <h2>{lang === 'es' ? '¿Qué parte del cuerpo deseas entrenar hoy?' : 'Which body part do you want to train today?'}</h2>
+          <p>{lang === 'es' ? 'Selecciona una zona para abrir una configuración rápida y comenzar al instante.' : 'Pick a focus area to open a quick setup and start immediately.'}</p>
+        </div>
+        <div className="quick-body-grid">
+          {quickStartTargets.map(target => (
+            <button
+              key={target.id}
+              className="quick-body-btn"
+              onClick={() => openQuickStartModal(target.id)}
+            >
+              <span className="quick-body-icon">{target.icon}</span>
+              <span>{target.label}</span>
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* View Toggle */}
@@ -337,7 +457,7 @@ export default function TrainingPage({ tracker }) {
                   <div className="today-exercises">
                     {resolveExercises(todayRoutine.phases[phaseKey]?.exerciseIds || []).map(ex => (
                       <div key={ex.id} className="preview-exercise">
-                        <span className="preview-name">{ex.name}</span>
+                        <span className="preview-name">{getExerciseDisplayName(ex, lang)}</span>
                         <span className="preview-detail">{ex.sets}×{ex.reps}</span>
                       </div>
                     ))}
@@ -473,7 +593,7 @@ export default function TrainingPage({ tracker }) {
                     </div>
                     <div className="pack-preview-list">
                       {pack.exercises.slice(0, 4).map(ex => (
-                        <span key={ex.id} className="pack-preview-item">• {ex.name}</span>
+                        <span key={ex.id} className="pack-preview-item">• {getExerciseDisplayName(ex, lang)}</span>
                       ))}
                     </div>
                     <button
@@ -541,7 +661,7 @@ export default function TrainingPage({ tracker }) {
                     {t('training.exercisesSelected', { count: selectedExercises.length })}
                   </strong>
                   <span className="selected-list">
-                    {selectedExercises.map(e => e.name).join(' → ')}
+                    {selectedExercises.map(e => getExerciseDisplayName(e, lang)).join(' → ')}
                   </span>
                 </div>
                 <div className="selected-actions">
@@ -647,7 +767,7 @@ export default function TrainingPage({ tracker }) {
             <div className="preview-exercises-list">
               {resolveExercises(previewRoutine.exerciseIds).map(ex => (
                 <div key={ex.id} className="preview-ex-row">
-                  <span>{ex.name}</span>
+                  <span>{getExerciseDisplayName(ex, lang)}</span>
                   <span className="preview-detail">{ex.sets}×{ex.reps}</span>
                   <span className="tag">{ex.difficulty}</span>
                 </div>
@@ -666,6 +786,67 @@ export default function TrainingPage({ tracker }) {
               }}>
               ▶ {t('training.play')}
             </button>
+          </div>
+        </div>
+      )}
+
+      {showQuickStartModal && (
+        <div className="modal-backdrop" onClick={closeQuickStartModal}>
+          <div className="modal-content quick-start-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <h2>{lang === 'es' ? 'Configura tu rutina' : 'Configure your workout'}</h2>
+              <button className="btn btn-ghost" onClick={closeQuickStartModal}>✕</button>
+            </div>
+
+            <p className="quick-start-target">
+              {lang === 'es' ? 'Zona seleccionada:' : 'Selected area:'} <strong>{quickTargetLabel}</strong>
+            </p>
+
+            <div className="quick-start-form-grid">
+              <label className="quick-start-field">
+                <span>{lang === 'es' ? 'Nivel' : 'Level'}</span>
+                <select value={quickLevel} onChange={(e) => setQuickLevel(e.target.value)}>
+                  <option value="beginner">{t('training.beginner')}</option>
+                  <option value="intermediate">{t('training.intermediate')}</option>
+                  <option value="advanced">{t('training.advanced')}</option>
+                </select>
+              </label>
+
+              <label className="quick-start-field">
+                <span>{lang === 'es' ? 'Equipo' : 'Equipment'}</span>
+                <select value={quickEnvironment} onChange={(e) => setQuickEnvironment(e.target.value)}>
+                  <option value="home">{lang === 'es' ? 'Casero' : 'Home'}</option>
+                  <option value="gym">{lang === 'es' ? 'Gimnasio' : 'Gym'}</option>
+                </select>
+              </label>
+
+              <label className="quick-start-field">
+                <span>{lang === 'es' ? 'Tipo' : 'Style'}</span>
+                <select value={quickStyle} onChange={(e) => setQuickStyle(e.target.value)}>
+                  <option value="normal">{lang === 'es' ? 'Normal' : 'Normal'}</option>
+                  <option value="hiit">HIIT</option>
+                </select>
+              </label>
+
+              <label className="quick-start-field">
+                <span>{lang === 'es' ? 'Duración' : 'Duration'}</span>
+                <select value={quickDurationMinutes} onChange={(e) => setQuickDurationMinutes(e.target.value)}>
+                  <option value="20">20 min</option>
+                  <option value="30">30 min</option>
+                  <option value="45">45 min</option>
+                  <option value="60">60 min</option>
+                </select>
+              </label>
+            </div>
+
+            <div className="quick-start-actions">
+              <button className="btn btn-ghost" onClick={closeQuickStartModal}>
+                {lang === 'es' ? 'Cancelar' : 'Cancel'}
+              </button>
+              <button className="btn btn-primary" onClick={handleQuickStart}>
+                ▶ {lang === 'es' ? 'Iniciar rutina' : 'Start routine'}
+              </button>
+            </div>
           </div>
         </div>
       )}

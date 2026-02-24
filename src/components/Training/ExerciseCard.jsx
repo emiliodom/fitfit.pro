@@ -2,10 +2,12 @@ import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import YouTubeCarousel from './YouTubeCarousel';
 import { useLanguage } from '../../i18n/LanguageContext';
+import { getExerciseDisplayName } from '../../utils/exerciseDisplay';
 
 export default function ExerciseCard({ exercise, isSelected, onToggle, equipmentData, lang }) {
   const { t } = useLanguage();
   const [showVideo, setShowVideo] = useState(false);
+  const displayName = getExerciseDisplayName(exercise, lang);
 
   const getEquipmentNames = (eqIds) => {
     return eqIds.map(id => {
@@ -27,7 +29,7 @@ export default function ExerciseCard({ exercise, isSelected, onToggle, equipment
         onClick={onToggle}
       >
         {isSelected && <div className="ex-check">✓</div>}
-        <div className="ex-name">{exercise.name}</div>
+        <div className="ex-name">{displayName}</div>
         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 4 }}>
           {exercise.muscles.map(m => (
             <span key={m} className="tag" style={{ fontSize: '0.65rem' }}>{m}</span>
