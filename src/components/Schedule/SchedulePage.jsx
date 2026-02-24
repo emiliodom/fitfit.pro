@@ -211,7 +211,7 @@ export default function SchedulePage({ tracker }) {
             <span className="tag">{todayRoutine.type}</span>
             <span className="tag">{todayRoutine.duration}</span>
             <span className="tag">{currentPhase.name}</span>
-            <span className="tag">Day {challengeDay}/{totalDays}</span>
+            <span className="tag">{t('schedule.day')} {challengeDay}/{totalDays}</span>
           </div>
           {todayRoutine.isRest ? (
             <p className="tsc-rest">{t('schedule.restDay')}</p>

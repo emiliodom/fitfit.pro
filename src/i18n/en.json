@@ -13,6 +13,8 @@
     "predefined": "Predefined",
     "goalBased": "Goal Plan",
     "workoutLibrary": "Workout Library",
+    "exerciseLibrary": "Exercise Library",
+    "library": "Exercise Library",
     "workoutLibraryTitle": "Alternative Prebuilt Workouts",
     "workoutLibrarySubtitle": "Choose routines by available equipment or target muscle section.",
     "configDuration": "Workout Duration",
@@ -22,7 +24,6 @@
     "configLevel": "Level",
     "levelAll": "All Levels",
     "custom": "Custom Builder",
-    "library": "Library",
     "glutes": "Glutes",
     "today": "TODAY",
     "play": "Play",
@@ -38,6 +39,7 @@
     "exercise": "exercise",
     "clearSelection": "Clear",
     "playRoutine": "Play Routine",
+    "restRecover": "Rest and recover.",
     "noResults": "No exercises match your filters.",
     "sets": "sets",
     "reps": "reps",
@@ -50,6 +52,7 @@
     "equipment": "Equipment",
     "cue": "Cue",
     "watchForm": "Watch Form",
+    "formVideos": "Videos",
     "todaysRoutine": "Today's Routine",
     "phase": "Phase",
     "week": "Week",
@@ -69,8 +72,16 @@
     "active": "ACTIVE",
     "formVideos": "Form Videos",
     "manualTimer": "Rest Timer (manual)",
+    "rest": "REST",
+    "set": "Set",
+    "dragReorder": "Drag to reorder",
     "start": "Start",
     "pause": "Pause"
+  },
+  "sound": {
+    "settings": "Sound Settings",
+    "title": "Sound",
+    "volume": "Volume"
   },
   "schedule": {
     "title": "90-Day V-Taper Schedule",
@@ -129,7 +140,12 @@
     "weekOverview": "Weekly Overview",
     "fast": "FAST",
     "feed": "FEED",
-    "macroTargets": "Macro Targets"
+    "macroTargets": "Macro Targets",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fats": "Fats",
+    "calories": "Calories",
+    "vegetables": "Vegetables"
   },
   "mindfulness": {
     "title": "Mindfulness & Recovery",
@@ -173,6 +189,7 @@
     "reset": "Reset",
     "all": "All",
     "start": "Start",
+    "pause": "Pause",
     "done": "Done",
     "loading": "Loading...",
     "search": "Search",
@@ -189,6 +206,11 @@
     "Your muscles don't know how much weight is on the bar — they only know tension.",
     "2g protein/kg bodyweight optimizes recomp. Distribute across 4+ meals. — Morton et al., 2018",
     "Discipline is choosing between what you want NOW and what you want MOST.",
-    "Training to failure isn't necessary for growth — 1-3 RIR is optimal. — Grgic et al., 2022"
+    "Training to failure isn't necessary for growth — 1-3 RIR is optimal. — Grgic et al., 2022",
+    "You don't need motivation every day; you need structure and repetition.",
+    "Technique first, load second: injury-free consistency wins.",
+    "Eat to perform today and recover for tomorrow.",
+    "One bad workout doesn't ruin progress; quitting the plan does.",
+    "Keep your foundations simple: sleep, protein, steps, water, and training."
   ]
 }

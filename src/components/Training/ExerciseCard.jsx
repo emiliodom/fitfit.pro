@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import YouTubeCarousel from './YouTubeCarousel';
+import { useLanguage } from '../../i18n/LanguageContext';
 
 export default function ExerciseCard({ exercise, isSelected, onToggle, equipmentData, lang }) {
+  const { t } = useLanguage();
   const [showVideo, setShowVideo] = useState(false);
 
   const getEquipmentNames = (eqIds) => {
@@ -46,13 +48,13 @@ export default function ExerciseCard({ exercise, isSelected, onToggle, equipment
         {/* Video button */}
         <button
           className="ex-video-btn"
-          title="Watch form videos"
+          title={t('training.watchForm')}
           onClick={(e) => {
             e.stopPropagation();
             setShowVideo(true);
           }}
         >
-          🎬 Videos
+          🎬 {t('training.formVideos')}
         </button>
       </div>
       {showVideo && createPortal(

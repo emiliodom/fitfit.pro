@@ -13,6 +13,8 @@
     "predefined": "Predefinidas",
     "goalBased": "Plan por Objetivo",
     "workoutLibrary": "Biblioteca de Rutinas",
+    "exerciseLibrary": "Biblioteca de Ejercicios",
+    "library": "Biblioteca de Ejercicios",
     "workoutLibraryTitle": "Rutinas Predefinidas Alternativas",
     "workoutLibrarySubtitle": "Elegí rutinas por equipo disponible o por sección muscular objetivo.",
     "configDuration": "Duración del Entrenamiento",
@@ -22,7 +24,6 @@
     "configLevel": "Nivel",
     "levelAll": "Todos los Niveles",
     "custom": "Constructor",
-    "library": "Biblioteca",
     "glutes": "Glúteos",
     "today": "HOY",
     "play": "Iniciar",
@@ -46,6 +47,7 @@
     "equipment": "Equipo",
     "cue": "Indicación",
     "watchForm": "Ver Forma",
+    "formVideos": "Videos",
     "todaysRoutine": "Rutina de Hoy",
     "phase": "Fase",
     "week": "Semana",
@@ -65,8 +67,16 @@
     "active": "ACTIVO",
     "formVideos": "Videos de Forma",
     "manualTimer": "Temporizador (manual)",
+    "rest": "DESCANSO",
+    "set": "Serie",
+    "dragReorder": "Arrastrar para reordenar",
     "start": "Iniciar",
     "pause": "Pausar"
+  },
+  "sound": {
+    "settings": "Configuración de Sonido",
+    "title": "Sonido",
+    "volume": "Volumen"
   },
   "schedule": {
     "title": "Calendario V-Taper 90 Días",
@@ -125,7 +135,12 @@
     "weekOverview": "Resumen Semanal",
     "fast": "AYUNO",
     "feed": "ALIMENTACIÓN",
-    "macroTargets": "Metas de Macros"
+    "macroTargets": "Metas de Macros",
+    "protein": "Proteína",
+    "carbs": "Carbohidratos",
+    "fats": "Grasas",
+    "calories": "Calorías",
+    "vegetables": "Vegetales"
   },
   "mindfulness": {
     "title": "Mindfulness y Recuperación",
@@ -169,6 +184,7 @@
     "reset": "Reiniciar",
     "all": "Todo",
     "start": "Iniciar",
+    "pause": "Pausar",
     "done": "Hecho",
     "loading": "Cargando...",
     "search": "Buscar",
@@ -185,6 +201,11 @@
     "Tus músculos no saben cuánto peso hay en la barra — solo conocen la tensión.",
     "2g proteína/kg de peso corporal optimiza la recomposición. Distribuí en 4+ comidas. — Morton et al., 2018",
     "Disciplina es elegir entre lo que querés AHORA y lo que querés MÁS.",
-    "Entrenar al fallo no es necesario para crecer — 1-3 RIR es óptimo. — Grgic et al., 2022"
+    "Entrenar al fallo no es necesario para crecer — 1-3 RIR es óptimo. — Grgic et al., 2022",
+    "No necesitás motivación todos los días; necesitás estructura y repetición.",
+    "Primero técnica, después carga: la consistencia sin lesiones gana siempre.",
+    "Comé para rendir hoy y recuperarte para mañana.",
+    "Un mal entrenamiento no arruina el progreso; abandonar el plan sí.",
+    "Mantené simples tus bases: sueño, proteína, pasos, agua y entrenamiento."
   ]
 }

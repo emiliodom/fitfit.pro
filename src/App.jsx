@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { useLanguage } from './i18n/LanguageContext';
 import Navbar from './components/Navbar';
 import TrainingPage from './components/Training/TrainingPage';
@@ -13,12 +13,22 @@ function App() {
   const [activeTab, setActiveTab] = useState('training');
   const tracker = useRoutineTracker();
   const { t, lang, setLang } = useLanguage();
+  const [quoteIndex, setQuoteIndex] = useState(0);
 
   const quotes = t('quotes');
-  const dailyQuote = useMemo(() => {
-    if (!Array.isArray(quotes)) return '';
-    const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
-    return quotes[dayOfYear % quotes.length];
+  const heroQuote = Array.isArray(quotes) && quotes.length > 0 ? quotes[quoteIndex] : '';
+
+  useEffect(() => {
+    if (!Array.isArray(quotes) || quotes.length === 0) return;
+    setQuoteIndex(Math.floor(Math.random() * quotes.length));
+  }, [quotes]);
+
+  useEffect(() => {
+    if (!Array.isArray(quotes) || quotes.length <= 1) return;
+    const intervalId = setInterval(() => {
+      setQuoteIndex((prev) => (prev + 1) % quotes.length);
+    }, 10000);
+    return () => clearInterval(intervalId);
   }, [quotes]);
 
   const TABS = [
@@ -43,10 +53,10 @@ function App() {
         lang={lang}
         setLang={setLang}
       />
-      {dailyQuote && (
+      {heroQuote && (
         <div className="motivational-quote">
           <span className="quote-icon">💡</span>
-          <p>{dailyQuote}</p>
+          <p>{heroQuote}</p>
         </div>
       )}
       <main className="main-container">
