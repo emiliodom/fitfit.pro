@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { useLanguage } from '../i18n/LanguageContext';
 import { SOUND_PACKS, getSoundPack, setSoundPack, getVolume, setVolume, playBeep } from '../utils/audio';
 
 export default function SoundSettings() {
+  const { t } = useLanguage();
   const [pack, setPack] = useState(getSoundPack());
   const [vol, setVol] = useState(getVolume());
   const [open, setOpen] = useState(false);
@@ -23,7 +25,7 @@ export default function SoundSettings() {
       <button
         className="sound-toggle-btn"
         onClick={() => setOpen(true)}
-        title="Sound Settings"
+        title={t('sound.settings')}
       >
         🔊
       </button>
@@ -33,7 +35,7 @@ export default function SoundSettings() {
   return (
     <div className="sound-settings">
       <div className="sound-settings-header">
-        <span>🔊 Sound</span>
+        <span>🔊 {t('sound.title')}</span>
         <button className="sound-close-btn" onClick={() => setOpen(false)}>✕</button>
       </div>
       <div className="sound-pack-list">
@@ -48,7 +50,7 @@ export default function SoundSettings() {
         ))}
       </div>
       <div className="sound-volume">
-        <label>Volume</label>
+        <label>{t('sound.volume')}</label>
         <input
           type="range"
           min="0"

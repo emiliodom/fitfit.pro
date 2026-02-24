@@ -1,7 +1,11 @@
+import { useLanguage } from '../../i18n/LanguageContext';
+
 export default function EquipmentFilter({ equipment, selected, onToggle }) {
+  const { t } = useLanguage();
+
   return (
     <div className="section">
-      <h3 className="section-title">🎯 Equipment Available</h3>
+      <h3 className="section-title">🎯 {t('training.equipmentTitle')}</h3>
       <div className="equipment-filter">
         {equipment.map(eq => (
           <button
