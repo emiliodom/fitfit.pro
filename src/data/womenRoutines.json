@@ -1,0 +1,150 @@
+{
+  "sections": [
+    {
+      "id": "strength",
+      "name": "Strength Foundations",
+      "nameEs": "Base de Fuerza",
+      "description": "Build strength and confidence with full-body sessions.",
+      "descriptionEs": "Construye fuerza y confianza con sesiones completas.",
+      "routines": [
+        {
+          "id": "full-body-power",
+          "name": "Full Body Power",
+          "nameEs": "Potencia Total",
+          "duration": "35-45 min",
+          "level": "Intermediate",
+          "levelEs": "Intermedio",
+          "focus": "Compound lifts, steady pace.",
+          "focusEs": "Basicos, ritmo estable.",
+          "steps": [
+            "3 x 8 goblet squat",
+            "3 x 10 dumbbell row",
+            "3 x 8 hip thrust",
+            "3 x 20 sec side plank"
+          ],
+          "stepsEs": [
+            "3 x 8 sentadilla goblet",
+            "3 x 10 remo con mancuernas",
+            "3 x 8 hip thrust",
+            "3 x 20 seg plancha lateral"
+          ]
+        },
+        {
+          "id": "upper-body-tone",
+          "name": "Upper Body Tone",
+          "nameEs": "Tono Tren Superior",
+          "duration": "30-40 min",
+          "level": "Beginner",
+          "levelEs": "Principiante",
+          "focus": "Posture, shoulders, back.",
+          "focusEs": "Postura, hombros y espalda.",
+          "steps": [
+            "3 x 10 incline push-up",
+            "3 x 12 band pull-apart",
+            "3 x 10 overhead press",
+            "2 x 30 sec farmer hold"
+          ],
+          "stepsEs": [
+            "3 x 10 flexion inclinada",
+            "3 x 12 pull-apart con banda",
+            "3 x 10 press sobre cabeza",
+            "2 x 30 seg agarre de granjero"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "name": "Core + Pelvic Floor",
+      "nameEs": "Core y Suelo Pelvico",
+      "description": "Breathing-led core control and pelvic support.",
+      "descriptionEs": "Control de core con respiracion y soporte pelvico.",
+      "routines": [
+        {
+          "id": "core-stability",
+          "name": "Core Stability",
+          "nameEs": "Estabilidad de Core",
+          "duration": "20-25 min",
+          "level": "All levels",
+          "levelEs": "Todos los niveles",
+          "focus": "Breath, ribs, deep core.",
+          "focusEs": "Respiracion, costillas, core profundo.",
+          "steps": [
+            "5 x 5 breath reset",
+            "3 x 8 dead bug",
+            "3 x 20 sec bird dog hold",
+            "2 x 8 side plank dips"
+          ],
+          "stepsEs": [
+            "5 x 5 respiraciones controladas",
+            "3 x 8 dead bug",
+            "3 x 20 seg bird dog",
+            "2 x 8 dips en plancha lateral"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metabolic",
+      "name": "Metabolic Lift",
+      "nameEs": "Metabolico",
+      "description": "Low-impact intervals to elevate energy and stamina.",
+      "descriptionEs": "Intervalos de bajo impacto para energia y resistencia.",
+      "routines": [
+        {
+          "id": "metabolic-flow",
+          "name": "Metabolic Flow",
+          "nameEs": "Flujo Metabolico",
+          "duration": "25-30 min",
+          "level": "Intermediate",
+          "levelEs": "Intermedio",
+          "focus": "Circuit pacing with controlled impact.",
+          "focusEs": "Circuito con impacto controlado.",
+          "steps": [
+            "3 rounds: 40 sec step-ups",
+            "3 rounds: 40 sec squat to press",
+            "3 rounds: 40 sec marching plank",
+            "Rest 60 sec between rounds"
+          ],
+          "stepsEs": [
+            "3 rondas: 40 seg step-ups",
+            "3 rondas: 40 seg sentadilla con press",
+            "3 rondas: 40 seg plancha marchada",
+            "Descansa 60 seg entre rondas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mobility",
+      "name": "Mobility + Recovery",
+      "nameEs": "Movilidad y Recuperacion",
+      "description": "Unwind hips, shoulders, and back after training.",
+      "descriptionEs": "Libera caderas, hombros y espalda despues de entrenar.",
+      "routines": [
+        {
+          "id": "restore",
+          "name": "Restore Session",
+          "nameEs": "Sesion de Recuperacion",
+          "duration": "15-20 min",
+          "level": "All levels",
+          "levelEs": "Todos los niveles",
+          "focus": "Gentle stretches and breathing.",
+          "focusEs": "Estiramientos suaves y respiracion.",
+          "steps": [
+            "60 sec hip flexor stretch per side",
+            "45 sec chest opener",
+            "8 thoracic rotations per side",
+            "2 min box breathing"
+          ],
+          "stepsEs": [
+            "60 seg estiramiento de psoas por lado",
+            "45 seg apertura de pecho",
+            "8 rotaciones toracicas por lado",
+            "2 min respiracion cuadrada"
+          ]
+        }
+      ]
+    }
+  ]
+}

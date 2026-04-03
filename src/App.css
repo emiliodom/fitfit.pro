@@ -1858,6 +1858,57 @@
   50% { opacity: 1; transform: scale(1.15); }
 }
 
+/* ── Women Page ── */
+.women-page .section-headline {
+  margin-bottom: 16px;
+}
+
+.women-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 0.2s ease;
+}
+
+.women-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.women-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.women-card-header h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.women-card-header p {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.women-card-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.women-card ul {
+  padding-left: 18px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
 @media (max-width: 600px) {
   .yt-modal {
     max-width: 100%;

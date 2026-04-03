@@ -4,6 +4,7 @@
     "running": "Running",
     "valgus": "Valgus",
     "kids": "Cataleya",
+    "women": "Mujer",
     "schedule": "Calendario",
     "nutrition": "Nutrición",
     "mindfulness": "Mindfulness",
@@ -62,6 +63,10 @@
     "badge": "Zona Cataleya",
     "title": "Laboratorio de Color de Cataleya",
     "subtitle": "Aventuras super coloridas para caminar, pesas, running, estirar y yoga."
+  },
+  "women": {
+    "title": "Laboratorio de Entrenamiento Mujer",
+    "subtitle": "Fuerza, core, circuitos metabolicos y recuperacion con buen ritmo."
   },
   "training": {
     "title": "Matriz de Entrenamiento",

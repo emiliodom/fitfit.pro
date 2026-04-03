@@ -4,6 +4,7 @@
     "running": "Running",
     "valgus": "Valgus Care",
     "kids": "Cataleya",
+    "women": "Women",
     "schedule": "Schedule",
     "nutrition": "Nutrition",
     "mindfulness": "Mindfulness",
@@ -62,6 +63,10 @@
     "badge": "Cataleya Zone",
     "title": "Cataleya's Color Lab",
     "subtitle": "Super colorful movement adventures for walking, weights, running, stretching, and yoga."
+  },
+  "women": {
+    "title": "Women’s Training Lab",
+    "subtitle": "Strength, core, metabolic circuits, and recovery with smart pacing."
   },
   "training": {
     "title": "Training Matrix",
