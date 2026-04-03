@@ -3,6 +3,7 @@
     "training": "Training",
     "running": "Running",
     "valgus": "Valgus Care",
+    "kids": "Cataleya",
     "schedule": "Schedule",
     "nutrition": "Nutrition",
     "mindfulness": "Mindfulness",
@@ -56,6 +57,11 @@
       "mobility": "Mobility",
       "sport": "Sport"
     }
+  },
+  "kids": {
+    "badge": "Cataleya Zone",
+    "title": "Cataleya's Color Lab",
+    "subtitle": "Super colorful movement adventures for walking, weights, running, stretching, and yoga."
   },
   "training": {
     "title": "Training Matrix",

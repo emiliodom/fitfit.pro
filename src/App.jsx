@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import TrainingPage from './components/Training/TrainingPage';
 import RunningPage from './components/Running/RunningPage';
 import ValgusPage from './components/Valgus/ValgusPage';
+import KidsPage from './components/Kids/KidsPage';
 import SchedulePage from './components/Schedule/SchedulePage';
 import NutritionPage from './components/Nutrition/NutritionPage';
 import MindfulnessPage from './components/Mindfulness/MindfulnessPage';
@@ -37,6 +38,7 @@ function App() {
     { id: 'training', label: t('nav.training'), icon: '⚡' },
     { id: 'running', label: t('nav.running'), icon: '🏃' },
     { id: 'valgus', label: t('nav.valgus'), icon: '🦵' },
+    { id: 'kids', label: t('nav.kids'), icon: '🌈' },
     { id: 'schedule', label: t('nav.schedule'), icon: '📅' },
     { id: 'nutrition', label: t('nav.nutrition'), icon: '🥗' },
     { id: 'mindfulness', label: t('nav.mindfulness'), icon: '🧘' },
@@ -67,6 +69,7 @@ function App() {
         {activeTab === 'training' && <TrainingPage tracker={tracker} />}
         {activeTab === 'running' && <RunningPage />}
         {activeTab === 'valgus' && <ValgusPage />}
+        {activeTab === 'kids' && <KidsPage />}
         {activeTab === 'schedule' && <SchedulePage tracker={tracker} />}
         {activeTab === 'nutrition' && <NutritionPage />}
         {activeTab === 'mindfulness' && <MindfulnessPage />}

@@ -3,6 +3,7 @@
     "training": "Entrenamiento",
     "running": "Running",
     "valgus": "Valgus",
+    "kids": "Cataleya",
     "schedule": "Calendario",
     "nutrition": "Nutrición",
     "mindfulness": "Mindfulness",
@@ -56,6 +57,11 @@
       "mobility": "Movilidad",
       "sport": "Deporte"
     }
+  },
+  "kids": {
+    "badge": "Zona Cataleya",
+    "title": "Laboratorio de Color de Cataleya",
+    "subtitle": "Aventuras super coloridas para caminar, pesas, running, estirar y yoga."
   },
   "training": {
     "title": "Matriz de Entrenamiento",

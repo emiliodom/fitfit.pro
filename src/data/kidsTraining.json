@@ -1,0 +1,241 @@
+{
+  "categories": [
+    {
+      "id": "walking",
+      "name": "Walking Adventures",
+      "nameEs": "Aventuras Caminando",
+      "description": "Fun explorations that build endurance and curiosity.",
+      "descriptionEs": "Exploraciones divertidas para resistencia y curiosidad.",
+      "color": "#f97316",
+      "icon": "🚶‍♀️",
+      "sessions": [
+        {
+          "id": "rainbow-walk",
+          "name": "Rainbow Walk",
+          "nameEs": "Caminata Arcoiris",
+          "duration": "20-25 min",
+          "energy": "Easy adventure pace",
+          "energyEs": "Ritmo suave de aventura",
+          "steps": [
+            "Find 5 colors on your walk",
+            "Count 20 big steps, then 20 tiny steps",
+            "Finish with 2 minutes of quiet breathing"
+          ],
+          "stepsEs": [
+            "Busca 5 colores en el camino",
+            "Cuenta 20 pasos grandes y 20 pasos pequenos",
+            "Termina con 2 minutos de respiracion tranquila"
+          ]
+        },
+        {
+          "id": "story-stroll",
+          "name": "Story Stroll",
+          "nameEs": "Paseo con Historia",
+          "duration": "15-20 min",
+          "energy": "Imagination walk",
+          "energyEs": "Caminata con imaginacion",
+          "steps": [
+            "Pick a superhero mission for the walk",
+            "Walk fast for 1 minute, slow for 1 minute",
+            "End with a gentle stretch"
+          ],
+          "stepsEs": [
+            "Elige una mision de superheroina",
+            "Camina rapido 1 minuto, lento 1 minuto",
+            "Termina con estiramiento suave"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weights",
+      "name": "Tiny Weights",
+      "nameEs": "Pesitas Divertidas",
+      "description": "Light resistance and playful strength for growing bodies.",
+      "descriptionEs": "Resistencia ligera y fuerza divertida para crecer.",
+      "color": "#facc15",
+      "icon": "🏋️‍♀️",
+      "sessions": [
+        {
+          "id": "super-strong",
+          "name": "Super Strong Circuit",
+          "nameEs": "Circuito Super Fuerte",
+          "duration": "12-15 min",
+          "energy": "Playful strength",
+          "energyEs": "Fuerza divertida",
+          "steps": [
+            "8 chair squats",
+            "8 wall push-ups",
+            "10 teddy bear carries",
+            "Repeat 2 rounds"
+          ],
+          "stepsEs": [
+            "8 sentadillas a silla",
+            "8 flexiones en pared",
+            "10 pasos cargando osito",
+            "Repite 2 rondas"
+          ]
+        },
+        {
+          "id": "balance-hero",
+          "name": "Balance Hero",
+          "nameEs": "Heroina del Balance",
+          "duration": "10-12 min",
+          "energy": "Focus and balance",
+          "energyEs": "Foco y equilibrio",
+          "steps": [
+            "Hold airplane arms 20 sec each side",
+            "10 gentle lunges",
+            "30 sec plank on knees"
+          ],
+          "stepsEs": [
+            "Brazos de avion 20 seg por lado",
+            "10 zancadas suaves",
+            "30 seg plancha en rodillas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "running",
+      "name": "Running Games",
+      "nameEs": "Juegos de Running",
+      "description": "Short bursts and games to build speed safely.",
+      "descriptionEs": "Rafagas y juegos para velocidad segura.",
+      "color": "#38bdf8",
+      "icon": "🏃‍♀️",
+      "sessions": [
+        {
+          "id": "rocket-runs",
+          "name": "Rocket Runs",
+          "nameEs": "Carreras Cohete",
+          "duration": "10-15 min",
+          "energy": "Short sprints",
+          "energyEs": "Sprints cortos",
+          "steps": [
+            "Run fast to a tree, walk back",
+            "Repeat 6 times",
+            "Finish with slow jog"
+          ],
+          "stepsEs": [
+            "Corre rapido hasta un arbol, vuelve caminando",
+            "Repite 6 veces",
+            "Termina con trote suave"
+          ]
+        },
+        {
+          "id": "zigzag",
+          "name": "Zig-Zag Trail",
+          "nameEs": "Camino en Zig-Zag",
+          "duration": "12-15 min",
+          "energy": "Agility play",
+          "energyEs": "Juego de agilidad",
+          "steps": [
+            "Set 5 markers and zig-zag run",
+            "Walk back and breathe",
+            "Repeat 4 rounds"
+          ],
+          "stepsEs": [
+            "Marca 5 puntos y corre en zig-zag",
+            "Vuelve caminando y respira",
+            "Repite 4 rondas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stretching",
+      "name": "Stretch and Shine",
+      "nameEs": "Estirar y Brillar",
+      "description": "Gentle stretches for flexibility and calm.",
+      "descriptionEs": "Estiramientos suaves para flexibilidad y calma.",
+      "color": "#a855f7",
+      "icon": "🧘‍♀️",
+      "sessions": [
+        {
+          "id": "sunset-stretch",
+          "name": "Sunset Stretch",
+          "nameEs": "Estiramiento del Atardecer",
+          "duration": "8-10 min",
+          "energy": "Slow and relaxing",
+          "energyEs": "Lento y relajante",
+          "steps": [
+            "Reach to the sky, 5 breaths",
+            "Butterfly stretch 30 sec",
+            "Cat-cow 6 times"
+          ],
+          "stepsEs": [
+            "Alcanza el cielo, 5 respiraciones",
+            "Mariposa 30 seg",
+            "Gato-vaca 6 veces"
+          ]
+        },
+        {
+          "id": "star-flex",
+          "name": "Star Flex",
+          "nameEs": "Estrella Flexible",
+          "duration": "8-12 min",
+          "energy": "Gentle flow",
+          "energyEs": "Flujo suave",
+          "steps": [
+            "Side stretch 20 sec per side",
+            "Hip circles 8 each way",
+            "Seated twist 20 sec per side"
+          ],
+          "stepsEs": [
+            "Estiramiento lateral 20 seg por lado",
+            "Circulos de cadera 8 por lado",
+            "Giro sentado 20 seg por lado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yoga",
+      "name": "Kids Yoga",
+      "nameEs": "Yoga para Ninas",
+      "description": "Breathing and balance for focus and joy.",
+      "descriptionEs": "Respiracion y balance para foco y alegria.",
+      "color": "#22c55e",
+      "icon": "🦋",
+      "sessions": [
+        {
+          "id": "animal-flow",
+          "name": "Animal Flow",
+          "nameEs": "Flujo Animal",
+          "duration": "10-12 min",
+          "energy": "Playful flow",
+          "energyEs": "Flujo divertido",
+          "steps": [
+            "Cat pose to cow pose x6",
+            "Down dog to cobra x4",
+            "Tree pose 20 sec per side"
+          ],
+          "stepsEs": [
+            "Gato a vaca x6",
+            "Perro abajo a cobra x4",
+            "Arbol 20 seg por lado"
+          ]
+        },
+        {
+          "id": "moon-breath",
+          "name": "Moon Breath",
+          "nameEs": "Respiracion Luna",
+          "duration": "8-10 min",
+          "energy": "Calm breathing",
+          "energyEs": "Respiracion calmada",
+          "steps": [
+            "Seated breathing 5 slow breaths",
+            "Butterfly wings 30 sec",
+            "Rest with eyes closed 1 min"
+          ],
+          "stepsEs": [
+            "Respiracion sentada 5 respiraciones",
+            "Alas mariposa 30 seg",
+            "Descanso con ojos cerrados 1 min"
+          ]
+        }
+      ]
+    }
+  ]
+}
