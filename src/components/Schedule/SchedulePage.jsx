@@ -346,26 +346,28 @@ export default function SchedulePage({ tracker }) {
         </p>
         {tracker.workoutLog.length > 0 && (
           <div style={{ marginTop: 16, maxHeight: 200, overflowY: 'auto' }}>
-            <table className="data-table">
-              <thead>
-                <tr>
-                  <th>{t('schedule.date')}</th>
-                  <th>{t('schedule.type')}</th>
-                  <th>{t('schedule.exercises')}</th>
-                  <th>{t('schedule.duration')}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {tracker.workoutLog.slice(-10).reverse().map(w => (
-                  <tr key={w.id}>
-                    <td>{new Date(w.date).toLocaleDateString()}</td>
-                    <td><span className="tag">{w.category}</span></td>
-                    <td>{w.exercises?.length || 0}</td>
-                    <td>{w.duration || '—'} min</td>
+            <div className="table-scroll">
+              <table className="data-table">
+                <thead>
+                  <tr>
+                    <th>{t('schedule.date')}</th>
+                    <th>{t('schedule.type')}</th>
+                    <th>{t('schedule.exercises')}</th>
+                    <th>{t('schedule.duration')}</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {tracker.workoutLog.slice(-10).reverse().map(w => (
+                    <tr key={w.id}>
+                      <td>{new Date(w.date).toLocaleDateString()}</td>
+                      <td><span className="tag">{w.category}</span></td>
+                      <td>{w.exercises?.length || 0}</td>
+                      <td>{w.duration || '—'} min</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         )}
       </div>

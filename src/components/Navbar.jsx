@@ -9,6 +9,7 @@ export default function Navbar({ tabs, activeTab, onTabChange, lang, setLang }) 
               key={tab.id}
               className={`nav-btn ${activeTab === tab.id ? 'active' : ''}`}
               onClick={() => onTabChange(tab.id)}
+              aria-label={tab.label}
             >
               <span className="nav-icon">{tab.icon}</span>
               <span className="nav-label">{tab.label}</span>
@@ -19,6 +20,7 @@ export default function Navbar({ tabs, activeTab, onTabChange, lang, setLang }) 
           className="lang-toggle"
           onClick={() => setLang(lang === 'en' ? 'es' : 'en')}
           title={lang === 'en' ? 'Cambiar a Español' : 'Switch to English'}
+          aria-label={lang === 'en' ? 'Switch to Spanish' : 'Switch to English'}
         >
           {lang === 'en' ? '🇪🇸 ES' : '🇺🇸 EN'}
         </button>

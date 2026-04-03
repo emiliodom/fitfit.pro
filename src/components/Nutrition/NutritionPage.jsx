@@ -199,14 +199,16 @@ export default function NutritionPage() {
           </div>
           <div className="card">
             <h2 style={{ marginBottom: 16 }}>{t('nutrition.macroTargets')}</h2>
-            <table className="data-table">
-              <tbody>
-                <tr><th>{t('nutrition.protein')}</th><td>{recipesData.macroTargets.protein}</td></tr>
-                <tr><th>{t('nutrition.carbs')}</th><td>{recipesData.macroTargets.carbs}</td></tr>
-                <tr><th>{t('nutrition.fats')}</th><td>{recipesData.macroTargets.fats}</td></tr>
-                <tr><th>{t('nutrition.calories')}</th><td>{recipesData.macroTargets.calories}</td></tr>
-              </tbody>
-            </table>
+            <div className="table-scroll">
+              <table className="data-table">
+                <tbody>
+                  <tr><th>{t('nutrition.protein')}</th><td>{recipesData.macroTargets.protein}</td></tr>
+                  <tr><th>{t('nutrition.carbs')}</th><td>{recipesData.macroTargets.carbs}</td></tr>
+                  <tr><th>{t('nutrition.fats')}</th><td>{recipesData.macroTargets.fats}</td></tr>
+                  <tr><th>{t('nutrition.calories')}</th><td>{recipesData.macroTargets.calories}</td></tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       )}
