@@ -15,6 +15,7 @@ import './App.css';
 
 function App() {
   const [activeTab, setActiveTab] = useState('training');
+  const [sidebarOpen, setSidebarOpen] = useState(true);
   const tracker = useRoutineTracker();
   const { t, lang, setLang } = useLanguage();
   const [quoteIndex, setQuoteIndex] = useState(0);
@@ -67,7 +68,7 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div className={`app ${sidebarOpen ? 'sidebar-open' : 'sidebar-collapsed'}`}>
       <Navbar
         tabs={TABS}
         activeTab={activeTab}
@@ -76,6 +77,8 @@ function App() {
         setLang={setLang}
         theme={theme}
         setTheme={setTheme}
+        sidebarOpen={sidebarOpen}
+        setSidebarOpen={setSidebarOpen}
       />
       {heroQuote && (
         <div className="motivational-quote">
