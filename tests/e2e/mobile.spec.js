@@ -3,16 +3,15 @@ import { test, expect } from '@playwright/test';
 test.describe('mobile app feel', () => {
   test.use({ viewport: { width: 390, height: 844 } });
 
-  test('bottom nav and language toggle are accessible', async ({ page }) => {
+  test('sidebar toggle and language toggle are accessible', async ({ page }) => {
     await page.goto('/');
 
-    const nav = page.locator('nav.navbar');
-    await expect(nav).toBeVisible();
+    const toggle = page.getByRole('button', { name: /Expand navigation|Collapse navigation/i });
+    await expect(toggle).toBeVisible();
+    await toggle.click();
 
-    const navPosition = await nav.evaluate(el => getComputedStyle(el).position);
-    const navBottom = await nav.evaluate(el => getComputedStyle(el).bottom);
-    expect(navPosition).toBe('fixed');
-    expect(navBottom).toBe('0px');
+    const sidebar = page.locator('nav.sidebar');
+    await expect(sidebar).toBeVisible();
 
     const themeToggle = page.locator('.theme-toggle');
     await expect(themeToggle).toBeVisible();
