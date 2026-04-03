@@ -67,6 +67,7 @@ export default function TrainingPage({ tracker }) {
   const [quickStyle, setQuickStyle] = useState('normal');
   const [quickDurationMinutes, setQuickDurationMinutes] = useState('30');
   const timer = useTimer(60);
+  const [activeFeedId, setActiveFeedId] = useState('women');
 
   const progression = getCurrentProgression();
   const phaseKey = getPhaseKey(progression.week);
@@ -258,6 +259,7 @@ export default function TrainingPage({ tracker }) {
     return [
       {
         id: 'women',
+        tab: t('training.feed.womenTab'),
         title: t('training.feed.womenTitle'),
         description: t('training.feed.womenDesc'),
         tips: getTips('training.feed.womenTips'),
@@ -267,6 +269,7 @@ export default function TrainingPage({ tracker }) {
       },
       {
         id: 'kids',
+        tab: t('training.feed.kidsTab'),
         title: t('training.feed.kidsTitle'),
         description: t('training.feed.kidsDesc'),
         tips: getTips('training.feed.kidsTips'),
@@ -276,6 +279,7 @@ export default function TrainingPage({ tracker }) {
       },
       {
         id: 'valgus',
+        tab: t('training.feed.valgusTab'),
         title: t('training.feed.valgusTitle'),
         description: t('training.feed.valgusDesc'),
         tips: getTips('training.feed.valgusTips'),
@@ -285,6 +289,8 @@ export default function TrainingPage({ tracker }) {
       },
     ];
   }, [t]);
+
+  const activeFeed = trainingFeed.find(card => card.id === activeFeedId) || trainingFeed[0];
 
   const getTargetPool = (targetId, source) => {
     if (targetId === 'glutes') {
@@ -454,19 +460,30 @@ export default function TrainingPage({ tracker }) {
       <div className="section training-feed">
         <div className="section-title">🧭 {t('training.feed.title')}</div>
         <p style={{ color: 'var(--text-muted)', marginBottom: 16 }}>{t('training.feed.subtitle')}</p>
-        <div className="feed-grid">
+        <div className="sub-tabs feed-tabs">
           {trainingFeed.map(card => (
-            <div key={card.id} className="feed-card">
+            <button
+              key={card.id}
+              className={`sub-tab ${activeFeedId === card.id ? 'active' : ''}`}
+              onClick={() => setActiveFeedId(card.id)}
+            >
+              {card.tab}
+            </button>
+          ))}
+        </div>
+        {activeFeed && (
+          <div className="feed-grid">
+            <div className="feed-card">
               <div>
-                <h3>{card.title}</h3>
-                <p>{card.description}</p>
+                <h3>{activeFeed.title}</h3>
+                <p>{activeFeed.description}</p>
               </div>
               <div>
                 <strong style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: 0.6, color: 'var(--text-muted)' }}>
                   {t('training.feed.tipsLabel')}
                 </strong>
                 <ul className="feed-tips">
-                  {card.tips.map((tip, idx) => (
+                  {activeFeed.tips.map((tip, idx) => (
                     <li key={idx}>{tip}</li>
                   ))}
                 </ul>
@@ -476,7 +493,7 @@ export default function TrainingPage({ tracker }) {
                   {t('training.feed.routinesLabel')}
                 </strong>
                 <div className="feed-routines">
-                  {card.routines.map((routine, idx) => (
+                  {activeFeed.routines.map((routine, idx) => (
                     <div key={idx} className="feed-routine">
                       <span>{lang === 'es' ? routine.nameEs || routine.name : routine.name}</span>
                       <span style={{ color: 'var(--text-muted)' }}>{routine.duration || routine.level || routine.frequency}</span>
@@ -484,11 +501,11 @@ export default function TrainingPage({ tracker }) {
                   ))}
                 </div>
               </div>
-              <YouTubeCarousel exerciseName={card.videoQuery} lang={lang} asButton={true} />
-              <FeedTimer label={card.timerLabel} t={t} />
+              <YouTubeCarousel exerciseName={activeFeed.videoQuery} lang={lang} asButton={true} />
+              <FeedTimer label={activeFeed.timerLabel} t={t} />
             </div>
-          ))}
-        </div>
+          </div>
+        )}
       </div>
 
       {/* View Toggle */}
