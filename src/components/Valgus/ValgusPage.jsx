@@ -17,7 +17,7 @@ export default function ValgusPage() {
   const [form, setForm] = useState({
     date: todayISO(),
     pain: 3,
-    location: 'medial_knee',
+    location: 'medialKnee',
     activity: 'walk',
     notes: '',
   });
@@ -26,8 +26,8 @@ export default function ValgusPage() {
   const tips = useMemo(() => (lang === 'es' ? valgusData.cuesEs : valgusData.cues), [lang]);
 
   const locationOptions = [
-    { value: 'medial_knee', label: t('valgus.locations.medialKnee') },
-    { value: 'lateral_knee', label: t('valgus.locations.lateralKnee') },
+    { value: 'medialKnee', label: t('valgus.locations.medialKnee') },
+    { value: 'lateralKnee', label: t('valgus.locations.lateralKnee') },
     { value: 'patella', label: t('valgus.locations.patella') },
     { value: 'hip', label: t('valgus.locations.hip') },
     { value: 'ankle', label: t('valgus.locations.ankle') },
@@ -111,7 +111,7 @@ export default function ValgusPage() {
                     <p>{lang === 'es' ? routine.goalEs : routine.goal}</p>
                   </div>
                   <div className="valgus-card-meta">
-                    <span className="tag">{routine.level}</span>
+                    <span className="tag">{lang === 'es' ? routine.levelEs : routine.level}</span>
                     <span className="tag info">{lang === 'es' ? routine.frequencyEs : routine.frequency}</span>
                   </div>
                 </div>
