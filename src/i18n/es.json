@@ -2,6 +2,7 @@
   "nav": {
     "training": "Entrenamiento",
     "running": "Running",
+    "valgus": "Valgus",
     "schedule": "Calendario",
     "nutrition": "Nutrición",
     "mindfulness": "Mindfulness",
@@ -18,6 +19,43 @@
     "intensityLow": "Suave",
     "intensityModerate": "Moderado",
     "intensityHigh": "Alto"
+  },
+  "valgus": {
+    "title": "Soporte para Valgus",
+    "subtitle": "Rutinas enfocadas en alineacion, control de cadera y tracking de rodilla.",
+    "notice": "Primero seguridad",
+    "disclaimer": "Estas rutinas son orientativas. Consulta con un profesional si el dolor persiste o empeora.",
+    "routinesTab": "Rutinas",
+    "painTab": "Registro de Dolor",
+    "cuesTitle": "Indicaciones de Alineacion",
+    "sets": "series",
+    "painLoggerTitle": "Registro de Dolor",
+    "painHistory": "Historial de Dolor",
+    "painSummary": "Registros: {count} · Promedio: {avg}/10",
+    "date": "Fecha",
+    "painScale": "Dolor (0-10)",
+    "location": "Zona",
+    "activity": "Actividad",
+    "notes": "Notas",
+    "notesPlaceholder": "Que ayudo o empeoro hoy?",
+    "saveEntry": "Guardar",
+    "clearLog": "Limpiar",
+    "noEntries": "Aun no hay registros. Agrega una sesion para detectar patrones.",
+    "deleteEntry": "Borrar",
+    "locations": {
+      "medialKnee": "Rodilla interna",
+      "lateralKnee": "Rodilla externa",
+      "patella": "Rotula",
+      "hip": "Cadera",
+      "ankle": "Tobillo"
+    },
+    "activities": {
+      "walk": "Caminata",
+      "run": "Running",
+      "strength": "Fuerza",
+      "mobility": "Movilidad",
+      "sport": "Deporte"
+    }
   },
   "training": {
     "title": "Matriz de Entrenamiento",

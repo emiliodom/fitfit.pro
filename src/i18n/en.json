@@ -2,6 +2,7 @@
   "nav": {
     "training": "Training",
     "running": "Running",
+    "valgus": "Valgus Care",
     "schedule": "Schedule",
     "nutrition": "Nutrition",
     "mindfulness": "Mindfulness",
@@ -18,6 +19,43 @@
     "intensityLow": "Low",
     "intensityModerate": "Moderate",
     "intensityHigh": "High"
+  },
+  "valgus": {
+    "title": "Valgus Support",
+    "subtitle": "Targeted routines for knock-knee alignment, hip control, and knee tracking.",
+    "notice": "Safety first",
+    "disclaimer": "These routines are general guidance. Work with a clinician if pain persists or worsens.",
+    "routinesTab": "Routines",
+    "painTab": "Pain Logger",
+    "cuesTitle": "Alignment Cues",
+    "sets": "sets",
+    "painLoggerTitle": "Pain Logger",
+    "painHistory": "Pain History",
+    "painSummary": "Entries: {count} · Avg pain: {avg}/10",
+    "date": "Date",
+    "painScale": "Pain (0-10)",
+    "location": "Location",
+    "activity": "Activity",
+    "notes": "Notes",
+    "notesPlaceholder": "What helped or worsened today?",
+    "saveEntry": "Save Entry",
+    "clearLog": "Clear Log",
+    "noEntries": "No entries yet. Log a session to track patterns.",
+    "deleteEntry": "Delete",
+    "locations": {
+      "medialKnee": "Inner knee",
+      "lateralKnee": "Outer knee",
+      "patella": "Kneecap",
+      "hip": "Hip",
+      "ankle": "Ankle"
+    },
+    "activities": {
+      "walk": "Walk",
+      "run": "Run",
+      "strength": "Strength",
+      "mobility": "Mobility",
+      "sport": "Sport"
+    }
   },
   "training": {
     "title": "Training Matrix",

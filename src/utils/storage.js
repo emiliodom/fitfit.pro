@@ -6,6 +6,7 @@ const STORAGE_KEYS = {
   CURRENT_DAY: 'fitfit_current_day',
   CUSTOM_ROUTINES: 'fitfit_custom_routines',
   MINDFULNESS_LOG: 'fitfit_mindfulness_log',
+  PAIN_LOG: 'fitfit_pain_log',
   SCHEDULE_CONFIG: 'fitfit_schedule_config',
   SETTINGS: 'fitfit_settings',
 };
@@ -96,6 +97,33 @@ export function logMindfulness(practiceId) {
 
 export function getMindfulnessLog() {
   return loadFromStorage(STORAGE_KEYS.MINDFULNESS_LOG, []);
+}
+
+// Pain log
+export function logPainEntry(entry) {
+  const log = loadFromStorage(STORAGE_KEYS.PAIN_LOG, []);
+  const payload = {
+    id: Date.now(),
+    ...entry,
+  };
+  log.unshift(payload);
+  saveToStorage(STORAGE_KEYS.PAIN_LOG, log);
+  return payload;
+}
+
+export function getPainLog() {
+  return loadFromStorage(STORAGE_KEYS.PAIN_LOG, []);
+}
+
+export function removePainEntry(entryId) {
+  const log = loadFromStorage(STORAGE_KEYS.PAIN_LOG, []);
+  const next = log.filter(entry => entry.id !== entryId);
+  saveToStorage(STORAGE_KEYS.PAIN_LOG, next);
+  return next;
+}
+
+export function clearPainLog() {
+  saveToStorage(STORAGE_KEYS.PAIN_LOG, []);
 }
 
 // Export workout log as JSON

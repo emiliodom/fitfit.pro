@@ -1509,6 +1509,187 @@
   line-height: 1.6;
 }
 
+/* ── Valgus Page ── */
+.valgus-page .info-banner {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 14px 18px;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  background: rgba(245, 158, 11, 0.08);
+  border-radius: var(--radius-md);
+  margin-bottom: 18px;
+}
+
+.valgus-page .info-banner p {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+}
+
+.valgus-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.valgus-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.valgus-card-header h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.valgus-card-header p {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.valgus-card-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.valgus-ex-list {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.valgus-ex-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.valgus-ex-meta {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+.valgus-ex-cue {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.valgus-cues {
+  margin-top: 20px;
+}
+
+.valgus-cues ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.pain-card h2 {
+  margin-bottom: 12px;
+}
+
+.pain-form {
+  display: grid;
+  gap: 12px;
+}
+
+.pain-form label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+}
+
+.pain-form input,
+.pain-form select,
+.pain-form textarea {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  color: var(--text-main);
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  font-family: inherit;
+}
+
+.pain-scale {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pain-scale input[type='range'] {
+  flex: 1;
+}
+
+.pain-score {
+  font-family: var(--font-mono);
+  color: var(--warning);
+  font-size: 0.85rem;
+}
+
+.pain-log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.pain-log-header p {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.pain-log-list {
+  display: grid;
+  gap: 12px;
+}
+
+.pain-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.pain-entry-title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.pain-entry-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.pain-entry-notes {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.muted-text {
+  color: var(--text-muted);
+  font-size: 0.86rem;
+}
+
 @media (max-width: 600px) {
   .yt-modal {
     max-width: 100%;
