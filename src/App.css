@@ -1448,6 +1448,67 @@
   justify-content: center;
 }
 
+/* ── Running Page ── */
+.running-page .section-headline {
+  margin-bottom: 18px;
+}
+
+.running-page .section-headline h2 {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+}
+
+.running-page .section-headline p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.run-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.2s ease;
+}
+
+.run-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.run-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.run-card-header h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.run-card-focus {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.run-card-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.run-steps {
+  padding-left: 18px;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
 @media (max-width: 600px) {
   .yt-modal {
     max-width: 100%;

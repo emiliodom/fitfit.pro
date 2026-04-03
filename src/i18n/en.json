@@ -1,11 +1,23 @@
 {
   "nav": {
     "training": "Training",
+    "running": "Running",
     "schedule": "Schedule",
     "nutrition": "Nutrition",
     "mindfulness": "Mindfulness",
     "recovery": "Recovery",
     "brand": "FitFit.pro"
+  },
+  "running": {
+    "title": "Running Lab",
+    "subtitle": "Pre-run activation, smart sessions, post-run reset, and foam rolling built for consistency.",
+    "preRun": "Pre-Run",
+    "run": "Run",
+    "postRun": "Post-Run",
+    "roller": "Foam Roller",
+    "intensityLow": "Low",
+    "intensityModerate": "Moderate",
+    "intensityHigh": "High"
   },
   "training": {
     "title": "Training Matrix",

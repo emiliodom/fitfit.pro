@@ -1,0 +1,278 @@
+{
+  "sections": [
+    {
+      "id": "pre_run",
+      "name": "Pre-Run Activation",
+      "nameEs": "Activacion Pre-Running",
+      "description": "Prime your joints, cadence, and posture before the first kilometer.",
+      "descriptionEs": "Prepara articulaciones, cadencia y postura antes del primer kilometro.",
+      "routines": [
+        {
+          "id": "prep-7",
+          "name": "7-Minute Prep",
+          "nameEs": "Preparacion de 7 Minutos",
+          "duration": "7-10 min",
+          "intensity": "low",
+          "focus": "Ankles, hips, gentle core wake-up.",
+          "focusEs": "Tobillos, caderas y activacion suave de core.",
+          "steps": [
+            "30 sec diaphragmatic breathing + rib expansion",
+            "10 ankle rocks per side",
+            "8 hip circles each direction",
+            "10 glute bridges",
+            "2 x 15m A-skips"
+          ],
+          "stepsEs": [
+            "30 seg de respiracion diafragmatica y expansion costal",
+            "10 balanceos de tobillo por lado",
+            "8 circulos de cadera por direccion",
+            "10 puentes de gluteos",
+            "2 x 15m A-skips"
+          ]
+        },
+        {
+          "id": "cadence-primer",
+          "name": "Cadence Primer",
+          "nameEs": "Preparador de Cadencia",
+          "duration": "8-12 min",
+          "intensity": "low",
+          "focus": "Quick feet, tall posture, relaxed arms.",
+          "focusEs": "Pies rapidos, postura alta, brazos relajados.",
+          "steps": [
+            "3 min easy jog",
+            "4 x 20 sec fast feet, 40 sec walk",
+            "2 x 20 sec stride-outs at 70% effort",
+            "1 min calm walk to settle"
+          ],
+          "stepsEs": [
+            "3 min trote suave",
+            "4 x 20 seg pies rapidos, 40 seg caminata",
+            "2 x 20 seg progresivos al 70%",
+            "1 min caminata suave para bajar"
+          ]
+        },
+        {
+          "id": "glute-activation",
+          "name": "Glute + Core Switch On",
+          "nameEs": "Encendido de Gluteos y Core",
+          "duration": "6-8 min",
+          "intensity": "low",
+          "focus": "Glute med activation for knee tracking.",
+          "focusEs": "Activacion de gluteo medio para alinear rodillas.",
+          "steps": [
+            "12 lateral band steps per side",
+            "8 single-leg RDL reaches per side",
+            "8 dead bugs per side",
+            "20 sec plank with long exhale"
+          ],
+          "stepsEs": [
+            "12 pasos laterales con banda por lado",
+            "8 RDL a una pierna por lado",
+            "8 dead bugs por lado",
+            "20 seg plancha con exhalacion larga"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "run",
+      "name": "Running Sessions",
+      "nameEs": "Sesiones de Running",
+      "description": "Balanced sessions for base, tempo, and interval speed.",
+      "descriptionEs": "Sesiones equilibradas para base, tempo y velocidad.",
+      "routines": [
+        {
+          "id": "easy-base",
+          "name": "Easy Base Run",
+          "nameEs": "Base Suave",
+          "duration": "25-40 min",
+          "intensity": "low",
+          "focus": "Zone 2 effort, nasal breathing.",
+          "focusEs": "Esfuerzo zona 2, respiracion nasal.",
+          "steps": [
+            "5 min easy jog warm-up",
+            "15-25 min steady zone 2 pace",
+            "5 min walk to cool down"
+          ],
+          "stepsEs": [
+            "5 min trote suave de calentamiento",
+            "15-25 min ritmo estable en zona 2",
+            "5 min caminata para soltar"
+          ]
+        },
+        {
+          "id": "tempo-builder",
+          "name": "Tempo Builder",
+          "nameEs": "Constructor de Tempo",
+          "duration": "30-45 min",
+          "intensity": "moderate",
+          "focus": "Comfortably hard effort with control.",
+          "focusEs": "Esfuerzo firme pero controlado.",
+          "steps": [
+            "8 min easy warm-up",
+            "3 x 6 min tempo, 2 min easy jog",
+            "6 min easy jog cooldown"
+          ],
+          "stepsEs": [
+            "8 min calentamiento suave",
+            "3 x 6 min tempo, 2 min trote suave",
+            "6 min trote suave para bajar"
+          ]
+        },
+        {
+          "id": "interval-builder",
+          "name": "Interval Builder",
+          "nameEs": "Constructor de Intervalos",
+          "duration": "28-38 min",
+          "intensity": "high",
+          "focus": "Short speed intervals with full recovery.",
+          "focusEs": "Intervalos cortos con recuperacion completa.",
+          "steps": [
+            "6 min easy warm-up",
+            "6 x 1 min fast, 90 sec walk",
+            "6 min easy jog cooldown"
+          ],
+          "stepsEs": [
+            "6 min calentamiento suave",
+            "6 x 1 min rapido, 90 seg caminata",
+            "6 min trote suave para bajar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post_run",
+      "name": "Post-Run Reset",
+      "nameEs": "Reinicio Post-Running",
+      "description": "Lower heart rate, restore stride, and reload hydration.",
+      "descriptionEs": "Baja pulsaciones, restaura zancada y rehidrata.",
+      "routines": [
+        {
+          "id": "downshift",
+          "name": "Downshift Walk + Breath",
+          "nameEs": "Caminata y Respiracion",
+          "duration": "6-8 min",
+          "intensity": "low",
+          "focus": "Parasympathetic shift and posture reset.",
+          "focusEs": "Cambio parasimpatico y reinicio postural.",
+          "steps": [
+            "4 min relaxed walk",
+            "6 slow exhales, hands on ribs",
+            "10 gentle neck nods"
+          ],
+          "stepsEs": [
+            "4 min caminata relajada",
+            "6 exhalaciones lentas, manos en costillas",
+            "10 movimientos suaves de cuello"
+          ]
+        },
+        {
+          "id": "mobility-reset",
+          "name": "Mobility Reset",
+          "nameEs": "Reinicio de Movilidad",
+          "duration": "8-10 min",
+          "intensity": "low",
+          "focus": "Hips, calves, and thoracic spine.",
+          "focusEs": "Caderas, pantorrillas y columna toracica.",
+          "steps": [
+            "60 sec couch stretch per side",
+            "45 sec calf wall stretch per side",
+            "8 thoracic rotations per side"
+          ],
+          "stepsEs": [
+            "60 seg estiramiento de psoas por lado",
+            "45 seg estiramiento de pantorrilla por lado",
+            "8 rotaciones toracicas por lado"
+          ]
+        },
+        {
+          "id": "lower-leg-flush",
+          "name": "Lower Leg Flush",
+          "nameEs": "Liberacion de Pierna Inferior",
+          "duration": "6-9 min",
+          "intensity": "low",
+          "focus": "Calf and shin recovery.",
+          "focusEs": "Recuperacion de gemelos y tibiales.",
+          "steps": [
+            "10 toe raises against wall",
+            "30 sec tibialis stretch per side",
+            "30 sec calf stretch per side",
+            "90 sec easy walk"
+          ],
+          "stepsEs": [
+            "10 elevaciones de dedos contra pared",
+            "30 seg estiramiento de tibial por lado",
+            "30 seg estiramiento de pantorrilla por lado",
+            "90 seg caminata suave"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roller",
+      "name": "Foam Roller Stretching",
+      "nameEs": "Estiramientos con Roller",
+      "description": "Short rolling sequences to keep tissue supple.",
+      "descriptionEs": "Secuencias cortas de roller para mantener el tejido elastico.",
+      "routines": [
+        {
+          "id": "calf-sweep",
+          "name": "Calf + Peroneal Sweep",
+          "nameEs": "Barrido de Pantorrilla y Peroneos",
+          "duration": "4-6 min",
+          "intensity": "low",
+          "focus": "Ankles, calves, lateral lower leg.",
+          "focusEs": "Tobillos, pantorrillas y lateral de pierna.",
+          "steps": [
+            "60 sec calf roll each side",
+            "45 sec peroneal roll each side",
+            "30 sec ankle circles"
+          ],
+          "stepsEs": [
+            "60 seg roller en pantorrilla por lado",
+            "45 seg roller en peroneos por lado",
+            "30 seg circulos de tobillo"
+          ]
+        },
+        {
+          "id": "quad-glide",
+          "name": "Quad + IT Glide",
+          "nameEs": "Deslizamiento de Cuadri y Banda IT",
+          "duration": "5-7 min",
+          "intensity": "moderate",
+          "focus": "Quad sweep with gentle outer thigh glide.",
+          "focusEs": "Barrido de cuads con deslizamiento lateral suave.",
+          "steps": [
+            "60 sec quad roll each side",
+            "30 sec outer thigh glide each side",
+            "30 sec prone hip stretch"
+          ],
+          "stepsEs": [
+            "60 seg roller en cuads por lado",
+            "30 seg deslizamiento lateral por lado",
+            "30 seg estiramiento de cadera en prono"
+          ]
+        },
+        {
+          "id": "glute-release",
+          "name": "Glute + Piriformis Release",
+          "nameEs": "Liberacion de Gluteo y Piriforme",
+          "duration": "5-8 min",
+          "intensity": "moderate",
+          "focus": "Hip rotators and glute reset.",
+          "focusEs": "Rotadores de cadera y gluteos.",
+          "steps": [
+            "60 sec glute roll each side",
+            "30 sec figure-4 hold each side",
+            "6 slow hip openers"
+          ],
+          "stepsEs": [
+            "60 seg roller en gluteo por lado",
+            "30 seg figura 4 por lado",
+            "6 aperturas de cadera lentas"
+          ]
+        }
+      ]
+    }
+  ]
+}

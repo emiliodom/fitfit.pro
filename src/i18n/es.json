@@ -1,11 +1,23 @@
 {
   "nav": {
     "training": "Entrenamiento",
+    "running": "Running",
     "schedule": "Calendario",
     "nutrition": "Nutrición",
     "mindfulness": "Mindfulness",
     "recovery": "Recuperación",
     "brand": "FitFit.pro"
+  },
+  "running": {
+    "title": "Laboratorio de Running",
+    "subtitle": "Activacion previa, sesiones inteligentes, reinicio post-run y foam roller para constancia.",
+    "preRun": "Pre-Run",
+    "run": "Run",
+    "postRun": "Post-Run",
+    "roller": "Foam Roller",
+    "intensityLow": "Suave",
+    "intensityModerate": "Moderado",
+    "intensityHigh": "Alto"
   },
   "training": {
     "title": "Matriz de Entrenamiento",
