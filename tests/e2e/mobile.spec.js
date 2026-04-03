@@ -14,6 +14,11 @@ test.describe('mobile app feel', () => {
     expect(navPosition).toBe('fixed');
     expect(navBottom).toBe('0px');
 
+    const themeToggle = page.locator('.theme-toggle');
+    await expect(themeToggle).toBeVisible();
+    await themeToggle.click();
+    await expect(page.locator('body')).toHaveAttribute('data-theme', 'light');
+
     const langToggle = page.locator('.lang-toggle');
     await expect(langToggle).toBeVisible();
     await langToggle.click();

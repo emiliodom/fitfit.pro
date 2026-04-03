@@ -37,4 +37,12 @@ describe('App navigation', () => {
     await user.click(screen.getByRole('button', { name: /Switch to Spanish/i }));
     expect(screen.getByRole('button', { name: /Entrenamiento/i })).toBeInTheDocument();
   });
+
+  it('toggles theme state', async () => {
+    renderApp();
+    const user = userEvent.setup();
+    const themeToggle = screen.getByRole('button', { name: /Switch to Light Theme/i });
+    await user.click(themeToggle);
+    expect(document.body.getAttribute('data-theme')).toBe('light');
+  });
 });
