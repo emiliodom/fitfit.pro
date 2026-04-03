@@ -71,6 +71,27 @@
             "8 dead bugs por lado",
             "20 seg plancha con exhalacion larga"
           ]
+        },
+        {
+          "id": "mobility-chain",
+          "name": "Mobility Chain",
+          "nameEs": "Cadena de Movilidad",
+          "duration": "8-10 min",
+          "intensity": "low",
+          "focus": "Ankles, hips, thoracic spine flow.",
+          "focusEs": "Tobillos, caderas y columna toracica.",
+          "steps": [
+            "6 calf pulses per side",
+            "6 world greatest stretch per side",
+            "8 thoracic rotations",
+            "20 sec quick feet"
+          ],
+          "stepsEs": [
+            "6 pulsos de pantorrilla por lado",
+            "6 estiramientos del mundo por lado",
+            "8 rotaciones toracicas",
+            "20 seg pies rapidos"
+          ]
         }
       ]
     },
@@ -136,6 +157,46 @@
             "6 min calentamiento suave",
             "6 x 1 min rapido, 90 seg caminata",
             "6 min trote suave para bajar"
+          ]
+        },
+        {
+          "id": "hill-control",
+          "name": "Hill Control",
+          "nameEs": "Control en Cuestas",
+          "duration": "25-35 min",
+          "intensity": "high",
+          "focus": "Power with knee drive and posture.",
+          "focusEs": "Potencia con rodilla alta y buena postura.",
+          "steps": [
+            "8 min easy warm-up",
+            "6 x 30 sec uphill run, walk down",
+            "6 min easy jog cooldown"
+          ],
+          "stepsEs": [
+            "8 min calentamiento suave",
+            "6 x 30 seg cuesta arriba, caminar bajando",
+            "6 min trote suave para bajar"
+          ]
+        },
+        {
+          "id": "steady-progression",
+          "name": "Steady Progression",
+          "nameEs": "Progresivo Estable",
+          "duration": "30-45 min",
+          "intensity": "moderate",
+          "focus": "Start easy, finish strong.",
+          "focusEs": "Empieza suave y termina firme.",
+          "steps": [
+            "10 min easy jog",
+            "15 min steady pace",
+            "5 min strong finish",
+            "5 min walk to cool down"
+          ],
+          "stepsEs": [
+            "10 min trote suave",
+            "15 min ritmo estable",
+            "5 min cierre fuerte",
+            "5 min caminata para soltar"
           ]
         }
       ]
@@ -205,6 +266,25 @@
             "30 seg estiramiento de pantorrilla por lado",
             "90 seg caminata suave"
           ]
+        },
+        {
+          "id": "hip-reset",
+          "name": "Hip Reset",
+          "nameEs": "Reinicio de Caderas",
+          "duration": "7-9 min",
+          "intensity": "low",
+          "focus": "Open hip flexors and glutes.",
+          "focusEs": "Abrir psoas y gluteos.",
+          "steps": [
+            "45 sec kneeling hip flexor stretch per side",
+            "8 glute bridges",
+            "30 sec figure-4 stretch per side"
+          ],
+          "stepsEs": [
+            "45 seg estiramiento de psoas por lado",
+            "8 puentes de gluteos",
+            "30 seg figura 4 por lado"
+          ]
         }
       ]
     },
@@ -270,6 +350,25 @@
             "60 seg roller en gluteo por lado",
             "30 seg figura 4 por lado",
             "6 aperturas de cadera lentas"
+          ]
+        },
+        {
+          "id": "hamstring-roll",
+          "name": "Hamstring Roll",
+          "nameEs": "Roller de Isquios",
+          "duration": "4-6 min",
+          "intensity": "low",
+          "focus": "Hamstring and calf relief.",
+          "focusEs": "Isquios y pantorrilla.",
+          "steps": [
+            "60 sec hamstring roll per side",
+            "30 sec calf roll per side",
+            "20 sec heel digs"
+          ],
+          "stepsEs": [
+            "60 seg roller en isquios por lado",
+            "30 seg roller en pantorrilla por lado",
+            "20 seg talones al piso"
           ]
         }
       ]

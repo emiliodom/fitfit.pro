@@ -44,6 +44,24 @@
             "Camina rapido 1 minuto, lento 1 minuto",
             "Termina con estiramiento suave"
           ]
+        },
+        {
+          "id": "nature-quest",
+          "name": "Nature Quest",
+          "nameEs": "Mision Naturaleza",
+          "duration": "20-25 min",
+          "energy": "Explorer pace",
+          "energyEs": "Ritmo explorador",
+          "steps": [
+            "Find 3 leaves and 3 rocks",
+            "Walk backward 10 steps with help",
+            "Finish with a big stretch"
+          ],
+          "stepsEs": [
+            "Busca 3 hojas y 3 piedras",
+            "Camina hacia atras 10 pasos con ayuda",
+            "Termina con estiramiento grande"
+          ]
         }
       ]
     },
@@ -93,6 +111,26 @@
             "10 zancadas suaves",
             "30 seg plancha en rodillas"
           ]
+        },
+        {
+          "id": "mini-power",
+          "name": "Mini Power",
+          "nameEs": "Mini Poder",
+          "duration": "12-14 min",
+          "energy": "Strong and steady",
+          "energyEs": "Fuerte y estable",
+          "steps": [
+            "10 squat to chair",
+            "10 wall angels",
+            "10 dead bug",
+            "Repeat 2 rounds"
+          ],
+          "stepsEs": [
+            "10 sentadillas a silla",
+            "10 angelitos en pared",
+            "10 dead bug",
+            "Repite 2 rondas"
+          ]
         }
       ]
     },
@@ -139,6 +177,24 @@
             "Marca 5 puntos y corre en zig-zag",
             "Vuelve caminando y respira",
             "Repite 4 rondas"
+          ]
+        },
+        {
+          "id": "color-sprints",
+          "name": "Color Sprints",
+          "nameEs": "Sprints de Colores",
+          "duration": "10-12 min",
+          "energy": "Quick bursts",
+          "energyEs": "Rafagas rapidas",
+          "steps": [
+            "Call a color, sprint to that object",
+            "Walk back and count 5 breaths",
+            "Repeat 6 rounds"
+          ],
+          "stepsEs": [
+            "Di un color y corre hasta ese objeto",
+            "Vuelve caminando y cuenta 5 respiraciones",
+            "Repite 6 rondas"
           ]
         }
       ]
@@ -187,6 +243,24 @@
             "Circulos de cadera 8 por lado",
             "Giro sentado 20 seg por lado"
           ]
+        },
+        {
+          "id": "rainbow-reach",
+          "name": "Rainbow Reach",
+          "nameEs": "Arcoiris Estirado",
+          "duration": "8-10 min",
+          "energy": "Slow stretch",
+          "energyEs": "Estiramiento lento",
+          "steps": [
+            "Reach up and side bend 5 times",
+            "Toe touch bounce x10",
+            "Butterfly stretch 30 sec"
+          ],
+          "stepsEs": [
+            "Sube brazos y flexiona lateral 5 veces",
+            "Toca dedos del pie x10",
+            "Mariposa 30 seg"
+          ]
         }
       ]
     },
@@ -233,6 +307,24 @@
             "Respiracion sentada 5 respiraciones",
             "Alas mariposa 30 seg",
             "Descanso con ojos cerrados 1 min"
+          ]
+        },
+        {
+          "id": "sun-salute",
+          "name": "Mini Sun Salute",
+          "nameEs": "Mini Saludo al Sol",
+          "duration": "10-12 min",
+          "energy": "Flowy balance",
+          "energyEs": "Flujo con balance",
+          "steps": [
+            "Mountain to forward fold",
+            "Step back to lunge",
+            "Down dog to stand, repeat 4 times"
+          ],
+          "stepsEs": [
+            "Montana a flexion",
+            "Paso atras a zancada",
+            "Perro abajo a pie, repetir 4 veces"
           ]
         }
       ]

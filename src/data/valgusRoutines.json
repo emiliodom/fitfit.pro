@@ -34,6 +34,80 @@
           "reps": "30-40 sec",
           "cue": "Press knees gently toward midline.",
           "cueEs": "Presionar rodillas suavemente hacia adentro."
+    },
+    {
+      "id": "stride-control",
+      "name": "Stride Control",
+      "nameEs": "Control de Zancada",
+      "level": "intermediate",
+      "levelEs": "intermedio",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Improve knee tracking during dynamic steps.",
+      "goalEs": "Mejorar tracking de rodilla en pasos dinamicos.",
+      "exercises": [
+        {
+          "name": "Lateral step-down",
+          "nameEs": "Bajada lateral",
+          "sets": "3",
+          "reps": "6-8/side",
+          "cue": "Hip stays level, knee follows toes.",
+          "cueEs": "Cadera nivelada, rodilla sigue los dedos."
+        },
+        {
+          "name": "Mini-band monster walk",
+          "nameEs": "Monster walk con banda",
+          "sets": "2-3",
+          "reps": "8-10 steps",
+          "cue": "Stay low, keep knees out.",
+          "cueEs": "Mantente bajo, rodillas hacia afuera."
+        },
+        {
+          "name": "Single-leg box tap",
+          "nameEs": "Toque de caja a una pierna",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Slow descent, stable arch.",
+          "cueEs": "Bajada lenta, arco estable."
+        }
+      ]
+    },
+    {
+      "id": "strength-builder",
+      "name": "Strength Builder",
+      "nameEs": "Constructor de Fuerza",
+      "level": "advanced",
+      "levelEs": "avanzado",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Load tolerance with stable alignment.",
+      "goalEs": "Tolerancia a carga con buena alineacion.",
+      "exercises": [
+        {
+          "name": "Goblet squat with band",
+          "nameEs": "Sentadilla goblet con banda",
+          "sets": "3",
+          "reps": "8-10",
+          "cue": "Band guides knees out.",
+          "cueEs": "La banda guia las rodillas hacia afuera."
+        },
+        {
+          "name": "Reverse lunge",
+          "nameEs": "Zancada atras",
+          "sets": "3",
+          "reps": "8/side",
+          "cue": "Front knee tracks, torso tall.",
+          "cueEs": "Rodilla alinea, torso alto."
+        },
+        {
+          "name": "Hip airplane",
+          "nameEs": "Avion de cadera",
+          "sets": "2",
+          "reps": "6/side",
+          "cue": "Rotate slow, control balance.",
+          "cueEs": "Rotar lento, controlar balance."
+        }
+      ]
         }
       ]
     },
@@ -41,14 +115,18 @@
       "id": "strength-stability",
       "name": "Strength + Stability",
       "nameEs": "Fuerza y Estabilidad",
-      "level": "intermediate",
+    "If pain spikes, reduce range and focus on quality.",
+    "Use mirrors or video to check alignment.",
+    "Warm up calves and hips before runs."
       "levelEs": "intermedio",
       "frequency": "2-3x/week",
       "frequencyEs": "2-3x/semana",
       "goal": "Single-leg control, hip strength, foot tripod.",
       "goalEs": "Control unipodal, fuerza de cadera y pie estable.",
       "exercises": [
-        {
+    "Si el dolor sube, reducir rango y priorizar calidad.",
+    "Usa espejo o video para revisar alineacion.",
+    "Calienta pantorrillas y caderas antes de correr."
           "name": "Split squat (short stride)",
           "nameEs": "Split squat (zancada corta)",
           "sets": "3",

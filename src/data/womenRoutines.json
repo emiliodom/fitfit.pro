@@ -50,6 +50,28 @@
             "3 x 10 press sobre cabeza",
             "2 x 30 seg agarre de granjero"
           ]
+        },
+        {
+          "id": "lower-body-balance",
+          "name": "Lower Body Balance",
+          "nameEs": "Balance Tren Inferior",
+          "duration": "30-40 min",
+          "level": "Intermediate",
+          "levelEs": "Intermedio",
+          "focus": "Glutes, hamstrings, and control.",
+          "focusEs": "Gluteos, femorales y control.",
+          "steps": [
+            "3 x 10 hip thrust",
+            "3 x 8 split squat",
+            "3 x 12 Romanian deadlift",
+            "2 x 30 sec calf raise hold"
+          ],
+          "stepsEs": [
+            "3 x 10 hip thrust",
+            "3 x 8 split squat",
+            "3 x 12 peso muerto rumano",
+            "2 x 30 seg isometria de pantorrilla"
+          ]
         }
       ]
     },
@@ -80,6 +102,28 @@
             "3 x 8 dead bug",
             "3 x 20 seg bird dog",
             "2 x 8 dips en plancha lateral"
+          ]
+        },
+        {
+          "id": "core-flow",
+          "name": "Core Flow",
+          "nameEs": "Flujo de Core",
+          "duration": "18-22 min",
+          "level": "Beginner",
+          "levelEs": "Principiante",
+          "focus": "Low-impact core and pelvic floor.",
+          "focusEs": "Core suave y suelo pelvico.",
+          "steps": [
+            "3 x 6 pelvic tilt",
+            "3 x 8 heel taps",
+            "3 x 20 sec side plank",
+            "2 min breathing reset"
+          ],
+          "stepsEs": [
+            "3 x 6 basculacion pelvica",
+            "3 x 8 toques de talon",
+            "3 x 20 seg plancha lateral",
+            "2 min reset de respiracion"
           ]
         }
       ]
@@ -112,6 +156,28 @@
             "3 rondas: 40 seg plancha marchada",
             "Descansa 60 seg entre rondas"
           ]
+        },
+        {
+          "id": "low-impact-hit",
+          "name": "Low Impact HIT",
+          "nameEs": "HIT Bajo Impacto",
+          "duration": "20-25 min",
+          "level": "Beginner",
+          "levelEs": "Principiante",
+          "focus": "Heart rate up without jumps.",
+          "focusEs": "Sube pulsaciones sin saltos.",
+          "steps": [
+            "4 x 45 sec fast march",
+            "4 x 45 sec lateral step",
+            "4 x 45 sec squat pulse",
+            "Rest 30 sec between blocks"
+          ],
+          "stepsEs": [
+            "4 x 45 seg marcha rapida",
+            "4 x 45 seg paso lateral",
+            "4 x 45 seg sentadilla pulse",
+            "Descansa 30 seg entre bloques"
+          ]
         }
       ]
     },
@@ -142,6 +208,28 @@
             "45 seg apertura de pecho",
             "8 rotaciones toracicas por lado",
             "2 min respiracion cuadrada"
+          ]
+        },
+        {
+          "id": "mobility-flow",
+          "name": "Mobility Flow",
+          "nameEs": "Flujo de Movilidad",
+          "duration": "18-22 min",
+          "level": "Beginner",
+          "levelEs": "Principiante",
+          "focus": "Hips, spine, and shoulder release.",
+          "focusEs": "Caderas, columna y hombros.",
+          "steps": [
+            "8 cat-cow",
+            "6 world greatest stretch per side",
+            "8 thoracic rotations",
+            "1 min box breathing"
+          ],
+          "stepsEs": [
+            "8 gato-vaca",
+            "6 estiramientos del mundo por lado",
+            "8 rotaciones toracicas",
+            "1 min respiracion cuadrada"
           ]
         }
       ]
