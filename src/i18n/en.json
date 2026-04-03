@@ -71,6 +71,36 @@
   "training": {
     "title": "Training Matrix",
     "subtitle": "Select equipment, choose a preset routine or build your own. Press play to begin.",
+    "feed": {
+      "title": "Support Feed",
+      "subtitle": "Quick previews with tips, video cues, and a focus timer for each track.",
+      "tipsLabel": "Tips",
+      "routinesLabel": "Preview routines",
+      "womenTitle": "Women Focus",
+      "womenDesc": "Strength, core, and recovery flow with steady pacing.",
+      "womenTips": [
+        "Lead with breath on every rep.",
+        "Control tempo before adding load.",
+        "Finish with recovery mobility."
+      ],
+      "womenTimer": "Women focus timer",
+      "kidsTitle": "Cataleya Moves",
+      "kidsDesc": "Playful training blocks for walking, weights, running, stretching, and yoga.",
+      "kidsTips": [
+        "Keep it fun and short.",
+        "Use colors, games, and imagination.",
+        "End with calm breathing."
+      ],
+      "kidsTimer": "Cataleya timer",
+      "valgusTitle": "Valgus Care",
+      "valgusDesc": "Alignment drills, hip stability, and knee tracking cues.",
+      "valgusTips": [
+        "Tripod foot: big toe, little toe, heel.",
+        "Knee tracks over middle toes.",
+        "Slow reps and full control."
+      ],
+      "valgusTimer": "Valgus alignment timer"
+    },
     "predefined": "Predefined",
     "goalBased": "Goal Plan",
     "workoutLibrary": "Workout Library",

@@ -71,6 +71,36 @@
   "training": {
     "title": "Matriz de Entrenamiento",
     "subtitle": "Seleccioná tu equipo, elegí una rutina predefinida o armá la tuya. Presioná play para empezar.",
+    "feed": {
+      "title": "Feed de Soporte",
+      "subtitle": "Vistas rapidas con tips, videos y un timer de foco para cada track.",
+      "tipsLabel": "Tips",
+      "routinesLabel": "Rutinas en vista previa",
+      "womenTitle": "Enfoque Mujer",
+      "womenDesc": "Fuerza, core y recuperacion con ritmo estable.",
+      "womenTips": [
+        "Respira en cada repeticion.",
+        "Controla el tempo antes de cargar.",
+        "Cierra con movilidad suave."
+      ],
+      "womenTimer": "Timer foco mujer",
+      "kidsTitle": "Cataleya en Movimiento",
+      "kidsDesc": "Bloques divertidos para caminar, pesas, running, estirar y yoga.",
+      "kidsTips": [
+        "Corto y divertido.",
+        "Usa colores, juegos e imaginacion.",
+        "Cierra con respiracion tranquila."
+      ],
+      "kidsTimer": "Timer Cataleya",
+      "valgusTitle": "Cuidado Valgus",
+      "valgusDesc": "Alineacion, estabilidad de cadera y tracking de rodilla.",
+      "valgusTips": [
+        "Pie tripode: dedo gordo, pequeno y talon.",
+        "Rodilla sobre los dedos medios.",
+        "Repeticiones lentas y controladas."
+      ],
+      "valgusTimer": "Timer alineacion valgus"
+    },
     "predefined": "Predefinidas",
     "goalBased": "Plan por Objetivo",
     "workoutLibrary": "Biblioteca de Rutinas",

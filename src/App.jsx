@@ -18,6 +18,13 @@ function App() {
   const tracker = useRoutineTracker();
   const { t, lang, setLang } = useLanguage();
   const [quoteIndex, setQuoteIndex] = useState(0);
+  const [theme, setTheme] = useState(() => {
+    try {
+      return localStorage.getItem('fitfit_theme') || 'dark';
+    } catch {
+      return 'dark';
+    }
+  });
 
   const quotes = t('quotes');
   const heroQuote = Array.isArray(quotes) && quotes.length > 0 ? quotes[quoteIndex] : '';
@@ -34,6 +41,13 @@ function App() {
     }, 10000);
     return () => clearInterval(intervalId);
   }, [quotes]);
+
+  useEffect(() => {
+    document.body.setAttribute('data-theme', theme);
+    try {
+      localStorage.setItem('fitfit_theme', theme);
+    } catch {}
+  }, [theme]);
 
   const TABS = [
     { id: 'training', label: t('nav.training'), icon: '⚡' },
@@ -60,6 +74,8 @@ function App() {
         onTabChange={handleTabChange}
         lang={lang}
         setLang={setLang}
+        theme={theme}
+        setTheme={setTheme}
       />
       {heroQuote && (
         <div className="motivational-quote">

@@ -7,9 +7,13 @@ import EquipmentFilter from './EquipmentFilter';
 import ExerciseCard from './ExerciseCard';
 import RoutinePlayer from './RoutinePlayer';
 import MuscleMap from './MuscleMap';
+import YouTubeCarousel from './YouTubeCarousel';
 import { useTimer } from '../../hooks/useTimer';
 import { playBeep } from '../../utils/audio';
 import { getExerciseDisplayName } from '../../utils/exerciseDisplay';
+import womenData from '../../data/womenRoutines.json';
+import kidsData from '../../data/kidsTraining.json';
+import valgusData from '../../data/valgusRoutines.json';
 
 function getPhaseKey(week) {
   if (week <= 4) return 'foundation';
@@ -19,6 +23,28 @@ function getPhaseKey(week) {
 
 function resolveExercises(ids) {
   return ids.map(id => exerciseData.exercises.find(e => e.id === id)).filter(Boolean);
+}
+
+function FeedTimer({ label, t }) {
+  const timer = useTimer(180);
+  return (
+    <div className="feed-timer">
+      <div>
+        <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: 0.6 }}>
+          {label}
+        </div>
+        <div className="feed-timer-display">{timer.display}</div>
+      </div>
+      <div style={{ display: 'flex', gap: 6 }}>
+        {!timer.isRunning ? (
+          <button className="btn btn-primary btn-sm" onClick={timer.start}>{t('common.start')}</button>
+        ) : (
+          <button className="btn btn-ghost btn-sm" onClick={timer.pause}>{t('common.pause')}</button>
+        )}
+        <button className="btn btn-outline btn-sm" onClick={() => timer.reset(180)}>{t('common.reset')}</button>
+      </div>
+    </div>
+  );
 }
 
 export default function TrainingPage({ tracker }) {
@@ -223,6 +249,43 @@ export default function TrainingPage({ tracker }) {
     return quickStartTargets.find(target => target.id === quickTarget)?.label || '';
   }, [quickStartTargets, quickTarget]);
 
+  const trainingFeed = useMemo(() => {
+    const getTips = (key) => {
+      const tips = t(key);
+      return Array.isArray(tips) ? tips : [tips];
+    };
+
+    return [
+      {
+        id: 'women',
+        title: t('training.feed.womenTitle'),
+        description: t('training.feed.womenDesc'),
+        tips: getTips('training.feed.womenTips'),
+        routines: womenData.sections?.[0]?.routines?.slice(0, 3) || [],
+        videoQuery: 'women strength workout technique',
+        timerLabel: t('training.feed.womenTimer'),
+      },
+      {
+        id: 'kids',
+        title: t('training.feed.kidsTitle'),
+        description: t('training.feed.kidsDesc'),
+        tips: getTips('training.feed.kidsTips'),
+        routines: kidsData.categories?.[0]?.sessions?.slice(0, 3) || [],
+        videoQuery: 'kids yoga flow',
+        timerLabel: t('training.feed.kidsTimer'),
+      },
+      {
+        id: 'valgus',
+        title: t('training.feed.valgusTitle'),
+        description: t('training.feed.valgusDesc'),
+        tips: getTips('training.feed.valgusTips'),
+        routines: valgusData.routines?.slice(0, 3) || [],
+        videoQuery: 'knee valgus alignment exercises',
+        timerLabel: t('training.feed.valgusTimer'),
+      },
+    ];
+  }, [t]);
+
   const getTargetPool = (targetId, source) => {
     if (targetId === 'glutes') {
       return source.filter(ex => ex.muscles.some(m => m.toLowerCase().includes('glute')));
@@ -384,6 +447,46 @@ export default function TrainingPage({ tracker }) {
               <span className="quick-body-icon">{target.icon}</span>
               <span>{target.label}</span>
             </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="section training-feed">
+        <div className="section-title">🧭 {t('training.feed.title')}</div>
+        <p style={{ color: 'var(--text-muted)', marginBottom: 16 }}>{t('training.feed.subtitle')}</p>
+        <div className="feed-grid">
+          {trainingFeed.map(card => (
+            <div key={card.id} className="feed-card">
+              <div>
+                <h3>{card.title}</h3>
+                <p>{card.description}</p>
+              </div>
+              <div>
+                <strong style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: 0.6, color: 'var(--text-muted)' }}>
+                  {t('training.feed.tipsLabel')}
+                </strong>
+                <ul className="feed-tips">
+                  {card.tips.map((tip, idx) => (
+                    <li key={idx}>{tip}</li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <strong style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: 0.6, color: 'var(--text-muted)' }}>
+                  {t('training.feed.routinesLabel')}
+                </strong>
+                <div className="feed-routines">
+                  {card.routines.map((routine, idx) => (
+                    <div key={idx} className="feed-routine">
+                      <span>{lang === 'es' ? routine.nameEs || routine.name : routine.name}</span>
+                      <span style={{ color: 'var(--text-muted)' }}>{routine.duration || routine.level || routine.frequency}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <YouTubeCarousel exerciseName={card.videoQuery} lang={lang} asButton={true} />
+              <FeedTimer label={card.timerLabel} t={t} />
+            </div>
           ))}
         </div>
       </div>
