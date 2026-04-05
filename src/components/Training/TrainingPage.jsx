@@ -7,13 +7,9 @@ import EquipmentFilter from './EquipmentFilter';
 import ExerciseCard from './ExerciseCard';
 import RoutinePlayer from './RoutinePlayer';
 import MuscleMap from './MuscleMap';
-import YouTubeCarousel from './YouTubeCarousel';
 import { useTimer } from '../../hooks/useTimer';
 import { playBeep } from '../../utils/audio';
 import { getExerciseDisplayName } from '../../utils/exerciseDisplay';
-import womenData from '../../data/womenRoutines.json';
-import kidsData from '../../data/kidsTraining.json';
-import valgusData from '../../data/valgusRoutines.json';
 
 function getPhaseKey(week) {
   if (week <= 4) return 'foundation';
@@ -23,28 +19,6 @@ function getPhaseKey(week) {
 
 function resolveExercises(ids) {
   return ids.map(id => exerciseData.exercises.find(e => e.id === id)).filter(Boolean);
-}
-
-function FeedTimer({ label, t }) {
-  const timer = useTimer(180);
-  return (
-    <div className="feed-timer">
-      <div>
-        <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: 0.6 }}>
-          {label}
-        </div>
-        <div className="feed-timer-display">{timer.display}</div>
-      </div>
-      <div style={{ display: 'flex', gap: 6 }}>
-        {!timer.isRunning ? (
-          <button className="btn btn-primary btn-sm" onClick={timer.start}>{t('common.start')}</button>
-        ) : (
-          <button className="btn btn-ghost btn-sm" onClick={timer.pause}>{t('common.pause')}</button>
-        )}
-        <button className="btn btn-outline btn-sm" onClick={() => timer.reset(180)}>{t('common.reset')}</button>
-      </div>
-    </div>
-  );
 }
 
 export default function TrainingPage({ tracker }) {
@@ -59,6 +33,7 @@ export default function TrainingPage({ tracker }) {
   const [workoutDuration, setWorkoutDuration] = useState('medium'); // short | medium | long
   const [workoutLevel, setWorkoutLevel] = useState('all'); // all | beginner | intermediate | advanced
   const [libraryCategory, setLibraryCategory] = useState(null);
+  const [librarySearch, setLibrarySearch] = useState('');
   const [previewRoutine, setPreviewRoutine] = useState(null);
   const [quickTarget, setQuickTarget] = useState(null);
   const [showQuickStartModal, setShowQuickStartModal] = useState(false);
@@ -67,7 +42,6 @@ export default function TrainingPage({ tracker }) {
   const [quickStyle, setQuickStyle] = useState('normal');
   const [quickDurationMinutes, setQuickDurationMinutes] = useState('30');
   const timer = useTimer(60);
-  const [activeFeedId, setActiveFeedId] = useState('women');
 
   const progression = getCurrentProgression();
   const phaseKey = getPhaseKey(progression.week);
@@ -79,7 +53,7 @@ export default function TrainingPage({ tracker }) {
     let exercises = exerciseData.exercises;
     if (selectedEquipment.length > 0) {
       exercises = exercises.filter(ex =>
-        ex.equipment.some(eq => selectedEquipment.includes(eq))
+        (ex.equipment || []).some(eq => selectedEquipment.includes(eq))
       );
     }
     return exercises;
@@ -89,7 +63,7 @@ export default function TrainingPage({ tracker }) {
     let exercises = equipmentFilteredExercises;
     if (selectedCategory === 'glutes') {
       exercises = exercises.filter(ex =>
-        ex.muscles.some(m => m.toLowerCase().includes('glute'))
+        (ex.muscles || []).some(m => m.toLowerCase().includes('glute'))
       );
     } else if (selectedCategory) {
       exercises = exercises.filter(ex => ex.category === selectedCategory);
@@ -119,13 +93,13 @@ export default function TrainingPage({ tracker }) {
 
     const pickByMuscle = (muscleToken) =>
       exerciseData.exercises
-        .filter(ex => ex.muscles.some(m => m.toLowerCase().includes(muscleToken)))
+        .filter(ex => (ex.muscles || []).some(m => m.toLowerCase().includes(muscleToken)))
         .slice(0, exerciseCount);
 
     const perGroupCount = Math.max(1, Math.ceil(exerciseCount / 5));
 
     const noEquipment = exerciseData.exercises
-      .filter(ex => ex.equipment.every(eq => noEquipmentIds.has(eq)))
+      .filter(ex => (ex.equipment || []).every(eq => noEquipmentIds.has(eq)))
       .slice(0, Math.max(exerciseCount * 2, 12));
 
     const fullBodyNoEquipment = uniqueById([
@@ -137,11 +111,11 @@ export default function TrainingPage({ tracker }) {
     ]).slice(0, exerciseCount);
 
     const fullBodyWeights = uniqueById([
-      ...exerciseData.exercises.filter(ex => ex.category === 'push' && ex.equipment.some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
-      ...exerciseData.exercises.filter(ex => ex.category === 'pull' && ex.equipment.some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
-      ...exerciseData.exercises.filter(ex => ex.category === 'legs' && ex.equipment.some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
-      ...exerciseData.exercises.filter(ex => ex.category === 'core' && ex.equipment.some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
-      ...exerciseData.exercises.filter(ex => ex.category === 'hiit' && ex.equipment.some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
+      ...exerciseData.exercises.filter(ex => ex.category === 'push' && (ex.equipment || []).some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
+      ...exerciseData.exercises.filter(ex => ex.category === 'pull' && (ex.equipment || []).some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
+      ...exerciseData.exercises.filter(ex => ex.category === 'legs' && (ex.equipment || []).some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
+      ...exerciseData.exercises.filter(ex => ex.category === 'core' && (ex.equipment || []).some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
+      ...exerciseData.exercises.filter(ex => ex.category === 'hiit' && (ex.equipment || []).some(eq => weightedIds.has(eq))).slice(0, perGroupCount),
     ]).slice(0, exerciseCount);
 
     const rank = { beginner: 1, intermediate: 2, advanced: 3 };
@@ -250,51 +224,9 @@ export default function TrainingPage({ tracker }) {
     return quickStartTargets.find(target => target.id === quickTarget)?.label || '';
   }, [quickStartTargets, quickTarget]);
 
-  const trainingFeed = useMemo(() => {
-    const getTips = (key) => {
-      const tips = t(key);
-      return Array.isArray(tips) ? tips : [tips];
-    };
-
-    return [
-      {
-        id: 'women',
-        tab: t('training.feed.womenTab'),
-        title: t('training.feed.womenTitle'),
-        description: t('training.feed.womenDesc'),
-        tips: getTips('training.feed.womenTips'),
-        routines: womenData.sections?.[0]?.routines?.slice(0, 3) || [],
-        videoQuery: 'women strength workout technique',
-        timerLabel: t('training.feed.womenTimer'),
-      },
-      {
-        id: 'kids',
-        tab: t('training.feed.kidsTab'),
-        title: t('training.feed.kidsTitle'),
-        description: t('training.feed.kidsDesc'),
-        tips: getTips('training.feed.kidsTips'),
-        routines: kidsData.categories?.[0]?.sessions?.slice(0, 3) || [],
-        videoQuery: 'kids yoga flow',
-        timerLabel: t('training.feed.kidsTimer'),
-      },
-      {
-        id: 'valgus',
-        tab: t('training.feed.valgusTab'),
-        title: t('training.feed.valgusTitle'),
-        description: t('training.feed.valgusDesc'),
-        tips: getTips('training.feed.valgusTips'),
-        routines: valgusData.routines?.slice(0, 3) || [],
-        videoQuery: 'knee valgus alignment exercises',
-        timerLabel: t('training.feed.valgusTimer'),
-      },
-    ];
-  }, [t]);
-
-  const activeFeed = trainingFeed.find(card => card.id === activeFeedId) || trainingFeed[0];
-
   const getTargetPool = (targetId, source) => {
     if (targetId === 'glutes') {
-      return source.filter(ex => ex.muscles.some(m => m.toLowerCase().includes('glute')));
+      return source.filter(ex => (ex.muscles || []).some(m => m.toLowerCase().includes('glute')));
     }
     if (targetId === 'full_body') {
       return source.filter(ex => ['push', 'pull', 'legs', 'core', 'hiit', 'boxing_cardio'].includes(ex.category));
@@ -315,7 +247,7 @@ export default function TrainingPage({ tracker }) {
     const allowedEquipment = quickEnvironment === 'home' ? homeEquipment : gymEquipment;
 
     let availableExercises = exerciseData.exercises.filter(ex =>
-      ex.equipment.some(eq => allowedEquipment.has(eq))
+      (ex.equipment || []).some(eq => allowedEquipment.has(eq))
     );
 
     const levelCap = difficultyRank[quickLevel] || 1;
@@ -457,57 +389,6 @@ export default function TrainingPage({ tracker }) {
         </div>
       </div>
 
-      <div className="section training-feed">
-        <div className="section-title">🧭 {t('training.feed.title')}</div>
-        <p style={{ color: 'var(--text-muted)', marginBottom: 16 }}>{t('training.feed.subtitle')}</p>
-        <div className="sub-tabs feed-tabs">
-          {trainingFeed.map(card => (
-            <button
-              key={card.id}
-              className={`sub-tab ${activeFeedId === card.id ? 'active' : ''}`}
-              onClick={() => setActiveFeedId(card.id)}
-            >
-              {card.tab}
-            </button>
-          ))}
-        </div>
-        {activeFeed && (
-          <div className="feed-grid">
-            <div className="feed-card">
-              <div>
-                <h3>{activeFeed.title}</h3>
-                <p>{activeFeed.description}</p>
-              </div>
-              <div>
-                <strong style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: 0.6, color: 'var(--text-muted)' }}>
-                  {t('training.feed.tipsLabel')}
-                </strong>
-                <ul className="feed-tips">
-                  {activeFeed.tips.map((tip, idx) => (
-                    <li key={idx}>{tip}</li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <strong style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: 0.6, color: 'var(--text-muted)' }}>
-                  {t('training.feed.routinesLabel')}
-                </strong>
-                <div className="feed-routines">
-                  {activeFeed.routines.map((routine, idx) => (
-                    <div key={idx} className="feed-routine">
-                      <span>{lang === 'es' ? routine.nameEs || routine.name : routine.name}</span>
-                      <span style={{ color: 'var(--text-muted)' }}>{routine.duration || routine.level || routine.frequency}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <YouTubeCarousel exerciseName={activeFeed.videoQuery} lang={lang} asButton={true} />
-              <FeedTimer label={activeFeed.timerLabel} t={t} />
-            </div>
-          </div>
-        )}
-      </div>
-
       {/* View Toggle */}
       <div className="view-toggle">
         <button
@@ -587,7 +468,7 @@ export default function TrainingPage({ tracker }) {
                     <MuscleMap
                       highlightedMuscles={Array.from(new Set(
                         resolveExercises(todayRoutine.phases[phaseKey]?.exerciseIds || [])
-                          .flatMap(ex => ex.muscles)
+                          .flatMap(ex => ex.muscles || [])
                       ))}
                       lang={lang}
                       compact={true}
@@ -599,7 +480,7 @@ export default function TrainingPage({ tracker }) {
               {todayRoutine?.isRest && (
                 <div className="card today-routine rest-day">
                   <h2>{lang === 'es' ? todayRoutine.nameEs : todayRoutine.name}</h2>
-                  <p style={{ color: 'var(--text-muted)' }}>
+                  <p className="ui-muted-text">
                     {lang === 'es' ? todayRoutine.descriptionEs : todayRoutine.description || t('training.restRecover')}
                   </p>
                 </div>
@@ -717,12 +598,11 @@ export default function TrainingPage({ tracker }) {
                       ))}
                     </div>
                     <button
-                      className="btn btn-primary btn-sm"
+                      className="btn btn-primary btn-sm ui-mt-10"
                       onClick={(e) => {
                         e.stopPropagation();
                         startRoutine(pack.exercises);
                       }}
-                      style={{ marginTop: 10 }}
                     >
                       ▶ {t('training.play')}
                     </button>
@@ -769,7 +649,7 @@ export default function TrainingPage({ tracker }) {
               >
                 {t('training.glutes')}{' '}
                 <span className="sub-tab-count">
-                  {equipmentFilteredExercises.filter(ex => ex.muscles.some(m => m.toLowerCase().includes('glute'))).length}
+                  {equipmentFilteredExercises.filter(ex => (ex.muscles || []).some(m => m.toLowerCase().includes('glute'))).length}
                 </span>
               </button>
             </div>
@@ -851,13 +731,35 @@ export default function TrainingPage({ tracker }) {
               const libraryExercises = libraryCategory
                 ? exerciseData.exercises.filter(ex => ex.category === libraryCategory)
                 : exerciseData.exercises;
+              const searchTerm = librarySearch.trim().toLowerCase();
+              const searchedExercises = searchTerm
+                ? libraryExercises.filter(ex => {
+                  const name = getExerciseDisplayName(ex, lang).toLowerCase();
+                  return name.includes(searchTerm);
+                })
+                : libraryExercises;
               return (
                 <>
+                  <div className="workout-config-row workout-config-row-compact">
+                    <div className="workout-config-item workout-config-item-grow">
+                      <label htmlFor="library-search" className="workout-config-label">
+                        {lang === 'es' ? 'Buscar ejercicios' : 'Search exercises'}
+                      </label>
+                      <input
+                        id="library-search"
+                        className="workout-config-select"
+                        type="text"
+                        placeholder={lang === 'es' ? 'Escribe un nombre...' : 'Type a name...'}
+                        value={librarySearch}
+                        onChange={(event) => setLibrarySearch(event.target.value)}
+                      />
+                    </div>
+                  </div>
                   <div className="grid-results-count">
-                    {libraryExercises.length} {libraryExercises.length === 1 ? t('training.exercise') : t('training.exercises')}
+                    {searchedExercises.length} {searchedExercises.length === 1 ? t('training.exercise') : t('training.exercises')}
                   </div>
                   <div className="grid-3">
-                    {libraryExercises.map(exercise => (
+                    {searchedExercises.map(exercise => (
                       <ExerciseCard
                         key={exercise.id}
                         exercise={exercise}
@@ -895,11 +797,11 @@ export default function TrainingPage({ tracker }) {
             </div>
             <MuscleMap
               highlightedMuscles={Array.from(new Set(
-                resolveExercises(previewRoutine.exerciseIds).flatMap(ex => ex.muscles)
+                resolveExercises(previewRoutine.exerciseIds).flatMap(ex => ex.muscles || [])
               ))}
               lang={lang}
             />
-            <button className="btn btn-primary" style={{ width: '100%', marginTop: 16 }}
+            <button className="btn btn-primary ui-full-width ui-mt-16"
               onClick={() => {
                 startRoutine(resolveExercises(previewRoutine.exerciseIds));
                 setPreviewRoutine(null);

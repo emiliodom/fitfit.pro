@@ -2622,6 +2622,184 @@ textarea:focus,
     color: var(--text-muted);
 }
 
+/* ── UI Primitives ── */
+.ui-inline-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.ui-phase-row {
+    margin-bottom: 8px;
+}
+
+.ui-accent-strong {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.ui-phase-focus {
+    color: var(--text-muted);
+    margin-left: 12px;
+    font-size: 0.85rem;
+}
+
+.ui-progress-track {
+    width: 100%;
+    height: 10px;
+    border: 0;
+    border-radius: 999px;
+    overflow: hidden;
+    appearance: none;
+    background: rgba(148, 163, 184, 0.22);
+}
+
+.ui-progress-track::-webkit-progress-bar {
+    background: rgba(148, 163, 184, 0.22);
+    border-radius: 999px;
+}
+
+.ui-progress-track::-webkit-progress-value {
+    background: linear-gradient(90deg, var(--accent), var(--info));
+    border-radius: 999px;
+}
+
+.ui-progress-track::-moz-progress-bar {
+    background: linear-gradient(90deg, var(--accent), var(--info));
+    border-radius: 999px;
+}
+
+.ui-progress-mini {
+    width: 120px;
+    height: 6px;
+    border: 0;
+    border-radius: 999px;
+    overflow: hidden;
+    appearance: none;
+    background: rgba(148, 163, 184, 0.22);
+}
+
+.ui-progress-mini::-webkit-progress-bar {
+    background: rgba(148, 163, 184, 0.22);
+    border-radius: 999px;
+}
+
+.ui-progress-mini::-webkit-progress-value {
+    background: linear-gradient(90deg, var(--accent), var(--info));
+    border-radius: 999px;
+}
+
+.ui-progress-mini::-moz-progress-bar {
+    background: linear-gradient(90deg, var(--accent), var(--info));
+    border-radius: 999px;
+}
+
+.ui-progress-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+}
+
+.ui-heading-accent {
+    color: var(--accent);
+    margin-bottom: 16px;
+}
+
+.ui-heading-spaced {
+    margin-bottom: 16px;
+}
+
+.ui-heading-accent-sm {
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+
+.ui-body-sm {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.ui-grid-auto-fit-220 {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.ui-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ui-dim-caption {
+    color: var(--text-dim);
+    font-size: 0.78rem;
+    margin-top: 4px;
+}
+
+.ui-accent-caption {
+    margin-top: 6px;
+    font-size: 0.75rem;
+    color: var(--accent);
+}
+
+.ui-accent-text {
+    color: var(--accent);
+}
+
+.ui-muted-text {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.ui-no-margin {
+    margin: 0;
+}
+
+.ui-scroll-panel {
+    margin-top: 16px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.ui-mt-6 {
+    margin-top: 6px;
+}
+
+.ui-mt-10 {
+    margin-top: 10px;
+}
+
+.ui-mt-16 {
+    margin-top: 16px;
+}
+
+.ui-mb-6 {
+    margin-bottom: 6px;
+}
+
+.yt-open-btn-full {
+    width: 100%;
+}
+
+.yt-open-icon {
+    margin-right: 8px;
+}
+
+.ui-full-width {
+    width: 100%;
+}
+
+.workout-config-row-compact {
+    margin-bottom: 12px;
+}
+
+.workout-config-item-grow {
+    flex: 1;
+}
+
 .sound-toggle-btn {
     width: 42px;
     height: 42px;

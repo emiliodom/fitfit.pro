@@ -178,7 +178,7 @@ export default function NutritionPage() {
       {activeSection === 'protocol' && (
         <div className="grid-2">
           <div className="card">
-            <h2 style={{ color: 'var(--accent)', marginBottom: 16 }}>
+            <h2 className="ui-heading-accent">
               {recipesData.fastingProtocol.name}
             </h2>
             <div className="fasting-windows">
@@ -198,7 +198,7 @@ export default function NutritionPage() {
             </ul>
           </div>
           <div className="card">
-            <h2 style={{ marginBottom: 16 }}>{t('nutrition.macroTargets')}</h2>
+            <h2 className="ui-heading-spaced">{t('nutrition.macroTargets')}</h2>
             <div className="table-scroll">
               <table className="data-table">
                 <tbody>

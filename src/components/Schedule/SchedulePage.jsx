@@ -225,7 +225,7 @@ export default function SchedulePage({ tracker }) {
       <div className="card section">
         <div className="card-header">
           <h2>{t('schedule.programProgress')}</h2>
-          <div style={{ display: 'flex', gap: 8 }}>
+          <div className="ui-inline-actions">
             <button className="btn btn-outline btn-sm" onClick={advanceWeek}>
               {t('schedule.advanceWeek')} →
             </button>
@@ -234,16 +234,14 @@ export default function SchedulePage({ tracker }) {
             </button>
           </div>
         </div>
-        <div style={{ marginBottom: 8 }}>
-          <span style={{ color: 'var(--accent)', fontWeight: 700 }}>{t('schedule.phase')}: {currentPhase.name}</span>
-          <span style={{ color: 'var(--text-muted)', marginLeft: 12, fontSize: '0.85rem' }}>
+        <div className="ui-phase-row">
+          <span className="ui-accent-strong">{t('schedule.phase')}: {currentPhase.name}</span>
+          <span className="ui-phase-focus">
             {currentPhase.focus}
           </span>
         </div>
-        <div className="progress-bar">
-          <div className="progress-fill" style={{ width: `${(progression.week / totalWeeks) * 100}%` }} />
-        </div>
-        <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.78rem', color: 'var(--text-dim)', marginTop: 4 }}>
+        <progress className="ui-progress-track" value={progression.week} max={totalWeeks} />
+        <div className="ui-progress-meta">
           <span>{t('schedule.week')} {progression.week} / {totalWeeks}</span>
           <span>{Math.round((progression.week / totalWeeks) * 100)}%</span>
         </div>
@@ -251,10 +249,10 @@ export default function SchedulePage({ tracker }) {
 
       {/* Current Week Strategy */}
       <div className="card section">
-        <h3 style={{ color: 'var(--accent)', marginBottom: 8 }}>
+        <h3 className="ui-heading-accent-sm">
           {t('schedule.week')} {progression.week}: {currentWeekOverload.label}
         </h3>
-        <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', margin: 0 }}>
+        <p className="ui-body-sm">
           {currentWeekOverload.strategy}
         </p>
       </div>
@@ -262,7 +260,7 @@ export default function SchedulePage({ tracker }) {
       {/* Weekly Blueprint */}
       <div className="section">
         <h2 className="section-title">📅 {t('schedule.weeklyBlueprint')}</h2>
-        <div className="grid-4" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))' }}>
+        <div className="grid-4 ui-grid-auto-fit-220">
           {scheduleData.weeklyTemplate.map(day => {
             const isToday = day.day === todayName;
             const routine = predefinedRoutines.routines.find(r => r.day === day.day);
@@ -270,22 +268,22 @@ export default function SchedulePage({ tracker }) {
               <div key={day.day} className={`schedule-day ${isToday ? 'today' : ''}`}>
                 <div className="day-name">{lang === 'es' ? (DAYS_ES[DAYS.indexOf(day.day)] || day.day) : day.day}</div>
                 <div className="day-focus">{day.focus}</div>
-                <div style={{ marginTop: 6 }}>
+                <div className="ui-mt-6">
                   <span className={`tag ${day.type === 'rest' ? 'warning' : day.type === 'recovery' ? 'info' : ''}`}>
                     {day.type}
                   </span>
                 </div>
                 <div className="day-cardio">{day.cardio}</div>
                 {scheduleConfig.cardioPreference !== 'mixed' && (
-                  <div className="day-cardio" style={{ color: 'var(--accent)' }}>
+                  <div className="day-cardio ui-accent-text">
                     {cardioTextByPlan[scheduleConfig.cardioPreference]}
                   </div>
                 )}
-                <div style={{ color: 'var(--text-dim)', fontSize: '0.78rem', marginTop: 4 }}>
+                <div className="ui-dim-caption">
                   {day.duration}
                 </div>
                 {routine && !routine.isRest && (
-                  <div style={{ marginTop: 6, fontSize: '0.75rem', color: 'var(--accent)' }}>
+                  <div className="ui-accent-caption">
                     {routine.phases[getRoutinePhaseKey(progression.week)]?.exerciseIds?.length || 0} exercises
                   </div>
                 )}
@@ -304,11 +302,11 @@ export default function SchedulePage({ tracker }) {
               key={phase.id}
               className={`phase-card ${phase.id === currentPhase.id ? 'active' : ''}`}
             >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div className="ui-space-between">
                 <h4>{phase.name}</h4>
                 <span className="tag">{phase.intensity}</span>
               </div>
-              <div style={{ color: 'var(--text-dim)', fontSize: '0.78rem', marginBottom: 6 }}>
+              <div className="ui-dim-caption ui-mb-6">
                 {t('schedule.weeks')} {phase.rangeStart}—{phase.rangeEnd}
               </div>
               <p>{phase.notes}</p>
@@ -320,7 +318,7 @@ export default function SchedulePage({ tracker }) {
       {/* Overload Protocol */}
       <div className="section">
         <h2 className="section-title">📈 {t('schedule.overloadCycle')}</h2>
-        <div className="grid-4" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))' }}>
+        <div className="grid-4 ui-grid-auto-fit-220">
           {scheduleData.progressionRules.weeklyOverload.map((week, i) => (
             <div
               key={i}
@@ -341,11 +339,11 @@ export default function SchedulePage({ tracker }) {
             {t('schedule.exportJSON')}
           </button>
         </div>
-        <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', margin: 0 }}>
-          {t('schedule.exportDesc')} <strong style={{ color: 'var(--accent)' }}>{tracker.getTotalWorkouts()}</strong>
+        <p className="ui-muted-text ui-no-margin">
+          {t('schedule.exportDesc')} <strong className="ui-accent-text">{tracker.getTotalWorkouts()}</strong>
         </p>
         {tracker.workoutLog.length > 0 && (
-          <div style={{ marginTop: 16, maxHeight: 200, overflowY: 'auto' }}>
+          <div className="ui-scroll-panel">
             <div className="table-scroll">
               <table className="data-table">
                 <thead>

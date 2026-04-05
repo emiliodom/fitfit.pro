@@ -156,9 +156,7 @@ export default function RoutinePlayer({ exercises: initialExercises, timer, onFi
           ← {t('player.back')}
         </button>
         <div className="player-progress-mini">
-          <div className="progress-bar" style={{ width: 120, height: 6 }}>
-            <div className="progress-fill" style={{ width: `${progress}%` }} />
-          </div>
+          <progress className="ui-progress-mini" value={Number(progress)} max={100} />
           <span>{progress}%</span>
         </div>
         <span className="player-count">
