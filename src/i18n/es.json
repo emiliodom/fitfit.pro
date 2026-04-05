@@ -1,15 +1,109 @@
 {
   "nav": {
     "training": "Entrenamiento",
+    "running": "Running",
+    "valgus": "Valgus",
+    "kids": "Cataleya",
+    "women": "Mujer",
     "schedule": "Calendario",
     "nutrition": "Nutrición",
     "mindfulness": "Mindfulness",
     "recovery": "Recuperación",
     "brand": "FitFit.pro"
   },
+  "running": {
+    "title": "Laboratorio de Running",
+    "subtitle": "Activacion previa, sesiones inteligentes, reinicio post-run y foam roller para constancia.",
+    "preRun": "Pre-Run",
+    "run": "Run",
+    "postRun": "Post-Run",
+    "roller": "Foam Roller",
+    "intensityLow": "Suave",
+    "intensityModerate": "Moderado",
+    "intensityHigh": "Alto"
+  },
+  "valgus": {
+    "title": "Soporte para Valgus",
+    "subtitle": "Rutinas enfocadas en alineacion, control de cadera y tracking de rodilla.",
+    "notice": "Primero seguridad",
+    "disclaimer": "Estas rutinas son orientativas. Consulta con un profesional si el dolor persiste o empeora.",
+    "routinesTab": "Rutinas",
+    "painTab": "Registro de Dolor",
+    "cuesTitle": "Indicaciones de Alineacion",
+    "sets": "series",
+    "painLoggerTitle": "Registro de Dolor",
+    "painHistory": "Historial de Dolor",
+    "painSummary": "Registros: {count} · Promedio: {avg}/10",
+    "date": "Fecha",
+    "painScale": "Dolor (0-10)",
+    "location": "Zona",
+    "activity": "Actividad",
+    "notes": "Notas",
+    "notesPlaceholder": "Que ayudo o empeoro hoy?",
+    "saveEntry": "Guardar",
+    "clearLog": "Limpiar",
+    "noEntries": "Aun no hay registros. Agrega una sesion para detectar patrones.",
+    "deleteEntry": "Borrar",
+    "locations": {
+      "medialKnee": "Rodilla interna",
+      "lateralKnee": "Rodilla externa",
+      "patella": "Rotula",
+      "hip": "Cadera",
+      "ankle": "Tobillo"
+    },
+    "activities": {
+      "walk": "Caminata",
+      "run": "Running",
+      "strength": "Fuerza",
+      "mobility": "Movilidad",
+      "sport": "Deporte"
+    }
+  },
+  "kids": {
+    "badge": "Zona Cataleya",
+    "title": "Laboratorio de Color de Cataleya",
+    "subtitle": "Aventuras super coloridas para caminar, pesas, running, estirar y yoga."
+  },
+  "women": {
+    "title": "Laboratorio de Entrenamiento Mujer",
+    "subtitle": "Fuerza, core, circuitos metabolicos y recuperacion con buen ritmo."
+  },
   "training": {
     "title": "Matriz de Entrenamiento",
     "subtitle": "Seleccioná tu equipo, elegí una rutina predefinida o armá la tuya. Presioná play para empezar.",
+    "feed": {
+      "title": "Feed de Soporte",
+      "subtitle": "Vistas rapidas con tips, videos y un timer de foco para cada track.",
+      "tipsLabel": "Tips",
+      "routinesLabel": "Rutinas en vista previa",
+      "womenTab": "Mujer",
+      "kidsTab": "Cataleya",
+      "valgusTab": "Valgus",
+      "womenTitle": "Enfoque Mujer",
+      "womenDesc": "Fuerza, core y recuperacion con ritmo estable.",
+      "womenTips": [
+        "Respira en cada repeticion.",
+        "Controla el tempo antes de cargar.",
+        "Cierra con movilidad suave."
+      ],
+      "womenTimer": "Timer foco mujer",
+      "kidsTitle": "Cataleya en Movimiento",
+      "kidsDesc": "Bloques divertidos para caminar, pesas, running, estirar y yoga.",
+      "kidsTips": [
+        "Corto y divertido.",
+        "Usa colores, juegos e imaginacion.",
+        "Cierra con respiracion tranquila."
+      ],
+      "kidsTimer": "Timer Cataleya",
+      "valgusTitle": "Cuidado Valgus",
+      "valgusDesc": "Alineacion, estabilidad de cadera y tracking de rodilla.",
+      "valgusTips": [
+        "Pie tripode: dedo gordo, pequeno y talon.",
+        "Rodilla sobre los dedos medios.",
+        "Repeticiones lentas y controladas."
+      ],
+      "valgusTimer": "Timer alineacion valgus"
+    },
     "predefined": "Predefinidas",
     "goalBased": "Plan por Objetivo",
     "workoutLibrary": "Biblioteca de Rutinas",
@@ -72,6 +166,18 @@
     "dragReorder": "Arrastrar para reordenar",
     "start": "Iniciar",
     "pause": "Pausar"
+  },
+  "youtube": {
+    "title": "Rutinas en YouTube",
+    "subtitle": "Rutinas faciles de 20, 40 y 60 minutos.",
+    "duration20": "20 min",
+    "duration40": "40 min",
+    "duration60": "60 min",
+    "quick": "Reset rapido o inicio suave.",
+    "steady": "Bloque estable con respiracion.",
+    "endurance": "Enfoque de resistencia larga.",
+    "timerTitle": "Timer de rutina",
+    "timerHint": "Elige duracion y luego inicia la sesion."
   },
   "sound": {
     "settings": "Configuración de Sonido",

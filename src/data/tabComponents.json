@@ -1,0 +1,139 @@
+{
+  "tabs": [
+    {
+      "id": "training",
+      "titleKey": "training.title",
+      "components": [
+        "quickStart",
+        "supportFeed",
+        "predefinedRoutines",
+        "customBuilder",
+        "exerciseLibrary",
+        "routinePlayer"
+      ],
+      "features": {
+        "videos": true,
+        "timers": true
+      }
+    },
+    {
+      "id": "running",
+      "titleKey": "running.title",
+      "components": [
+        "subTabs",
+        "routineCards",
+        "youtubeRoutines",
+        "routineTimer"
+      ],
+      "features": {
+        "videos": true,
+        "timers": true
+      }
+    },
+    {
+      "id": "valgus",
+      "titleKey": "valgus.title",
+      "components": [
+        "infoBanner",
+        "subTabs",
+        "routineCards",
+        "alignmentCues",
+        "painLogger",
+        "youtubeRoutines",
+        "routineTimer"
+      ],
+      "features": {
+        "videos": true,
+        "timers": true
+      }
+    },
+    {
+      "id": "kids",
+      "titleKey": "kids.title",
+      "components": [
+        "hero",
+        "categoryTabs",
+        "sessionCards",
+        "youtubeRoutines",
+        "routineTimer"
+      ],
+      "features": {
+        "videos": true,
+        "timers": true
+      }
+    },
+    {
+      "id": "women",
+      "titleKey": "women.title",
+      "components": [
+        "subTabs",
+        "routineCards",
+        "youtubeRoutines",
+        "routineTimer"
+      ],
+      "features": {
+        "videos": true,
+        "timers": true
+      }
+    },
+    {
+      "id": "schedule",
+      "titleKey": "schedule.title",
+      "components": [
+        "config",
+        "stats",
+        "todayRoutine",
+        "progress",
+        "weeklyBlueprint",
+        "workoutLog"
+      ],
+      "features": {
+        "videos": false,
+        "timers": false
+      }
+    },
+    {
+      "id": "nutrition",
+      "titleKey": "nutrition.title",
+      "components": [
+        "weekPlan",
+        "fastingProtocol",
+        "macroTargets",
+        "groceryList"
+      ],
+      "features": {
+        "videos": false,
+        "timers": false
+      }
+    },
+    {
+      "id": "mindfulness",
+      "titleKey": "mindfulness.title",
+      "components": [
+        "stats",
+        "weekJourney",
+        "practiceCards",
+        "practiceTimer"
+      ],
+      "features": {
+        "videos": false,
+        "timers": true
+      }
+    },
+    {
+      "id": "injury",
+      "titleKey": "recovery.title",
+      "components": [
+        "subTabs",
+        "stretches",
+        "prehabProtocols",
+        "articles",
+        "stretchTimer"
+      ],
+      "features": {
+        "videos": false,
+        "timers": true
+      }
+    }
+  ]
+}

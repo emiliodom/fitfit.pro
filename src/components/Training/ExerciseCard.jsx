@@ -9,9 +9,10 @@ export default function ExerciseCard({ exercise, isSelected, onToggle, equipment
   const [showVideo, setShowVideo] = useState(false);
   const displayName = getExerciseDisplayName(exercise, lang);
 
-  const getEquipmentNames = (eqIds) => {
+  const getEquipmentNames = (eqIds = []) => {
+    const equipmentList = equipmentData || [];
     return eqIds.map(id => {
-      const eq = equipmentData.find(e => e.id === id);
+      const eq = equipmentList.find(e => e.id === id);
       return eq ? eq.name : id;
     }).join(', ');
   };
@@ -31,7 +32,7 @@ export default function ExerciseCard({ exercise, isSelected, onToggle, equipment
         {isSelected && <div className="ex-check">✓</div>}
         <div className="ex-name">{displayName}</div>
         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 4 }}>
-          {exercise.muscles.map(m => (
+          {(exercise.muscles || []).map(m => (
             <span key={m} className="tag" style={{ fontSize: '0.65rem' }}>{m}</span>
           ))}
         </div>

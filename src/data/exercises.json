@@ -1,793 +1,2268 @@
 {
   "equipment": [
-    { "id": "bodyweight", "name": "No Equipment", "icon": "🏋️", "description": "Bodyweight only" },
-    { "id": "dumbbells", "name": "Dumbbells", "icon": "🏋️‍♂️", "description": "Adjustable or fixed dumbbells" },
-    { "id": "kettlebell", "name": "Kettlebell", "icon": "🔔", "description": "Single or double kettlebell" },
-    { "id": "pullup_bar", "name": "Pull-Up Bar", "icon": "🪜", "description": "Door-frame or wall-mounted" },
-    { "id": "barbell", "name": "Barbell (No Bench)", "icon": "🏗️", "description": "Olympic bar with weight plates, floor work" },
-    { "id": "yoga_mat", "name": "Yoga Mat", "icon": "🧘", "description": "Mat for floor exercises" },
-    { "id": "resistance_bands", "name": "Resistance Bands", "icon": "〰️", "description": "Loop or tube bands" },
-    { "id": "boxing", "name": "Boxing Stand", "icon": "🥊", "description": "Freestanding punching bag" },
-    { "id": "ab_wheel", "name": "Ab Wheel", "icon": "🎡", "description": "Rollout wheel for core" },
-    { "id": "pushup_handles", "name": "Push-Up Handles", "icon": "🤲", "description": "Floor push-up holders for depth" }
+    {
+      "id": "bodyweight",
+      "name": "No Equipment",
+      "icon": "🏋️",
+      "description": "Bodyweight only"
+    },
+    {
+      "id": "dumbbells",
+      "name": "Dumbbells",
+      "icon": "🏋️‍♂️",
+      "description": "Adjustable or fixed dumbbells"
+    },
+    {
+      "id": "kettlebell",
+      "name": "Kettlebell",
+      "icon": "🔔",
+      "description": "Single or double kettlebell"
+    },
+    {
+      "id": "pullup_bar",
+      "name": "Pull-Up Bar",
+      "icon": "🪜",
+      "description": "Door-frame or wall-mounted"
+    },
+    {
+      "id": "barbell",
+      "name": "Barbell (No Bench)",
+      "icon": "🏗️",
+      "description": "Olympic bar with weight plates, floor work"
+    },
+    {
+      "id": "yoga_mat",
+      "name": "Yoga Mat",
+      "icon": "🧘",
+      "description": "Mat for floor exercises"
+    },
+    {
+      "id": "resistance_bands",
+      "name": "Resistance Bands",
+      "icon": "〰️",
+      "description": "Loop or tube bands"
+    },
+    {
+      "id": "boxing",
+      "name": "Boxing Stand",
+      "icon": "🥊",
+      "description": "Freestanding punching bag"
+    },
+    {
+      "id": "ab_wheel",
+      "name": "Ab Wheel",
+      "icon": "🎡",
+      "description": "Rollout wheel for core"
+    },
+    {
+      "id": "pushup_handles",
+      "name": "Push-Up Handles",
+      "icon": "🤲",
+      "description": "Floor push-up holders for depth"
+    }
   ],
   "categories": [
-    { "id": "push", "name": "Push", "color": "#10b981", "muscles": ["Chest", "Shoulders", "Triceps"] },
-    { "id": "pull", "name": "Pull", "color": "#3b82f6", "muscles": ["Back", "Biceps", "Rear Delts"] },
-    { "id": "legs", "name": "Legs", "color": "#f59e0b", "muscles": ["Quads", "Hamstrings", "Glutes", "Calves"] },
-    { "id": "core", "name": "Core", "color": "#ef4444", "muscles": ["Abs", "Obliques", "Lower Back"] },
-    { "id": "hiit", "name": "HIIT / Cardio", "color": "#8b5cf6", "muscles": ["Full Body", "Cardiovascular"] },
-    { "id": "boxing_cardio", "name": "Boxing", "color": "#ec4899", "muscles": ["Shoulders", "Core", "Cardio"] },
-    { "id": "flexibility", "name": "Flexibility", "color": "#06b6d4", "muscles": ["Full Body", "Joints"] }
+    {
+      "id": "push",
+      "name": "Push",
+      "color": "#10b981",
+      "muscles": [
+        "Chest",
+        "Shoulders",
+        "Triceps"
+      ]
+    },
+    {
+      "id": "pull",
+      "name": "Pull",
+      "color": "#3b82f6",
+      "muscles": [
+        "Back",
+        "Biceps",
+        "Rear Delts"
+      ]
+    },
+    {
+      "id": "legs",
+      "name": "Legs",
+      "color": "#f59e0b",
+      "muscles": [
+        "Quads",
+        "Hamstrings",
+        "Glutes",
+        "Calves"
+      ]
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "color": "#ef4444",
+      "muscles": [
+        "Abs",
+        "Obliques",
+        "Lower Back"
+      ]
+    },
+    {
+      "id": "hiit",
+      "name": "HIIT / Cardio",
+      "color": "#8b5cf6",
+      "muscles": [
+        "Full Body",
+        "Cardiovascular"
+      ]
+    },
+    {
+      "id": "boxing_cardio",
+      "name": "Boxing",
+      "color": "#ec4899",
+      "muscles": [
+        "Shoulders",
+        "Core",
+        "Cardio"
+      ]
+    },
+    {
+      "id": "flexibility",
+      "name": "Flexibility",
+      "color": "#06b6d4",
+      "muscles": [
+        "Full Body",
+        "Joints"
+      ]
+    }
   ],
   "exercises": [
     {
-      "id": "e001", "name": "Standard Push-Ups", "category": "push",
-      "equipment": ["bodyweight"],
-      "sets": "4", "reps": "15-20", "rest": 60,
+      "id": "e001",
+      "name": "Standard Push-Ups",
+      "category": "push",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "4",
+      "reps": "15-20",
+      "rest": 60,
       "cue": "Chest to floor, squeeze at top. Keep core tight.",
-      "muscles": ["Chest", "Triceps", "Front Delts"],
+      "muscles": [
+        "Chest",
+        "Triceps",
+        "Front Delts"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e002", "name": "Diamond Push-Ups", "category": "push",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "10-15", "rest": 60,
+      "id": "e002",
+      "name": "Diamond Push-Ups",
+      "category": "push",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "10-15",
+      "rest": 60,
       "cue": "Hands form diamond under chest. Elbows close to body.",
-      "muscles": ["Triceps", "Inner Chest"],
+      "muscles": [
+        "Triceps",
+        "Inner Chest"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e003", "name": "Wide Push-Ups", "category": "push",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "12-15", "rest": 60,
+      "id": "e003",
+      "name": "Wide Push-Ups",
+      "category": "push",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "12-15",
+      "rest": 60,
       "cue": "Hands 1.5x shoulder width. Focus on chest stretch.",
-      "muscles": ["Outer Chest", "Front Delts"],
+      "muscles": [
+        "Outer Chest",
+        "Front Delts"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e004", "name": "Pike Push-Ups", "category": "push",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "10-12", "rest": 60,
+      "id": "e004",
+      "name": "Pike Push-Ups",
+      "category": "push",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "10-12",
+      "rest": 60,
       "cue": "Hips high, head down. Mimic overhead press pattern.",
-      "muscles": ["Shoulders", "Triceps"],
+      "muscles": [
+        "Shoulders",
+        "Triceps"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e005", "name": "Decline Push-Ups", "category": "push",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "12-15", "rest": 60,
+      "id": "e005",
+      "name": "Decline Push-Ups",
+      "category": "push",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "12-15",
+      "rest": 60,
       "cue": "Feet elevated on a surface. Targets upper chest.",
-      "muscles": ["Upper Chest", "Front Delts"],
+      "muscles": [
+        "Upper Chest",
+        "Front Delts"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e006", "name": "Deep Push-Ups on Handles", "category": "push",
-      "equipment": ["pushup_handles"],
-      "sets": "4", "reps": "12-15", "rest": 60,
+      "id": "e006",
+      "name": "Deep Push-Ups on Handles",
+      "category": "push",
+      "equipment": [
+        "pushup_handles"
+      ],
+      "sets": "4",
+      "reps": "12-15",
+      "rest": 60,
       "cue": "Go below handle level for extra ROM. Squeeze pecs hard.",
-      "muscles": ["Chest", "Front Delts", "Triceps"],
+      "muscles": [
+        "Chest",
+        "Front Delts",
+        "Triceps"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e007", "name": "Close-Grip Handle Push-Ups", "category": "push",
-      "equipment": ["pushup_handles"],
-      "sets": "3", "reps": "10-12", "rest": 60,
+      "id": "e007",
+      "name": "Close-Grip Handle Push-Ups",
+      "category": "push",
+      "equipment": [
+        "pushup_handles"
+      ],
+      "sets": "3",
+      "reps": "10-12",
+      "rest": 60,
       "cue": "Handles close together, elbows tight to body.",
-      "muscles": ["Triceps", "Inner Chest"],
+      "muscles": [
+        "Triceps",
+        "Inner Chest"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e008", "name": "Dumbbell Floor Press", "category": "push",
-      "equipment": ["dumbbells", "yoga_mat"],
-      "sets": "4", "reps": "10-12", "rest": 90,
+      "id": "e008",
+      "name": "Dumbbell Floor Press",
+      "category": "push",
+      "equipment": [
+        "dumbbells",
+        "yoga_mat"
+      ],
+      "sets": "4",
+      "reps": "10-12",
+      "rest": 90,
       "cue": "Lie on mat, press dumbbells up. Elbows touch floor gently each rep.",
-      "muscles": ["Chest", "Triceps"],
+      "muscles": [
+        "Chest",
+        "Triceps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e009", "name": "Dumbbell Overhead Press", "category": "push",
-      "equipment": ["dumbbells"],
-      "sets": "4", "reps": "8-10", "rest": 90,
+      "id": "e009",
+      "name": "Dumbbell Overhead Press",
+      "category": "push",
+      "equipment": [
+        "dumbbells"
+      ],
+      "sets": "4",
+      "reps": "8-10",
+      "rest": 90,
       "cue": "Stand tall, press overhead without arching back.",
-      "muscles": ["Shoulders", "Triceps"],
+      "muscles": [
+        "Shoulders",
+        "Triceps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e010", "name": "Dumbbell Lateral Raises", "category": "push",
-      "equipment": ["dumbbells"],
-      "sets": "4", "reps": "12-15", "rest": 60,
+      "id": "e010",
+      "name": "Dumbbell Lateral Raises",
+      "category": "push",
+      "equipment": [
+        "dumbbells"
+      ],
+      "sets": "4",
+      "reps": "12-15",
+      "rest": 60,
       "cue": "Slight bend in elbow. Raise to shoulder height. Controlled descent.",
-      "muscles": ["Lateral Delts"],
+      "muscles": [
+        "Lateral Delts"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e011", "name": "Dumbbell Front Raises", "category": "push",
-      "equipment": ["dumbbells"],
-      "sets": "3", "reps": "12", "rest": 60,
+      "id": "e011",
+      "name": "Dumbbell Front Raises",
+      "category": "push",
+      "equipment": [
+        "dumbbells"
+      ],
+      "sets": "3",
+      "reps": "12",
+      "rest": 60,
       "cue": "Alternate arms. Don't swing momentum.",
-      "muscles": ["Front Delts"],
+      "muscles": [
+        "Front Delts"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e012", "name": "Dumbbell Skullcrushers (Floor)", "category": "push",
-      "equipment": ["dumbbells", "yoga_mat"],
-      "sets": "3", "reps": "12", "rest": 60,
+      "id": "e012",
+      "name": "Dumbbell Skullcrushers (Floor)",
+      "category": "push",
+      "equipment": [
+        "dumbbells",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "12",
+      "rest": 60,
       "cue": "Lie on mat, hinge only at elbows. Slow negative.",
-      "muscles": ["Triceps"],
+      "muscles": [
+        "Triceps"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e013", "name": "Kettlebell Overhead Press", "category": "push",
-      "equipment": ["kettlebell"],
-      "sets": "3", "reps": "8 per arm", "rest": 90,
+      "id": "e013",
+      "name": "Kettlebell Overhead Press",
+      "category": "push",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "3",
+      "reps": "8 per arm",
+      "rest": 90,
       "cue": "Clean to rack position. Press straight up. Keep core tight.",
-      "muscles": ["Shoulders", "Triceps", "Core"],
+      "muscles": [
+        "Shoulders",
+        "Triceps",
+        "Core"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e014", "name": "Kettlebell Push Press", "category": "push",
-      "equipment": ["kettlebell"],
-      "sets": "3", "reps": "10 per arm", "rest": 60,
+      "id": "e014",
+      "name": "Kettlebell Push Press",
+      "category": "push",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "3",
+      "reps": "10 per arm",
+      "rest": 60,
       "cue": "Slight leg drive to initiate press. Control the negative.",
-      "muscles": ["Shoulders", "Triceps", "Legs"],
+      "muscles": [
+        "Shoulders",
+        "Triceps",
+        "Legs"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e015", "name": "Barbell Floor Press", "category": "push",
-      "equipment": ["barbell", "yoga_mat"],
-      "sets": "4", "reps": "8-10", "rest": 120,
+      "id": "e015",
+      "name": "Barbell Floor Press",
+      "category": "push",
+      "equipment": [
+        "barbell",
+        "yoga_mat"
+      ],
+      "sets": "4",
+      "reps": "8-10",
+      "rest": 120,
       "cue": "Lie flat, unrack or clean bar. Press explosively. Elbows touch floor.",
-      "muscles": ["Chest", "Triceps"],
+      "muscles": [
+        "Chest",
+        "Triceps"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e016", "name": "Barbell Overhead Press (Standing)", "category": "push",
-      "equipment": ["barbell"],
-      "sets": "4", "reps": "6-8", "rest": 120,
+      "id": "e016",
+      "name": "Barbell Overhead Press (Standing)",
+      "category": "push",
+      "equipment": [
+        "barbell"
+      ],
+      "sets": "4",
+      "reps": "6-8",
+      "rest": 120,
       "cue": "Clean bar to shoulders. Press overhead. Keep glutes and core braced.",
-      "muscles": ["Shoulders", "Triceps", "Upper Chest"],
+      "muscles": [
+        "Shoulders",
+        "Triceps",
+        "Upper Chest"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e017", "name": "Band Push-Ups", "category": "push",
-      "equipment": ["resistance_bands"],
-      "sets": "3", "reps": "15", "rest": 60,
+      "id": "e017",
+      "name": "Band Push-Ups",
+      "category": "push",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "3",
+      "reps": "15",
+      "rest": 60,
       "cue": "Band across back, hands on band ends. Added resistance at lockout.",
-      "muscles": ["Chest", "Triceps"],
+      "muscles": [
+        "Chest",
+        "Triceps"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e018", "name": "Band Lateral Raises", "category": "push",
-      "equipment": ["resistance_bands"],
-      "sets": "3", "reps": "15-20", "rest": 45,
+      "id": "e018",
+      "name": "Band Lateral Raises",
+      "category": "push",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "3",
+      "reps": "15-20",
+      "rest": 45,
       "cue": "Stand on band, raise hands to shoulder level. Constant tension.",
-      "muscles": ["Lateral Delts"],
+      "muscles": [
+        "Lateral Delts"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e019", "name": "Band Overhead Press", "category": "push",
-      "equipment": ["resistance_bands"],
-      "sets": "3", "reps": "12-15", "rest": 60,
+      "id": "e019",
+      "name": "Band Overhead Press",
+      "category": "push",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "3",
+      "reps": "12-15",
+      "rest": 60,
       "cue": "Stand on band, press handles overhead. Full extension.",
-      "muscles": ["Shoulders", "Triceps"],
+      "muscles": [
+        "Shoulders",
+        "Triceps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e020", "name": "Strict Pull-Ups", "category": "pull",
-      "equipment": ["pullup_bar"],
-      "sets": "4", "reps": "Max (aim 6-12)", "rest": 120,
+      "id": "e020",
+      "name": "Strict Pull-Ups",
+      "category": "pull",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "sets": "4",
+      "reps": "Max (aim 6-12)",
+      "rest": 120,
       "cue": "Drive elbows down to floor. Full hang at bottom. No kipping.",
-      "muscles": ["Lats", "Biceps", "Rhomboids"],
+      "muscles": [
+        "Lats",
+        "Biceps",
+        "Rhomboids"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e021", "name": "Chin-Ups", "category": "pull",
-      "equipment": ["pullup_bar"],
-      "sets": "4", "reps": "Max (aim 6-12)", "rest": 120,
+      "id": "e021",
+      "name": "Chin-Ups",
+      "category": "pull",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "sets": "4",
+      "reps": "Max (aim 6-12)",
+      "rest": 120,
       "cue": "Supinated grip. Chin over bar. Full stretch at bottom.",
-      "muscles": ["Biceps", "Lats", "Core"],
+      "muscles": [
+        "Biceps",
+        "Lats",
+        "Core"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e022", "name": "Negative Pull-Ups", "category": "pull",
-      "equipment": ["pullup_bar"],
-      "sets": "3", "reps": "5", "rest": 120,
+      "id": "e022",
+      "name": "Negative Pull-Ups",
+      "category": "pull",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "sets": "3",
+      "reps": "5",
+      "rest": 120,
       "cue": "Jump to top, lower yourself over 5 seconds. Build strength for full reps.",
-      "muscles": ["Lats", "Biceps"],
+      "muscles": [
+        "Lats",
+        "Biceps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e023", "name": "Dead Hang", "category": "pull",
-      "equipment": ["pullup_bar"],
-      "sets": "3", "reps": "30-60 sec", "rest": 60,
+      "id": "e023",
+      "name": "Dead Hang",
+      "category": "pull",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "sets": "3",
+      "reps": "30-60 sec",
+      "rest": 60,
       "cue": "Full passive hang. Decompresses spine. Builds grip.",
-      "muscles": ["Forearms", "Lats", "Spine"],
+      "muscles": [
+        "Forearms",
+        "Lats",
+        "Spine"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e024", "name": "Wide-Grip Pull-Ups", "category": "pull",
-      "equipment": ["pullup_bar"],
-      "sets": "3", "reps": "Max", "rest": 120,
+      "id": "e024",
+      "name": "Wide-Grip Pull-Ups",
+      "category": "pull",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "sets": "3",
+      "reps": "Max",
+      "rest": 120,
       "cue": "Wide grip targets outer lats for V-taper width.",
-      "muscles": ["Outer Lats", "Teres Major"],
+      "muscles": [
+        "Outer Lats",
+        "Teres Major"
+      ],
       "difficulty": "advanced"
     },
     {
-      "id": "e025", "name": "Barbell Bent-Over Row", "category": "pull",
-      "equipment": ["barbell"],
-      "sets": "4", "reps": "8-10", "rest": 90,
+      "id": "e025",
+      "name": "Barbell Bent-Over Row",
+      "category": "pull",
+      "equipment": [
+        "barbell"
+      ],
+      "sets": "4",
+      "reps": "8-10",
+      "rest": 90,
       "cue": "Hinge at hips 45°. Pull bar to lower chest. Squeeze shoulder blades.",
-      "muscles": ["Lats", "Rhomboids", "Rear Delts"],
+      "muscles": [
+        "Lats",
+        "Rhomboids",
+        "Rear Delts"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e026", "name": "Barbell Bicep Curls", "category": "pull",
-      "equipment": ["barbell"],
-      "sets": "3", "reps": "10-12", "rest": 60,
+      "id": "e026",
+      "name": "Barbell Bicep Curls",
+      "category": "pull",
+      "equipment": [
+        "barbell"
+      ],
+      "sets": "3",
+      "reps": "10-12",
+      "rest": 60,
       "cue": "Elbows pinned at sides. Squeeze at top. Slow negative.",
-      "muscles": ["Biceps", "Forearms"],
+      "muscles": [
+        "Biceps",
+        "Forearms"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e027", "name": "Dumbbell Bent-Over Row", "category": "pull",
-      "equipment": ["dumbbells"],
-      "sets": "4", "reps": "10 per arm", "rest": 60,
+      "id": "e027",
+      "name": "Dumbbell Bent-Over Row",
+      "category": "pull",
+      "equipment": [
+        "dumbbells"
+      ],
+      "sets": "4",
+      "reps": "10 per arm",
+      "rest": 60,
       "cue": "One arm at a time on support. Pull to hip. Full stretch at bottom.",
-      "muscles": ["Lats", "Rhomboids", "Biceps"],
+      "muscles": [
+        "Lats",
+        "Rhomboids",
+        "Biceps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e028", "name": "Dumbbell Pullover (Floor)", "category": "pull",
-      "equipment": ["dumbbells", "yoga_mat"],
-      "sets": "3", "reps": "12", "rest": 60,
+      "id": "e028",
+      "name": "Dumbbell Pullover (Floor)",
+      "category": "pull",
+      "equipment": [
+        "dumbbells",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "12",
+      "rest": 60,
       "cue": "Lie flat, extend arms overhead with dumbbell. Stretch lats, pull back.",
-      "muscles": ["Lats", "Chest", "Serratus"],
+      "muscles": [
+        "Lats",
+        "Chest",
+        "Serratus"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e029", "name": "Dumbbell Hammer Curls", "category": "pull",
-      "equipment": ["dumbbells"],
-      "sets": "3", "reps": "12", "rest": 60,
+      "id": "e029",
+      "name": "Dumbbell Hammer Curls",
+      "category": "pull",
+      "equipment": [
+        "dumbbells"
+      ],
+      "sets": "3",
+      "reps": "12",
+      "rest": 60,
       "cue": "Neutral grip. Targets brachialis for arm thickness.",
-      "muscles": ["Biceps", "Brachialis", "Forearms"],
+      "muscles": [
+        "Biceps",
+        "Brachialis",
+        "Forearms"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e030", "name": "Kettlebell Row", "category": "pull",
-      "equipment": ["kettlebell"],
-      "sets": "3", "reps": "10 per arm", "rest": 60,
+      "id": "e030",
+      "name": "Kettlebell Row",
+      "category": "pull",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "3",
+      "reps": "10 per arm",
+      "rest": 60,
       "cue": "Hinge at hip, pull KB to hip. Squeeze scapula.",
-      "muscles": ["Lats", "Rhomboids"],
+      "muscles": [
+        "Lats",
+        "Rhomboids"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e031", "name": "Kettlebell High Pull", "category": "pull",
-      "equipment": ["kettlebell"],
-      "sets": "3", "reps": "12 per arm", "rest": 60,
+      "id": "e031",
+      "name": "Kettlebell High Pull",
+      "category": "pull",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "3",
+      "reps": "12 per arm",
+      "rest": 60,
       "cue": "Explosive hip drive, pull to chin level. Control descent.",
-      "muscles": ["Traps", "Rear Delts", "Biceps"],
+      "muscles": [
+        "Traps",
+        "Rear Delts",
+        "Biceps"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e032", "name": "Band Pull-Apart", "category": "pull",
-      "equipment": ["resistance_bands"],
-      "sets": "4", "reps": "20", "rest": 45,
+      "id": "e032",
+      "name": "Band Pull-Apart",
+      "category": "pull",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "4",
+      "reps": "20",
+      "rest": 45,
       "cue": "Arms straight in front, pull band apart. Squeeze shoulder blades.",
-      "muscles": ["Rear Delts", "Rhomboids", "Traps"],
+      "muscles": [
+        "Rear Delts",
+        "Rhomboids",
+        "Traps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e033", "name": "Band Face Pulls", "category": "pull",
-      "equipment": ["resistance_bands"],
-      "sets": "4", "reps": "15-20", "rest": 45,
+      "id": "e033",
+      "name": "Band Face Pulls",
+      "category": "pull",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "4",
+      "reps": "15-20",
+      "rest": 45,
       "cue": "Anchor band at head height. Pull to face, rotate externally.",
-      "muscles": ["Rear Delts", "Rotator Cuff", "Traps"],
+      "muscles": [
+        "Rear Delts",
+        "Rotator Cuff",
+        "Traps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e034", "name": "Band Rows", "category": "pull",
-      "equipment": ["resistance_bands"],
-      "sets": "3", "reps": "15", "rest": 60,
+      "id": "e034",
+      "name": "Band Rows",
+      "category": "pull",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "3",
+      "reps": "15",
+      "rest": 60,
       "cue": "Anchor at chest height. Pull handles to ribcage. Squeeze back.",
-      "muscles": ["Lats", "Rhomboids"],
+      "muscles": [
+        "Lats",
+        "Rhomboids"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e035", "name": "Band Bicep Curls", "category": "pull",
-      "equipment": ["resistance_bands"],
-      "sets": "3", "reps": "15-20", "rest": 45,
+      "id": "e035",
+      "name": "Band Bicep Curls",
+      "category": "pull",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "3",
+      "reps": "15-20",
+      "rest": 45,
       "cue": "Stand on band, curl handles. Constant tension throughout.",
-      "muscles": ["Biceps"],
+      "muscles": [
+        "Biceps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e036", "name": "Inverted Rows (Bar Low)", "category": "pull",
-      "equipment": ["barbell"],
-      "sets": "3", "reps": "12-15", "rest": 60,
+      "id": "e036",
+      "name": "Inverted Rows (Bar Low)",
+      "category": "pull",
+      "equipment": [
+        "barbell"
+      ],
+      "sets": "3",
+      "reps": "12-15",
+      "rest": 60,
       "cue": "Set bar on low supports. Hang underneath and row body to bar.",
-      "muscles": ["Lats", "Rhomboids", "Biceps"],
+      "muscles": [
+        "Lats",
+        "Rhomboids",
+        "Biceps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e037", "name": "Bodyweight Rows (Table/Bar)", "category": "pull",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "12-15", "rest": 60,
+      "id": "e037",
+      "name": "Bodyweight Rows (Table/Bar)",
+      "category": "pull",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "12-15",
+      "rest": 60,
       "cue": "Use sturdy table edge. Pull chest to edge. Feet on floor.",
-      "muscles": ["Back", "Biceps"],
+      "muscles": [
+        "Back",
+        "Biceps"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e038", "name": "Superman Hold", "category": "pull",
-      "equipment": ["bodyweight", "yoga_mat"],
-      "sets": "3", "reps": "20 sec hold", "rest": 45,
+      "id": "e038",
+      "name": "Superman Hold",
+      "category": "pull",
+      "equipment": [
+        "bodyweight",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "20 sec hold",
+      "rest": 45,
       "cue": "Lie face down. Lift arms and legs off floor. Squeeze glutes and back.",
-      "muscles": ["Erectors", "Glutes", "Rear Delts"],
+      "muscles": [
+        "Erectors",
+        "Glutes",
+        "Rear Delts"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e040", "name": "Barbell Squat (Front or Zercher)", "category": "legs",
-      "equipment": ["barbell"],
-      "sets": "4", "reps": "8-10", "rest": 120,
+      "id": "e040",
+      "name": "Barbell Squat (Front or Zercher)",
+      "category": "legs",
+      "equipment": [
+        "barbell"
+      ],
+      "sets": "4",
+      "reps": "8-10",
+      "rest": 120,
       "cue": "Front squat or Zercher hold (bar in elbow crook). No rack needed.",
-      "muscles": ["Quads", "Glutes", "Core"],
+      "muscles": [
+        "Quads",
+        "Glutes",
+        "Core"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e041", "name": "Barbell Romanian Deadlift", "category": "legs",
-      "equipment": ["barbell"],
-      "sets": "4", "reps": "8-10", "rest": 120,
+      "id": "e041",
+      "name": "Barbell Romanian Deadlift",
+      "category": "legs",
+      "equipment": [
+        "barbell"
+      ],
+      "sets": "4",
+      "reps": "8-10",
+      "rest": 120,
       "cue": "Hinge at hips, slight knee bend. Feel hamstring stretch. Flat back.",
-      "muscles": ["Hamstrings", "Glutes", "Erectors"],
+      "muscles": [
+        "Hamstrings",
+        "Glutes",
+        "Erectors"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e042", "name": "Barbell Deadlift", "category": "legs",
-      "equipment": ["barbell"],
-      "sets": "4", "reps": "5-6", "rest": 180,
+      "id": "e042",
+      "name": "Barbell Deadlift",
+      "category": "legs",
+      "equipment": [
+        "barbell"
+      ],
+      "sets": "4",
+      "reps": "5-6",
+      "rest": 180,
       "cue": "Bar over mid-foot. Drive through floor. Lock out hips at top.",
-      "muscles": ["Full Posterior Chain"],
+      "muscles": [
+        "Full Posterior Chain"
+      ],
       "difficulty": "advanced"
     },
     {
-      "id": "e043", "name": "Goblet Squat", "category": "legs",
-      "equipment": ["kettlebell"],
-      "sets": "4", "reps": "12-15", "rest": 60,
+      "id": "e043",
+      "name": "Goblet Squat",
+      "category": "legs",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "4",
+      "reps": "12-15",
+      "rest": 60,
       "cue": "Hold KB at chest. Squat deep. Elbows inside knees.",
-      "muscles": ["Quads", "Glutes"],
+      "muscles": [
+        "Quads",
+        "Glutes"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e044", "name": "Kettlebell Single-Leg Deadlift", "category": "legs",
-      "equipment": ["kettlebell"],
-      "sets": "3", "reps": "10 per leg", "rest": 60,
+      "id": "e044",
+      "name": "Kettlebell Single-Leg Deadlift",
+      "category": "legs",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "3",
+      "reps": "10 per leg",
+      "rest": 60,
       "cue": "Hinge on one leg. KB in opposite hand. Balance and stretch.",
-      "muscles": ["Hamstrings", "Glutes", "Balance"],
+      "muscles": [
+        "Hamstrings",
+        "Glutes",
+        "Balance"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e045", "name": "Dumbbell Bulgarian Split Squat", "category": "legs",
-      "equipment": ["dumbbells"],
-      "sets": "3", "reps": "10 per leg", "rest": 90,
+      "id": "e045",
+      "name": "Dumbbell Bulgarian Split Squat",
+      "category": "legs",
+      "equipment": [
+        "dumbbells"
+      ],
+      "sets": "3",
+      "reps": "10 per leg",
+      "rest": 90,
       "cue": "Rear foot elevated. Front knee tracks over toes. Deep stretch.",
-      "muscles": ["Quads", "Glutes", "Hip Flexors"],
+      "muscles": [
+        "Quads",
+        "Glutes",
+        "Hip Flexors"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e046", "name": "Dumbbell Lunges", "category": "legs",
-      "equipment": ["dumbbells"],
-      "sets": "3", "reps": "12 per leg", "rest": 60,
+      "id": "e046",
+      "name": "Dumbbell Lunges",
+      "category": "legs",
+      "equipment": [
+        "dumbbells"
+      ],
+      "sets": "3",
+      "reps": "12 per leg",
+      "rest": 60,
       "cue": "Step forward, knee doesn't pass toes. Drive back to standing.",
-      "muscles": ["Quads", "Glutes"],
+      "muscles": [
+        "Quads",
+        "Glutes"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e047", "name": "Dumbbell Sumo Squat", "category": "legs",
-      "equipment": ["dumbbells"],
-      "sets": "3", "reps": "12-15", "rest": 60,
+      "id": "e047",
+      "name": "Dumbbell Sumo Squat",
+      "category": "legs",
+      "equipment": [
+        "dumbbells"
+      ],
+      "sets": "3",
+      "reps": "12-15",
+      "rest": 60,
       "cue": "Wide stance, hold dumbbell between legs. Inner thigh focus.",
-      "muscles": ["Adductors", "Quads", "Glutes"],
+      "muscles": [
+        "Adductors",
+        "Quads",
+        "Glutes"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e048", "name": "Bodyweight Squats", "category": "legs",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "20", "rest": 45,
+      "id": "e048",
+      "name": "Bodyweight Squats",
+      "category": "legs",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "20",
+      "rest": 45,
       "cue": "Full depth. Arms extended for balance. Drive through heels.",
-      "muscles": ["Quads", "Glutes"],
+      "muscles": [
+        "Quads",
+        "Glutes"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e049", "name": "Jump Squats", "category": "legs",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "15", "rest": 60,
+      "id": "e049",
+      "name": "Jump Squats",
+      "category": "legs",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "15",
+      "rest": 60,
       "cue": "Squat down, explode up. Land softly. Plyometric power.",
-      "muscles": ["Quads", "Glutes", "Calves"],
+      "muscles": [
+        "Quads",
+        "Glutes",
+        "Calves"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e050", "name": "Single-Leg Calf Raises", "category": "legs",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "15 per leg", "rest": 45,
+      "id": "e050",
+      "name": "Single-Leg Calf Raises",
+      "category": "legs",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "15 per leg",
+      "rest": 45,
       "cue": "Stand on step edge. Full range of motion. Pause at top.",
-      "muscles": ["Calves"],
+      "muscles": [
+        "Calves"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e051", "name": "Wall Sit", "category": "legs",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "45-60 sec", "rest": 60,
+      "id": "e051",
+      "name": "Wall Sit",
+      "category": "legs",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "45-60 sec",
+      "rest": 60,
       "cue": "Back flat against wall. Thighs parallel to floor. Endure.",
-      "muscles": ["Quads", "Glutes"],
+      "muscles": [
+        "Quads",
+        "Glutes"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e052", "name": "Band Squats", "category": "legs",
-      "equipment": ["resistance_bands"],
-      "sets": "3", "reps": "15-20", "rest": 45,
+      "id": "e052",
+      "name": "Band Squats",
+      "category": "legs",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "3",
+      "reps": "15-20",
+      "rest": 45,
       "cue": "Stand on band, handles at shoulders. Added resistance at top.",
-      "muscles": ["Quads", "Glutes"],
+      "muscles": [
+        "Quads",
+        "Glutes"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e053", "name": "Band Lateral Walks", "category": "legs",
-      "equipment": ["resistance_bands"],
-      "sets": "3", "reps": "15 per direction", "rest": 45,
+      "id": "e053",
+      "name": "Band Lateral Walks",
+      "category": "legs",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "3",
+      "reps": "15 per direction",
+      "rest": 45,
       "cue": "Band around ankles. Squat position. Step laterally.",
-      "muscles": ["Glute Medius", "Abductors"],
+      "muscles": [
+        "Glute Medius",
+        "Abductors"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e054", "name": "Kettlebell Swing", "category": "legs",
-      "equipment": ["kettlebell"],
-      "sets": "4", "reps": "20", "rest": 60,
+      "id": "e054",
+      "name": "Kettlebell Swing",
+      "category": "legs",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "4",
+      "reps": "20",
+      "rest": 60,
       "cue": "Hinge at hips. Power from glutes, not arms. Eye-level height.",
-      "muscles": ["Glutes", "Hamstrings", "Core"],
+      "muscles": [
+        "Glutes",
+        "Hamstrings",
+        "Core"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e060", "name": "Ab Wheel Rollouts", "category": "core",
-      "equipment": ["ab_wheel", "yoga_mat"],
-      "sets": "4", "reps": "8-12", "rest": 60,
+      "id": "e060",
+      "name": "Ab Wheel Rollouts",
+      "category": "core",
+      "equipment": [
+        "ab_wheel",
+        "yoga_mat"
+      ],
+      "sets": "4",
+      "reps": "8-12",
+      "rest": 60,
       "cue": "Don't let lower back sag. Keep glutes squeezed. Go as far as you can.",
-      "muscles": ["Rectus Abdominis", "Serratus", "Core"],
+      "muscles": [
+        "Rectus Abdominis",
+        "Serratus",
+        "Core"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e061", "name": "Ab Wheel Kneeling Rollout", "category": "core",
-      "equipment": ["ab_wheel", "yoga_mat"],
-      "sets": "3", "reps": "10-15", "rest": 60,
+      "id": "e061",
+      "name": "Ab Wheel Kneeling Rollout",
+      "category": "core",
+      "equipment": [
+        "ab_wheel",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "10-15",
+      "rest": 60,
       "cue": "From knees. Controlled extension and contraction. Beginner progression.",
-      "muscles": ["Abs", "Core"],
+      "muscles": [
+        "Abs",
+        "Core"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e062", "name": "Plank", "category": "core",
-      "equipment": ["bodyweight", "yoga_mat"],
-      "sets": "3", "reps": "45-60 sec", "rest": 45,
+      "id": "e062",
+      "name": "Plank",
+      "category": "core",
+      "equipment": [
+        "bodyweight",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "45-60 sec",
+      "rest": 45,
       "cue": "Elbows under shoulders. Body is straight line. Squeeze everything.",
-      "muscles": ["Core", "Shoulders"],
+      "muscles": [
+        "Core",
+        "Shoulders"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e063", "name": "Side Plank", "category": "core",
-      "equipment": ["bodyweight", "yoga_mat"],
-      "sets": "3", "reps": "30 sec per side", "rest": 45,
+      "id": "e063",
+      "name": "Side Plank",
+      "category": "core",
+      "equipment": [
+        "bodyweight",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "30 sec per side",
+      "rest": 45,
       "cue": "Stack feet. Hips up. Targets obliques.",
-      "muscles": ["Obliques", "Core"],
+      "muscles": [
+        "Obliques",
+        "Core"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e064", "name": "Russian Twists", "category": "core",
-      "equipment": ["dumbbells", "yoga_mat"],
-      "sets": "3", "reps": "20", "rest": 45,
+      "id": "e064",
+      "name": "Russian Twists",
+      "category": "core",
+      "equipment": [
+        "dumbbells",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "20",
+      "rest": 45,
       "cue": "Lean back 45°, feet off floor. Rotate TORSO, not just arms.",
-      "muscles": ["Obliques", "Abs"],
+      "muscles": [
+        "Obliques",
+        "Abs"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e065", "name": "Bicycle Crunches", "category": "core",
-      "equipment": ["bodyweight", "yoga_mat"],
-      "sets": "3", "reps": "20", "rest": 45,
+      "id": "e065",
+      "name": "Bicycle Crunches",
+      "category": "core",
+      "equipment": [
+        "bodyweight",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "20",
+      "rest": 45,
       "cue": "Opposite elbow to knee. Extend other leg fully. Controlled.",
-      "muscles": ["Obliques", "Rectus Abdominis"],
+      "muscles": [
+        "Obliques",
+        "Rectus Abdominis"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e066", "name": "Leg Raises", "category": "core",
-      "equipment": ["bodyweight", "yoga_mat"],
-      "sets": "3", "reps": "15", "rest": 60,
+      "id": "e066",
+      "name": "Leg Raises",
+      "category": "core",
+      "equipment": [
+        "bodyweight",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "15",
+      "rest": 60,
       "cue": "Lie flat. Raise straight legs to 90°. Lower slowly without touching floor.",
-      "muscles": ["Lower Abs", "Hip Flexors"],
+      "muscles": [
+        "Lower Abs",
+        "Hip Flexors"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e067", "name": "Hanging Leg Raises", "category": "core",
-      "equipment": ["pullup_bar"],
-      "sets": "3", "reps": "10-12", "rest": 60,
+      "id": "e067",
+      "name": "Hanging Leg Raises",
+      "category": "core",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "sets": "3",
+      "reps": "10-12",
+      "rest": 60,
       "cue": "Hang from bar. Raise legs to parallel or higher. No swinging.",
-      "muscles": ["Lower Abs", "Hip Flexors", "Grip"],
+      "muscles": [
+        "Lower Abs",
+        "Hip Flexors",
+        "Grip"
+      ],
       "difficulty": "advanced"
     },
     {
-      "id": "e068", "name": "Hanging Knee Raises", "category": "core",
-      "equipment": ["pullup_bar"],
-      "sets": "3", "reps": "15", "rest": 60,
+      "id": "e068",
+      "name": "Hanging Knee Raises",
+      "category": "core",
+      "equipment": [
+        "pullup_bar"
+      ],
+      "sets": "3",
+      "reps": "15",
+      "rest": 60,
       "cue": "Hang from bar, bring knees to chest. Control the swing.",
-      "muscles": ["Abs", "Hip Flexors"],
+      "muscles": [
+        "Abs",
+        "Hip Flexors"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e069", "name": "Kettlebell Turkish Get-Up", "category": "core",
-      "equipment": ["kettlebell", "yoga_mat"],
-      "sets": "3", "reps": "3 per side", "rest": 90,
+      "id": "e069",
+      "name": "Kettlebell Turkish Get-Up",
+      "category": "core",
+      "equipment": [
+        "kettlebell",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "3 per side",
+      "rest": 90,
       "cue": "Full body stability exercise. Go slow. Eyes on the kettlebell.",
-      "muscles": ["Core", "Shoulders", "Hips"],
+      "muscles": [
+        "Core",
+        "Shoulders",
+        "Hips"
+      ],
       "difficulty": "advanced"
     },
     {
-      "id": "e070", "name": "Kettlebell Windmill", "category": "core",
-      "equipment": ["kettlebell"],
-      "sets": "3", "reps": "6 per side", "rest": 60,
+      "id": "e070",
+      "name": "Kettlebell Windmill",
+      "category": "core",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "3",
+      "reps": "6 per side",
+      "rest": 60,
       "cue": "KB overhead, hinge laterally. Stretch obliques and hamstrings.",
-      "muscles": ["Obliques", "Shoulders", "Hamstrings"],
+      "muscles": [
+        "Obliques",
+        "Shoulders",
+        "Hamstrings"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e071", "name": "Mountain Climbers", "category": "core",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "30 sec", "rest": 30,
+      "id": "e071",
+      "name": "Mountain Climbers",
+      "category": "core",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "30 sec",
+      "rest": 30,
       "cue": "Plank position. Drive knees to chest alternating. Keep hips level.",
-      "muscles": ["Core", "Hip Flexors", "Cardio"],
+      "muscles": [
+        "Core",
+        "Hip Flexors",
+        "Cardio"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e072", "name": "Dead Bug", "category": "core",
-      "equipment": ["bodyweight", "yoga_mat"],
-      "sets": "3", "reps": "10 per side", "rest": 45,
+      "id": "e072",
+      "name": "Dead Bug",
+      "category": "core",
+      "equipment": [
+        "bodyweight",
+        "yoga_mat"
+      ],
+      "sets": "3",
+      "reps": "10 per side",
+      "rest": 45,
       "cue": "Lie on back. Extend opposite arm and leg. Keep lower back pinned to floor.",
-      "muscles": ["Deep Core", "TVA"],
+      "muscles": [
+        "Deep Core",
+        "TVA"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e080", "name": "Burpees", "category": "hiit",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "15", "rest": 60,
+      "id": "e080",
+      "name": "Burpees",
+      "category": "hiit",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "15",
+      "rest": 60,
       "cue": "Chest to floor, explode up. Jump at top. Full intensity.",
-      "muscles": ["Full Body", "Cardio"],
+      "muscles": [
+        "Full Body",
+        "Cardio"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e081", "name": "Kettlebell Swing HIIT", "category": "hiit",
-      "equipment": ["kettlebell"],
-      "sets": "5", "reps": "30 sec on / 30 sec off", "rest": 30,
+      "id": "e081",
+      "name": "Kettlebell Swing HIIT",
+      "category": "hiit",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "5",
+      "reps": "30 sec on / 30 sec off",
+      "rest": 30,
       "cue": "Maximum intensity swings. Focus on hip snap.",
-      "muscles": ["Glutes", "Hamstrings", "Cardio"],
+      "muscles": [
+        "Glutes",
+        "Hamstrings",
+        "Cardio"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e082", "name": "Jump Rope (Imaginary)", "category": "hiit",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "60 sec", "rest": 30,
+      "id": "e082",
+      "name": "Jump Rope (Imaginary)",
+      "category": "hiit",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "60 sec",
+      "rest": 30,
       "cue": "Bounce on balls of feet. Wrists do the rotation.",
-      "muscles": ["Calves", "Cardio", "Coordination"],
+      "muscles": [
+        "Calves",
+        "Cardio",
+        "Coordination"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e083", "name": "High Knees", "category": "hiit",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "30 sec", "rest": 30,
+      "id": "e083",
+      "name": "High Knees",
+      "category": "hiit",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "30 sec",
+      "rest": 30,
       "cue": "Drive knees above hip height. Pump arms. Sprint in place.",
-      "muscles": ["Hip Flexors", "Cardio"],
+      "muscles": [
+        "Hip Flexors",
+        "Cardio"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e084", "name": "Squat Jumps", "category": "hiit",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "15", "rest": 60,
+      "id": "e084",
+      "name": "Squat Jumps",
+      "category": "hiit",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "15",
+      "rest": 60,
       "cue": "Deep squat, explosive jump. Soft landing into next rep.",
-      "muscles": ["Quads", "Glutes", "Calves"],
+      "muscles": [
+        "Quads",
+        "Glutes",
+        "Calves"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e085", "name": "Kettlebell Clean & Press", "category": "hiit",
-      "equipment": ["kettlebell"],
-      "sets": "4", "reps": "8 per arm", "rest": 60,
+      "id": "e085",
+      "name": "Kettlebell Clean & Press",
+      "category": "hiit",
+      "equipment": [
+        "kettlebell"
+      ],
+      "sets": "4",
+      "reps": "8 per arm",
+      "rest": 60,
       "cue": "Clean KB to rack, press overhead. One fluid motion. Full body.",
-      "muscles": ["Shoulders", "Core", "Legs"],
+      "muscles": [
+        "Shoulders",
+        "Core",
+        "Legs"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e086", "name": "Dumbbell Thrusters", "category": "hiit",
-      "equipment": ["dumbbells"],
-      "sets": "3", "reps": "12", "rest": 60,
+      "id": "e086",
+      "name": "Dumbbell Thrusters",
+      "category": "hiit",
+      "equipment": [
+        "dumbbells"
+      ],
+      "sets": "3",
+      "reps": "12",
+      "rest": 60,
       "cue": "Front squat into overhead press. One continuous movement.",
-      "muscles": ["Full Body"],
+      "muscles": [
+        "Full Body"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e090", "name": "Heavy Bag Straight Punches", "category": "boxing_cardio",
-      "equipment": ["boxing"],
-      "sets": "3", "reps": "3 min rounds", "rest": 60,
+      "id": "e090",
+      "name": "Heavy Bag Straight Punches",
+      "category": "boxing_cardio",
+      "equipment": [
+        "boxing"
+      ],
+      "sets": "3",
+      "reps": "3 min rounds",
+      "rest": 60,
       "cue": "Jab-Cross combinations. Rotate hips. Stay on balls of feet.",
-      "muscles": ["Shoulders", "Core", "Arms"],
+      "muscles": [
+        "Shoulders",
+        "Core",
+        "Arms"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e091", "name": "Heavy Bag Combo: Jab-Cross-Hook", "category": "boxing_cardio",
-      "equipment": ["boxing"],
-      "sets": "3", "reps": "3 min rounds", "rest": 60,
+      "id": "e091",
+      "name": "Heavy Bag Combo: Jab-Cross-Hook",
+      "category": "boxing_cardio",
+      "equipment": [
+        "boxing"
+      ],
+      "sets": "3",
+      "reps": "3 min rounds",
+      "rest": 60,
       "cue": "1-2-3 combo. Turn over the hook. Power from hips.",
-      "muscles": ["Shoulders", "Obliques", "Arms"],
+      "muscles": [
+        "Shoulders",
+        "Obliques",
+        "Arms"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e092", "name": "Heavy Bag Uppercuts", "category": "boxing_cardio",
-      "equipment": ["boxing"],
-      "sets": "3", "reps": "2 min rounds", "rest": 60,
+      "id": "e092",
+      "name": "Heavy Bag Uppercuts",
+      "category": "boxing_cardio",
+      "equipment": [
+        "boxing"
+      ],
+      "sets": "3",
+      "reps": "2 min rounds",
+      "rest": 60,
       "cue": "Drop level, drive up through legs. Alternate hands.",
-      "muscles": ["Biceps", "Shoulders", "Legs"],
+      "muscles": [
+        "Biceps",
+        "Shoulders",
+        "Legs"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e093", "name": "Heavy Bag Body Shots", "category": "boxing_cardio",
-      "equipment": ["boxing"],
-      "sets": "3", "reps": "2 min rounds", "rest": 60,
+      "id": "e093",
+      "name": "Heavy Bag Body Shots",
+      "category": "boxing_cardio",
+      "equipment": [
+        "boxing"
+      ],
+      "sets": "3",
+      "reps": "2 min rounds",
+      "rest": 60,
       "cue": "Bend knees, aim for midsection of bag. Hooks and crosses.",
-      "muscles": ["Core", "Shoulders", "Obliques"],
+      "muscles": [
+        "Core",
+        "Shoulders",
+        "Obliques"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e094", "name": "Freestyle Bag Work", "category": "boxing_cardio",
-      "equipment": ["boxing"],
-      "sets": "5", "reps": "3 min rounds", "rest": 60,
+      "id": "e094",
+      "name": "Freestyle Bag Work",
+      "category": "boxing_cardio",
+      "equipment": [
+        "boxing"
+      ],
+      "sets": "5",
+      "reps": "3 min rounds",
+      "rest": 60,
       "cue": "Mix all punches. Add slips and rolls. Simulate fight.",
-      "muscles": ["Full Body", "Cardio"],
+      "muscles": [
+        "Full Body",
+        "Cardio"
+      ],
       "difficulty": "advanced"
     },
     {
-      "id": "e095", "name": "Shadow Boxing", "category": "boxing_cardio",
-      "equipment": ["bodyweight"],
-      "sets": "3", "reps": "3 min rounds", "rest": 60,
+      "id": "e095",
+      "name": "Shadow Boxing",
+      "category": "boxing_cardio",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "3",
+      "reps": "3 min rounds",
+      "rest": 60,
       "cue": "No bag needed. Focus on technique, footwork, and breathing.",
-      "muscles": ["Shoulders", "Core", "Cardio"],
+      "muscles": [
+        "Shoulders",
+        "Core",
+        "Cardio"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e100", "name": "Cat-Cow Flow", "category": "flexibility",
-      "equipment": ["yoga_mat"],
-      "sets": "1", "reps": "20 transitions", "rest": 0,
+      "id": "e100",
+      "name": "Cat-Cow Flow",
+      "category": "flexibility",
+      "equipment": [
+        "yoga_mat"
+      ],
+      "sets": "1",
+      "reps": "20 transitions",
+      "rest": 0,
       "cue": "Alternate arching and rounding spine. Breathe with movement.",
-      "muscles": ["Spine", "Core"],
+      "muscles": [
+        "Spine",
+        "Core"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e101", "name": "Downward Dog", "category": "flexibility",
-      "equipment": ["yoga_mat"],
-      "sets": "1", "reps": "60 sec hold", "rest": 0,
+      "id": "e101",
+      "name": "Downward Dog",
+      "category": "flexibility",
+      "equipment": [
+        "yoga_mat"
+      ],
+      "sets": "1",
+      "reps": "60 sec hold",
+      "rest": 0,
       "cue": "Push hips up and back. Heels toward floor. Spread fingers.",
-      "muscles": ["Hamstrings", "Calves", "Shoulders"],
+      "muscles": [
+        "Hamstrings",
+        "Calves",
+        "Shoulders"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e102", "name": "Couch Stretch", "category": "flexibility",
-      "equipment": ["yoga_mat"],
-      "sets": "1", "reps": "2 min per leg", "rest": 0,
+      "id": "e102",
+      "name": "Couch Stretch",
+      "category": "flexibility",
+      "equipment": [
+        "yoga_mat"
+      ],
+      "sets": "1",
+      "reps": "2 min per leg",
+      "rest": 0,
       "cue": "Rear knee at wall, front foot forward. Opens tight hip flexors.",
-      "muscles": ["Hip Flexors", "Quads"],
+      "muscles": [
+        "Hip Flexors",
+        "Quads"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e103", "name": "Pigeon Pose", "category": "flexibility",
-      "equipment": ["yoga_mat"],
-      "sets": "1", "reps": "90 sec per side", "rest": 0,
+      "id": "e103",
+      "name": "Pigeon Pose",
+      "category": "flexibility",
+      "equipment": [
+        "yoga_mat"
+      ],
+      "sets": "1",
+      "reps": "90 sec per side",
+      "rest": 0,
       "cue": "Front shin across mat, back leg extended. Deep hip opener.",
-      "muscles": ["Glutes", "Hip Flexors", "Piriformis"],
+      "muscles": [
+        "Glutes",
+        "Hip Flexors",
+        "Piriformis"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e104", "name": "Band Shoulder Dislocates", "category": "flexibility",
-      "equipment": ["resistance_bands"],
-      "sets": "2", "reps": "15", "rest": 30,
+      "id": "e104",
+      "name": "Band Shoulder Dislocates",
+      "category": "flexibility",
+      "equipment": [
+        "resistance_bands"
+      ],
+      "sets": "2",
+      "reps": "15",
+      "rest": 30,
       "cue": "Wide grip on band. Rotate arms overhead and behind. Gradually narrow grip.",
-      "muscles": ["Shoulders", "Rotator Cuff"],
+      "muscles": [
+        "Shoulders",
+        "Rotator Cuff"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e105", "name": "World's Greatest Stretch", "category": "flexibility",
-      "equipment": ["bodyweight"],
-      "sets": "1", "reps": "5 per side", "rest": 0,
+      "id": "e105",
+      "name": "World's Greatest Stretch",
+      "category": "flexibility",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "1",
+      "reps": "5 per side",
+      "rest": 0,
       "cue": "Lunge, plant hand, rotate and reach up. Covers entire body.",
-      "muscles": ["Hip Flexors", "T-Spine", "Hamstrings"],
+      "muscles": [
+        "Hip Flexors",
+        "T-Spine",
+        "Hamstrings"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e106", "name": "Jumping Jacks", "nameEs": "Saltos de Tijera", "category": "hiit",
-      "equipment": ["bodyweight"],
-      "sets": "4", "reps": "45 sec", "rest": 30,
+      "id": "e106",
+      "name": "Jumping Jacks",
+      "nameEs": "Saltos de Tijera",
+      "category": "hiit",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "4",
+      "reps": "45 sec",
+      "rest": 30,
       "cue": "Keep core braced and land softly. Maintain steady rhythm.",
-      "muscles": ["Full Body", "Cardio"],
+      "muscles": [
+        "Full Body",
+        "Cardio"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e107", "name": "Skater Jumps", "nameEs": "Saltos de Patinador", "category": "hiit",
-      "equipment": ["bodyweight"],
-      "sets": "4", "reps": "30 sec", "rest": 30,
+      "id": "e107",
+      "name": "Skater Jumps",
+      "nameEs": "Saltos de Patinador",
+      "category": "hiit",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "4",
+      "reps": "30 sec",
+      "rest": 30,
       "cue": "Lateral explosive jumps, control each landing.",
-      "muscles": ["Glutes", "Quads", "Cardio"],
+      "muscles": [
+        "Glutes",
+        "Quads",
+        "Cardio"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e108", "name": "Plank Jacks", "nameEs": "Plancha con Apertura", "category": "hiit",
-      "equipment": ["bodyweight", "yoga_mat"],
-      "sets": "4", "reps": "30 sec", "rest": 30,
+      "id": "e108",
+      "name": "Plank Jacks",
+      "nameEs": "Plancha con Apertura",
+      "category": "hiit",
+      "equipment": [
+        "bodyweight",
+        "yoga_mat"
+      ],
+      "sets": "4",
+      "reps": "30 sec",
+      "rest": 30,
       "cue": "From plank, jump feet apart/together without moving hips.",
-      "muscles": ["Core", "Shoulders", "Cardio"],
+      "muscles": [
+        "Core",
+        "Shoulders",
+        "Cardio"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e109", "name": "Heavy Bag Hooks", "nameEs": "Ganchos al Costal", "category": "boxing_cardio",
-      "equipment": ["boxing"],
-      "sets": "3", "reps": "2 min rounds", "rest": 60,
+      "id": "e109",
+      "name": "Heavy Bag Hooks",
+      "nameEs": "Ganchos al Costal",
+      "category": "boxing_cardio",
+      "equipment": [
+        "boxing"
+      ],
+      "sets": "3",
+      "reps": "2 min rounds",
+      "rest": 60,
       "cue": "Rotate hips and pivot lead foot. Keep guard up.",
-      "muscles": ["Shoulders", "Obliques", "Cardio"],
+      "muscles": [
+        "Shoulders",
+        "Obliques",
+        "Cardio"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e110", "name": "Heavy Bag Slip & Counter", "nameEs": "Esquive y Contraataque al Costal", "category": "boxing_cardio",
-      "equipment": ["boxing"],
-      "sets": "3", "reps": "2 min rounds", "rest": 60,
+      "id": "e110",
+      "name": "Heavy Bag Slip & Counter",
+      "nameEs": "Esquive y Contraataque al Costal",
+      "category": "boxing_cardio",
+      "equipment": [
+        "boxing"
+      ],
+      "sets": "3",
+      "reps": "2 min rounds",
+      "rest": 60,
       "cue": "Slip left/right then answer with fast one-two.",
-      "muscles": ["Core", "Shoulders", "Cardio"],
+      "muscles": [
+        "Core",
+        "Shoulders",
+        "Cardio"
+      ],
       "difficulty": "intermediate"
     },
     {
-      "id": "e111", "name": "Heavy Bag Footwork Rounds", "nameEs": "Rondas de Juego de Pies en Costal", "category": "boxing_cardio",
-      "equipment": ["boxing"],
-      "sets": "4", "reps": "90 sec", "rest": 45,
+      "id": "e111",
+      "name": "Heavy Bag Footwork Rounds",
+      "nameEs": "Rondas de Juego de Pies en Costal",
+      "category": "boxing_cardio",
+      "equipment": [
+        "boxing"
+      ],
+      "sets": "4",
+      "reps": "90 sec",
+      "rest": 45,
       "cue": "Move around the bag, keep stance and distance controlled.",
-      "muscles": ["Calves", "Core", "Cardio"],
+      "muscles": [
+        "Calves",
+        "Core",
+        "Cardio"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e112", "name": "Shadow Boxing Intervals", "nameEs": "Intervalos de Boxeo de Sombra", "category": "boxing_cardio",
-      "equipment": ["bodyweight"],
-      "sets": "5", "reps": "45 sec on / 15 sec off", "rest": 0,
+      "id": "e112",
+      "name": "Shadow Boxing Intervals",
+      "nameEs": "Intervalos de Boxeo de Sombra",
+      "category": "boxing_cardio",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "5",
+      "reps": "45 sec on / 15 sec off",
+      "rest": 0,
       "cue": "Mix combinations with head movement and breathing control.",
-      "muscles": ["Shoulders", "Core", "Cardio"],
+      "muscles": [
+        "Shoulders",
+        "Core",
+        "Cardio"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e113", "name": "Child's Pose", "nameEs": "Postura del Niño", "category": "flexibility",
-      "equipment": ["yoga_mat"],
-      "sets": "1", "reps": "90 sec hold", "rest": 0,
+      "id": "e113",
+      "name": "Child's Pose",
+      "nameEs": "Postura del Niño",
+      "category": "flexibility",
+      "equipment": [
+        "yoga_mat"
+      ],
+      "sets": "1",
+      "reps": "90 sec hold",
+      "rest": 0,
       "cue": "Sit hips back to heels, relax shoulders and breathe deep.",
-      "muscles": ["Lower Back", "Lats", "Hips"],
+      "muscles": [
+        "Lower Back",
+        "Lats",
+        "Hips"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e114", "name": "Hamstring Stretch (Seated)", "nameEs": "Estiramiento de Isquios Sentado", "category": "flexibility",
-      "equipment": ["yoga_mat"],
-      "sets": "1", "reps": "75 sec per side", "rest": 0,
+      "id": "e114",
+      "name": "Hamstring Stretch (Seated)",
+      "nameEs": "Estiramiento de Isquios Sentado",
+      "category": "flexibility",
+      "equipment": [
+        "yoga_mat"
+      ],
+      "sets": "1",
+      "reps": "75 sec per side",
+      "rest": 0,
       "cue": "Keep spine long and hinge from hips, not low back.",
-      "muscles": ["Hamstrings", "Calves"],
+      "muscles": [
+        "Hamstrings",
+        "Calves"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e115", "name": "Thoracic Rotation Stretch", "nameEs": "Estiramiento de Rotación Torácica", "category": "flexibility",
-      "equipment": ["yoga_mat"],
-      "sets": "1", "reps": "8 per side", "rest": 0,
+      "id": "e115",
+      "name": "Thoracic Rotation Stretch",
+      "nameEs": "Estiramiento de Rotación Torácica",
+      "category": "flexibility",
+      "equipment": [
+        "yoga_mat"
+      ],
+      "sets": "1",
+      "reps": "8 per side",
+      "rest": 0,
       "cue": "Open chest and rotate upper back while keeping hips stable.",
-      "muscles": ["T-Spine", "Shoulders", "Obliques"],
+      "muscles": [
+        "T-Spine",
+        "Shoulders",
+        "Obliques"
+      ],
       "difficulty": "beginner"
     },
     {
-      "id": "e116", "name": "Standing Quad Stretch", "nameEs": "Estiramiento de Cuádriceps de Pie", "category": "flexibility",
-      "equipment": ["bodyweight"],
-      "sets": "1", "reps": "60 sec per side", "rest": 0,
+      "id": "e116",
+      "name": "Standing Quad Stretch",
+      "nameEs": "Estiramiento de Cuádriceps de Pie",
+      "category": "flexibility",
+      "equipment": [
+        "bodyweight"
+      ],
+      "sets": "1",
+      "reps": "60 sec per side",
+      "rest": 0,
       "cue": "Pull heel to glute, knees together, pelvis neutral.",
-      "muscles": ["Quads", "Hip Flexors"],
+      "muscles": [
+        "Quads",
+        "Hip Flexors"
+      ],
       "difficulty": "beginner"
+    },
+    {
+      "id": "wm_001",
+      "name": "Dumbbell Row",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Dumbbell Row",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_002",
+      "name": "Hip Thrust",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Hip Thrust",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_003",
+      "name": "Incline Push-up",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Incline Push-up",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_004",
+      "name": "Overhead Press",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Overhead Press",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_005",
+      "name": "Farmer Hold",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Farmer Hold",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_006",
+      "name": "Split Squat",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Split Squat",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_007",
+      "name": "Romanian Deadlift",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Romanian Deadlift",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_008",
+      "name": "Calf Raise Hold",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Calf Raise Hold",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_009",
+      "name": "Breath Reset",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Breath Reset",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_010",
+      "name": "Bird Dog Hold",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Bird Dog Hold",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_011",
+      "name": "Side Plank Dips",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Side Plank Dips",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_012",
+      "name": "Pelvic Tilt",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Pelvic Tilt",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_013",
+      "name": "Heel Taps",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Heel Taps",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_014",
+      "name": "Breathing Reset",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Breathing Reset",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_015",
+      "name": "Step-ups",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Step-ups",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_016",
+      "name": "Squat To Press",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Squat To Press",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_017",
+      "name": "Marching Plank",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Marching Plank",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_018",
+      "name": "Fast March",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Fast March",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_019",
+      "name": "Lateral Step",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Lateral Step",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_020",
+      "name": "Squat Pulse",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Squat Pulse",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_021",
+      "name": "Hip Flexor Stretch Per Side",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Hip Flexor Stretch Per Side",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_022",
+      "name": "Chest Opener",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Chest Opener",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_023",
+      "name": "Thoracic Rotations Per Side",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Thoracic Rotations Per Side",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_024",
+      "name": "Box Breathing",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Box Breathing",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_025",
+      "name": "Cat-cow",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Cat-cow",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_026",
+      "name": "World Greatest Stretch Per Side",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "World Greatest Stretch Per Side",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_027",
+      "name": "Thoracic Rotations",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Thoracic Rotations",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_001",
+      "name": "Dumbbell Row",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Dumbbell Row",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_002",
+      "name": "Hip Thrust",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Hip Thrust",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_003",
+      "name": "Incline Push-up",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Incline Push-up",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_004",
+      "name": "Overhead Press",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Overhead Press",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_005",
+      "name": "Farmer Hold",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Farmer Hold",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_006",
+      "name": "Split Squat",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Split Squat",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_007",
+      "name": "Romanian Deadlift",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Romanian Deadlift",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_008",
+      "name": "Calf Raise Hold",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Calf Raise Hold",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_009",
+      "name": "Breath Reset",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Breath Reset",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_010",
+      "name": "Bird Dog Hold",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Bird Dog Hold",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_011",
+      "name": "Side Plank Dips",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Side Plank Dips",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_012",
+      "name": "Pelvic Tilt",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Pelvic Tilt",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_013",
+      "name": "Heel Taps",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Heel Taps",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_014",
+      "name": "Breathing Reset",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Breathing Reset",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_015",
+      "name": "Step-ups",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Step-ups",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_016",
+      "name": "Squat To Press",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Squat To Press",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_017",
+      "name": "Marching Plank",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Marching Plank",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_018",
+      "name": "Fast March",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Fast March",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_019",
+      "name": "Lateral Step",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Lateral Step",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_020",
+      "name": "Squat Pulse",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Squat Pulse",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_021",
+      "name": "Hip Flexor Stretch Per Side",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Hip Flexor Stretch Per Side",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_022",
+      "name": "Chest Opener",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Chest Opener",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_023",
+      "name": "Thoracic Rotations Per Side",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Thoracic Rotations Per Side",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_024",
+      "name": "Box Breathing",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Box Breathing",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_025",
+      "name": "Cat-cow",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Cat-cow",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_026",
+      "name": "World Greatest Stretch Per Side",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "World Greatest Stretch Per Side",
+      "category_es": "fuerza"
+    },
+    {
+      "id": "wm_027",
+      "name": "Thoracic Rotations",
+      "category": "strength",
+      "difficulty": "beginner",
+      "name_es": "Thoracic Rotations",
+      "category_es": "fuerza"
     }
   ]
 }

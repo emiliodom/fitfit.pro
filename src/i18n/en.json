@@ -1,15 +1,109 @@
 {
   "nav": {
     "training": "Training",
+    "running": "Running",
+    "valgus": "Valgus Care",
+    "kids": "Cataleya",
+    "women": "Women",
     "schedule": "Schedule",
     "nutrition": "Nutrition",
     "mindfulness": "Mindfulness",
     "recovery": "Recovery",
     "brand": "FitFit.pro"
   },
+  "running": {
+    "title": "Running Lab",
+    "subtitle": "Pre-run activation, smart sessions, post-run reset, and foam rolling built for consistency.",
+    "preRun": "Pre-Run",
+    "run": "Run",
+    "postRun": "Post-Run",
+    "roller": "Foam Roller",
+    "intensityLow": "Low",
+    "intensityModerate": "Moderate",
+    "intensityHigh": "High"
+  },
+  "valgus": {
+    "title": "Valgus Support",
+    "subtitle": "Targeted routines for knock-knee alignment, hip control, and knee tracking.",
+    "notice": "Safety first",
+    "disclaimer": "These routines are general guidance. Work with a clinician if pain persists or worsens.",
+    "routinesTab": "Routines",
+    "painTab": "Pain Logger",
+    "cuesTitle": "Alignment Cues",
+    "sets": "sets",
+    "painLoggerTitle": "Pain Logger",
+    "painHistory": "Pain History",
+    "painSummary": "Entries: {count} · Avg pain: {avg}/10",
+    "date": "Date",
+    "painScale": "Pain (0-10)",
+    "location": "Location",
+    "activity": "Activity",
+    "notes": "Notes",
+    "notesPlaceholder": "What helped or worsened today?",
+    "saveEntry": "Save Entry",
+    "clearLog": "Clear Log",
+    "noEntries": "No entries yet. Log a session to track patterns.",
+    "deleteEntry": "Delete",
+    "locations": {
+      "medialKnee": "Inner knee",
+      "lateralKnee": "Outer knee",
+      "patella": "Kneecap",
+      "hip": "Hip",
+      "ankle": "Ankle"
+    },
+    "activities": {
+      "walk": "Walk",
+      "run": "Run",
+      "strength": "Strength",
+      "mobility": "Mobility",
+      "sport": "Sport"
+    }
+  },
+  "kids": {
+    "badge": "Cataleya Zone",
+    "title": "Cataleya's Color Lab",
+    "subtitle": "Super colorful movement adventures for walking, weights, running, stretching, and yoga."
+  },
+  "women": {
+    "title": "Women’s Training Lab",
+    "subtitle": "Strength, core, metabolic circuits, and recovery with smart pacing."
+  },
   "training": {
     "title": "Training Matrix",
     "subtitle": "Select equipment, choose a preset routine or build your own. Press play to begin.",
+    "feed": {
+      "title": "Support Feed",
+      "subtitle": "Quick previews with tips, video cues, and a focus timer for each track.",
+      "tipsLabel": "Tips",
+      "routinesLabel": "Preview routines",
+      "womenTab": "Women",
+      "kidsTab": "Cataleya",
+      "valgusTab": "Valgus",
+      "womenTitle": "Women Focus",
+      "womenDesc": "Strength, core, and recovery flow with steady pacing.",
+      "womenTips": [
+        "Lead with breath on every rep.",
+        "Control tempo before adding load.",
+        "Finish with recovery mobility."
+      ],
+      "womenTimer": "Women focus timer",
+      "kidsTitle": "Cataleya Moves",
+      "kidsDesc": "Playful training blocks for walking, weights, running, stretching, and yoga.",
+      "kidsTips": [
+        "Keep it fun and short.",
+        "Use colors, games, and imagination.",
+        "End with calm breathing."
+      ],
+      "kidsTimer": "Cataleya timer",
+      "valgusTitle": "Valgus Care",
+      "valgusDesc": "Alignment drills, hip stability, and knee tracking cues.",
+      "valgusTips": [
+        "Tripod foot: big toe, little toe, heel.",
+        "Knee tracks over middle toes.",
+        "Slow reps and full control."
+      ],
+      "valgusTimer": "Valgus alignment timer"
+    },
     "predefined": "Predefined",
     "goalBased": "Goal Plan",
     "workoutLibrary": "Workout Library",
@@ -77,6 +171,18 @@
     "dragReorder": "Drag to reorder",
     "start": "Start",
     "pause": "Pause"
+  },
+  "youtube": {
+    "title": "YouTube Routine Picks",
+    "subtitle": "Quick, hassle-free routines at 20, 40, and 60 minutes.",
+    "duration20": "20 min",
+    "duration40": "40 min",
+    "duration60": "60 min",
+    "quick": "Quick reset or starter session.",
+    "steady": "Steady build with breathing cues.",
+    "endurance": "Longer endurance focus.",
+    "timerTitle": "Routine timer",
+    "timerHint": "Pick a duration, then start your session."
   },
   "sound": {
     "settings": "Sound Settings",
