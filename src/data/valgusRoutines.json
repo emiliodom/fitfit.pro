@@ -1,0 +1,762 @@
+{
+  "routines": [
+    {
+      "id": "alignment-foundation",
+      "name": "Alignment Foundation",
+      "nameEs": "Base de Alineacion",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "3x/week",
+      "frequencyEs": "3x/semana",
+      "goal": "Build hip control and knee tracking.",
+      "goalEs": "Mejorar control de cadera y seguimiento de rodilla.",
+      "exercises": [
+        {
+          "name": "Side-lying clamshell",
+          "nameEs": "Clamshell lateral",
+          "sets": "2-3",
+          "reps": "12-15/side",
+          "cue": "Keep pelvis stacked, knee opens without rolling back.",
+          "cueEs": "Mantener pelvis alineada, abrir rodilla sin rodar atras."
+        },
+        {
+          "name": "Mini-band lateral walk",
+          "nameEs": "Caminata lateral con banda",
+          "sets": "2-3",
+          "reps": "10 steps/side",
+          "cue": "Soft knees, toes forward, feel glute med.",
+          "cueEs": "Rodillas suaves, puntas al frente, sentir gluteo medio."
+        },
+        {
+          "name": "Wall sit with ball squeeze",
+          "nameEs": "Sentadilla isometrica con pelota",
+          "sets": "2",
+          "reps": "30-40 sec",
+          "cue": "Press knees gently toward midline.",
+          "cueEs": "Presionar rodillas suavemente hacia adentro."
+        }
+      ]
+    },
+    {
+      "id": "strength-stability",
+      "name": "Strength + Stability",
+      "nameEs": "Fuerza y Estabilidad",
+      "level": "intermediate",
+      "levelEs": "intermedio",
+      "frequency": "2-3x/week",
+      "frequencyEs": "2-3x/semana",
+      "goal": "Single-leg control, hip strength, foot tripod.",
+      "goalEs": "Control unipodal, fuerza de cadera y pie estable.",
+      "exercises": [
+        {
+          "name": "Split squat (short stride)",
+          "nameEs": "Split squat (zancada corta)",
+          "sets": "3",
+          "reps": "8-10/side",
+          "cue": "Front knee tracks over middle toes.",
+          "cueEs": "Rodilla alinea con dedos medios."
+        },
+        {
+          "name": "Single-leg RDL reach",
+          "nameEs": "RDL a una pierna",
+          "sets": "3",
+          "reps": "8/side",
+          "cue": "Hips square, slow hinge.",
+          "cueEs": "Caderas cuadradas, bisagra lenta."
+        },
+        {
+          "name": "Step-down to tap",
+          "nameEs": "Bajada controlada",
+          "sets": "2-3",
+          "reps": "8/side",
+          "cue": "Keep knee aligned, avoid collapse inward.",
+          "cueEs": "Alinear rodilla, evitar colapso hacia adentro."
+        }
+      ]
+    },
+    {
+      "id": "mobility-reset",
+      "name": "Mobility Reset",
+      "nameEs": "Reinicio de Movilidad",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "Daily",
+      "frequencyEs": "Diario",
+      "goal": "Open hips, release calves, restore ankle range.",
+      "goalEs": "Abrir caderas, liberar pantorrillas y tobillos.",
+      "exercises": [
+        {
+          "name": "90/90 hip switch",
+          "nameEs": "90/90 cambio de cadera",
+          "sets": "2",
+          "reps": "6/side",
+          "cue": "Stay tall, move slowly.",
+          "cueEs": "Mantener postura alta, mover lento."
+        },
+        {
+          "name": "Calf stretch (wall)",
+          "nameEs": "Estiramiento de pantorrilla",
+          "sets": "2",
+          "reps": "30-45 sec",
+          "cue": "Heel grounded, knee tracks forward.",
+          "cueEs": "Talon fijo, rodilla hacia adelante."
+        },
+        {
+          "name": "Adductor rockback",
+          "nameEs": "Rockback de aductores",
+          "sets": "2",
+          "reps": "8-10",
+          "cue": "Keep spine long and chest open.",
+          "cueEs": "Columna larga, pecho abierto."
+        }
+      ]
+    },
+    {
+      "id": "stride-control",
+      "name": "Stride Control",
+      "nameEs": "Control de Zancada",
+      "level": "intermediate",
+      "levelEs": "intermedio",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Improve knee tracking during dynamic steps.",
+      "goalEs": "Mejorar tracking de rodilla en pasos dinamicos.",
+      "exercises": [
+        {
+          "name": "Lateral step-down",
+          "nameEs": "Bajada lateral",
+          "sets": "3",
+          "reps": "6-8/side",
+          "cue": "Hip stays level, knee follows toes.",
+          "cueEs": "Cadera nivelada, rodilla sigue los dedos."
+        },
+        {
+          "name": "Mini-band monster walk",
+          "nameEs": "Monster walk con banda",
+          "sets": "2-3",
+          "reps": "8-10 steps",
+          "cue": "Stay low, keep knees out.",
+          "cueEs": "Mantente bajo, rodillas hacia afuera."
+        },
+        {
+          "name": "Single-leg box tap",
+          "nameEs": "Toque de caja a una pierna",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Slow descent, stable arch.",
+          "cueEs": "Bajada lenta, arco estable."
+        }
+      ]
+    },
+    {
+      "id": "strength-builder",
+      "name": "Strength Builder",
+      "nameEs": "Constructor de Fuerza",
+      "level": "advanced",
+      "levelEs": "avanzado",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Load tolerance with stable alignment.",
+      "goalEs": "Tolerancia a carga con buena alineacion.",
+      "exercises": [
+        {
+          "name": "Goblet squat with band",
+          "nameEs": "Sentadilla goblet con banda",
+          "sets": "3",
+          "reps": "8-10",
+          "cue": "Band guides knees out.",
+          "cueEs": "La banda guia las rodillas hacia afuera."
+        },
+        {
+          "name": "Reverse lunge",
+          "nameEs": "Zancada atras",
+          "sets": "3",
+          "reps": "8/side",
+          "cue": "Front knee tracks, torso tall.",
+          "cueEs": "Rodilla alinea, torso alto."
+        },
+        {
+          "name": "Hip airplane",
+          "nameEs": "Avion de cadera",
+          "sets": "2",
+          "reps": "6/side",
+          "cue": "Rotate slow, control balance.",
+          "cueEs": "Rotar lento, controlar balance."
+        }
+      ]
+    },
+    {
+      "id": "ankle-control",
+      "name": "Ankle Control",
+      "nameEs": "Control de Tobillo",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "Daily",
+      "frequencyEs": "Diario",
+      "goal": "Restore ankle range and foot stability.",
+      "goalEs": "Recuperar rango de tobillo y estabilidad del pie.",
+      "exercises": [
+        {
+          "name": "Knee-to-wall ankle rocks",
+          "nameEs": "Rodilla a pared",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Keep heel down and knee aligned.",
+          "cueEs": "Talón fijo y rodilla alineada."
+        },
+        {
+          "name": "Toe raises",
+          "nameEs": "Elevaciones de dedos",
+          "sets": "2",
+          "reps": "10-12",
+          "cue": "Lift toes without rocking back.",
+          "cueEs": "Levantar dedos sin ir hacia atras."
+        },
+        {
+          "name": "Single-leg balance",
+          "nameEs": "Balance a una pierna",
+          "sets": "2",
+          "reps": "20-30 sec",
+          "cue": "Tripod foot, soft knee.",
+          "cueEs": "Pie tripode, rodilla suave."
+        }
+      ]
+    },
+    {
+      "id": "hip-activation",
+      "name": "Hip Activation",
+      "nameEs": "Activacion de Cadera",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "3x/week",
+      "frequencyEs": "3x/semana",
+      "goal": "Wake up glute med and hip rotators.",
+      "goalEs": "Activar gluteo medio y rotadores.",
+      "exercises": [
+        {
+          "name": "Banded clamshell",
+          "nameEs": "Clamshell con banda",
+          "sets": "2-3",
+          "reps": "12/side",
+          "cue": "No hip roll-back.",
+          "cueEs": "Sin girar la cadera."
+        },
+        {
+          "name": "Standing hip abduction",
+          "nameEs": "Abduccion de pie",
+          "sets": "2",
+          "reps": "10/side",
+          "cue": "Pelvis steady, slow control.",
+          "cueEs": "Pelvis estable, control lento."
+        },
+        {
+          "name": "Glute bridge hold",
+          "nameEs": "Puente isometrico",
+          "sets": "2",
+          "reps": "20-30 sec",
+          "cue": "Ribs down, squeeze glutes.",
+          "cueEs": "Costillas abajo, aprieta gluteos."
+        }
+      ]
+    },
+    {
+      "id": "balance-control",
+      "name": "Balance Control",
+      "nameEs": "Control de Balance",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "2-3x/week",
+      "frequencyEs": "2-3x/semana",
+      "goal": "Stabilize knee position under low load.",
+      "goalEs": "Estabilizar rodilla con carga baja.",
+      "exercises": [
+        {
+          "name": "Toe tap clock",
+          "nameEs": "Reloj de toques",
+          "sets": "2",
+          "reps": "6/side",
+          "cue": "Keep knee over mid-foot.",
+          "cueEs": "Rodilla sobre el medio del pie."
+        },
+        {
+          "name": "Single-leg sit to box",
+          "nameEs": "Sentar a caja a una pierna",
+          "sets": "2",
+          "reps": "6/side",
+          "cue": "Slow, control knee.",
+          "cueEs": "Lento, controla rodilla."
+        },
+        {
+          "name": "Lateral band step",
+          "nameEs": "Paso lateral con banda",
+          "sets": "2",
+          "reps": "10 steps",
+          "cue": "Feet parallel, chest tall.",
+          "cueEs": "Pies paralelos, pecho alto."
+        }
+      ]
+    },
+    {
+      "id": "landing-mechanics",
+      "name": "Landing Mechanics",
+      "nameEs": "Mecanica de Aterrizaje",
+      "level": "intermediate",
+      "levelEs": "intermedio",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Improve soft landings and knee tracking.",
+      "goalEs": "Mejorar aterrizajes y tracking de rodilla.",
+      "exercises": [
+        {
+          "name": "Snap-down to hold",
+          "nameEs": "Caida controlada",
+          "sets": "2",
+          "reps": "6",
+          "cue": "Land quiet, knees over toes.",
+          "cueEs": "Aterriza suave, rodillas sobre dedos."
+        },
+        {
+          "name": "Lateral hop stick",
+          "nameEs": "Salto lateral y control",
+          "sets": "2",
+          "reps": "6/side",
+          "cue": "Stick landing for 2 sec.",
+          "cueEs": "Fijar aterrizaje 2 seg."
+        },
+        {
+          "name": "Drop squat",
+          "nameEs": "Sentadilla rapida",
+          "sets": "2",
+          "reps": "8",
+          "cue": "Hips back, chest tall.",
+          "cueEs": "Cadera atras, pecho alto."
+        }
+      ]
+    },
+    {
+      "id": "step-strength",
+      "name": "Step Strength",
+      "nameEs": "Fuerza en Escalon",
+      "level": "intermediate",
+      "levelEs": "intermedio",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Build stable step mechanics.",
+      "goalEs": "Construir mecanica estable en escalon.",
+      "exercises": [
+        {
+          "name": "Step-up drive",
+          "nameEs": "Subida con rodilla",
+          "sets": "3",
+          "reps": "8/side",
+          "cue": "Drive through whole foot.",
+          "cueEs": "Empuja con todo el pie."
+        },
+        {
+          "name": "Lateral step-up",
+          "nameEs": "Subida lateral",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Knee tracks over toes.",
+          "cueEs": "Rodilla sobre los dedos."
+        },
+        {
+          "name": "Heel-elevated squat",
+          "nameEs": "Sentadilla con talon elevado",
+          "sets": "2",
+          "reps": "8-10",
+          "cue": "Stay tall, knees track.",
+          "cueEs": "Postura alta, rodillas alineadas."
+        }
+      ]
+    },
+    {
+      "id": "glute-med-burn",
+      "name": "Glute Med Burn",
+      "nameEs": "Activacion Gluteo Medio",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "3x/week",
+      "frequencyEs": "3x/semana",
+      "goal": "Build outer hip endurance.",
+      "goalEs": "Mejorar resistencia de cadera externa.",
+      "exercises": [
+        {
+          "name": "Side plank clamshell",
+          "nameEs": "Plancha lateral clamshell",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Keep hips stacked.",
+          "cueEs": "Caderas alineadas."
+        },
+        {
+          "name": "Banded squat hold",
+          "nameEs": "Sentadilla isometrica con banda",
+          "sets": "2",
+          "reps": "20-30 sec",
+          "cue": "Push knees out.",
+          "cueEs": "Rodillas hacia afuera."
+        },
+        {
+          "name": "Seated abduction",
+          "nameEs": "Abduccion sentado",
+          "sets": "2",
+          "reps": "12-15",
+          "cue": "Control return.",
+          "cueEs": "Controla el regreso."
+        }
+      ]
+    },
+    {
+      "id": "core-hip-link",
+      "name": "Core-Hip Link",
+      "nameEs": "Link Core-Cadera",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Connect core stability with hip control.",
+      "goalEs": "Conectar core con control de cadera.",
+      "exercises": [
+        {
+          "name": "Dead bug",
+          "nameEs": "Dead bug",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Lower back stays down.",
+          "cueEs": "Espalda baja pegada."
+        },
+        {
+          "name": "Pallof press",
+          "nameEs": "Pallof press",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "No rotation.",
+          "cueEs": "Sin rotar."
+        },
+        {
+          "name": "Side plank",
+          "nameEs": "Plancha lateral",
+          "sets": "2",
+          "reps": "20 sec",
+          "cue": "Hip stacked.",
+          "cueEs": "Cadera alineada."
+        }
+      ]
+    },
+    {
+      "id": "calf-eccentrics",
+      "name": "Calf Eccentrics",
+      "nameEs": "Eccentricos de Pantorrilla",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "Daily",
+      "frequencyEs": "Diario",
+      "goal": "Strengthen calves for knee tracking.",
+      "goalEs": "Fortalecer pantorrillas para mejor tracking.",
+      "exercises": [
+        {
+          "name": "Eccentric calf raise",
+          "nameEs": "Elevacion excéntrica",
+          "sets": "3",
+          "reps": "8",
+          "cue": "Slow lower, fast up.",
+          "cueEs": "Baja lento, sube rapido."
+        },
+        {
+          "name": "Bent-knee calf raise",
+          "nameEs": "Pantorrilla rodilla flex",
+          "sets": "2",
+          "reps": "10",
+          "cue": "Feel soleus.",
+          "cueEs": "Siente el soleo."
+        },
+        {
+          "name": "Ankle circles",
+          "nameEs": "Circulos de tobillo",
+          "sets": "2",
+          "reps": "20 sec",
+          "cue": "Smooth range.",
+          "cueEs": "Rango suave."
+        }
+      ]
+    },
+    {
+      "id": "foot-arch",
+      "name": "Foot Arch Control",
+      "nameEs": "Control de Arco",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "Daily",
+      "frequencyEs": "Diario",
+      "goal": "Support arch and knee alignment.",
+      "goalEs": "Sostener arco y alineacion.",
+      "exercises": [
+        {
+          "name": "Short foot",
+          "nameEs": "Pie corto",
+          "sets": "2",
+          "reps": "8",
+          "cue": "Lift arch without curling toes.",
+          "cueEs": "Elevar arco sin encoger dedos."
+        },
+        {
+          "name": "Toe yoga",
+          "nameEs": "Yoga de dedos",
+          "sets": "2",
+          "reps": "10",
+          "cue": "Big toe down, other toes up.",
+          "cueEs": "Dedo gordo abajo, otros arriba."
+        },
+        {
+          "name": "Single-leg stance",
+          "nameEs": "Apoyo a una pierna",
+          "sets": "2",
+          "reps": "20 sec",
+          "cue": "Tripod foot.",
+          "cueEs": "Pie tripode."
+        }
+      ]
+    },
+    {
+      "id": "lateral-power",
+      "name": "Lateral Power",
+      "nameEs": "Potencia Lateral",
+      "level": "intermediate",
+      "levelEs": "intermedio",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Build lateral strength and control.",
+      "goalEs": "Fuerza lateral con control.",
+      "exercises": [
+        {
+          "name": "Lateral lunge",
+          "nameEs": "Zancada lateral",
+          "sets": "3",
+          "reps": "8/side",
+          "cue": "Hips back, knee tracks.",
+          "cueEs": "Cadera atras, rodilla alineada."
+        },
+        {
+          "name": "Side step squat",
+          "nameEs": "Sentadilla con paso",
+          "sets": "2",
+          "reps": "10",
+          "cue": "Keep knees out.",
+          "cueEs": "Rodillas hacia afuera."
+        },
+        {
+          "name": "Skater reach",
+          "nameEs": "Skater reach",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Soft knee, balance.",
+          "cueEs": "Rodilla suave, balance."
+        }
+      ]
+    },
+    {
+      "id": "rotation-control",
+      "name": "Rotation Control",
+      "nameEs": "Control de Rotacion",
+      "level": "intermediate",
+      "levelEs": "intermedio",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Reduce knee collapse on turns.",
+      "goalEs": "Reducir colapso en giros.",
+      "exercises": [
+        {
+          "name": "Cossack squat",
+          "nameEs": "Sentadilla cosaca",
+          "sets": "2",
+          "reps": "6/side",
+          "cue": "Keep chest up.",
+          "cueEs": "Pecho arriba."
+        },
+        {
+          "name": "Hip airplane",
+          "nameEs": "Avion de cadera",
+          "sets": "2",
+          "reps": "6/side",
+          "cue": "Control rotation.",
+          "cueEs": "Controla rotacion."
+        },
+        {
+          "name": "Band resisted rotation",
+          "nameEs": "Rotacion con banda",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Move from hips.",
+          "cueEs": "Mover desde caderas."
+        }
+      ]
+    },
+    {
+      "id": "tempo-squat",
+      "name": "Tempo Squat",
+      "nameEs": "Sentadilla con Tempo",
+      "level": "advanced",
+      "levelEs": "avanzado",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Increase control under load.",
+      "goalEs": "Aumentar control con carga.",
+      "exercises": [
+        {
+          "name": "3-1-1 goblet squat",
+          "nameEs": "Sentadilla 3-1-1",
+          "sets": "3",
+          "reps": "6",
+          "cue": "Slow down, knee tracks.",
+          "cueEs": "Baja lento, rodilla alineada."
+        },
+        {
+          "name": "Pause split squat",
+          "nameEs": "Split squat con pausa",
+          "sets": "3",
+          "reps": "6/side",
+          "cue": "Pause at bottom.",
+          "cueEs": "Pausa abajo."
+        },
+        {
+          "name": "Eccentric step-down",
+          "nameEs": "Bajada excéntrica",
+          "sets": "2",
+          "reps": "6/side",
+          "cue": "Slow, control.",
+          "cueEs": "Lento, control."
+        }
+      ]
+    },
+    {
+      "id": "single-leg-strength",
+      "name": "Single-Leg Strength",
+      "nameEs": "Fuerza Unipodal",
+      "level": "advanced",
+      "levelEs": "avanzado",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Build unilateral control and power.",
+      "goalEs": "Control unilateral y fuerza.",
+      "exercises": [
+        {
+          "name": "Rear foot elevated split squat",
+          "nameEs": "Split squat elevado",
+          "sets": "3",
+          "reps": "6/side",
+          "cue": "Knee tracks, torso tall.",
+          "cueEs": "Rodilla alinea, torso alto."
+        },
+        {
+          "name": "Single-leg RDL",
+          "nameEs": "RDL a una pierna",
+          "sets": "3",
+          "reps": "8/side",
+          "cue": "Hips square.",
+          "cueEs": "Caderas cuadradas."
+        },
+        {
+          "name": "Step-down with reach",
+          "nameEs": "Bajada con alcance",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Control knee position.",
+          "cueEs": "Controla rodilla."
+        }
+      ]
+    },
+    {
+      "id": "posterior-chain",
+      "name": "Posterior Chain",
+      "nameEs": "Cadena Posterior",
+      "level": "intermediate",
+      "levelEs": "intermedio",
+      "frequency": "2x/week",
+      "frequencyEs": "2x/semana",
+      "goal": "Strengthen glutes and hamstrings.",
+      "goalEs": "Fortalecer gluteos e isquios.",
+      "exercises": [
+        {
+          "name": "Hip hinge with dowel",
+          "nameEs": "Bisagra con palo",
+          "sets": "2",
+          "reps": "10",
+          "cue": "Spine neutral.",
+          "cueEs": "Columna neutra."
+        },
+        {
+          "name": "Hamstring bridge",
+          "nameEs": "Puente de isquios",
+          "sets": "3",
+          "reps": "8",
+          "cue": "Pull heels in.",
+          "cueEs": "Tira de talones."
+        },
+        {
+          "name": "Glute bridge march",
+          "nameEs": "Puente marchado",
+          "sets": "2",
+          "reps": "8/side",
+          "cue": "Keep hips level.",
+          "cueEs": "Caderas niveladas."
+        }
+      ]
+    },
+    {
+      "id": "mobility-flow-plus",
+      "name": "Mobility Flow Plus",
+      "nameEs": "Flujo de Movilidad Plus",
+      "level": "beginner",
+      "levelEs": "principiante",
+      "frequency": "Daily",
+      "frequencyEs": "Diario",
+      "goal": "Daily reset for hips and ankles.",
+      "goalEs": "Reset diario de cadera y tobillo.",
+      "exercises": [
+        {
+          "name": "Hip flexor stretch",
+          "nameEs": "Estiramiento de psoas",
+          "sets": "2",
+          "reps": "30 sec",
+          "cue": "Glute squeeze.",
+          "cueEs": "Aprieta gluteos."
+        },
+        {
+          "name": "Calf wall stretch",
+          "nameEs": "Pantorrilla en pared",
+          "sets": "2",
+          "reps": "30 sec",
+          "cue": "Heel grounded.",
+          "cueEs": "Talon fijo."
+        },
+        {
+          "name": "Deep squat hold",
+          "nameEs": "Sentadilla profunda",
+          "sets": "2",
+          "reps": "30 sec",
+          "cue": "Chest tall.",
+          "cueEs": "Pecho alto."
+        }
+      ]
+    }
+  ],
+  "cues": [
+    "Tripod foot: big toe, little toe, heel grounded.",
+    "Imagine pushing the knee slightly out over the middle toes.",
+    "Glute med stays on: light tension in outer hip.",
+    "Slow reps and full control before adding load.",
+    "If pain spikes, reduce range and focus on quality.",
+    "Use mirrors or video to check alignment.",
+    "Warm up calves and hips before runs."
+  ],
+  "cuesEs": [
+    "Pie tripode: dedo gordo, dedo pequeno y talon apoyados.",
+    "Imaginar rodilla hacia afuera sobre los dedos medios.",
+    "Gluteo medio activo: tension ligera en cadera externa.",
+    "Repeticiones lentas y control total antes de cargar.",
+    "Si el dolor sube, reducir rango y priorizar calidad.",
+    "Usa espejo o video para revisar alineacion.",
+    "Calienta pantorrillas y caderas antes de correr."
+  ]
+}

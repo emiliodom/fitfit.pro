@@ -178,7 +178,7 @@ export default function NutritionPage() {
       {activeSection === 'protocol' && (
         <div className="grid-2">
           <div className="card">
-            <h2 style={{ color: 'var(--accent)', marginBottom: 16 }}>
+            <h2 className="ui-heading-accent">
               {recipesData.fastingProtocol.name}
             </h2>
             <div className="fasting-windows">
@@ -198,15 +198,17 @@ export default function NutritionPage() {
             </ul>
           </div>
           <div className="card">
-            <h2 style={{ marginBottom: 16 }}>{t('nutrition.macroTargets')}</h2>
-            <table className="data-table">
-              <tbody>
-                <tr><th>{t('nutrition.protein')}</th><td>{recipesData.macroTargets.protein}</td></tr>
-                <tr><th>{t('nutrition.carbs')}</th><td>{recipesData.macroTargets.carbs}</td></tr>
-                <tr><th>{t('nutrition.fats')}</th><td>{recipesData.macroTargets.fats}</td></tr>
-                <tr><th>{t('nutrition.calories')}</th><td>{recipesData.macroTargets.calories}</td></tr>
-              </tbody>
-            </table>
+            <h2 className="ui-heading-spaced">{t('nutrition.macroTargets')}</h2>
+            <div className="table-scroll">
+              <table className="data-table">
+                <tbody>
+                  <tr><th>{t('nutrition.protein')}</th><td>{recipesData.macroTargets.protein}</td></tr>
+                  <tr><th>{t('nutrition.carbs')}</th><td>{recipesData.macroTargets.carbs}</td></tr>
+                  <tr><th>{t('nutrition.fats')}</th><td>{recipesData.macroTargets.fats}</td></tr>
+                  <tr><th>{t('nutrition.calories')}</th><td>{recipesData.macroTargets.calories}</td></tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       )}

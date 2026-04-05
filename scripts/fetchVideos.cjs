@@ -6,74 +6,82 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 
-const exercises = [
-  "Standard Push-Ups",
-  "Diamond Push-Ups",
-  "Wide Push-Ups",
-  "Pike Push-Ups",
-  "Decline Push-Ups",
-  "Deep Push-Ups on Handles",
-  "Close-Grip Handle Push-Ups",
-  "Dumbbell Floor Press",
-  "Dumbbell Overhead Press",
-  "Dumbbell Lateral Raises",
-  "Dumbbell Front Raises",
-  "Dumbbell Skullcrushers (Floor)",
-  "Band Push-Ups",
-  "Band Lateral Raises",
-  "Band Overhead Press",
-  "Strict Pull-Ups",
-  "Chin-Ups",
-  "Negative Pull-Ups",
-  "Dead Hang",
-  "Wide-Grip Pull-Ups",
-  "Dumbbell Bent-Over Row",
-  "Dumbbell Pullover (Floor)",
-  "Dumbbell Hammer Curls",
-  "Band Pull-Apart",
-  "Band Face Pulls",
-  "Band Rows",
-  "Band Bicep Curls",
-  "Inverted Rows (Bar Low)",
-  "Bodyweight Rows (Table/Bar)",
-  "Superman Hold",
-  "Goblet Squat",
-  "Dumbbell Bulgarian Split Squat",
-  "Dumbbell Lunges",
-  "Dumbbell Sumo Squat",
-  "Bodyweight Squats",
-  "Jump Squats",
-  "Single-Leg Calf Raises",
-  "Wall Sit",
-  "Band Squats",
-  "Band Lateral Walks",
-  "Plank",
-  "Side Plank",
-  "Russian Twists",
-  "Bicycle Crunches",
-  "Leg Raises",
-  "Hanging Leg Raises",
-  "Hanging Knee Raises",
-  "Mountain Climbers",
-  "Dead Bug",
-  "Burpees",
-  "Jump Rope (Imaginary)",
-  "High Knees",
-  "Squat Jumps",
-  "Dumbbell Thrusters",
-  "Heavy Bag Straight Punches",
-  "Heavy Bag Combo: Jab-Cross-Hook",
-  "Heavy Bag Uppercuts",
-  "Heavy Bag Body Shots",
-  "Freestyle Bag Work",
-  "Shadow Boxing",
-  "Cat-Cow Flow",
-  "Downward Dog",
-  "Couch Stretch",
-  "Pigeon Pose",
-  "Band Shoulder Dislocates",
-  "World's Greatest Stretch",
-];
+const STEP_REGEX = /^([\d-]+)\s*[xX]\s*([\d-]+(?:\s*(?:sec|seg|s|min|m|reps\/side|reps)\b)?)\s*(.*)/i;
+
+function parseStepName(text) {
+  const m = String(text || '').match(STEP_REGEX);
+  if (m) return m[3].trim();
+  return String(text || '').trim();
+}
+
+function loadJson(path) {
+  return JSON.parse(fs.readFileSync(path, 'utf-8'));
+}
+
+function uniqueNames(list) {
+  const set = new Set();
+  list.forEach(name => {
+    const trimmed = String(name || '').trim();
+    if (trimmed) set.add(trimmed);
+  });
+  return Array.from(set);
+}
+
+function normalizeExerciseKey(name) {
+  const base = String(name || '').replace(/[()]/g, '');
+  return base.toLowerCase().replace(/\s+/g, ' ').trim();
+}
+
+const exerciseData = loadJson('src/data/exercises.json');
+const predefinedRoutines = loadJson('src/data/predefinedRoutines.json');
+const womenRoutines = loadJson('src/data/womenRoutines.json');
+const runningRoutines = loadJson('src/data/runningRoutines.json');
+const valgusRoutines = loadJson('src/data/valgusRoutines.json');
+
+const exerciseNames = (exerciseData.exercises || []).map(ex => ex.name).filter(Boolean);
+
+const predefinedNames = [];
+(predefinedRoutines.routines || []).forEach(routine => {
+  (routine.exerciseIds || []).forEach(id => {
+    const match = (exerciseData.exercises || []).find(ex => ex.id === id);
+    if (match?.name) predefinedNames.push(match.name);
+  });
+});
+
+const womenNames = [];
+(womenRoutines.sections || []).forEach(section => {
+  (section.routines || []).forEach(routine => {
+    (routine.steps || []).forEach(step => {
+      const name = parseStepName(step);
+      if (name) womenNames.push(name);
+    });
+  });
+});
+
+const runningNames = [];
+(runningRoutines.sections || []).forEach(section => {
+  (section.routines || []).forEach(routine => {
+    (routine.steps || []).forEach(step => {
+      const name = parseStepName(step);
+      if (name) runningNames.push(name);
+    });
+  });
+});
+
+const valgusNames = [];
+(valgusRoutines.routines || []).forEach(routine => {
+  (routine.exercises || []).forEach(ex => {
+    if (ex?.name) valgusNames.push(ex.name);
+  });
+});
+
+const exercises = uniqueNames([
+  ...exerciseNames,
+  ...predefinedNames,
+  ...womenNames,
+  ...runningNames,
+  ...valgusNames,
+]);
 
 function fetch(url) {
   return new Promise((resolve, reject) => {
@@ -158,7 +166,7 @@ async function main() {
     const results = await Promise.all(batch.map(searchExercise));
     
     for (const r of results) {
-      const key = r.name.toLowerCase();
+      const key = normalizeExerciseKey(r.name);
       if (r.videoId) {
         // Check if first result looks like a Short (short IDs in shorts results)
         const entries = [

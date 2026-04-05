@@ -1,0 +1,4 @@
+{
+  "_comment": "Override map for exercise videos. Keys are lowercase exercise names. Value can be an array of video entries or a string alias pointing to another key.",
+  "examples": "Use { \"box breathing\": [ { \"videoId\": \"abc123def45\", \"label\": \"formTutorial\" } ] } or { \"a-skips\": \"high knees\" }"
+}

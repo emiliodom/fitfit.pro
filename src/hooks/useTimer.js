@@ -51,5 +51,5 @@ export function useTimer(initialSeconds = 60) {
 
   const display = `${Math.floor(timeLeft / 60).toString().padStart(2, '0')}:${(timeLeft % 60).toString().padStart(2, '0')}`;
 
-  return { timeLeft, isRunning, display, start, pause, reset };
+  return { timeLeft, isRunning, display, start, pause, reset, totalSeconds: defaultTime };
 }
