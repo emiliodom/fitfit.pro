@@ -167,6 +167,18 @@
     "start": "Iniciar",
     "pause": "Pausar"
   },
+  "youtube": {
+    "title": "Rutinas en YouTube",
+    "subtitle": "Rutinas faciles de 20, 40 y 60 minutos.",
+    "duration20": "20 min",
+    "duration40": "40 min",
+    "duration60": "60 min",
+    "quick": "Reset rapido o inicio suave.",
+    "steady": "Bloque estable con respiracion.",
+    "endurance": "Enfoque de resistencia larga.",
+    "timerTitle": "Timer de rutina",
+    "timerHint": "Elige duracion y luego inicia la sesion."
+  },
   "sound": {
     "settings": "Configuración de Sonido",
     "title": "Sonido",

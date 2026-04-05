@@ -62,6 +62,24 @@
             "Camina hacia atras 10 pasos con ayuda",
             "Termina con estiramiento grande"
           ]
+        },
+        {
+          "id": "sunrise-walk",
+          "name": "Sunrise Walk",
+          "nameEs": "Caminata Amanecer",
+          "duration": "18-22 min",
+          "energy": "Happy stroll",
+          "energyEs": "Paseo alegre",
+          "steps": [
+            "Wave to 5 people or pets",
+            "Skip for 20 steps",
+            "End with 3 deep breaths"
+          ],
+          "stepsEs": [
+            "Saluda a 5 personas o mascotas",
+            "Salta 20 pasos",
+            "Termina con 3 respiraciones profundas"
+          ]
         }
       ]
     },
@@ -131,6 +149,26 @@
             "10 dead bug",
             "Repite 2 rondas"
           ]
+        },
+        {
+          "id": "tiny-lift",
+          "name": "Tiny Lift",
+          "nameEs": "Mini Levantamiento",
+          "duration": "12-16 min",
+          "energy": "Focus and fun",
+          "energyEs": "Foco y diversion",
+          "steps": [
+            "10 water bottle curls",
+            "10 overhead reaches",
+            "10 chair deadlifts",
+            "Repeat 2 rounds"
+          ],
+          "stepsEs": [
+            "10 curls con botella",
+            "10 elevaciones arriba",
+            "10 peso muerto a silla",
+            "Repite 2 rondas"
+          ]
         }
       ]
     },
@@ -195,6 +233,24 @@
             "Di un color y corre hasta ese objeto",
             "Vuelve caminando y cuenta 5 respiraciones",
             "Repite 6 rondas"
+          ]
+        },
+        {
+          "id": "relay-run",
+          "name": "Relay Run",
+          "nameEs": "Carrera Relevo",
+          "duration": "12-15 min",
+          "energy": "Team play",
+          "energyEs": "Juego en equipo",
+          "steps": [
+            "Pick two markers",
+            "Run to marker A, walk to marker B",
+            "Repeat 8 rounds"
+          ],
+          "stepsEs": [
+            "Elige dos puntos",
+            "Corre al punto A, camina al punto B",
+            "Repite 8 rondas"
           ]
         }
       ]
@@ -261,6 +317,24 @@
             "Toca dedos del pie x10",
             "Mariposa 30 seg"
           ]
+        },
+        {
+          "id": "cloud-stretch",
+          "name": "Cloud Stretch",
+          "nameEs": "Estiramiento Nube",
+          "duration": "8-12 min",
+          "energy": "Soft and calm",
+          "energyEs": "Suave y calmado",
+          "steps": [
+            "Neck circles 5 each side",
+            "Side reach 20 sec per side",
+            "Lie down and breathe 1 min"
+          ],
+          "stepsEs": [
+            "Circulos de cuello 5 por lado",
+            "Alcance lateral 20 seg por lado",
+            "Acuestate y respira 1 min"
+          ]
         }
       ]
     },
@@ -325,6 +399,24 @@
             "Montana a flexion",
             "Paso atras a zancada",
             "Perro abajo a pie, repetir 4 veces"
+          ]
+        },
+        {
+          "id": "star-balance",
+          "name": "Star Balance",
+          "nameEs": "Balance Estrella",
+          "duration": "10-12 min",
+          "energy": "Balance and breath",
+          "energyEs": "Balance y respiracion",
+          "steps": [
+            "Tree pose 20 sec per side",
+            "Warrior 2, 20 sec per side",
+            "Seated breathing 6 breaths"
+          ],
+          "stepsEs": [
+            "Arbol 20 seg por lado",
+            "Guerrero 2, 20 seg por lado",
+            "Respiracion sentada 6 respiraciones"
           ]
         }
       ]

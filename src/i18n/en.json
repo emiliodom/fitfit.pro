@@ -172,6 +172,18 @@
     "start": "Start",
     "pause": "Pause"
   },
+  "youtube": {
+    "title": "YouTube Routine Picks",
+    "subtitle": "Quick, hassle-free routines at 20, 40, and 60 minutes.",
+    "duration20": "20 min",
+    "duration40": "40 min",
+    "duration60": "60 min",
+    "quick": "Quick reset or starter session.",
+    "steady": "Steady build with breathing cues.",
+    "endurance": "Longer endurance focus.",
+    "timerTitle": "Routine timer",
+    "timerHint": "Pick a duration, then start your session."
+  },
   "sound": {
     "settings": "Sound Settings",
     "title": "Sound",

@@ -117,13 +117,13 @@
             "3 x 6 pelvic tilt",
             "3 x 8 heel taps",
             "3 x 20 sec side plank",
-            "2 min breathing reset"
+            "1 x 2 min breathing reset"
           ],
           "stepsEs": [
             "3 x 6 basculacion pelvica",
             "3 x 8 toques de talon",
             "3 x 20 seg plancha lateral",
-            "2 min reset de respiracion"
+            "1 x 2 min reset de respiracion"
           ]
         }
       ]
@@ -145,15 +145,15 @@
           "focus": "Circuit pacing with controlled impact.",
           "focusEs": "Circuito con impacto controlado.",
           "steps": [
-            "3 rounds: 40 sec step-ups",
-            "3 rounds: 40 sec squat to press",
-            "3 rounds: 40 sec marching plank",
+            "3 x 40 sec step-ups",
+            "3 x 40 sec squat to press",
+            "3 x 40 sec marching plank",
             "Rest 60 sec between rounds"
           ],
           "stepsEs": [
-            "3 rondas: 40 seg step-ups",
-            "3 rondas: 40 seg sentadilla con press",
-            "3 rondas: 40 seg plancha marchada",
+            "1 x 3 rondas: 40 seg step-ups",
+            "1 x 3 rondas: 40 seg sentadilla con press",
+            "1 x 3 rondas: 40 seg plancha marchada",
             "Descansa 60 seg entre rondas"
           ]
         },
@@ -198,16 +198,16 @@
           "focus": "Gentle stretches and breathing.",
           "focusEs": "Estiramientos suaves y respiracion.",
           "steps": [
-            "60 sec hip flexor stretch per side",
-            "45 sec chest opener",
-            "8 thoracic rotations per side",
-            "2 min box breathing"
+            "1 x 60 sec hip flexor stretch per side",
+            "1 x 45 sec chest opener",
+            "1 x 8 thoracic rotations per side",
+            "1 x 2 min box breathing"
           ],
           "stepsEs": [
-            "60 seg estiramiento de psoas por lado",
-            "45 seg apertura de pecho",
-            "8 rotaciones toracicas por lado",
-            "2 min respiracion cuadrada"
+            "1 x 60 seg estiramiento de psoas por lado",
+            "1 x 45 seg apertura de pecho",
+            "1 x 8 rotaciones toracicas por lado",
+            "1 x 2 min respiracion cuadrada"
           ]
         },
         {
@@ -220,16 +220,16 @@
           "focus": "Hips, spine, and shoulder release.",
           "focusEs": "Caderas, columna y hombros.",
           "steps": [
-            "8 cat-cow",
-            "6 world greatest stretch per side",
-            "8 thoracic rotations",
-            "1 min box breathing"
+            "1 x 8 cat-cow",
+            "1 x 6 world greatest stretch per side",
+            "1 x 8 thoracic rotations",
+            "1 x 1 min box breathing"
           ],
           "stepsEs": [
-            "8 gato-vaca",
-            "6 estiramientos del mundo por lado",
-            "8 rotaciones toracicas",
-            "1 min respiracion cuadrada"
+            "1 x 8 gato-vaca",
+            "1 x 6 estiramientos del mundo por lado",
+            "1 x 8 rotaciones toracicas",
+            "1 x 1 min respiracion cuadrada"
           ]
         }
       ]

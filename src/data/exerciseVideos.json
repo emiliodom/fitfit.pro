@@ -1,78 +1,1307 @@
 {
-  "_comment": "Exercise name (lowercase) → YouTube video IDs. Auto-generated via Google Video Search. Fallback: YouTube search embed.",
-  "dumbbell overhead press": [
+  "_comment": "Exercise name (lowercase) \u2192 YouTube video IDs. Auto-generated via Google Video Search. Fallback: YouTube search embed.",
+  "15-min bodyweight blast": [
     {
-      "videoId": "OLePvpxQEGk",
+      "videoId": "7f7aRtOzvEI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Tqs-7Vj4sEI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "SYt1B_nxdL0",
+      "label": "commonMistakes"
+    }
+  ],
+  "16:8 intermittent fasting": [
+    {
+      "videoId": "T-un0vS5e8w",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "m09B2hDx-Sg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "PpX5hFEFa58",
+      "label": "commonMistakes"
+    }
+  ],
+  "3-1-1 goblet squat": [
+    {
+      "videoId": "m5fDJbYcPXg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "lRYBbchqxtI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "RIwYbHgl2p0",
+      "label": "commonMistakes"
+    }
+  ],
+  "4-7-8 breathing": [
+    {
+      "videoId": "p8fjYPC-k2k",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "LiUnFJ8P4gM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "9Fp9AW57tYg",
+      "label": "commonMistakes"
+    }
+  ],
+  "7-minute prep": [
+    {
+      "videoId": "B_APre8RRc8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "5y27yhRsCDY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "PDFPeH8LVB0",
+      "label": "commonMistakes"
+    }
+  ],
+  "90-day v-taper transformation": [
+    {
+      "videoId": "3y4liliiDa4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "01UMwG0RJjg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "WU1cW0frnOE",
+      "label": "commonMistakes"
+    }
+  ],
+  "90/90 hip switch": [
+    {
+      "videoId": "m51AZSXMvEA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "F5owFeKgpoc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "iPqysXFsvTQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "ab wheel": [
+    {
+      "videoId": "MinlHnG7j4k",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ndc391RFNUM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "A4r871iLuWk",
+      "label": "commonMistakes"
+    }
+  ],
+  "ab wheel kneeling rollout": [
+    {
+      "videoId": "ZF0BQLtv61M",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "jxI38HM2pBY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "gLsdkw4lK3o",
+      "label": "commonMistakes"
+    }
+  ],
+  "ab wheel rollouts": [
+    {
+      "videoId": "MinlHnG7j4k",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ndc391RFNUM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "kISuoI7QCYk",
+      "label": "commonMistakes"
+    }
+  ],
+  "accumulation": [
+    {
+      "videoId": "pmLN4SctW74",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "aaMcWg_XEVU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "DcJtti0QgWw",
+      "label": "commonMistakes"
+    }
+  ],
+  "active recovery & mobility": [
+    {
+      "videoId": "RvnVir0T9pU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "8ybN2gFraSM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "zZyosxYeTSE",
+      "label": "commonMistakes"
+    }
+  ],
+  "adductor rockback": [
+    {
+      "videoId": "nxuwq178gLA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "EJE-OePfboI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "lidSRvg0YIg",
+      "label": "commonMistakes"
+    }
+  ],
+  "alignment foundation": [
+    {
+      "videoId": "EVN3MKgWi3s",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "2g8TqVkKpxY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ria_RPVKKdI",
+      "label": "commonMistakes"
+    }
+  ],
+  "animal flow": [
+    {
+      "videoId": "F4mUnmFbVNg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "-7y7P9jhVnY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1zpB2QMRcXg",
+      "label": "commonMistakes"
+    }
+  ],
+  "ankle circles": [
+    {
+      "videoId": "mzTQGYGI0Ng",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "uV0I5adTRXw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "9tFDZqo-X3o",
+      "label": "commonMistakes"
+    }
+  ],
+  "ankle control": [
+    {
+      "videoId": "J80ZLmcVXEU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "XZtKkg-GBRk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ncZlBCRpUyQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "at\u00fan ceviche express": [
+    {
+      "videoId": "lQJMQvXgEac",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "99iwlQoNlB4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "d67WjSmfB6Y",
+      "label": "commonMistakes"
+    }
+  ],
+  "balance control": [
+    {
+      "videoId": "PT1KO5mdWYc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "q9uRhFfp4UM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "XZp-z-alwNg",
+      "label": "commonMistakes"
+    }
+  ],
+  "balance hero": [
+    {
+      "videoId": "AoV_lYhXamQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "cgwsnV--OVQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "HyGMfl6QC9U",
+      "label": "commonMistakes"
+    }
+  ],
+  "band bicep curls": [
+    {
+      "videoId": "nAQu69thHQg",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "GOYxaMO45uM",
+      "videoId": "0sVUQxp-l7k",
       "label": "formTutorial"
     },
     {
-      "videoId": "aedn4SSc3Ww",
+      "videoId": "bY0aBa6HfuI",
       "label": "techniqueTips"
     }
   ],
-  "standard push-ups": [
+  "band face pulls": [
     {
-      "videoId": "bT-Qhj6kZ8Y",
+      "videoId": "PqL3B7Rcikg",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "ba8tr1NzwXU",
+      "videoId": "OIMUU2Q-upU",
       "label": "formTutorial"
     },
     {
-      "videoId": "c-lBErfxszs",
+      "videoId": "WlQ0DAOmwYI",
       "label": "techniqueTips"
     }
   ],
-  "diamond push-ups": [
+  "band lateral raises": [
     {
-      "videoId": "t2cR426fFx0",
+      "videoId": "XCyNaUmnwas",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "nOIcUZMwzgM",
+      "videoId": "dlpKA2gzdEA",
       "label": "formTutorial"
     },
     {
-      "videoId": "eCzuQyD1wMQ",
+      "videoId": "f_OGBg2KxgY",
       "label": "techniqueTips"
     }
   ],
-  "wide push-ups": [
+  "band lateral walks": [
     {
-      "videoId": "bT-Qhj6kZ8Y",
+      "videoId": "cbDudaLroVs",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "YWw-3rGaoT0",
+      "videoId": "6h3TVFPTSQo",
       "label": "formTutorial"
     },
     {
-      "videoId": "oCzE3pCK9pY",
+      "videoId": "iSouE1OGO9w",
       "label": "techniqueTips"
     }
   ],
-  "pike push-ups": [
+  "band overhead press": [
     {
-      "videoId": "89-8waE2XKI",
+      "videoId": "ERezv55RUPg",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "rWnpH-RGdmA",
+      "videoId": "79wEenoO-EY",
       "label": "formTutorial"
     },
     {
-      "videoId": "5vvVcCNKzp8",
+      "videoId": "yAPw1i01j2E",
       "label": "techniqueTips"
+    }
+  ],
+  "band pull-apart": [
+    {
+      "videoId": "exeRQHew4Ys",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "JoBf5ZCn7E4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "FH41yS4MHQ8",
+      "label": "techniqueTips"
+    }
+  ],
+  "band push-ups": [
+    {
+      "videoId": "EtczFNUzYCY",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "ShjStd0UsBc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "qHRg0wbUocE",
+      "label": "techniqueTips"
+    }
+  ],
+  "band resisted rotation": [
+    {
+      "videoId": "MyBcWGzYUm4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ViWJ1u2u4d0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "876kdfHLd6c",
+      "label": "commonMistakes"
+    }
+  ],
+  "band rows": [
+    {
+      "videoId": "Ilg3YvRUwvw",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "5DWAae34i6w",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "h4TYTvjyVM8",
+      "label": "techniqueTips"
+    }
+  ],
+  "band shoulder dislocates": [
+    {
+      "videoId": "eT_s4yHVq_s",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "Ki6hqKQz7F0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "64ti08uORPI",
+      "label": "techniqueTips"
+    }
+  ],
+  "band squats": [
+    {
+      "videoId": "iBbJycFvh6Q",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "kkJ9fVekXVw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ZeNpwkySRbY",
+      "label": "techniqueTips"
+    }
+  ],
+  "banded clamshell": [
+    {
+      "videoId": "Hj-2r7OlXuE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "6rWe6tLc_KM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "JxaBTjnQWzs",
+      "label": "commonMistakes"
+    }
+  ],
+  "banded squat hold": [
+    {
+      "videoId": "Ks3vXNMuuCs",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "WODUaJECkuU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "k7mYlDjhbiA",
+      "label": "commonMistakes"
+    }
+  ],
+  "barbell bent-over row": [
+    {
+      "videoId": "bm0_q9bR_HA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "phVtqawIgbk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Nqh7q3zDCoQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "barbell bicep curls": [
+    {
+      "videoId": "54x2WF1_Suc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ez3YoWf62Eg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "N6paU6TGFWU",
+      "label": "commonMistakes"
+    }
+  ],
+  "barbell deadlift": [
+    {
+      "videoId": "xNwpvDuZJ3k",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ZaTM37cfiDs",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "vfKwjT5-86k",
+      "label": "commonMistakes"
+    }
+  ],
+  "barbell floor press": [
+    {
+      "videoId": "T2gXB8DvTvY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "58UXnhEYEsY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "X3s1w6bNmSg",
+      "label": "commonMistakes"
+    }
+  ],
+  "barbell no bench": [
+    {
+      "videoId": "ryQWaqLon_k",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "T2gXB8DvTvY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "4SsSlBm4Fng",
+      "label": "commonMistakes"
+    }
+  ],
+  "barbell overhead press standing": [
+    {
+      "videoId": "zoN5EH50Dro",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "4LBVP2Oe7fg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1M6JMpgAtS0",
+      "label": "commonMistakes"
+    }
+  ],
+  "barbell romanian deadlift": [
+    {
+      "videoId": "7j-2w4-P14I",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "5zmlnbWb-g4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "g5u75sgpn04",
+      "label": "commonMistakes"
+    }
+  ],
+  "barbell squat front or zercher": [
+    {
+      "videoId": "Ieu39uUfC18",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "zlPZAf6O1hc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "nndDnitQ4e8",
+      "label": "commonMistakes"
+    }
+  ],
+  "bean & cheese pupusas": [
+    {
+      "videoId": "HzoLR8sY-WU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "G2qRmRfb_hI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "XyJJlk8NB5U",
+      "label": "commonMistakes"
+    }
+  ],
+  "beef & bean chili": [
+    {
+      "videoId": "f_ZQ76aOr7s",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "36hvsVyugvA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "SPakumjssms",
+      "label": "commonMistakes"
+    }
+  ],
+  "bent-knee calf raise": [
+    {
+      "videoId": "PGzcmhEsFdw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "uQAIX2jrvYY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "_DirjelaQ-Q",
+      "label": "commonMistakes"
+    }
+  ],
+  "bicycle crunches": [
+    {
+      "videoId": "hP-ol0LxLZ8",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "6mXfejl7ERk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "aJ1qyMss5Ec",
+      "label": "techniqueTips"
+    }
+  ],
+  "bird dog hold": [
+    {
+      "videoId": "_1j_HWknGLg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "YAyZS888Ugo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Yap7kqAFHYo",
+      "label": "commonMistakes"
+    }
+  ],
+  "body recomposition: losing fat while gaining muscle": [
+    {
+      "videoId": "ctV8NyRWZIo",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "M4K0s792wAU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "BnOO3Dsj3vU",
+      "label": "commonMistakes"
+    }
+  ],
+  "body scan meditation": [
+    {
+      "videoId": "aH72AScs0qk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "OS_iqfGjL78",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "kH-OQn5Ui8g",
+      "label": "commonMistakes"
+    }
+  ],
+  "bodyweight rows (table/bar)": [
+    {
+      "videoId": "g8wWFlr2gQU",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "wQoFWt1mE7A",
+      "label": "formTutorial"
+    }
+  ],
+  "bodyweight rows table/bar": [
+    {
+      "videoId": "JUzWqsBm2ZE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "vZy_Eu_Z0WA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "iPbAldlORHE",
+      "label": "commonMistakes"
+    }
+  ],
+  "bodyweight squats": [
+    {
+      "videoId": "Qgpxx1Bxmgs",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "bndt_t7aSXI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "dhhN_6B5nxE",
+      "label": "techniqueTips"
+    }
+  ],
+  "box breathing": [
+    {
+      "videoId": "tEmt1Znux58",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "FJJazKtH_9I",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "cs9ckUeINlA",
+      "label": "commonMistakes"
+    }
+  ],
+  "box breathing 4-4-4-4": [
+    {
+      "videoId": "Rt08wzTYKHg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "fW3uegzKf5M",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "y50NKxnw6yY",
+      "label": "commonMistakes"
+    }
+  ],
+  "boxing": [
+    {
+      "videoId": "QyvwN4vP79U",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "YIOEDXRwuM0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Fey9pQslLlE",
+      "label": "commonMistakes"
+    }
+  ],
+  "boxing & hiit \u2014 metabolic conditioning": [
+    {
+      "videoId": "lf3Rny1s4Dg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "4Bpnb8BRJLc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "9DxNR9iKhOk",
+      "label": "commonMistakes"
+    }
+  ],
+  "boxing 5-round session": [
+    {
+      "videoId": "YxXaMAWO7TU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "-YV6DjMZhts",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "k059UAWJPd4",
+      "label": "commonMistakes"
+    }
+  ],
+  "boxing stand": [
+    {
+      "videoId": "ncAciTtT9Ns",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "VzNxIS2tjqI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "JKAKdPieTHU",
+      "label": "commonMistakes"
+    }
+  ],
+  "breath reset": [
+    {
+      "videoId": "YqH2RdkbmYQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "NUppNQ3LOsU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "-2XT5PWqqf8",
+      "label": "commonMistakes"
+    }
+  ],
+  "breathing reset": [
+    {
+      "videoId": "NUppNQ3LOsU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "YqH2RdkbmYQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "AQ3P6wqkf7U",
+      "label": "commonMistakes"
+    }
+  ],
+  "burpees": [
+    {
+      "videoId": "RevoEOa_Esw",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "wHwyS8DCloA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "TUtymTr_KWE",
+      "label": "techniqueTips"
+    }
+  ],
+  "cadence primer": [
+    {
+      "videoId": "hURWa6QcjFQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Y80Ne7YpA04",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "oyqXGFJTKUI",
+      "label": "commonMistakes"
+    }
+  ],
+  "calf + peroneal sweep": [
+    {
+      "videoId": "yXjrXB5ui68",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "YGybv3pS1FM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "5pDl8CaNWsw",
+      "label": "commonMistakes"
+    }
+  ],
+  "calf eccentrics": [
+    {
+      "videoId": "A4v0vGhgQhM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "PPbuMvdhgCo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "7rl-nAJS5_Y",
+      "label": "commonMistakes"
+    }
+  ],
+  "calf raise hold": [
+    {
+      "videoId": "baEXLy09Ncc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "fOfPwmb5FXU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "a-x_NR-ibos",
+      "label": "commonMistakes"
+    }
+  ],
+  "calf stretch wall": [
+    {
+      "videoId": "tUA4MO1kXV8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "2_2GMXTc1BE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "mafo7o7OnFo",
+      "label": "commonMistakes"
+    }
+  ],
+  "calf wall stretch": [
+    {
+      "videoId": "tUA4MO1kXV8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "2_2GMXTc1BE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "mafo7o7OnFo",
+      "label": "commonMistakes"
+    }
+  ],
+  "camote & pollo meal prep": [
+    {
+      "videoId": "uUBGo7SW5ic",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "xAHe1_1RbO8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "8aMa3-duTkQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "cat-cow": [
+    {
+      "videoId": "LIVJZZyZ2qM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "2of247Kt0tU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "aaTtWK7iLes",
+      "label": "commonMistakes"
+    }
+  ],
+  "cat-cow flow": [
+    {
+      "videoId": "WHUevrqeKIg",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "I171eRczR1M",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "L1DfQWQd28k",
+      "label": "techniqueTips"
+    }
+  ],
+  "cat-cow spinal flow": [
+    {
+      "videoId": "qKcHld6D8NA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "EBQD1Sha26k",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "FyCuSE3mDcc",
+      "label": "commonMistakes"
+    }
+  ],
+  "chest opener": [
+    {
+      "videoId": "kgh_Q0tKi4k",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "crnw1IKWNZY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Cka38QWoVeY",
+      "label": "commonMistakes"
+    }
+  ],
+  "chicken meal prep bowl": [
+    {
+      "videoId": "eYhj9jVdjcE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "HgwEsjrJSA4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "hpTr6-qhEHE",
+      "label": "commonMistakes"
+    }
+  ],
+  "child's pose": [
+    {
+      "videoId": "kH12QrSGedM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "nMp3MlTz9fA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "_ZX_zTOBgp8",
+      "label": "commonMistakes"
+    }
+  ],
+  "chin-ups": [
+    {
+      "videoId": "Ln3gAdHr8MM",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "dIRfCIR3z7Y",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "9smgTbEwSE8",
+      "label": "techniqueTips"
+    }
+  ],
+  "close-grip handle push-ups": [
+    {
+      "videoId": "xTq_gg8F9Gs",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "GJlqYjFyQX0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "4ajdN3l-xS4",
+      "label": "techniqueTips"
+    }
+  ],
+  "cloud stretch": [
+    {
+      "videoId": "tXWh-dowiLg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Mr7K7YdgzuQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "KpuqWmb4Nhw",
+      "label": "commonMistakes"
+    }
+  ],
+  "cold exposure protocol": [
+    {
+      "videoId": "2XecbuI-9QE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "7aYArAYghUA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "0G9uEZDm1p0",
+      "label": "commonMistakes"
+    }
+  ],
+  "color sprints": [
+    {
+      "videoId": "PmG2gwa-V1c",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "N1qKS8Z2VbA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "FNfcD3JbWC8",
+      "label": "commonMistakes"
+    }
+  ],
+  "combat visualization": [
+    {
+      "videoId": "E8o4hUPJMSw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "cdtdrpker1Y",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "3_ZsMEHCewg",
+      "label": "commonMistakes"
+    }
+  ],
+  "concurrent training: running + lifting without interference": [
+    {
+      "videoId": "cA2wrX_0_NY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ULDQayGwuh8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "bEfb9slXgtY",
+      "label": "commonMistakes"
+    }
+  ],
+  "core": [
+    {
+      "videoId": "kStNkmRkqxA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ZTIHAXvK-Ls",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "U2-DJmuG6GU",
+      "label": "commonMistakes"
+    }
+  ],
+  "core + pelvic floor": [
+    {
+      "videoId": "i9cy2fSlKKU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Ip7wrGxqQhM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "u9JaHzhGnwI",
+      "label": "commonMistakes"
+    }
+  ],
+  "core destroyer": [
+    {
+      "videoId": "n6QFrS02vWw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "bmKfF2Hk_-I",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Pz658nRvHqc",
+      "label": "commonMistakes"
+    }
+  ],
+  "core flow": [
+    {
+      "videoId": "aO2jvytOhzw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "4xi-0HefREE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "xX80814xhVc",
+      "label": "commonMistakes"
+    }
+  ],
+  "core stability": [
+    {
+      "videoId": "KuhaBZ5WPgM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "94nI0FNc_6w",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ZBgMklXPkUA",
+      "label": "commonMistakes"
+    }
+  ],
+  "core-hip link": [
+    {
+      "videoId": "QY9hvg8o3XU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "HKhnxNyVwWU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "2gS8RYc9lus",
+      "label": "commonMistakes"
+    }
+  ],
+  "cossack squat": [
+    {
+      "videoId": "MJvazUpmdZU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "nFVTuC1jC_I",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "wwgvy9uqftg",
+      "label": "commonMistakes"
+    }
+  ],
+  "cottage cheese & fruit": [
+    {
+      "videoId": "L0Xz-MPgnpk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "pKcLgoyWaRA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "xrhRzOEnya8",
+      "label": "commonMistakes"
+    }
+  ],
+  "couch stretch": [
+    {
+      "videoId": "u82UyIsWIhg",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "3uvxls92yC4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "7dOu7Pqr-bc",
+      "label": "techniqueTips"
+    }
+  ],
+  "dead bug": [
+    {
+      "videoId": "Aoipu_fl3HA",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "7z4hw9Z_nCo",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "_wXaGBkegdY",
+      "label": "techniqueTips"
+    }
+  ],
+  "dead hang": [
+    {
+      "videoId": "fq9gDvNZQ2c",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "dOCQjaasbGs",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ghJzaSAI1Nw",
+      "label": "techniqueTips"
+    }
+  ],
+  "dead hang spinal decompress": [
+    {
+      "videoId": "Hs_2nf0C2o4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "K0ToTxe2ftQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "aygpfqBpf3A",
+      "label": "commonMistakes"
     }
   ],
   "decline push-ups": [
@@ -105,195 +1334,104 @@
       "label": "techniqueTips"
     }
   ],
-  "close-grip handle push-ups": [
+  "deep recovery nsdr": [
     {
-      "videoId": "xTq_gg8F9Gs",
+      "videoId": "hEypv90GzDE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "eWvxIe1mmS8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "pL02HRFk2vo",
+      "label": "commonMistakes"
+    }
+  ],
+  "deep squat hold": [
+    {
+      "videoId": "IHApHfNA2Ag",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "poKi7JPfuxE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "LPa3LKlQ7eU",
+      "label": "commonMistakes"
+    }
+  ],
+  "desayuno chap\u00edn recomp": [
+    {
+      "videoId": "zS84ZrVBPwE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "JQbr2o5ZK1k",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "mDDHYNiHdUk",
+      "label": "commonMistakes"
+    }
+  ],
+  "diamond push-ups": [
+    {
+      "videoId": "t2cR426fFx0",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "GJlqYjFyQX0",
+      "videoId": "nOIcUZMwzgM",
       "label": "formTutorial"
     },
     {
-      "videoId": "4ajdN3l-xS4",
+      "videoId": "eCzuQyD1wMQ",
       "label": "techniqueTips"
     }
   ],
-  "dumbbell floor press": [
+  "downshift walk + breath": [
     {
-      "videoId": "bK4GjHniG_Y",
+      "videoId": "TGkHVEnpVoY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "8GTd3u_qwGA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "I5neZ1j2x-A",
+      "label": "commonMistakes"
+    }
+  ],
+  "downward dog": [
+    {
+      "videoId": "UsTTTYbBdQg",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "UBmpZ7l5Nlk",
+      "videoId": "lGycL7DUXj8",
       "label": "formTutorial"
     },
     {
-      "videoId": "TGpAt-v7Pzg",
+      "videoId": "v3f9Yu1Iopg",
       "label": "techniqueTips"
     }
   ],
-  "dumbbell lateral raises": [
+  "drop squat": [
     {
-      "videoId": "eaM8JxEn6Ig",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "JIhbYYA1Q90",
+      "videoId": "jeWbtn9QSic",
       "label": "formTutorial"
     },
     {
-      "videoId": "Kl3LEzQ5Zqs",
+      "videoId": "voJ1KrwEIcc",
       "label": "techniqueTips"
-    }
-  ],
-  "dumbbell front raises": [
-    {
-      "videoId": "FnHeJ3Z3d1w",
-      "label": "short",
-      "isShort": true
     },
     {
-      "videoId": "liI_lOqPGlE",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "KZ_XNxH_BmQ",
-      "label": "techniqueTips"
-    }
-  ],
-  "dumbbell skullcrushers (floor)": [
-    {
-      "videoId": "WLQizQXoeIg",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "dXcA5PDXDq4",
-      "label": "formTutorial"
-    }
-  ],
-  "band push-ups": [
-    {
-      "videoId": "EtczFNUzYCY",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "ShjStd0UsBc",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "qHRg0wbUocE",
-      "label": "techniqueTips"
-    }
-  ],
-  "band lateral raises": [
-    {
-      "videoId": "XCyNaUmnwas",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "dlpKA2gzdEA",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "f_OGBg2KxgY",
-      "label": "techniqueTips"
-    }
-  ],
-  "band overhead press": [
-    {
-      "videoId": "ERezv55RUPg",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "79wEenoO-EY",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "yAPw1i01j2E",
-      "label": "techniqueTips"
-    }
-  ],
-  "strict pull-ups": [
-    {
-      "videoId": "aydZOoiVOVA",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "KdSOrmhuGFg",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "OEXosPwzFdc",
-      "label": "techniqueTips"
-    }
-  ],
-  "chin-ups": [
-    {
-      "videoId": "Ln3gAdHr8MM",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "dIRfCIR3z7Y",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "9smgTbEwSE8",
-      "label": "techniqueTips"
-    }
-  ],
-  "negative pull-ups": [
-    {
-      "videoId": "izVyydjBVBc",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "EEqicwEH6-k",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "yc_MxhHiRbQ",
-      "label": "techniqueTips"
-    }
-  ],
-  "dead hang": [
-    {
-      "videoId": "fq9gDvNZQ2c",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "dOCQjaasbGs",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "ghJzaSAI1Nw",
-      "label": "techniqueTips"
-    }
-  ],
-  "wide-grip pull-ups": [
-    {
-      "videoId": "l6-aIZTbAR0",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "OEXosPwzFdc",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "WSLbL7hqP4k",
-      "label": "techniqueTips"
+      "videoId": "NPOqYnHGbos",
+      "label": "commonMistakes"
     }
   ],
   "dumbbell bent-over row": [
@@ -308,152 +1446,6 @@
     },
     {
       "videoId": "vN8xskk-7G8",
-      "label": "techniqueTips"
-    }
-  ],
-  "dumbbell pullover (floor)": [
-    {
-      "videoId": "kuhaRRSK1Js",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "mTDKV2-XOBI",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "fUDUiefmvRo",
-      "label": "techniqueTips"
-    }
-  ],
-  "dumbbell hammer curls": [
-    {
-      "videoId": "cDKOkTT9OnQ",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "TZUv6qhubas",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "NyW2fT2gQhM",
-      "label": "techniqueTips"
-    }
-  ],
-  "band pull-apart": [
-    {
-      "videoId": "exeRQHew4Ys",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "JoBf5ZCn7E4",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "FH41yS4MHQ8",
-      "label": "techniqueTips"
-    }
-  ],
-  "band face pulls": [
-    {
-      "videoId": "PqL3B7Rcikg",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "OIMUU2Q-upU",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "WlQ0DAOmwYI",
-      "label": "techniqueTips"
-    }
-  ],
-  "band rows": [
-    {
-      "videoId": "Ilg3YvRUwvw",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "5DWAae34i6w",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "h4TYTvjyVM8",
-      "label": "techniqueTips"
-    }
-  ],
-  "band bicep curls": [
-    {
-      "videoId": "nAQu69thHQg",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "0sVUQxp-l7k",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "bY0aBa6HfuI",
-      "label": "techniqueTips"
-    }
-  ],
-  "inverted rows (bar low)": [
-    {
-      "videoId": "2nM4JawYMew",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "_7SRR5g2mFQ",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "lgo3zTUpLII",
-      "label": "techniqueTips"
-    }
-  ],
-  "bodyweight rows (table/bar)": [
-    {
-      "videoId": "g8wWFlr2gQU",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "wQoFWt1mE7A",
-      "label": "formTutorial"
-    }
-  ],
-  "superman hold": [
-    {
-      "videoId": "uexOGyxLr7E",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "h39Kqh9ReJ0",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "BgbBJyvo2Wc",
-      "label": "techniqueTips"
-    }
-  ],
-  "goblet squat": [
-    {
-      "videoId": "lRYBbchqxtI",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "7E-ugKcWeu4",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "t__Um6KjJkc",
       "label": "techniqueTips"
     }
   ],
@@ -472,6 +1464,66 @@
       "label": "techniqueTips"
     }
   ],
+  "dumbbell floor press": [
+    {
+      "videoId": "bK4GjHniG_Y",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "UBmpZ7l5Nlk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "TGpAt-v7Pzg",
+      "label": "techniqueTips"
+    }
+  ],
+  "dumbbell front raises": [
+    {
+      "videoId": "FnHeJ3Z3d1w",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "liI_lOqPGlE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "KZ_XNxH_BmQ",
+      "label": "techniqueTips"
+    }
+  ],
+  "dumbbell hammer curls": [
+    {
+      "videoId": "cDKOkTT9OnQ",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "TZUv6qhubas",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "NyW2fT2gQhM",
+      "label": "techniqueTips"
+    }
+  ],
+  "dumbbell lateral raises": [
+    {
+      "videoId": "eaM8JxEn6Ig",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "JIhbYYA1Q90",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Kl3LEzQ5Zqs",
+      "label": "techniqueTips"
+    }
+  ],
   "dumbbell lunges": [
     {
       "videoId": "_lSFEA3uYY0",
@@ -487,6 +1539,89 @@
       "label": "techniqueTips"
     }
   ],
+  "dumbbell overhead press": [
+    {
+      "videoId": "OLePvpxQEGk",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "GOYxaMO45uM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "aedn4SSc3Ww",
+      "label": "techniqueTips"
+    }
+  ],
+  "dumbbell pullover (floor)": [
+    {
+      "videoId": "kuhaRRSK1Js",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "mTDKV2-XOBI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "fUDUiefmvRo",
+      "label": "techniqueTips"
+    }
+  ],
+  "dumbbell pullover floor": [
+    {
+      "videoId": "ieFKuQAGYIA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "gEbpSjFBpCk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "VxpSzHw-Xp8",
+      "label": "commonMistakes"
+    }
+  ],
+  "dumbbell row": [
+    {
+      "videoId": "gfUg6qWohTk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "OL8yGrkXyiQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "-ulLckHTvBc",
+      "label": "commonMistakes"
+    }
+  ],
+  "dumbbell skullcrushers (floor)": [
+    {
+      "videoId": "WLQizQXoeIg",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "dXcA5PDXDq4",
+      "label": "formTutorial"
+    }
+  ],
+  "dumbbell skullcrushers floor": [
+    {
+      "videoId": "YRKjhLPLXho",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "iuYB_fLp26Q",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "dXcA5PDXDq4",
+      "label": "commonMistakes"
+    }
+  ],
   "dumbbell sumo squat": [
     {
       "videoId": "flvsWPyA8pw",
@@ -499,291 +1634,6 @@
     },
     {
       "videoId": "dS6GNYJxNzQ",
-      "label": "techniqueTips"
-    }
-  ],
-  "bodyweight squats": [
-    {
-      "videoId": "Qgpxx1Bxmgs",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "bndt_t7aSXI",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "dhhN_6B5nxE",
-      "label": "techniqueTips"
-    }
-  ],
-  "jump squats": [
-    {
-      "videoId": "v-KmNUc1WIc",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "LNeXr1IMsJ0",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "pYUMmHBUmjU",
-      "label": "techniqueTips"
-    }
-  ],
-  "single-leg calf raises": [
-    {
-      "videoId": "AYzJdDk-DvQ",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "tU4Ifm9Hass",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "pYjc_lO411M",
-      "label": "techniqueTips"
-    }
-  ],
-  "wall sit": [
-    {
-      "videoId": "mDdLC-yKudY",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "gn1GW7dBoog",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "DiaZP1W99cs",
-      "label": "techniqueTips"
-    }
-  ],
-  "band squats": [
-    {
-      "videoId": "iBbJycFvh6Q",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "kkJ9fVekXVw",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "ZeNpwkySRbY",
-      "label": "techniqueTips"
-    }
-  ],
-  "band lateral walks": [
-    {
-      "videoId": "cbDudaLroVs",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "6h3TVFPTSQo",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "iSouE1OGO9w",
-      "label": "techniqueTips"
-    }
-  ],
-  "plank": [
-    {
-      "videoId": "hoeNgjheDHk",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "oPgZR4jlZi4",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "v25dawSzRTM",
-      "label": "techniqueTips"
-    }
-  ],
-  "side plank": [
-    {
-      "videoId": "sH5PiIUjDW8",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "HyAct6eyrvg",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "4yylMqlnjwU",
-      "label": "techniqueTips"
-    }
-  ],
-  "russian twists": [
-    {
-      "videoId": "KUsvxlmpPoI",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "_d5cpAre7_w",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "51Dw8c3wcPs",
-      "label": "techniqueTips"
-    }
-  ],
-  "bicycle crunches": [
-    {
-      "videoId": "hP-ol0LxLZ8",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "6mXfejl7ERk",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "aJ1qyMss5Ec",
-      "label": "techniqueTips"
-    }
-  ],
-  "leg raises": [
-    {
-      "videoId": "fbGDQGHxvHk",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "tocRn03UdKw",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "Ti-hSmyPb5U",
-      "label": "techniqueTips"
-    }
-  ],
-  "hanging leg raises": [
-    {
-      "videoId": "WFAziRYp2bg",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "1YOwAYQd6Wc",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "9g3mmngdbpE",
-      "label": "techniqueTips"
-    }
-  ],
-  "hanging knee raises": [
-    {
-      "videoId": "jTak29W-uoY",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "qazbsy9eU-M",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "z29ZxuLpYYc",
-      "label": "techniqueTips"
-    }
-  ],
-  "mountain climbers": [
-    {
-      "videoId": "K3Xt4QH4b-U",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "AiPXWjUCj1U",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "fpmWW6iXfes",
-      "label": "techniqueTips"
-    }
-  ],
-  "dead bug": [
-    {
-      "videoId": "7z4hw9Z_nCo",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "Aoipu_fl3HA",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "_wXaGBkegdY",
-      "label": "techniqueTips"
-    }
-  ],
-  "burpees": [
-    {
-      "videoId": "RevoEOa_Esw",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "wHwyS8DCloA",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "TUtymTr_KWE",
-      "label": "techniqueTips"
-    }
-  ],
-  "jump rope (imaginary)": [
-    {
-      "videoId": "85z-WFPf_hA",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "ESRuGOl9y8o",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "pcOkhja6wug",
-      "label": "techniqueTips"
-    }
-  ],
-  "high knees": [
-    {
-      "videoId": "WrKc4YsgAEA",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "82pdtHaANGk",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "qjB3Pquw9Gw",
-      "label": "techniqueTips"
-    }
-  ],
-  "squat jumps": [
-    {
-      "videoId": "v-KmNUc1WIc",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "UzpBVhf0Y6w",
-      "label": "formTutorial"
-    },
-    {
-      "videoId": "pYUMmHBUmjU",
       "label": "techniqueTips"
     }
   ],
@@ -802,18 +1652,522 @@
       "label": "techniqueTips"
     }
   ],
-  "heavy bag straight punches": [
+  "dumbbells": [
+    {
+      "videoId": "6Wtdh1Ynkb0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "aczVjwyve2s",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "xqVBoyKXbsA",
+      "label": "commonMistakes"
+    }
+  ],
+  "easy base run": [
+    {
+      "videoId": "Lk229GpBBxQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "fYUjcwEyHJY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "B9X9kBP9ctA",
+      "label": "commonMistakes"
+    }
+  ],
+  "eccentric calf raise": [
+    {
+      "videoId": "d2GgSoHvIXo",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "7rl-nAJS5_Y",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "olIsNchXZUg",
+      "label": "commonMistakes"
+    }
+  ],
+  "eccentric step-down": [
+    {
+      "videoId": "SZXOPRVP1Oc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "zeaVLglTeME",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "cFIzLNnudTY",
+      "label": "commonMistakes"
+    }
+  ],
+  "egg & bean burrito bowl": [
+    {
+      "videoId": "zxJGAnXwwek",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Mpetkh3-VBI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "VwY-hiE41Sc",
+      "label": "commonMistakes"
+    }
+  ],
+  "eggs & avocado toast": [
+    {
+      "videoId": "ymg3Y2d5C-4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "joJMWCFHKmo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ebMe-IaI1-0",
+      "label": "commonMistakes"
+    }
+  ],
+  "farmer hold": [
+    {
+      "videoId": "1uOs1hP3u4A",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "NH7Xv-7NQNQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "4d-4gKn_lKk",
+      "label": "commonMistakes"
+    }
+  ],
+  "fast march": [
+    {
+      "videoId": "98I8rynMBqM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "16oJspYFz7s",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Bo1URD1c3gY",
+      "label": "commonMistakes"
+    }
+  ],
+  "flexibility": [
+    {
+      "videoId": "ugXQe5hbUAA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "1Ja_fqUehHA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Lmr6nValYOA",
+      "label": "commonMistakes"
+    }
+  ],
+  "flow state priming": [
+    {
+      "videoId": "5fvwPjvxP_0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "JV922-HUNHU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "CcK2Xe9BcUk",
+      "label": "commonMistakes"
+    }
+  ],
+  "foam roller stretching": [
+    {
+      "videoId": "KWGsSq0J1Bk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "YHTzv-j9R40",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "lLswx0vSvtk",
+      "label": "commonMistakes"
+    }
+  ],
+  "focused breathing walk": [
+    {
+      "videoId": "aWPNWfRwVcE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "y0GgzWn78x0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "qcGrx0ltFPQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "foot arch control": [
+    {
+      "videoId": "OAoBzT7feu0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "M5QAY8YW-es",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1g0VqdnjUQs",
+      "label": "commonMistakes"
+    }
+  ],
+  "foundation": [
+    {
+      "videoId": "X4QYV5GTz7c",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "-_YYiIxn2U8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "qb6e5bQxTdM",
+      "label": "commonMistakes"
+    }
+  ],
+  "freestyle bag work": [
+    {
+      "videoId": "Al7WngLhuOw",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "g_Thln9nLCg",
+      "label": "formTutorial"
+    }
+  ],
+  "full body bands": [
+    {
+      "videoId": "9qqnYOcSpY8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "L08vWPkMftQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "U8R11bOj2Ek",
+      "label": "commonMistakes"
+    }
+  ],
+  "full body power": [
+    {
+      "videoId": "sinkIlViPG8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "jipNyFO-Dss",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "76W3ZmZFFaY",
+      "label": "commonMistakes"
+    }
+  ],
+  "glute + core switch on": [
+    {
+      "videoId": "LORVjN2bg5o",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "x_lwQ_Dzuig",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "69BHGtjGkZI",
+      "label": "commonMistakes"
+    }
+  ],
+  "glute + piriformis release": [
+    {
+      "videoId": "JdfamfltlMY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "jD1FYO3P4KQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "kEpHkn8amFE",
+      "label": "commonMistakes"
+    }
+  ],
+  "glute bridge hold": [
+    {
+      "videoId": "cmkMMjo0fRo",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "PnttCYHhyis",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "-z3h-ZWZqsQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "glute bridge march": [
+    {
+      "videoId": "KsYwYl13IDc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "rXAbcneAr3I",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "msfdrPWJ-9o",
+      "label": "commonMistakes"
+    }
+  ],
+  "glute med burn": [
+    {
+      "videoId": "He6yDUMqUz4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "CZchPJdQW50",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "M9dPupbdeVw",
+      "label": "commonMistakes"
+    }
+  ],
+  "goblet squat": [
+    {
+      "videoId": "lRYBbchqxtI",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "7E-ugKcWeu4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "t__Um6KjJkc",
+      "label": "techniqueTips"
+    }
+  ],
+  "goblet squat with band": [
+    {
+      "videoId": "9IxfVt04o6Y",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "plLZFkqO5ek",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "SYiSrSnUCAs",
+      "label": "commonMistakes"
+    }
+  ],
+  "gratitude journal": [
+    {
+      "videoId": "HfsTE0jrhyM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "VgkiAH27Iyc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "34B2DAdjQ0s",
+      "label": "commonMistakes"
+    }
+  ],
+  "greek yogurt + seeds": [
+    {
+      "videoId": "0MDL4BgKNEg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "WtdLdTqDfrk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "hvwRRgQAnEw",
+      "label": "commonMistakes"
+    }
+  ],
+  "grilled chicken & sweet potato": [
+    {
+      "videoId": "xAHe1_1RbO8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "kcI9KiTral4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "VB4vhzgLexE",
+      "label": "commonMistakes"
+    }
+  ],
+  "grilled chicken wrap": [
+    {
+      "videoId": "KLGxEHUE1pc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "I3X-Lp6cQ9I",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "pGuEgMJumn0",
+      "label": "commonMistakes"
+    }
+  ],
+  "grilled fish & salad": [
+    {
+      "videoId": "b57DJYGoVkU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "08NubNt0dqM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "M69Y56Useb4",
+      "label": "commonMistakes"
+    }
+  ],
+  "hamstring bridge": [
+    {
+      "videoId": "hYj5rQ2LBKE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "-JS94QNq0vw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "mHXcUcufj0k",
+      "label": "commonMistakes"
+    }
+  ],
+  "hamstring nerve floss": [
+    {
+      "videoId": "tr88uGR5w80",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "xm5hRmYrRHI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Dul7Z_uVRPw",
+      "label": "commonMistakes"
+    }
+  ],
+  "hamstring roll": [
+    {
+      "videoId": "78ZE9Dznsfg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "FK6jYoQtGiI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "SzxqYlnGbTI",
+      "label": "commonMistakes"
+    }
+  ],
+  "hamstring stretch seated": [
+    {
+      "videoId": "u55F2jOzBVI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "HFPbNaMzW3M",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "AAxMD5kVoh4",
+      "label": "commonMistakes"
+    }
+  ],
+  "hanging knee raises": [
+    {
+      "videoId": "jTak29W-uoY",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "qazbsy9eU-M",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "z29ZxuLpYYc",
+      "label": "techniqueTips"
+    }
+  ],
+  "hanging leg raises": [
+    {
+      "videoId": "WFAziRYp2bg",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "1YOwAYQd6Wc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "9g3mmngdbpE",
+      "label": "techniqueTips"
+    }
+  ],
+  "hard-boiled eggs": [
+    {
+      "videoId": "FTha4zARGN4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "f_S9PYVCzWs",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "yLcFn9eChys",
+      "label": "commonMistakes"
+    }
+  ],
+  "heavy bag body shots": [
     {
       "videoId": "FoLMjJV_0iw",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "hJU4oB-mFOY",
+      "videoId": "3qZLVp796D4",
       "label": "formTutorial"
     },
     {
-      "videoId": "mra9xus76yA",
+      "videoId": "H1gxKkk80Rk",
       "label": "techniqueTips"
     }
   ],
@@ -832,6 +2186,63 @@
       "label": "techniqueTips"
     }
   ],
+  "heavy bag footwork rounds": [
+    {
+      "videoId": "qVl5nYjYoNY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "gE4slXv-aU4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "JVG_DtT-P2Y",
+      "label": "commonMistakes"
+    }
+  ],
+  "heavy bag hooks": [
+    {
+      "videoId": "U8J8arUpK40",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "7-PBCBd3m6E",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "922txXpZNfY",
+      "label": "commonMistakes"
+    }
+  ],
+  "heavy bag slip & counter": [
+    {
+      "videoId": "N8qhthfQPlk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "9hLf4f5cJBE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "dquXKxItg0w",
+      "label": "commonMistakes"
+    }
+  ],
+  "heavy bag straight punches": [
+    {
+      "videoId": "FoLMjJV_0iw",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "hJU4oB-mFOY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "mra9xus76yA",
+      "label": "techniqueTips"
+    }
+  ],
   "heavy bag uppercuts": [
     {
       "videoId": "iHEFvJ7A1_A",
@@ -847,90 +2258,1187 @@
       "label": "techniqueTips"
     }
   ],
-  "heavy bag body shots": [
+  "heel taps": [
     {
-      "videoId": "FoLMjJV_0iw",
+      "videoId": "Ts3f3R9eqHM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "3MNj7LrRX3U",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "i-BBrCVNT9A",
+      "label": "commonMistakes"
+    }
+  ],
+  "heel-elevated squat": [
+    {
+      "videoId": "7JWehDbcrnM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "DFuXYxibPQw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "UPeQpDPRWOg",
+      "label": "commonMistakes"
+    }
+  ],
+  "high knees": [
+    {
+      "videoId": "WrKc4YsgAEA",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "3qZLVp796D4",
+      "videoId": "82pdtHaANGk",
       "label": "formTutorial"
     },
     {
-      "videoId": "H1gxKkk80Rk",
+      "videoId": "qjB3Pquw9Gw",
       "label": "techniqueTips"
     }
   ],
-  "freestyle bag work": [
+  "high-protein pancakes": [
     {
-      "videoId": "Al7WngLhuOw",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "g_Thln9nLCg",
-      "label": "formTutorial"
-    }
-  ],
-  "shadow boxing": [
-    {
-      "videoId": "Cc58kjHPQuo",
-      "label": "short",
-      "isShort": true
-    },
-    {
-      "videoId": "cWlbh2wQBzk",
+      "videoId": "_yUMHHK5OaE",
       "label": "formTutorial"
     },
     {
-      "videoId": "_YKbCHhxIT0",
+      "videoId": "6En41IXZlDQ",
       "label": "techniqueTips"
-    }
-  ],
-  "cat-cow flow": [
-    {
-      "videoId": "WHUevrqeKIg",
-      "label": "short",
-      "isShort": true
     },
     {
-      "videoId": "I171eRczR1M",
+      "videoId": "jXtJC3fizQA",
+      "label": "commonMistakes"
+    }
+  ],
+  "hiit / cardio": [
+    {
+      "videoId": "M60AVSKVqUA",
       "label": "formTutorial"
     },
     {
-      "videoId": "L1DfQWQd28k",
+      "videoId": "M0uO8X3_tEA",
       "label": "techniqueTips"
-    }
-  ],
-  "downward dog": [
-    {
-      "videoId": "PbbGaTwF39k",
-      "label": "short",
-      "isShort": true
     },
     {
-      "videoId": "UsTTTYbBdQg",
+      "videoId": "yplP5cLuyf4",
+      "label": "commonMistakes"
+    }
+  ],
+  "hill control": [
+    {
+      "videoId": "nbKlQ4TvBFg",
       "label": "formTutorial"
     },
     {
-      "videoId": "9hGv572k48I",
+      "videoId": "hMT_MmTm72o",
       "label": "techniqueTips"
-    }
-  ],
-  "couch stretch": [
-    {
-      "videoId": "u82UyIsWIhg",
-      "label": "short",
-      "isShort": true
     },
     {
-      "videoId": "3uvxls92yC4",
+      "videoId": "L4VAzcAwOow",
+      "label": "commonMistakes"
+    }
+  ],
+  "hip activation": [
+    {
+      "videoId": "q_5M7xfl3zo",
       "label": "formTutorial"
+    },
+    {
+      "videoId": "Kkc1RQVGFgE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "zKIAmSZjjH0",
+      "label": "commonMistakes"
+    }
+  ],
+  "hip airplane": [
+    {
+      "videoId": "9svtEV4vkp0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "U5f8h7FDEa0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "uEqg50HSqMk",
+      "label": "commonMistakes"
+    }
+  ],
+  "hip flexor stretch": [
+    {
+      "videoId": "DXuStgWuJV8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Mh1FgwOVQB4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "UDf_Ey7FfkY",
+      "label": "commonMistakes"
+    }
+  ],
+  "hip flexor stretch couch stretch": [
+    {
+      "videoId": "TIJu5aWPke0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "B3rOeBLqlF4",
+      "label": "techniqueTips"
     },
     {
       "videoId": "7dOu7Pqr-bc",
+      "label": "commonMistakes"
+    }
+  ],
+  "hip flexor stretch per side": [
+    {
+      "videoId": "ktgtEWGhFd8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ZQXGUfGmgKc",
       "label": "techniqueTips"
+    },
+    {
+      "videoId": "7lGIfjasuNo",
+      "label": "commonMistakes"
+    }
+  ],
+  "hip hinge with dowel": [
+    {
+      "videoId": "s7PsLZ8Fi_E",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "fqW-Xuv6LEc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "0PJfAdtzGSs",
+      "label": "commonMistakes"
+    }
+  ],
+  "hip reset": [
+    {
+      "videoId": "rmNf1BgigDk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Y-Lth8W6uug",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "RsFyQP-8NvE",
+      "label": "commonMistakes"
+    }
+  ],
+  "hip thrust": [
+    {
+      "videoId": "W86oVlnLqY4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "_i6qpcI1Nw4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "f7tT19NOE4c",
+      "label": "commonMistakes"
+    }
+  ],
+  "incline push-up": [
+    {
+      "videoId": "Mc-Kdwnx_M8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "NEdo_I3OuVk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "hTm9vkhNCec",
+      "label": "commonMistakes"
+    }
+  ],
+  "intensification": [
+    {
+      "videoId": "Lv_Xz4_tch0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "dJZbplpFN8Y",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "tk95ZFISjU4",
+      "label": "commonMistakes"
+    }
+  ],
+  "intermittent fasting and muscle preservation": [
+    {
+      "videoId": "5W7i5TWa2Y8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "hxP_I7potG4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "teQIaU6wp2o",
+      "label": "commonMistakes"
+    }
+  ],
+  "interval builder": [
+    {
+      "videoId": "E2Z8qQXMfgI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Pd0ZZwvGRGc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "G3Ag9JKyCss",
+      "label": "commonMistakes"
+    }
+  ],
+  "inverted rows (bar low)": [
+    {
+      "videoId": "2nM4JawYMew",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "_7SRR5g2mFQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "lgo3zTUpLII",
+      "label": "techniqueTips"
+    }
+  ],
+  "inverted rows bar low": [
+    {
+      "videoId": "vZy_Eu_Z0WA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "loZZtngPgRg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "iPbAldlORHE",
+      "label": "commonMistakes"
+    }
+  ],
+  "jump rope (imaginary)": [
+    {
+      "videoId": "85z-WFPf_hA",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "ESRuGOl9y8o",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "pcOkhja6wug",
+      "label": "techniqueTips"
+    }
+  ],
+  "jump rope imaginary": [
+    {
+      "videoId": "Ij87nbY9Fv8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "yWOSjkDo9oA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "WK48hQtTG6I",
+      "label": "commonMistakes"
+    }
+  ],
+  "jump squats": [
+    {
+      "videoId": "v-KmNUc1WIc",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "LNeXr1IMsJ0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "pYUMmHBUmjU",
+      "label": "techniqueTips"
+    }
+  ],
+  "jumping jacks": [
+    {
+      "videoId": "CWpmIW6l-YA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "XR0xeuK5zBU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "bT2iY8IjEU0",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell": [
+    {
+      "videoId": "VCcar3MA07w",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "SjoYB_KC0Yg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "yDC2RCiKb5U",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell clean & press": [
+    {
+      "videoId": "ckjR4jYtuYc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "MYpz7OykS7I",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "sAtZ4yAsQnI",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell complex": [
+    {
+      "videoId": "PguF_brhDBw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Fs8gC0h9_Gs",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "puMmyfA8S9A",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell high pull": [
+    {
+      "videoId": "B6WhAbAadiM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Z9bPfPi0mog",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "C7xDz_4_-N8",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell overhead press": [
+    {
+      "videoId": "uzPQm5zgPXo",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "OHo4GZHem7U",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "DtK8S2ASLFU",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell push press": [
+    {
+      "videoId": "CCqru4q9RK0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "k4q6HkT99iA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "wiszU1hEA2w",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell row": [
+    {
+      "videoId": "IyQAMOV0WAc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "L_GaRadAyNU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "PzvvvZmNdq0",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell single-leg deadlift": [
+    {
+      "videoId": "b9bHy3ojQWA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "s32cCgmRV3I",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "AJa9JyiUr0Q",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell swing": [
+    {
+      "videoId": "n1df4ASFeZU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "2gXtvqLa_T8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ZAtoPYSgql0",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell swing hiit": [
+    {
+      "videoId": "oXgL1PTJbUQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "uTMxLyByZmk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "8Lj8TBVN3sU",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell turkish get-up": [
+    {
+      "videoId": "sgd8n917Zv0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "jgKFttG0Z7I",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "g5dwOlGGfmU",
+      "label": "commonMistakes"
+    }
+  ],
+  "kettlebell windmill": [
+    {
+      "videoId": "SzFNJhGz8YI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "EZWHnzAjctU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ujf4VuiOwsQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "kids yoga": [
+    {
+      "videoId": "Vhn1oVCpf8Y",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "xWcSEsBhK6U",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "AtWGf2a2lMA",
+      "label": "commonMistakes"
+    }
+  ],
+  "knee health protocol": [
+    {
+      "videoId": "ucT9G2-ScAI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "RzL-mqiQW8M",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "whKrbsFmQYE",
+      "label": "commonMistakes"
+    }
+  ],
+  "knee-to-wall ankle rocks": [
+    {
+      "videoId": "OmJ6vNfZwYQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "zd4mIQxMFmI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ivbp15ZqHfI",
+      "label": "commonMistakes"
+    }
+  ],
+  "landing mechanics": [
+    {
+      "videoId": "lCxMeAhj8A0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "b7UlaJjPiYw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "z1aBiVyXUe4",
+      "label": "commonMistakes"
+    }
+  ],
+  "lateral band step": [
+    {
+      "videoId": "3QbMVYDrTMM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "N28Hpdezg7Q",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "sI5q7Ulk5PM",
+      "label": "commonMistakes"
+    }
+  ],
+  "lateral hop stick": [
+    {
+      "videoId": "vxP50u3UXcM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "oo9dLZ6bilg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "7TKVqbmE89Q",
+      "label": "commonMistakes"
+    }
+  ],
+  "lateral lunge": [
+    {
+      "videoId": "MvpBUsQrt_4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "rvqLVxYqEvo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "4NlJdSzHeUg",
+      "label": "commonMistakes"
+    }
+  ],
+  "lateral power": [
+    {
+      "videoId": "fHCnUgqCLfs",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Hwg47PLOxDg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "rOpVN2Lu654",
+      "label": "commonMistakes"
+    }
+  ],
+  "lateral step": [
+    {
+      "videoId": "G0U3CUPK55U",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Vr7G2yzb9f4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "NC6On7xEe_E",
+      "label": "commonMistakes"
+    }
+  ],
+  "lateral step-down": [
+    {
+      "videoId": "NC6On7xEe_E",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "qqS_g5oGKiw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "XCJl_ju19qw",
+      "label": "commonMistakes"
+    }
+  ],
+  "lateral step-up": [
+    {
+      "videoId": "Vr7G2yzb9f4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "tDlIk1Dd264",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ZnQ69t_OXCA",
+      "label": "commonMistakes"
+    }
+  ],
+  "leg raises": [
+    {
+      "videoId": "fbGDQGHxvHk",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "tocRn03UdKw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Ti-hSmyPb5U",
+      "label": "techniqueTips"
+    }
+  ],
+  "legs": [
+    {
+      "videoId": "kx8Jw13Z1zw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "VDmzaU03wLo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ver1tBBqSq8",
+      "label": "commonMistakes"
+    }
+  ],
+  "legs & core \u2014 foundation strength": [
+    {
+      "videoId": "QQYviTCnKWU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "XD6MRzMI4Lw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "vK9KZZUfy3o",
+      "label": "commonMistakes"
+    }
+  ],
+  "licuado anab\u00f3lico": [
+    {
+      "videoId": "WiQUAE2H7XU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "3kLZqOy0L3k",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "g5NQgbf1Y2U",
+      "label": "commonMistakes"
+    }
+  ],
+  "light soup & bread": [
+    {
+      "videoId": "XJ0VY0QKdzU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ttb64MDOXzk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "MIbTiS3zj04",
+      "label": "commonMistakes"
+    }
+  ],
+  "loving-kindness meditation": [
+    {
+      "videoId": "Y-z4HqdTQFw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Ayk_Nw3ESzI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "aLGh2e0enlA",
+      "label": "commonMistakes"
+    }
+  ],
+  "low impact hit": [
+    {
+      "videoId": "Ba3qZjzPonI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "qm0jfBEbGrU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ofQIP9Roa8M",
+      "label": "commonMistakes"
+    }
+  ],
+  "lower back protection": [
+    {
+      "videoId": "q4B-lDEWeWg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "nZ0aBx29Mw4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1qQtIP7QqMg",
+      "label": "commonMistakes"
+    }
+  ],
+  "lower body balance": [
+    {
+      "videoId": "2JRPMc6FI_o",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "CmOmrE5NWwE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "DfU86XvC5AA",
+      "label": "commonMistakes"
+    }
+  ],
+  "lower leg flush": [
+    {
+      "videoId": "MyyliF0rYQU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "U7aZ1LoNSic",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "9XQDVYMiBMs",
+      "label": "commonMistakes"
+    }
+  ],
+  "marching plank": [
+    {
+      "videoId": "v25dawSzRTM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "LNirtNfrcJA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "xe2MXatLTUw",
+      "label": "commonMistakes"
+    }
+  ],
+  "metabolic flow": [
+    {
+      "videoId": "PBK9gMpiCRI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "BXehURJkVOA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "qEZnFl1Wg_o",
+      "label": "commonMistakes"
+    }
+  ],
+  "metabolic lift": [
+    {
+      "videoId": "-jq1zpwk6gI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Gxmj99k7X0Q",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "B452FWQElr4",
+      "label": "commonMistakes"
+    }
+  ],
+  "mini power": [
+    {
+      "videoId": "Z2XZtAvw3aQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "dmPe89xb780",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "JKdLY4Q3tPM",
+      "label": "commonMistakes"
+    }
+  ],
+  "mini sun salute": [
+    {
+      "videoId": "FPjppcOquE4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "UkRDiLqajwU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "gi7Hn_xNDgU",
+      "label": "commonMistakes"
+    }
+  ],
+  "mini-band lateral walk": [
+    {
+      "videoId": "7Yu4uWATwMM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "N28Hpdezg7Q",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "kqeqCHh0SxE",
+      "label": "commonMistakes"
+    }
+  ],
+  "mini-band monster walk": [
+    {
+      "videoId": "1DCjhDQrUhU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ci6bP-m4O-Y",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "_Ytyv4ihM5Y",
+      "label": "commonMistakes"
+    }
+  ],
+  "mobility + recovery": [
+    {
+      "videoId": "RvnVir0T9pU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "8ybN2gFraSM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "K7NFnR5QEXg",
+      "label": "commonMistakes"
+    }
+  ],
+  "mobility chain": [
+    {
+      "videoId": "UylQlk50gjg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "0Xku6qeobtg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "h43tEzrQMaI",
+      "label": "commonMistakes"
+    }
+  ],
+  "mobility flow": [
+    {
+      "videoId": "GWbEI6moUBo",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "RvnVir0T9pU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "mTk2i_Jlpyk",
+      "label": "commonMistakes"
+    }
+  ],
+  "mobility flow plus": [
+    {
+      "videoId": "K3mqsNgtlAU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "cm_PZdN6bdI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "2hvRmabCWS4",
+      "label": "commonMistakes"
+    }
+  ],
+  "mobility reset": [
+    {
+      "videoId": "XSW-pBo-CNY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "1DZmk2dobvU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "9oahwiqs8uk",
+      "label": "commonMistakes"
+    }
+  ],
+  "moon breath": [
+    {
+      "videoId": "iEclit1Lv-E",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "h3rfiO0oFFA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "zpW0Rmo869U",
+      "label": "commonMistakes"
+    }
+  ],
+  "morning activation": [
+    {
+      "videoId": "AaQ2cWPelEY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "8sJ5N9nsEmM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "cmgfnLXDGEM",
+      "label": "commonMistakes"
+    }
+  ],
+  "mountain climbers": [
+    {
+      "videoId": "K3Xt4QH4b-U",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "AiPXWjUCj1U",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "fpmWW6iXfes",
+      "label": "techniqueTips"
+    }
+  ],
+  "nature quest": [
+    {
+      "videoId": "ylvFMD35Kvw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "r0PvlNRN1kQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "MBN3MqdmFns",
+      "label": "commonMistakes"
+    }
+  ],
+  "negative pull-ups": [
+    {
+      "videoId": "izVyydjBVBc",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "EEqicwEH6-k",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "yc_MxhHiRbQ",
+      "label": "techniqueTips"
+    }
+  ],
+  "no equipment": [
+    {
+      "videoId": "jeLxN-wt7jY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "_P63NrBN49U",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "P8ZWEhoClro",
+      "label": "commonMistakes"
+    }
+  ],
+  "overhead press": [
+    {
+      "videoId": "zoN5EH50Dro",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "4LBVP2Oe7fg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "OLePvpxQEGk",
+      "label": "commonMistakes"
+    }
+  ],
+  "overnight oats": [
+    {
+      "videoId": "7rxV4zxCvL8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "KiVmaYyfEsA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "-xCPpEMpVm4",
+      "label": "commonMistakes"
+    }
+  ],
+  "pallof press": [
+    {
+      "videoId": "nFspBRHke4w",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ma2OjgP5XDc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "5aZ0IhJS8O8",
+      "label": "commonMistakes"
+    }
+  ],
+  "pause split squat": [
+    {
+      "videoId": "uR1ujbEO1fU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "H8Wh0PaAyvg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "sXA8hz41_vw",
+      "label": "commonMistakes"
+    }
+  ],
+  "peanut banana boats": [
+    {
+      "videoId": "fkXhu17ztkI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "yj0_WRGQpHI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "GAdRIlG50YY",
+      "label": "commonMistakes"
+    }
+  ],
+  "pec doorway stretch": [
+    {
+      "videoId": "CEQMx4zFwYs",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "B9uY01NoqBg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "PWGuI3rTRx0",
+      "label": "commonMistakes"
+    }
+  ],
+  "pelvic tilt": [
+    {
+      "videoId": "91H5HtIgilg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "uitwvLEObqA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "pUcOAIRba9s",
+      "label": "commonMistakes"
+    }
+  ],
+  "pepi\u00e1n power bowl": [
+    {
+      "videoId": "QL_Lo_17Ky4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "JZb93Vwt1B4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "PL0UNe5zXY0",
+      "label": "commonMistakes"
+    }
+  ],
+  "physiological sigh": [
+    {
+      "videoId": "rBdhqBGqiMc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "KxOSlR_Mf-s",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "vTCA3VDgeDs",
+      "label": "commonMistakes"
     }
   ],
   "pigeon pose": [
@@ -948,19 +3456,1711 @@
       "label": "techniqueTips"
     }
   ],
-  "band shoulder dislocates": [
+  "pike push-ups": [
     {
-      "videoId": "eT_s4yHVq_s",
+      "videoId": "89-8waE2XKI",
       "label": "short",
       "isShort": true
     },
     {
-      "videoId": "Ki6hqKQz7F0",
+      "videoId": "rWnpH-RGdmA",
       "label": "formTutorial"
     },
     {
-      "videoId": "64ti08uORPI",
+      "videoId": "5vvVcCNKzp8",
       "label": "techniqueTips"
+    }
+  ],
+  "plank": [
+    {
+      "videoId": "hoeNgjheDHk",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "oPgZR4jlZi4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "v25dawSzRTM",
+      "label": "techniqueTips"
+    }
+  ],
+  "plank jacks": [
+    {
+      "videoId": "2DnV_uCmILQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "kjvqHqVvUME",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "O1B_bvvrKAw",
+      "label": "commonMistakes"
+    }
+  ],
+  "pollo a la plancha elevado": [
+    {
+      "videoId": "w8tJ4IHoi00",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "uAoGlKAAvXM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "23BAXZ5FNQg",
+      "label": "commonMistakes"
+    }
+  ],
+  "post-run reset": [
+    {
+      "videoId": "utADwnhrCQ4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "lNT98d6Xyi8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "MCf2QDOsy0E",
+      "label": "commonMistakes"
+    }
+  ],
+  "posterior chain": [
+    {
+      "videoId": "i-eN3bKjHCk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "hAHosUZ3fOk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1yCJC6AZ4XU",
+      "label": "commonMistakes"
+    }
+  ],
+  "pre-ride mosh power": [
+    {
+      "videoId": "sQ67GKutE7s",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "LLVywbxhERo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "bCgXmvGH94I",
+      "label": "commonMistakes"
+    }
+  ],
+  "pre-run activation": [
+    {
+      "videoId": "3WUtJxLv-wI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "IY9egqzGIwI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "iocz2Yyf9Ek",
+      "label": "commonMistakes"
+    }
+  ],
+  "pre-workout focus": [
+    {
+      "videoId": "AnKnimajWh8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "tQL4kGvE3oE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "10uicLAECMw",
+      "label": "commonMistakes"
+    }
+  ],
+  "progressive overload: the only rule that matters": [
+    {
+      "videoId": "OdlYhf5CGgQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "k0J8URJfUTg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "JRaK8SZ3Ut8",
+      "label": "commonMistakes"
+    }
+  ],
+  "protein omelette": [
+    {
+      "videoId": "rokppL8pq-4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "tKy6P5lazzI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "IZbIadtqFMk",
+      "label": "commonMistakes"
+    }
+  ],
+  "protein shake": [
+    {
+      "videoId": "Gh9Dv5D5aCM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "In5qar5OeK4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "qyauLSDEAZk",
+      "label": "commonMistakes"
+    }
+  ],
+  "pull": [
+    {
+      "videoId": "Uf3h29_N6lQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "jNRlLiZVNiU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "_09Tcuf7iE8",
+      "label": "commonMistakes"
+    }
+  ],
+  "pull day \u2014 back width & biceps": [
+    {
+      "videoId": "KV4D8MQrdhw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "AdrHZ6q-ies",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "UrkKQrGYUg4",
+      "label": "commonMistakes"
+    }
+  ],
+  "pull-up bar": [
+    {
+      "videoId": "-mOACEzj5Fs",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "yAAM4-QTFeU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Y--_DSdvFi8",
+      "label": "commonMistakes"
+    }
+  ],
+  "push": [
+    {
+      "videoId": "HAkHqYlqops",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "zbFa1p0SNs0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "pKZ-lkKKMws",
+      "label": "commonMistakes"
+    }
+  ],
+  "push + pull superset \u2014 upper hypertrophy": [
+    {
+      "videoId": "KqlQrt2VFQc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "UKgzXPsQ60g",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "nOOLTD-GU90",
+      "label": "commonMistakes"
+    }
+  ],
+  "push day \u2014 shoulders & chest": [
+    {
+      "videoId": "bvwg4D9UWGI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "l2S93rMiAbA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "wFSnqvkNbSg",
+      "label": "commonMistakes"
+    }
+  ],
+  "push-up handles": [
+    {
+      "videoId": "h3tPYS4CaRY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "1aRtP8IbozQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "gmZ-W76CCeE",
+      "label": "commonMistakes"
+    }
+  ],
+  "quad + it glide": [
+    {
+      "videoId": "dpiaMjYsiCA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "fNXHqLwgD5M",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "APunL72TRCs",
+      "label": "commonMistakes"
+    }
+  ],
+  "quick stress relief": [
+    {
+      "videoId": "nZP088xSDeQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "lrhPTqholcc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ZZ32AkPTA-Y",
+      "label": "commonMistakes"
+    }
+  ],
+  "rainbow reach": [
+    {
+      "videoId": "cfMppmMNvNI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "13rM9vkragI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "bvUaSbSoI4o",
+      "label": "commonMistakes"
+    }
+  ],
+  "rainbow walk": [
+    {
+      "videoId": "tzvbrLPSHLU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "rCw9oLLLXBY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "EZzsrooZ5L0",
+      "label": "commonMistakes"
+    }
+  ],
+  "rear foot elevated split squat": [
+    {
+      "videoId": "6FWMJ57rWJE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "v6mSZRnnRDw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "tQAlbvsbxrY",
+      "label": "commonMistakes"
+    }
+  ],
+  "relay run": [
+    {
+      "videoId": "7nsSX6C1lAw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "fJFd-Wif0K8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "u5ssV8WjGeA",
+      "label": "commonMistakes"
+    }
+  ],
+  "resistance bands": [
+    {
+      "videoId": "CkudgbplMAk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "bS-x0rKe18U",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "h5iWmU2-r8M",
+      "label": "commonMistakes"
+    }
+  ],
+  "rest & mindfulness": [
+    {
+      "videoId": "L8F5IJVpNIg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ztTexqGQ0VI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1ZYbU82GVz4",
+      "label": "commonMistakes"
+    }
+  ],
+  "restore session": [
+    {
+      "videoId": "tvao-0m8zKM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "gHNDomygBU8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ezkQDmQS-B8",
+      "label": "commonMistakes"
+    }
+  ],
+  "reverse lunge": [
+    {
+      "videoId": "J9MpoAQCjos",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "38xlLGfguz4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "mzPFverp8tM",
+      "label": "commonMistakes"
+    }
+  ],
+  "rocket runs": [
+    {
+      "videoId": "NItRkrSmpwE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "a8isXtvk8iA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "4qQXyUO9P2E",
+      "label": "commonMistakes"
+    }
+  ],
+  "romanian deadlift": [
+    {
+      "videoId": "5rIqP63yWFg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "CBOhr6H7BEY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "d-hn_0sEpRQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "rotation control": [
+    {
+      "videoId": "x4v6MsJih0s",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "PBbUEuPA3S0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "qHbUeuVFwLE",
+      "label": "commonMistakes"
+    }
+  ],
+  "running games": [
+    {
+      "videoId": "T4WYWIoRcDI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "O0X2QDsu7FE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "_vp97vt-FGQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "running sessions": [
+    {
+      "videoId": "tD60fl1uGH4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "hb-K3iLypO4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "itIohOFQh2A",
+      "label": "commonMistakes"
+    }
+  ],
+  "russian twists": [
+    {
+      "videoId": "KUsvxlmpPoI",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "_d5cpAre7_w",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "51Dw8c3wcPs",
+      "label": "techniqueTips"
+    }
+  ],
+  "seated abduction": [
+    {
+      "videoId": "p4LvHmZ3sm4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "tn-ABeb1QAM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1gKUctteqA0",
+      "label": "commonMistakes"
+    }
+  ],
+  "shadow boxing": [
+    {
+      "videoId": "Cc58kjHPQuo",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "cWlbh2wQBzk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "_YKbCHhxIT0",
+      "label": "techniqueTips"
+    }
+  ],
+  "shadow boxing intervals": [
+    {
+      "videoId": "ukwppBgfz44",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "FDWqhYYQYbs",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "qjD4QdtNuIk",
+      "label": "commonMistakes"
+    }
+  ],
+  "short foot": [
+    {
+      "videoId": "z0-Vnmw2sxM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "DoEIW4Y8MEo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "pvoendPY2MQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "shoulder prehab circuit": [
+    {
+      "videoId": "tlcuHSz1TQE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "FEogvc1jXDY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "KbFj1E5LgRw",
+      "label": "commonMistakes"
+    }
+  ],
+  "side plank": [
+    {
+      "videoId": "sH5PiIUjDW8",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "HyAct6eyrvg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "4yylMqlnjwU",
+      "label": "techniqueTips"
+    }
+  ],
+  "side plank clamshell": [
+    {
+      "videoId": "KibnWq-HwBM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "6hnm6-_5Xew",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "a1xnrwNkMkA",
+      "label": "commonMistakes"
+    }
+  ],
+  "side plank dips": [
+    {
+      "videoId": "SOhVHAmR-hw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Pnd6UMYjwWE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "BFOyHDlY2UE",
+      "label": "commonMistakes"
+    }
+  ],
+  "side step squat": [
+    {
+      "videoId": "P5jKVie3JF8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "V17b4oHyfBQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "xHzHMmxEyYY",
+      "label": "commonMistakes"
+    }
+  ],
+  "side-lying clamshell": [
+    {
+      "videoId": "DAAjOdwZdks",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "GhtIRFqClwE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Hj-2r7OlXuE",
+      "label": "commonMistakes"
+    }
+  ],
+  "single-leg balance": [
+    {
+      "videoId": "7SF7AYh2_Yw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "4s-FOz95u5E",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Dtgh2_LFkBQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "single-leg box tap": [
+    {
+      "videoId": "mA9b2gFWWPM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "-_ePr-ulWZY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "wdiy333BG-Q",
+      "label": "commonMistakes"
+    }
+  ],
+  "single-leg calf raises": [
+    {
+      "videoId": "AYzJdDk-DvQ",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "tU4Ifm9Hass",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "pYjc_lO411M",
+      "label": "techniqueTips"
+    }
+  ],
+  "single-leg rdl": [
+    {
+      "videoId": "J0bEKhnP-Mw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "R_fJ6H3FlVw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "68g0Svu3E0o",
+      "label": "commonMistakes"
+    }
+  ],
+  "single-leg rdl reach": [
+    {
+      "videoId": "3rawGylFPNs",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "wXJUrniWVPI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "NnxzMOl797s",
+      "label": "commonMistakes"
+    }
+  ],
+  "single-leg sit to box": [
+    {
+      "videoId": "AYWWdxabA3s",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "NWuOwjBM6bE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "6LgR7rFfgCg",
+      "label": "commonMistakes"
+    }
+  ],
+  "single-leg stance": [
+    {
+      "videoId": "HTVVv4ESgms",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "A9pi7_JRgwQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "okhpDrzItqg",
+      "label": "commonMistakes"
+    }
+  ],
+  "single-leg strength": [
+    {
+      "videoId": "ev5mUNbZAM4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "JnLWFbiLSQw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "-Kk1kq3lqc0",
+      "label": "commonMistakes"
+    }
+  ],
+  "skater jumps": [
+    {
+      "videoId": "qM5jviFhw9U",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "IkGOdk2VDJw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "_C5YduL30Ho",
+      "label": "commonMistakes"
+    }
+  ],
+  "skater reach": [
+    {
+      "videoId": "qM5jviFhw9U",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "0Xio0vwEAh0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "xl7rJ4fackc",
+      "label": "commonMistakes"
+    }
+  ],
+  "sleep optimization protocol": [
+    {
+      "videoId": "hvPGfcAgk9Y",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "lIo9FcrljDk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "h2aWYjSA1Jc",
+      "label": "commonMistakes"
+    }
+  ],
+  "sleep protocol prep": [
+    {
+      "videoId": "oQOknBFaZqY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "JaRGJVrJBQ8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "lIo9FcrljDk",
+      "label": "commonMistakes"
+    }
+  ],
+  "sleep wind-down": [
+    {
+      "videoId": "_3fvhTO3pLM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Kwn8y8nVYJA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "3o9etQktCpI",
+      "label": "commonMistakes"
+    }
+  ],
+  "sleep: the most anabolic activity": [
+    {
+      "videoId": "P8kQ6L95dBk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "nAr5fspWLyc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1xeSCokUsSI",
+      "label": "commonMistakes"
+    }
+  ],
+  "snap-down to hold": [
+    {
+      "videoId": "WsoK9i_K5hU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "uw1nQk1tC0A",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "EZGVohbtAvg",
+      "label": "commonMistakes"
+    }
+  ],
+  "split squat": [
+    {
+      "videoId": "hXpGSa5HYqY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "YuLqw3kHPaw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "or1frhkjBDc",
+      "label": "commonMistakes"
+    }
+  ],
+  "split squat short stride": [
+    {
+      "videoId": "H1iBM_KmgaQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "YuLqw3kHPaw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "sw4MzpC8l58",
+      "label": "commonMistakes"
+    }
+  ],
+  "squat jumps": [
+    {
+      "videoId": "v-KmNUc1WIc",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "UzpBVhf0Y6w",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "pYUMmHBUmjU",
+      "label": "techniqueTips"
+    }
+  ],
+  "squat pulse": [
+    {
+      "videoId": "N4fzbBv4BFI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Invzype50YI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "QtJlL4rArPA",
+      "label": "commonMistakes"
+    }
+  ],
+  "squat to press": [
+    {
+      "videoId": "MLoZuAkIyZI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "1dcQR0wNTYI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "CsPAsICeRsM",
+      "label": "commonMistakes"
+    }
+  ],
+  "standard push-ups": [
+    {
+      "videoId": "bT-Qhj6kZ8Y",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "ba8tr1NzwXU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "c-lBErfxszs",
+      "label": "techniqueTips"
+    }
+  ],
+  "standing hip abduction": [
+    {
+      "videoId": "LzuvLW_gJ8w",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "qBqKuEQl9sI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "E36nkfxG15U",
+      "label": "commonMistakes"
+    }
+  ],
+  "standing quad stretch": [
+    {
+      "videoId": "zi5__zBRzYc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ob1tvmQUQZ0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "FBO9-8nTbsM",
+      "label": "commonMistakes"
+    }
+  ],
+  "star balance": [
+    {
+      "videoId": "ABBFgh2Ux-Y",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "L71HjOxls2U",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "lN1d9L8pYuc",
+      "label": "commonMistakes"
+    }
+  ],
+  "star flex": [
+    {
+      "videoId": "WRyOlM1DdsY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "R9ZR8O53Vnc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Lwyh2dEKPSY",
+      "label": "commonMistakes"
+    }
+  ],
+  "steady progression": [
+    {
+      "videoId": "pVvThYRmjI8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "OPb3eIL_51g",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "dbhwlslyUps",
+      "label": "commonMistakes"
+    }
+  ],
+  "step strength": [
+    {
+      "videoId": "Z-sA90C7_u0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "-IBUsZYv0FE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ZXMZG6giIiU",
+      "label": "commonMistakes"
+    }
+  ],
+  "step-down to tap": [
+    {
+      "videoId": "zeaVLglTeME",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "v02Tn1t5QKA",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "Ey2H3-zmzSk",
+      "label": "commonMistakes"
+    }
+  ],
+  "step-down with reach": [
+    {
+      "videoId": "33FsrG8WPwo",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "gv-jorJJQEM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "BM8YoGJYyp8",
+      "label": "commonMistakes"
+    }
+  ],
+  "step-up drive": [
+    {
+      "videoId": "lq_FTgXwFn4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "uB6C5ERjrjw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "P9gOoqgHpEE",
+      "label": "commonMistakes"
+    }
+  ],
+  "step-ups": [
+    {
+      "videoId": "AziObn0EXPA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "vhrNQLH1GwI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "P6GbkIARSAo",
+      "label": "commonMistakes"
+    }
+  ],
+  "stir-fry chicken & veggies": [
+    {
+      "videoId": "4jAR-6hBsss",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "C3L1NM6t4zk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "zfq_piABTaw",
+      "label": "commonMistakes"
+    }
+  ],
+  "story stroll": [
+    {
+      "videoId": "mYYEnDrKQdI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "PD0pns3Ucbk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "0byMJ5qyvuA",
+      "label": "commonMistakes"
+    }
+  ],
+  "strength + stability": [
+    {
+      "videoId": "nsMQgg2n-yo",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "B5CUJwmfdDo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "8RJLYUH0akM",
+      "label": "commonMistakes"
+    }
+  ],
+  "strength builder": [
+    {
+      "videoId": "ntXztv4Mw-Q",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "pbXc5E2tHOE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "VmwoXlXDoi8",
+      "label": "commonMistakes"
+    }
+  ],
+  "strength foundations": [
+    {
+      "videoId": "4BOTvaRaDjI",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "oVOnXIiPgM8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "-INkeqXD0dc",
+      "label": "commonMistakes"
+    }
+  ],
+  "stretch and shine": [
+    {
+      "videoId": "vLJ83LRclSc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "So958xa1KUU",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "0I2nckzFekY",
+      "label": "commonMistakes"
+    }
+  ],
+  "stretching: when, how, and why it matters": [
+    {
+      "videoId": "g1pb2aK2we4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "zEOkI3xkF4U",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "i0FsDlaehz8",
+      "label": "commonMistakes"
+    }
+  ],
+  "strict pull-ups": [
+    {
+      "videoId": "aydZOoiVOVA",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "KdSOrmhuGFg",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "OEXosPwzFdc",
+      "label": "techniqueTips"
+    }
+  ],
+  "stride control": [
+    {
+      "videoId": "ST4xR8dxkvA",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "kfA1St9ePnw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "brpeaCQxuPs",
+      "label": "commonMistakes"
+    }
+  ],
+  "sunday meal prep chicken": [
+    {
+      "videoId": "-2tzP2zVA58",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "xcuUptfQRUw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "HgwEsjrJSA4",
+      "label": "commonMistakes"
+    }
+  ],
+  "sunrise walk": [
+    {
+      "videoId": "-kxKaaJcSxM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "LLx0YNBHOmc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "RdYXBcEB348",
+      "label": "commonMistakes"
+    }
+  ],
+  "sunset stretch": [
+    {
+      "videoId": "X-RGOc8EsjU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "3Tbv5g4AEiQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "hRQP3tcYbOA",
+      "label": "commonMistakes"
+    }
+  ],
+  "super strong circuit": [
+    {
+      "videoId": "MvFRdgY1udM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "9v1hhlsGnJ4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "RwKH4LV_-cg",
+      "label": "commonMistakes"
+    }
+  ],
+  "superman hold": [
+    {
+      "videoId": "uexOGyxLr7E",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "h39Kqh9ReJ0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "BgbBJyvo2Wc",
+      "label": "techniqueTips"
+    }
+  ],
+  "tempo builder": [
+    {
+      "videoId": "yVOUR256vz4",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "3uhLBPI56Uc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "IZb8glw3TrM",
+      "label": "commonMistakes"
+    }
+  ],
+  "tempo squat": [
+    {
+      "videoId": "waOPY2nZK4I",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ynGMRGkozU4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "WS4QxU7bIKs",
+      "label": "commonMistakes"
+    }
+  ],
+  "the mind-muscle connection is real": [
+    {
+      "videoId": "hviHgpxjXcc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "BmXttVZhQ5I",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "-tHbPhvLQ9A",
+      "label": "commonMistakes"
+    }
+  ],
+  "the science of v-taper development": [
+    {
+      "videoId": "PSSVbHX5w90",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "0A_vDlMkptI",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "01UMwG0RJjg",
+      "label": "commonMistakes"
+    }
+  ],
+  "thoracic rotation stretch": [
+    {
+      "videoId": "j6hv8Q5QtL8",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ueTbfDRe9QM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "xY7AqP7qCpM",
+      "label": "commonMistakes"
+    }
+  ],
+  "thoracic rotations": [
+    {
+      "videoId": "l3Ze_9iXL-M",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "wNPQHZHispQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1RUudu4cY1Q",
+      "label": "commonMistakes"
+    }
+  ],
+  "thoracic rotations per side": [
+    {
+      "videoId": "l3Ze_9iXL-M",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "wmmAM1P_ra8",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "1RUudu4cY1Q",
+      "label": "commonMistakes"
+    }
+  ],
+  "thoracic spine extension": [
+    {
+      "videoId": "uWIJ3TJJwbQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "U8u5sA4d1aQ",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "VH16GqIiy7Q",
+      "label": "commonMistakes"
+    }
+  ],
+  "tiny lift": [
+    {
+      "videoId": "1lBVK0m037o",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "RCS96oXpyR0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "wU-TII3QDwQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "tiny weights": [
+    {
+      "videoId": "YIez5liKOo0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "OnsNpu3GMZ4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "v1twB0QF4j4",
+      "label": "commonMistakes"
+    }
+  ],
+  "toe raises": [
+    {
+      "videoId": "enJ6yYJerVw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "gRHg6v6-szc",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "r9gwUEllD5E",
+      "label": "commonMistakes"
+    }
+  ],
+  "toe tap clock": [
+    {
+      "videoId": "mjzu4CEkTLE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "XH016lmEJTo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "v1Fx2t9gNUw",
+      "label": "commonMistakes"
+    }
+  ],
+  "toe yoga": [
+    {
+      "videoId": "SbQ2RYxbppE",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "azdPlkX8_1Q",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "xX0gzFb-cHE",
+      "label": "commonMistakes"
+    }
+  ],
+  "trail mix": [
+    {
+      "videoId": "eP6eavPD9-c",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Am_QYKYXg7Y",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "9FiJxBvAqsU",
+      "label": "commonMistakes"
+    }
+  ],
+  "tuna ceviche express": [
+    {
+      "videoId": "WqRQPnqWfsQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "2TVpJcprWGk",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "bqDdJLEX_uc",
+      "label": "commonMistakes"
+    }
+  ],
+  "tuna stuffed peppers": [
+    {
+      "videoId": "CA9q6NBjpFc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "7Py3vcc6V4A",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "IJO7x0z466Y",
+      "label": "commonMistakes"
+    }
+  ],
+  "upper body tone": [
+    {
+      "videoId": "0zhvUV1bAVQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "s0Qbxm3gUso",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "P7k7ABUKmxo",
+      "label": "commonMistakes"
+    }
+  ],
+  "v-taper express shoulders + lats": [
+    {
+      "videoId": "4fUZG4TGLuw",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "T23ie2XP_mw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "01UMwG0RJjg",
+      "label": "commonMistakes"
+    }
+  ],
+  "veggie scramble": [
+    {
+      "videoId": "QBKuVSXyRjQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "HtQ6pSqFlRY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "lm-7_vdIhoQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "visualization training": [
+    {
+      "videoId": "0RYyQRQFgFk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "6iwXwM5hiaY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "nFNjpZ0n-lU",
+      "label": "commonMistakes"
+    }
+  ],
+  "visualization: perfect form": [
+    {
+      "videoId": "qYHzdNTVFrU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "cF5AQdxS0vw",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "K2E8xcsnIZQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "walking adventures": [
+    {
+      "videoId": "knDubEwDbJc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "qL_D1_RsoLY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "qy12-l5mnNg",
+      "label": "commonMistakes"
+    }
+  ],
+  "wall sit": [
+    {
+      "videoId": "mDdLC-yKudY",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "gn1GW7dBoog",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "DiaZP1W99cs",
+      "label": "techniqueTips"
+    }
+  ],
+  "wall sit with ball squeeze": [
+    {
+      "videoId": "lK47vVcKhtM",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "TMuebtj1yGM",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ctuoGJQDBcI",
+      "label": "commonMistakes"
+    }
+  ],
+  "warrior breathing": [
+    {
+      "videoId": "GrgOufgE8YU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "uKLsylDkQGY",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "qInYYeeC3mQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "week review journal": [
+    {
+      "videoId": "TdQCEKN7IvY",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "fCXUrrnRxeo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "AWwMerhBzGE",
+      "label": "commonMistakes"
+    }
+  ],
+  "weekly intention setting": [
+    {
+      "videoId": "1whHsIwdxGo",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "T1oQxB1dPK4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "uj0GvKcJs9o",
+      "label": "commonMistakes"
+    }
+  ],
+  "wide push-ups": [
+    {
+      "videoId": "bT-Qhj6kZ8Y",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "YWw-3rGaoT0",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "oCzE3pCK9pY",
+      "label": "techniqueTips"
+    }
+  ],
+  "wide-grip pull-ups": [
+    {
+      "videoId": "l6-aIZTbAR0",
+      "label": "short",
+      "isShort": true
+    },
+    {
+      "videoId": "OEXosPwzFdc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "WSLbL7hqP4k",
+      "label": "techniqueTips"
+    }
+  ],
+  "wim hof breathing": [
+    {
+      "videoId": "tybOi4hjZFQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "0BNejY1e9ik",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "6saiJYwaOTQ",
+      "label": "commonMistakes"
+    }
+  ],
+  "world greatest stretch per side": [
+    {
+      "videoId": "7XheaZERvBQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "l6vhp6LqIk0",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ftLV1SkpWAA",
+      "label": "commonMistakes"
     }
   ],
   "world's greatest stretch": [
@@ -976,6 +5176,62 @@
     {
       "videoId": "vNGH2xYfajk",
       "label": "techniqueTips"
+    }
+  ],
+  "wrist & grip care": [
+    {
+      "videoId": "nyyY81RzNCQ",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "Ckehwgh_ifo",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "hPR2Fj7JaVA",
+      "label": "commonMistakes"
+    }
+  ],
+  "yoga mat": [
+    {
+      "videoId": "JNDdoB4vvbk",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "-ptCCEwoItg",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "oMWGggQQIj0",
+      "label": "commonMistakes"
+    }
+  ],
+  "yoga nidra guided": [
+    {
+      "videoId": "8mM5Oks8yZc",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "ApQ9NovgnA4",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "9r8jXUvsi3w",
+      "label": "commonMistakes"
+    }
+  ],
+  "zig-zag trail": [
+    {
+      "videoId": "92WW6li1TpU",
+      "label": "formTutorial"
+    },
+    {
+      "videoId": "4WV5Gy4R6AE",
+      "label": "techniqueTips"
+    },
+    {
+      "videoId": "ixYNk9CM6r0",
+      "label": "commonMistakes"
     }
   ]
 }
