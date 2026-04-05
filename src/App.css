@@ -2029,10 +2029,14 @@ body {
 
 .topbar,
 .main-container,
-.app-footer,
-.sidebar {
+.app-footer {
     position: relative;
     z-index: 1;
+}
+
+.sidebar {
+    position: fixed;
+    z-index: 120;
 }
 
 .topbar {
