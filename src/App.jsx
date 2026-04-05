@@ -10,12 +10,20 @@ import SchedulePage from './components/Schedule/SchedulePage';
 import NutritionPage from './components/Nutrition/NutritionPage';
 import MindfulnessPage from './components/Mindfulness/MindfulnessPage';
 import InjuryPreventionPage from './components/InjuryPrevention/InjuryPreventionPage';
+import VideoAdminPage from './components/Admin/VideoAdminPage';
 import { useRoutineTracker } from './hooks/useRoutineTracker';
+import { Activity, Baby, Brain, CalendarDays, Dumbbell, Footprints, Salad, Sparkles, Shield, Video } from 'lucide-react';
 import './App.css';
 
 function App() {
   const [activeTab, setActiveTab] = useState('training');
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(() => {
+    try {
+      return window.innerWidth > 1120;
+    } catch {
+      return true;
+    }
+  });
   const tracker = useRoutineTracker();
   const { t, lang, setLang } = useLanguage();
   const [quoteIndex, setQuoteIndex] = useState(0);
@@ -51,15 +59,16 @@ function App() {
   }, [theme]);
 
   const TABS = [
-    { id: 'training', label: t('nav.training'), icon: '⚡' },
-    { id: 'running', label: t('nav.running'), icon: '🏃' },
-    { id: 'valgus', label: t('nav.valgus'), icon: '🦵' },
-    { id: 'kids', label: t('nav.kids'), icon: '🌈' },
-    { id: 'women', label: t('nav.women'), icon: '✨' },
-    { id: 'schedule', label: t('nav.schedule'), icon: '📅' },
-    { id: 'nutrition', label: t('nav.nutrition'), icon: '🥗' },
-    { id: 'mindfulness', label: t('nav.mindfulness'), icon: '🧘' },
-    { id: 'injury', label: t('nav.recovery'), icon: '🛡️' },
+    { id: 'training', label: t('nav.training'), icon: <Dumbbell size={16} /> },
+    { id: 'running', label: t('nav.running'), icon: <Footprints size={16} /> },
+    { id: 'valgus', label: t('nav.valgus'), icon: <Shield size={16} /> },
+    { id: 'kids', label: t('nav.kids'), icon: <Baby size={16} /> },
+    { id: 'women', label: t('nav.women'), icon: <Sparkles size={16} /> },
+    { id: 'schedule', label: t('nav.schedule'), icon: <CalendarDays size={16} /> },
+    { id: 'nutrition', label: t('nav.nutrition'), icon: <Salad size={16} /> },
+    { id: 'mindfulness', label: t('nav.mindfulness'), icon: <Brain size={16} /> },
+    { id: 'injury', label: t('nav.recovery'), icon: <Activity size={16} /> },
+    { id: 'video-admin', label: 'Video Studio', icon: <Video size={16} /> },
   ];
 
   const handleTabChange = (tabId) => {
@@ -88,14 +97,15 @@ function App() {
       )}
       <main className="main-container">
         {activeTab === 'training' && <TrainingPage tracker={tracker} />}
-        {activeTab === 'running' && <RunningPage />}
-        {activeTab === 'valgus' && <ValgusPage />}
-        {activeTab === 'kids' && <KidsPage />}
-        {activeTab === 'women' && <WomenPage />}
+        {activeTab === 'running' && <RunningPage tracker={tracker} />}
+        {activeTab === 'valgus' && <ValgusPage tracker={tracker} />}
+        {activeTab === 'kids' && <KidsPage tracker={tracker} />}
+        {activeTab === 'women' && <WomenPage tracker={tracker} />}
         {activeTab === 'schedule' && <SchedulePage tracker={tracker} />}
         {activeTab === 'nutrition' && <NutritionPage />}
         {activeTab === 'mindfulness' && <MindfulnessPage />}
         {activeTab === 'injury' && <InjuryPreventionPage />}
+        {activeTab === 'video-admin' && <VideoAdminPage />}
       </main>
       <footer className="app-footer">
         <p>FitFit.pro v0.2 — V-Taper Recomp OS</p>

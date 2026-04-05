@@ -1,6 +1,10 @@
 import { useMemo, useState } from 'react';
 import { useLanguage } from '../../i18n/LanguageContext';
 import valgusData from '../../data/valgusRoutines.json';
+import YouTubeCarousel from '../Training/YouTubeCarousel';
+import { useTimer } from '../../hooks/useTimer';
+import RoutinePlayer from '../Training/RoutinePlayer';
+import TimerPanel from '../common/TimerPanel';
 import {
   clearPainLog,
   getPainLog,
@@ -10,9 +14,30 @@ import {
 
 const todayISO = () => new Date().toISOString().slice(0, 10);
 
-export default function ValgusPage() {
+export default function ValgusPage({ tracker }) {
   const { t, lang } = useLanguage();
   const [activeSection, setActiveSection] = useState('routines');
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [selectedExercises, setSelectedExercises] = useState([]);
+  const timer = useTimer(60);
+
+  const handleStartRoutine = (routine) => {
+    const exercises = routine.exercises.map((ex, idx) => ({
+      id: `valgus-${routine.id}-${idx}`,
+      name: ex.name,
+      nameEs: ex.nameEs,
+      sets: parseInt(ex.sets) || 1, // RoutinePlayer requires integer sets normally, but it handles strings with custom logic, let's use parseInt on '2-3' which becomes '2'
+      reps: ex.reps,
+      cue: ex.cue,
+      cueEs: ex.cueEs,
+      muscles: ['Glutes', 'Hips'],
+      difficulty: routine.level?.toLowerCase() || 'beginner',
+      equipment: []
+    }));
+    setSelectedExercises(exercises);
+    setIsPlaying(true);
+  };
+
   const [log, setLog] = useState(() => getPainLog());
   const [form, setForm] = useState({
     date: todayISO(),
@@ -24,6 +49,26 @@ export default function ValgusPage() {
 
   const routineCards = useMemo(() => valgusData.routines || [], []);
   const tips = useMemo(() => (lang === 'es' ? valgusData.cuesEs : valgusData.cues), [lang]);
+  const youtubeRoutines = useMemo(() => ([
+    {
+      id: 'valgus-20',
+      label: t('youtube.duration20'),
+      description: t('youtube.quick'),
+      query: '20 minute knee valgus correction workout',
+    },
+    {
+      id: 'valgus-40',
+      label: t('youtube.duration40'),
+      description: t('youtube.steady'),
+      query: '40 minute knee alignment exercises',
+    },
+    {
+      id: 'valgus-60',
+      label: t('youtube.duration60'),
+      description: t('youtube.endurance'),
+      query: '60 minute knee valgus stability routine',
+    },
+  ]), [t]);
 
   const locationOptions = [
     { value: 'medialKnee', label: t('valgus.locations.medialKnee') },
@@ -73,11 +118,61 @@ export default function ValgusPage() {
     setLog([]);
   };
 
+  if (isPlaying) {
+    return (
+      <div className="animate-in">
+        <RoutinePlayer
+          exercises={selectedExercises}
+          timer={timer}
+          onFinish={(duration) => {
+            if (tracker) {
+              tracker.trackWorkout({
+                exercises: selectedExercises,
+                category: 'valgus',
+                duration,
+              });
+            }
+            setIsPlaying(false);
+            setSelectedExercises([]);
+          }}
+          onBack={() => {
+            setIsPlaying(false);
+            setSelectedExercises([]);
+          }}
+        />
+      </div>
+    );
+  }
+
   return (
     <div className="animate-in valgus-page">
       <div className="page-header">
         <h1>{t('valgus.title')}</h1>
         <p>{t('valgus.subtitle')}</p>
+      </div>
+
+      <div className="card section">
+        <h2 className="section-title">{t('youtube.title')}</h2>
+        <p style={{ color: 'var(--text-muted)', marginBottom: 12 }}>{t('youtube.subtitle')}</p>
+        <div className="youtube-routines">
+          {youtubeRoutines.map(item => (
+            <div key={item.id} className="youtube-routine-card">
+              <h4>{item.label}</h4>
+              <p>{item.description}</p>
+              <YouTubeCarousel exerciseName={item.query} lang={lang} asButton={true} />
+            </div>
+          ))}
+        </div>
+        <TimerPanel
+          title={t('youtube.timerTitle')}
+          hint={t('youtube.timerHint')}
+          initialSeconds={1200}
+          presets={[
+            { label: t('youtube.duration20'), seconds: 1200 },
+            { label: t('youtube.duration40'), seconds: 2400 },
+            { label: t('youtube.duration60'), seconds: 3600 },
+          ]}
+        />
       </div>
 
       <div className="info-banner">
@@ -128,6 +223,13 @@ export default function ValgusPage() {
                     </li>
                   ))}
                 </ul>
+                <button 
+                  className="btn btn-primary" 
+                  style={{ width: '100%', marginTop: 12 }}
+                  onClick={() => handleStartRoutine(routine)}
+                >
+                  ▶ {t('common.start')}
+                </button>
               </div>
             ))}
           </div>

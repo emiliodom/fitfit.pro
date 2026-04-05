@@ -57,6 +57,7 @@ export default function Navbar({
               className={`nav-btn ${activeTab === tab.id ? 'active' : ''}`}
               onClick={() => onTabChange(tab.id)}
               aria-label={tab.label}
+              aria-pressed={activeTab === tab.id}
             >
               <span className="nav-icon">{tab.icon}</span>
               <span className="nav-label">{tab.label}</span>

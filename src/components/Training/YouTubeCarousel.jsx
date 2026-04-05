@@ -1,85 +1,50 @@
 import React, { useState, useEffect, useRef } from 'react';
-import exerciseVideos from '../../data/exerciseVideos.json';
+import { resolveExerciseVideos } from '../../utils/videoLibrary';
 
-/* ── Resolve video entries: JSON-mapped first, then search fallback ── */
-function resolveVideos(exerciseName) {
-  const key = exerciseName.toLowerCase().replace(/[()]/g, '').trim();
-  const mapped = exerciseVideos[key] || [];
-  const base = exerciseName.replace(/[()]/g, '').trim();
-
-  // 3 focused slots: primary form, auxiliary / technique, common mistakes
-  const slots = [
-    { label: 'formTutorial',     searchQuery: `${base} proper form tutorial`,       isShort: false },
-    { label: 'techniqueTips',    searchQuery: `${base} technique tips`,             isShort: false },
-    { label: 'commonMistakes',   searchQuery: `${base} common mistakes`,            isShort: false },
-  ];
-
-  return slots.map(slot => {
-    // Check if JSON has a direct video for this slot
-    const found = mapped.find(m => m.label === slot.label);
-    if (found) {
-      return {
-        ...slot,
-        videoId: found.videoId,
-        isShort: found.isShort ?? slot.isShort,
-      };
-    }
-    // Fallback: no videoId → will use search embed
-    return slot;
-  });
-}
+export { resolveExerciseVideos };
 
 /* ── Embed URL helpers ── */
-function directEmbedUrl(videoId, isShort = false) {
-  // Shorts still play well in standard embed
-  return `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
-}
-
-function searchEmbedUrl(query, isShort = false) {
-  const q = isShort ? `${query} #shorts` : query;
-  return `https://www.youtube.com/embed?listType=search&list=${encodeURIComponent(q)}&autoplay=1&rel=0`;
-}
-
 function embedUrl(entry) {
-  if (entry.videoId) return directEmbedUrl(entry.videoId, entry.isShort);
-  return searchEmbedUrl(entry.searchQuery, entry.isShort);
+  if (!entry?.videoId) return '';
+  return `https://www.youtube.com/embed/${encodeURIComponent(entry.videoId)}?rel=0&modestbranding=1&playsinline=1`;
 }
 
 function youtubeWatchUrl(entry) {
-  if (entry.videoId) {
-    return entry.isShort
-      ? `https://www.youtube.com/shorts/${entry.videoId}`
-      : `https://www.youtube.com/watch?v=${entry.videoId}`;
+  if (entry?.videoId) {
+    return `https://www.youtube.com/watch?v=${encodeURIComponent(entry.videoId)}`;
   }
-  return `https://www.youtube.com/results?search_query=${encodeURIComponent(entry.searchQuery)}`;
+  return `https://www.google.com/search?q=${encodeURIComponent(entry.searchQuery)}`;
 }
 
-const ICONS = { formTutorial: '🎬', techniqueTips: '🔍', commonMistakes: '⚠️' };
+const ICONS = { formTutorial: '🎬', techniqueTips: '🔍', commonMistakes: '⚠️', short: '⚡' };
 const LABEL_MAP = {
   en: {
     formTutorial: 'Form Tutorial',
     techniqueTips: 'Aux / Technique',
     commonMistakes: 'Common Mistakes',
+    short: 'Short',
     formVideos: 'Form Videos',
-    watchOn: 'Watch on YouTube',
+    watchOn: 'Open on YouTube',
     close: 'Close',
     loading: 'Loading video…',
-    noPreview: 'Click to search on YouTube',
+    noPreview: 'No direct video saved yet.',
+    searchGoogle: 'Search on Google',
+    searchYoutube: 'Search on YouTube',
   },
   es: {
     formTutorial: 'Tutorial de Forma',
     techniqueTips: 'Aux / Técnica',
     commonMistakes: 'Errores Comunes',
+    short: 'Corto',
     formVideos: 'Videos de Forma',
-    watchOn: 'Ver en YouTube',
+    watchOn: 'Abrir en YouTube',
     close: 'Cerrar',
     loading: 'Cargando video…',
-    noPreview: 'Click para buscar en YouTube',
+    noPreview: 'No hay un video directo guardado.',
+    searchGoogle: 'Buscar en Google',
+    searchYoutube: 'Buscar en YouTube',
   },
 };
-
-/* ── YouTube search embed URL (no API key needed) ── */
-// (moved to helpers above)
 
 function youtubeSearchUrl(query) {
   return `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
@@ -96,6 +61,7 @@ function thumbColor(str) {
 function VideoModal({ exerciseName, videos, labels, activeIdx, setActiveIdx, onClose }) {
   const overlayRef = useRef(null);
   const active = videos[activeIdx];
+  const footerLabel = active?.videoId ? labels.watchOn : labels.searchGoogle;
 
   // Close on Escape
   useEffect(() => {
@@ -127,21 +93,35 @@ function VideoModal({ exerciseName, videos, labels, activeIdx, setActiveIdx, onC
               <path d="M9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#fff"/>
             </svg>
             <span>{exerciseName}</span>
-            {active.videoId && <span className="yt-badge-direct">HD</span>}
+            <span className="yt-badge-direct">WEB</span>
           </div>
           <button className="yt-modal-close" onClick={onClose}>✕</button>
         </div>
 
         {/* Main Player */}
         <div className={`yt-modal-player ${active.isShort ? 'yt-modal-short' : ''}`}>
-          <iframe
-            key={`${activeIdx}-${active.videoId || active.searchQuery}`}
-            src={playerUrl}
-            title={active.searchQuery}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            frameBorder="0"
-          />
+          {playerUrl ? (
+            <iframe
+              key={`${activeIdx}-${active.videoId || active.searchQuery}`}
+              src={playerUrl}
+              title={active.searchQuery}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              frameBorder="0"
+            />
+          ) : (
+            <div className="yt-modal-empty">
+              <p>{labels.noPreview}</p>
+              <div className="yt-modal-links">
+                <a href={`https://www.google.com/search?q=${encodeURIComponent(active.searchQuery)}`} target="_blank" rel="noopener noreferrer">
+                  🔎 {labels.searchGoogle}
+                </a>
+                <a href={youtubeSearchUrl(active.searchQuery)} target="_blank" rel="noopener noreferrer">
+                  ▶ {labels.searchYoutube}
+                </a>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Video Selector Strip */}
@@ -155,7 +135,7 @@ function VideoModal({ exerciseName, videos, labels, activeIdx, setActiveIdx, onC
               <div className="yt-modal-thumb-bg" style={{ background: thumbColor(v.searchQuery) }}>
                 <span className="yt-modal-thumb-icon">{ICONS[v.label] || '🎬'}</span>
                 {i === activeIdx && <div className="yt-modal-thumb-playing">▶</div>}
-                {v.videoId && <span className="yt-modal-thumb-hd">●</span>}
+                <span className="yt-modal-thumb-hd">●</span>
               </div>
               <span className="yt-modal-thumb-label">{labels[v.label]}</span>
             </button>
@@ -169,7 +149,7 @@ function VideoModal({ exerciseName, videos, labels, activeIdx, setActiveIdx, onC
           rel="noopener noreferrer"
           className="yt-modal-external"
         >
-          🔎 {labels.watchOn} →
+          🔎 {footerLabel} →
         </a>
       </div>
     </div>
@@ -183,7 +163,7 @@ export default function YouTubeCarousel({ exerciseName, lang = 'en', asButton = 
 
   if (!exerciseName) return null;
 
-  const videos = resolveVideos(exerciseName);
+  const videos = resolveExerciseVideos(exerciseName);
   const labels = LABEL_MAP[lang] || LABEL_MAP.en;
 
   const openModal = (idx = 0) => {
